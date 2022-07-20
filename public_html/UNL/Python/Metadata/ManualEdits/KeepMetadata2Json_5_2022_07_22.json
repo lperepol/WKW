@@ -1,0 +1,1147 @@
+{
+    "Chromadorida": {
+        "Achromadoridae": {
+            "Achromadora": {
+                "amphid": [
+                    "achroma1.jpg",
+                    "achroma5.jpg",
+                    "achrsp7.jpg",
+                    "achrspk1.jpg",
+                    "achrspk21.jpg",
+                    "achrspk9.jpg"
+                ],
+                "anus": [
+                    "achrsp8.jpg"
+                ],
+                "body": [
+                    "achrsp2.jpg",
+                    "achrspk5.jpg"
+                ],
+                "corpus": [
+                    "achroma6.jpg"
+                ],
+                "cuticle": [
+                    "achroma2.jpg",
+                    "achrsp1.jpg",
+                    "achrspk10.jpg",
+                    "achrspk14.jpg"
+                ],
+                "esophagus": [
+                    "achroma7.jpg"
+                ],
+                "head": [
+                    "achroma10.jpg",
+                    "achroma3.jpg",
+                    "achroma8.jpg",
+                    "achroma9.jpg",
+                    "achrsp4.jpg",
+                    "achrsp6.jpg",
+                    "achrspk11.jpg",
+                    "achrspk12.jpg",
+                    "achrspk15.jpg",
+                    "achrspk2.jpg",
+                    "achrspk6.jpg",
+                    "achrspk8.jpg"
+                ],
+                "tail": [
+                    "achrsp5.jpg",
+                    "achrspk16.jpg",
+                    "achrspk19.jpg",
+                    "achrspk3.jpg"
+                ],
+                "tail tip": [
+                    "achrsp9.jpg",
+                    "achrspk7.jpg"
+                ],
+                "vulva": [
+                    "achroma4.jpg",
+                    "achrsp3.jpg",
+                    "achrspk17.jpg",
+                    "achrspk18.jpg",
+                    "achrspk20.jpg",
+                    "achrspk4.jpg"
+                ]
+            }
+        }
+    },
+    "Dorylaimida": {
+        "Actinolaimidae": {
+            "Actinca": {
+                "DN/DO": [
+                    "actinc40.jpg"
+                ],
+                "S1O/S2O": [
+                    "actinc41.jpg"
+                ],
+                "amphid": [
+                    "actinc16.jpg",
+                    "actinc27.jpg",
+                    "actinc3.jpg",
+                    "actinc39.jpg",
+                    "actinc51.jpg"
+                ],
+                "anterior": [
+                    "actinc23.jpg",
+                    "actinc34.jpg"
+                ],
+                "basal esophagus": [
+                    "actinc29.jpg"
+                ],
+                "basal pharynus": [
+                    "actinc15.jpg"
+                ],
+                "body": [
+                    "actinc1.jpg",
+                    "actinc12.jpg",
+                    "actinc22.jpg",
+                    "actinc44.jpg",
+                    "actinc49.jpg"
+                ],
+                "dorsal gland nucleus": [
+                    "actinc28.jpg"
+                ],
+                "dorsal gland oriface": [
+                    "actinc14.jpg"
+                ],
+                "esophagus": [
+                    "actinc4.jpg"
+                ],
+                "fascicles": [
+                    "actinc32.jpg",
+                    "actinc43.jpg",
+                    "actinc54.jpg"
+                ],
+                "head": [
+                    "actinc13.jpg",
+                    "actinc2.jpg",
+                    "actinc26.jpg",
+                    "actinc38.jpg",
+                    "actinc45.jpg",
+                    "actinc50.jpg"
+                ],
+                "longitudinal lines": [
+                    "actinc10.jpg",
+                    "actinc17.jpg",
+                    "actinc36.jpg",
+                    "actinc47.jpg",
+                    "actinc53.jpg",
+                    "actinc8.jpg"
+                ],
+                "ovary": [
+                    "actinc5.jpg",
+                    "actinc7.jpg"
+                ],
+                "pharyngeal bulb": [
+                    "actinc52.jpg"
+                ],
+                "pharynx": [
+                    "actinc46.jpg"
+                ],
+                "sperm": [
+                    "actinc30.jpg"
+                ],
+                "spicules": [
+                    "actinc33.jpg"
+                ],
+                "supplements": [
+                    "actinc31.jpg",
+                    "actinc42.jpg"
+                ],
+                "tail": [
+                    "actinc25.jpg",
+                    "actinc37.jpg",
+                    "actinc48.jpg",
+                    "actinc9.jpg"
+                ],
+                "tail tip": [
+                    "actinc11.jpg"
+                ],
+                "testis": [
+                    "actinc24.jpg",
+                    "actinc35.jpg"
+                ],
+                "vulva": [
+                    "actinc6.jpg"
+                ]
+            }
+        },
+        "Aporcelaimidae": {
+            "Akrotonus": {
+                "basal esophagus": [
+                    "akrov19.jpg",
+                    "akrov5.jpg"
+                ],
+                "body": [
+                    "akrov1.jpg"
+                ],
+                "compare": [
+                    "akrovcmp.jpg"
+                ],
+                "esophagus": [
+                    "akrov13.jpg",
+                    "akrov2.jpg"
+                ],
+                "guiding ring": [
+                    "akrov10.jpg"
+                ],
+                "head": [
+                    "akrov14.jpg",
+                    "akrov17.jpg",
+                    "akrov18.jpg",
+                    "akrov22.jpg",
+                    "akrov6.jpg",
+                    "akrov8.jpg",
+                    "akrov9.jpg"
+                ],
+                "tail": [
+                    "akrov11.jpg",
+                    "akrov15.jpg",
+                    "akrov16.jpg",
+                    "akrov21.jpg",
+                    "akrov3.jpg"
+                ],
+                "vulva": [
+                    "akrov12.jpg",
+                    "akrov20.jpg",
+                    "akrov4.jpg",
+                    "akrov7.jpg"
+                ]
+            },
+            "Aporcelaimellus": {
+                "anterior": [
+                    "akry2.jpg",
+                    "apamer1.jpg",
+                    "apamer2.jpg",
+                    "apcap5.jpg",
+                    "apeury13.jpg",
+                    "apkry18.jpg"
+                ],
+                "basal esophagus": [
+                    "akry6.jpg",
+                    "apamer5.jpg",
+                    "apcap10.jpg",
+                    "apcap20.jpg",
+                    "apcap32.jpg",
+                    "apcap8.jpg",
+                    "apdu2.jpg",
+                    "apdu5.jpg",
+                    "apeleg4.jpg",
+                    "apeury10.jpg",
+                    "apkry12.jpg"
+                ],
+                "body": [
+                    "akry1.jpg",
+                    "apcap1.jpg",
+                    "apcap14.jpg",
+                    "apcap4.jpg",
+                    "apeleg10.jpg",
+                    "apkry1.jpg",
+                    "apkry24.jpg",
+                    "apkry28.jpg",
+                    "apkry8.jpg",
+                    "apkry9.jpg"
+                ],
+                "cardia": [
+                    "apcap30.jpg"
+                ],
+                "compare": [
+                    "acapcmp.jpg",
+                    "akrycmp.jpg",
+                    "aobcmp.jpg"
+                ],
+                "cuticle": [
+                    "apamer16.jpg",
+                    "apkry14.jpg"
+                ],
+                "esophagus": [
+                    "akry4.jpg",
+                    "akry5.jpg",
+                    "apamer11.jpg"
+                ],
+                "guiding ring": [
+                    "apcap24.jpg"
+                ],
+                "gut(prerectum)": [
+                    "apcla10.jpg"
+                ],
+                "head": [
+                    "akry3.jpg",
+                    "apamer13.jpg",
+                    "apamer17.jpg",
+                    "apamer7.jpg",
+                    "apcap11.jpg",
+                    "apcap12.jpg",
+                    "apcap15.jpg",
+                    "apcap18.jpg",
+                    "apcap19.jpg",
+                    "apcap2.jpg",
+                    "apcap25.jpg",
+                    "apcap27.jpg",
+                    "apcap31.jpg",
+                    "apcap6.jpg",
+                    "apcla1.jpg",
+                    "apcla11.jpg",
+                    "apcla3.jpg",
+                    "apcla8.jpg",
+                    "apdu1.jpg",
+                    "apdu4.jpg",
+                    "apeleg1.jpg",
+                    "apeleg3.jpg",
+                    "apeleg6.jpg",
+                    "apeleg7.jpg",
+                    "apeleg8.jpg",
+                    "apeury11.jpg",
+                    "apeury14.jpg",
+                    "apeury16.jpg",
+                    "apeury17.jpg",
+                    "apkry10.jpg",
+                    "apkry15.jpg",
+                    "apkry2.jpg",
+                    "apkry22.jpg",
+                    "apkry25.jpg",
+                    "apkry5.jpg",
+                    "apkry7.jpg"
+                ],
+                "lips": [
+                    "apamer10.jpg",
+                    "apcap23.jpg"
+                ],
+                "odontostyle": [
+                    "apcap22.jpg"
+                ],
+                "ovaries": [
+                    "apcap9.jpg",
+                    "apkry29.jpg"
+                ],
+                "supplements": [
+                    "apamer12.jpg",
+                    "apamer15.jpg"
+                ],
+                "tail": [
+                    "akry7.jpg",
+                    "apamer4.jpg",
+                    "apamer9.jpg",
+                    "apcap13.jpg",
+                    "apcap17.jpg",
+                    "apcap21.jpg",
+                    "apcap26.jpg",
+                    "apcap28.jpg",
+                    "apcap29.jpg",
+                    "apcap3.jpg",
+                    "apcap34.jpg",
+                    "apcap7.jpg",
+                    "apcla2.jpg",
+                    "apcla4.jpg",
+                    "apcla5.jpg",
+                    "apcla6.jpg",
+                    "apcla7.jpg",
+                    "apcla9.jpg",
+                    "apdu3.jpg",
+                    "apeleg2.jpg",
+                    "apeleg5.jpg",
+                    "apeleg9.jpg",
+                    "apeury12.jpg",
+                    "apeury15.jpg",
+                    "apeury9.jpg",
+                    "apkry13.jpg",
+                    "apkry16.jpg",
+                    "apkry20.jpg",
+                    "apkry23.jpg",
+                    "apkry27.jpg",
+                    "apkry3.jpg",
+                    "apkry6.jpg"
+                ],
+                "testis": [
+                    "apamer14.jpg"
+                ],
+                "vulva": [
+                    "apamer3.jpg",
+                    "apamer6.jpg",
+                    "apamer8.jpg",
+                    "apcap16.jpg",
+                    "apcap33.jpg",
+                    "apkry11.jpg",
+                    "apkry17.jpg",
+                    "apkry19.jpg",
+                    "apkry21.jpg",
+                    "apkry4.jpg"
+                ]
+            },
+            "Aporcelaimium": {
+                "anterior": [
+                    "alabia2.jpg"
+                ],
+                "body": [
+                    "alabia1.jpg"
+                ],
+                "head": [
+                    "alabia3.jpg"
+                ],
+                "tail": [
+                    "alabia5.jpg",
+                    "alabia6.jpg"
+                ],
+                "vulva": [
+                    "alabia4.jpg"
+                ]
+            }
+        },
+        "Belondiridae": {
+            "Axonchium": {
+                "anterior": [
+                    "agiga5.jpg"
+                ],
+                "body": [
+                    "agiga1.jpg"
+                ],
+                "esophagus": [
+                    "agiga3.jpg",
+                    "agiga7.jpg"
+                ],
+                "head": [
+                    "agiga2.jpg",
+                    "agiga9.jpg"
+                ],
+                "posterior": [
+                    "agiga6.jpg"
+                ],
+                "tail": [
+                    "agiga4.jpg"
+                ],
+                "vulva": [
+                    "agiga8.jpg"
+                ]
+            }
+        },
+        "Qudsianematidae": {
+            "Allodorylaimus": {
+                "basal esophagus": [
+                    "alloall4.jpg",
+                    "allou3.jpg"
+                ],
+                "body": [
+                    "alloall1.jpg",
+                    "alloall10.jpg"
+                ],
+                "compare": [
+                    "alloallcmp.jpg",
+                    "alloucmp.jpg"
+                ],
+                "esophagus": [
+                    "alloall9.jpg"
+                ],
+                "head": [
+                    "alloall11.jpg",
+                    "alloall5.jpg",
+                    "alloall6.jpg",
+                    "allou4.jpg"
+                ],
+                "lips": [
+                    "alloall7.jpg"
+                ],
+                "tail": [
+                    "alloall2.jpg",
+                    "alloall8.jpg",
+                    "allou1.jpg"
+                ],
+                "vulva": [
+                    "alloall3.jpg",
+                    "allou2.jpg"
+                ]
+            }
+        }
+    },
+    "Enoplida": {
+        "Alaimidae": {
+            "Alaimus": {
+                "anus": [
+                    "alaimino3.jpg",
+                    "alaisp5.jpg"
+                ],
+                "basal esophagus": [
+                    "alaisp3.jpg",
+                    "alam2.jpg",
+                    "alamp13.jpg"
+                ],
+                "body": [
+                    "alacut1.jpg",
+                    "alaimu1.jpg",
+                    "alamp15.jpg",
+                    "alamp5.jpg",
+                    "alar3.jpg",
+                    "alimarc1.jpg",
+                    "alprimit1.jpg"
+                ],
+                "head": [
+                    "alacut2.jpg",
+                    "alacut5.jpg",
+                    "alaimino1.jpg",
+                    "alaimu2.jpg",
+                    "alaimu5.jpg",
+                    "alaisp2.jpg",
+                    "alam1.jpg",
+                    "alam4.jpg",
+                    "alamp1.jpg",
+                    "alamp12.jpg",
+                    "alamp16.jpg",
+                    "alamp3.jpg",
+                    "alamp6.jpg",
+                    "alamp9.jpg",
+                    "alar1.jpg",
+                    "alar2.jpg",
+                    "alimarc2.jpg",
+                    "alprimit2.jpg",
+                    "alprimit5.jpg"
+                ],
+                "tail": [
+                    "alacut4.jpg",
+                    "alaimino4.jpg",
+                    "alaimu4.jpg",
+                    "alaisp1.jpg",
+                    "alaisp6.jpg",
+                    "alam3.jpg",
+                    "alamp11.jpg",
+                    "alamp2.jpg",
+                    "alamp4.jpg",
+                    "alamp8.jpg",
+                    "alimarc4.jpg",
+                    "alprimit4.jpg"
+                ],
+                "tail tip": [
+                    "alaimu7.jpg"
+                ],
+                "vulva": [
+                    "alacut3.jpg",
+                    "alaimino2.jpg",
+                    "alaimu3.jpg",
+                    "alaimu6.jpg",
+                    "alaisp4.jpg",
+                    "alamp10.jpg",
+                    "alamp14.jpg",
+                    "alamp17.jpg",
+                    "alamp7.jpg",
+                    "alimarc3.jpg",
+                    "alprimit3.jpg"
+                ]
+            },
+            "Amphidelus": {
+                "amphid": [
+                    "ahyan3.jpg",
+                    "amphid18.jpg",
+                    "amphis7.jpg",
+                    "amphis8.jpg",
+                    "ampus5.jpg"
+                ],
+                "anus": [
+                    "amphid14.jpg",
+                    "amphid19.jpg",
+                    "amphid20.jpg"
+                ],
+                "basal esophagus": [
+                    "amphis12.jpg",
+                    "amphis3.jpg"
+                ],
+                "body": [
+                    "ahyan1.jpg",
+                    "amphid1.jpg",
+                    "amphid12.jpg",
+                    "amphid13.jpg",
+                    "amphid16.jpg",
+                    "amphid17.jpg",
+                    "amphid21.jpg",
+                    "amphid4.jpg",
+                    "amphid7.jpg",
+                    "amphid8.jpg",
+                    "amphid9.jpg",
+                    "amphis1.jpg",
+                    "ampus1.jpg"
+                ],
+                "head": [
+                    "ahyan4.jpg",
+                    "amphid10.jpg",
+                    "amphid2.jpg",
+                    "amphid5.jpg",
+                    "amphido1.jpg",
+                    "amphis10.jpg",
+                    "amphis11.jpg",
+                    "amphis13.jpg",
+                    "amphis2.jpg",
+                    "amphis5.jpg",
+                    "ampus2.jpg",
+                    "ampus6.jpg"
+                ],
+                "intestinal junction": [
+                    "amphis6.jpg"
+                ],
+                "tail": [
+                    "ahyan2.jpg",
+                    "amphis9.jpg",
+                    "ampus4.jpg"
+                ],
+                "vulva": [
+                    "amphid11.jpg",
+                    "amphid15.jpg",
+                    "amphid3.jpg",
+                    "amphid6.jpg",
+                    "amphis4.jpg",
+                    "ampus3.jpg"
+                ]
+            }
+        }
+    },
+    "Plectida": {
+        "Aphanolaimidae": {
+            "Aphanolaimus": {
+                "stoma": [
+                    "aphas1.jpg"
+                ]
+            }
+        },
+        "Plectidae": {
+            "Anaplectus": {
+                "amphid": [
+                    "anagsma3.jpg",
+                    "anapha11.jpg",
+                    "anaplec17.jpg",
+                    "anaplec7.jpg"
+                ],
+                "anterior": [
+                    "anagsma2.jpg",
+                    "anaplec13.jpg"
+                ],
+                "anus": [
+                    "anaplec5.jpg"
+                ],
+                "basal bulb": [
+                    "anapha4.jpg",
+                    "anaplec18.jpg",
+                    "anaplec8.jpg"
+                ],
+                "basal esophagus": [
+                    "anaptus2.jpg"
+                ],
+                "body": [
+                    "anagsma1.jpg",
+                    "anapha7.jpg",
+                    "anapl22.jpg",
+                    "anaplec1.jpg",
+                    "anaplec12.jpg",
+                    "anaplec2.jpg",
+                    "anaptus3.jpg"
+                ],
+                "egg": [
+                    "anapl24.jpg"
+                ],
+                "head": [
+                    "anapha1.jpg",
+                    "anapha13.jpg",
+                    "anapha3.jpg",
+                    "anapha5.jpg",
+                    "anapha8.jpg",
+                    "anapl23.jpg",
+                    "anaplec16.jpg",
+                    "anaplec3.jpg",
+                    "anaplec6.jpg",
+                    "anaptus1.jpg",
+                    "anaptus4.jpg",
+                    "anaptus7.jpg"
+                ],
+                "lateral field": [
+                    "anagsma4.jpg",
+                    "anapha12.jpg",
+                    "anaplec11.jpg"
+                ],
+                "lateral pores": [
+                    "anagsma6.jpg"
+                ],
+                "posterior": [
+                    "anagsma5.jpg"
+                ],
+                "tail": [
+                    "anapha10.jpg",
+                    "anapha14.jpg",
+                    "anapha2.jpg",
+                    "anapha6.jpg",
+                    "anapl25.jpg",
+                    "anaplec15.jpg",
+                    "anaplec19.jpg",
+                    "anaptus6.jpg",
+                    "anaptus8.jpg"
+                ],
+                "tail tip": [
+                    "anaplec10.jpg"
+                ],
+                "testes": [
+                    "anaplec14.jpg"
+                ],
+                "vulva": [
+                    "anapha9.jpg",
+                    "anaplec4.jpg",
+                    "anaplec9.jpg",
+                    "anaptus5.jpg"
+                ]
+            }
+        }
+    },
+    "Rhabditida": {
+        "Anguinidae": {
+            "Anguina": {
+                "anterior": [
+                    "aagro11.jpg",
+                    "aagro15.jpg",
+                    "aagro20.jpg",
+                    "aagro5.jpg",
+                    "anguipa5.jpg",
+                    "anguipa6.jpg",
+                    "antriti14.jpg"
+                ],
+                "basal esophagus": [
+                    "aagro8.jpg"
+                ],
+                "boby": [
+                    "anguipa2.jpg"
+                ],
+                "body": [
+                    "aagro1.jpg",
+                    "aagro10.jpg",
+                    "aagro14.jpg",
+                    "aagro2.jpg",
+                    "aagro7.jpg",
+                    "anguipa1.jpg",
+                    "anguipa3.jpg",
+                    "anguipa4.jpg",
+                    "antriti1.jpg",
+                    "antriti2.jpg",
+                    "antriti3.jpg",
+                    "antriti4.jpg",
+                    "antriti5.jpg",
+                    "antriti6.jpg",
+                    "antriti7.jpg"
+                ],
+                "head": [
+                    "aagro12.jpg",
+                    "aagro18.jpg",
+                    "aagro3.jpg",
+                    "antriti10.jpg",
+                    "antriti13.jpg",
+                    "antriti8.jpg"
+                ],
+                "tail": [
+                    "aagro13.jpg",
+                    "aagro16.jpg",
+                    "aagro4.jpg",
+                    "aagro6.jpg",
+                    "aagro9.jpg",
+                    "antriti11.jpg",
+                    "antriti12.jpg",
+                    "antriti15.jpg",
+                    "antriti9.jpg"
+                ],
+                "tail tip": [
+                    "aagro17.jpg",
+                    "aagro19.jpg"
+                ]
+            }
+        },
+        "Aphelenchidae": {
+            "Aphelenchus": {
+                "anterior": [
+                    "aphave1.jpg"
+                ],
+                "body": [
+                    "aaven5.jpg",
+                    "apagw1.jpg",
+                    "aphen1.jpg"
+                ],
+                "esophagus": [
+                    "aaven9.jpg"
+                ],
+                "head": [
+                    "aaven2.jpg",
+                    "aaven4.jpg",
+                    "aaven6.jpg",
+                    "apagw2.jpg",
+                    "aphen2.jpg",
+                    "aphen4.jpg"
+                ],
+                "lateral field": [
+                    "apagw3.jpg"
+                ],
+                "median bulb": [
+                    "aaven3.jpg"
+                ],
+                "tail": [
+                    "aaven1.jpg",
+                    "aaven11.jpg",
+                    "aaven8.jpg",
+                    "aphen3.jpg",
+                    "aphen5.jpg"
+                ],
+                "vulva": [
+                    "aaven10.jpg",
+                    "aaven7.jpg"
+                ]
+            }
+        },
+        "Aphelenchoididae": {
+            "Aphelenchoides": {
+                "anterior": [
+                    "abesse12.jpg",
+                    "aphcent2.jpg",
+                    "aphcent4.jpg"
+                ],
+                "body": [
+                    "abesse1.jpg",
+                    "abesse10.jpg",
+                    "aconfu1.jpg",
+                    "aobtu1.jpg",
+                    "aphbic3.jpg",
+                    "aphcent1.jpg",
+                    "aphcla1.jpg",
+                    "aphcla6.jpg",
+                    "aphcla9.jpg",
+                    "aphelha1.jpg",
+                    "aphpa1.jpg"
+                ],
+                "compare": [
+                    "abesscmp.jpg",
+                    "aobtucmp.jpg",
+                    "aphclacmp.jpg",
+                    "aphvicmp.jpg"
+                ],
+                "esophagus": [
+                    "aphpa2.jpg"
+                ],
+                "head": [
+                    "abess2.jpg",
+                    "abesse11.jpg",
+                    "abesse5.jpg",
+                    "aconfu2.jpg",
+                    "aobtu10.jpg",
+                    "aobtu14.jpg",
+                    "aobtu16.jpg",
+                    "aobtu17.jpg",
+                    "aobtu2.jpg",
+                    "aobtu7.jpg",
+                    "aphbic1.jpg",
+                    "aphcla10.jpg",
+                    "aphcla2.jpg",
+                    "aphcla4.jpg",
+                    "aphelha2.jpg",
+                    "aphelha5.jpg",
+                    "aphelha7.jpg",
+                    "aphelha8.jpg",
+                    "aphvi1.jpg"
+                ],
+                "lateral field": [
+                    "aobtu6.jpg",
+                    "aphcent5.jpg",
+                    "aphcla5.jpg"
+                ],
+                "median bulb": [
+                    "abess3.jpg",
+                    "aphdac1.jpg"
+                ],
+                "ovary": [
+                    "abesse9.jpg"
+                ],
+                "spermatheca": [
+                    "abesse2.jpg"
+                ],
+                "spicules": [
+                    "abesse3.jpg"
+                ],
+                "tail": [
+                    "abess1.jpg",
+                    "abesse4.jpg",
+                    "abesse6.jpg",
+                    "aconfu4.jpg",
+                    "aobtu11.jpg",
+                    "aobtu12.jpg",
+                    "aobtu13.jpg",
+                    "aobtu15.jpg",
+                    "aobtu3.jpg",
+                    "aobtu4.jpg",
+                    "aobtu9.jpg",
+                    "aphbic2.jpg",
+                    "aphcent6.jpg",
+                    "aphcla11.jpg",
+                    "aphcla3.jpg",
+                    "aphdac3.jpg",
+                    "aphelha3.jpg",
+                    "aphelha4.jpg",
+                    "aphelha6.jpg",
+                    "aphpa4.jpg",
+                    "aphvi2.jpg"
+                ],
+                "tail tip": [
+                    "abess4.jpg"
+                ],
+                "vulva": [
+                    "abesse7.jpg",
+                    "abesse8.jpg",
+                    "aconfu3.jpg",
+                    "aobtu5.jpg",
+                    "aobtu8.jpg",
+                    "aphcent3.jpg",
+                    "aphcla7.jpg",
+                    "aphdac2.jpg",
+                    "aphpa3.jpg"
+                ]
+            }
+        },
+        "Cephalobidae": {
+            "Acrobeles": {
+                "anterior": [
+                    "accil7.jpg"
+                ],
+                "anus": [
+                    "accil5.jpg"
+                ],
+                "basal bulb": [
+                    "accil10.jpg",
+                    "accil3.jpg"
+                ],
+                "body": [
+                    "accil1.jpg",
+                    "accil13.jpg",
+                    "aceph1.jpg",
+                    "aceph11.jpg",
+                    "aceph12.jpg",
+                    "acromp1.jpg",
+                    "acten1.jpg",
+                    "acten10.jpg"
+                ],
+                "compare": [
+                    "accilidrw.jpg"
+                ],
+                "esophagus": [
+                    "acor1.jpg"
+                ],
+                "head": [
+                    "accil11.jpg",
+                    "accil12.jpg",
+                    "accil16.jpg",
+                    "accil18.jpg",
+                    "accil19.jpg",
+                    "accil2.jpg",
+                    "accil21.jpg",
+                    "accil22.jpg",
+                    "accil23.jpg",
+                    "accil9.jpg",
+                    "accte1.jpg",
+                    "accte3.jpg",
+                    "aceph13.jpg",
+                    "aceph16.jpg",
+                    "aceph2.jpg",
+                    "aceph4.jpg",
+                    "aceph5.jpg",
+                    "aceph6.jpg",
+                    "aceph9.jpg",
+                    "acomp1.jpg",
+                    "acomp4.jpg",
+                    "acomp7.jpg",
+                    "acrobe1.jpg",
+                    "acrobe4.jpg",
+                    "Acrobeles_ciliatus_head.jpg",
+                    "acromp4.jpg",
+                    "acromp5.jpg",
+                    "acten12.jpg",
+                    "acten15.jpg",
+                    "acten18.jpg",
+                    "acten2.jpg",
+                    "acten5.jpg",
+                    "acten6.jpg"
+                ],
+                "lateral field": [
+                    "accil17.jpg"
+                ],
+                "ovary": [
+                    "acrobe3.jpg"
+                ],
+                "phasmid": [
+                    "acomp6.jpg",
+                    "acromp6.jpg",
+                    "acten17.jpg"
+                ],
+                "probolae": [
+                    "acomp5.jpg",
+                    "acten14.jpg"
+                ],
+                "tail": [
+                    "accil14.jpg",
+                    "accil6.jpg",
+                    "accil8.jpg",
+                    "accte2.jpg",
+                    "aceph15.jpg",
+                    "aceph3.jpg",
+                    "aceph7.jpg",
+                    "aceph8.jpg",
+                    "acomp3.jpg",
+                    "acomp8.jpg",
+                    "acrobe2.jpg",
+                    "acromp2.jpg",
+                    "acten11.jpg",
+                    "acten19.jpg",
+                    "acten3.jpg",
+                    "acten4.jpg",
+                    "acten8.jpg"
+                ],
+                "vulva": [
+                    "accil15.jpg",
+                    "accil4.jpg",
+                    "aceph10.jpg",
+                    "aceph14.jpg",
+                    "acomp2.jpg",
+                    "acrobe5.jpg",
+                    "acromp3.jpg",
+                    "acten13.jpg",
+                    "acten16.jpg",
+                    "acten7.jpg",
+                    "acten9.jpg"
+                ]
+            },
+            "Acrobeloides": {
+                "basal bulb": [
+                    "acrap4.jpg"
+                ],
+                "body": [
+                    "acbuts4.jpg",
+                    "acmi1.jpg",
+                    "acrap2.jpg",
+                    "acroen1.jpg",
+                    "amino1.jpg"
+                ],
+                "head": [
+                    "acbuts3.jpg",
+                    "acbuts5.jpg",
+                    "acbuts7.jpg",
+                    "acbuts9.jpg",
+                    "acmax2.jpg",
+                    "acmi5.jpg",
+                    "acrap5.jpg",
+                    "acroen4.jpg",
+                    "acroen5.jpg",
+                    "acroen6.jpg",
+                    "amino2.jpg",
+                    "amino5.jpg"
+                ],
+                "lateral field": [
+                    "acbuts1.jpg",
+                    "acmi4.jpg",
+                    "acroen7.jpg"
+                ],
+                "tail": [
+                    "acbuts2.jpg",
+                    "acbuts6.jpg",
+                    "acbuts8.jpg",
+                    "acmax1.jpg",
+                    "acmi2.jpg",
+                    "acrap1.jpg",
+                    "acroen2.jpg",
+                    "amino4.jpg"
+                ],
+                "vulva": [
+                    "acmi3.jpg",
+                    "acrap3.jpg",
+                    "acroen3.jpg",
+                    "amino3.jpg",
+                    "amino6.jpg"
+                ]
+            },
+            "Acrolobus": {
+                "body": [
+                    "acrol3.jpg"
+                ],
+                "head": [
+                    "acrol1.jpg",
+                    "acrolo1.jpg",
+                    "acrolo3.jpg"
+                ],
+                "tail": [
+                    "acrol2.jpg",
+                    "acrolo2.jpg",
+                    "acrolo4.jpg"
+                ]
+            }
+        },
+        "Diplogastridae": {
+            "Acrostichus": {
+                "head": [
+                    "acrost1.jpg",
+                    "acrost2.jpg",
+                    "acrost4.jpg"
+                ],
+                "spicules": [
+                    "acrost3.jpg"
+                ],
+                "tail": [
+                    "acrost5.jpg"
+                ]
+            }
+        },
+        "Hoplolaimidae": {
+            "Aorolaimus": {
+                "anterior": [
+                    "aerol1.jpg"
+                ],
+                "head": [
+                    "aerol2.jpg",
+                    "aorola1.jpg"
+                ],
+                "lateral field": [
+                    "aerol3.jpg"
+                ],
+                "tail": [
+                    "aorola2.jpg"
+                ]
+            }
+        },
+        "Tylenchidae": {
+            "Aglenchus": {
+                "anterior": [
+                    "aagri2.jpg"
+                ],
+                "body": [
+                    "aagri1.jpg",
+                    "agla1.jpg",
+                    "agla7.jpg",
+                    "amuk1.jpg"
+                ],
+                "head": [
+                    "aagri4.jpg",
+                    "agdak1.jpg",
+                    "agdak2.jpg",
+                    "agla11.jpg",
+                    "agla2.jpg",
+                    "agla6.jpg",
+                    "agla8.jpg",
+                    "amuk10.jpg",
+                    "amuk11.jpg",
+                    "amuk4.jpg",
+                    "amuk6.jpg",
+                    "amuk9.jpg"
+                ],
+                "lateral field": [
+                    "aagri5.jpg"
+                ],
+                "tail": [
+                    "aagri3.jpg",
+                    "agla10.jpg",
+                    "agla4.jpg",
+                    "amuk3.jpg",
+                    "amuk7.jpg"
+                ],
+                "vulva": [
+                    "agla12.jpg",
+                    "agla3.jpg",
+                    "agla5.jpg",
+                    "agla9.jpg",
+                    "amuk2.jpg",
+                    "amuk5.jpg",
+                    "amuk8.jpg"
+                ]
+            }
+        }
+    }
+}
