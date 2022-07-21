@@ -18,9 +18,9 @@ website : http : //www.themepunch.com
   display : block;
   z-index : 100;
 }
-.hebe.tparrows : hover {
+.hebe.tparrows:hover {
 }
-.hebe.tparrows : before {
+.hebe.tparrows:before {
   font-family : "revicons";
   font-size : 30px;
   color : #aaa;
@@ -36,13 +36,13 @@ website : http : //www.themepunch.com
   min-width : 70px;
     min-height : 70px;
 }
-.hebe.tparrows.tp-leftarrow : before {
+.hebe.tparrows.tp-leftarrow:before {
   content : "\e824";
 }
-.hebe.tparrows.tp-rightarrow : before {
+.hebe.tparrows.tp-rightarrow:before {
   content : "\e825";
 }
-.hebe.tparrows : hover : before {
+.hebe.tparrows:hover:before {
  color : #000;
       }
 .tp-title-wrap { 
@@ -66,7 +66,7 @@ website : http : //www.themepunch.com
    right : 0px;
    -webkit-transform-origin : 100% 50%;
  }
-.hebe.tparrows : hover .tp-title-wrap {
+.hebe.tparrows:hover .tp-title-wrap {
   transform : scaleX(1);
   -webkit-transform : scaleX(1);
 }
@@ -86,7 +86,7 @@ website : http : //www.themepunch.com
    padding : 0px 90px 0px 20px;
  }
 
-.hebe.tparrows : hover .tp-arr-titleholder {
+.hebe.tparrows:hover .tp-arr-titleholder {
    transform : translateX(0px);
    -webkit-transform : translateX(0px);
   transition-delay : 0.1s;
@@ -110,7 +110,7 @@ website : http : //www.themepunch.com
 /* BULLETS */
 .hebe.tp-bullets {
 }
-.hebe.tp-bullets : before {
+.hebe.tp-bullets:before {
   content : " ";
   position : absolute;
   width : 100%;
@@ -136,7 +136,7 @@ website : http : //www.themepunch.com
   transform : translateZ(0.01px);
    transition : all 0.3s;
 }
-.hebe .tp-bullet : hover,
+.hebe .tp-bullet:hover,
 .hebe .tp-bullet.selected {
   background : #222;
   border-color : #fff;
@@ -164,7 +164,7 @@ border-radius : 6px;
   
   
 }
-.hebe .tp-bullet : hover .tp-bullet-image {
+.hebe .tp-bullet:hover .tp-bullet-image {
   display : block;
   opacity : 1;
   transform : scale(1);
@@ -181,7 +181,7 @@ border-radius : 6px;
     font-size : 13px;
     font-weight : 700;
     text-transform : uppercase;
-    font-family : "Roboto Slab"
+    font-family : "Roboto Slab";
     margin-bottom : 5px;
 }
 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/nematode.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Side By Side Nematode Micrographs Comparison</title>
+    <link rel="stylesheet" href="/nematode.unl.edu/001/css/lightbox.min.css">
+    <script src="/nematode.unl.edu/001/js/Order-Family-Genus-Gender-Magnification-Observation.js"></script>
+
+
+</head>
+<body>
+<section>
+    <h1>Side By Side Nematode Micrograph Comparison</h1>
+    <h1>Of Micrographs From The Nematology Lab at UNL</h1>
+    <a href="https://nematode.unl.edu/index.html"><h1>University of Nebraska-Lincoln</h1></a>
+    <a href="How to compare two or more genera.html"><h1>How to compare two or more Dorylaimida heads</h1></a>
+    <h3>Select Comparison Criteria</h3>
+    <div class="block">
+        <label>Click reset to clear comparisons:</label>
+        <button onclick="resetImages()">Reset</button>
+    </div>
+    <div class="block">
+        <label>Order:</label>
+        <select id="Order" name="Order">
+            <option selected="selected" value="">Select an Order</option>
+        </select>
+    </div>
+    <div class="block">
+        <label>Family:</label>
+        <select id="Family" name="Family">
+            <option selected="selected" value="">Please select Order first</option>
+        </select>
+    </div>
+    <div class="block">
+        <label>Genus:</label>
+        <select id="Genus" name="Genus">
+            <option selected="selected" value="">Please select Family first</option>
+        </select>
+    </div>
+    <div class="block">
+        <label>Gender:</label>
+        <select id="Gender" name="Gender">
+            <option selected="selected" value="">Please select Genus first</option>
+        </select>
+    </div>
+    <div class="block">
+        <label>Magnification:</label>
+        <select id="Magnification" name="Magnification">
+            <option selected="selected" value="">Please select Gender first</option>
+        </select>
+    </div>
+    <div class="block">
+        <label>Observation:</label>
+        <select id="View" name="View">
+            <option selected="selected" value="">Please select Magnification first</option>
+        </select>
+    </div>
+    <div class="block">
+        <label></label>
+        <button onclick=displayImages()>Display Images</button>
+    </div>
+</section>
+<section>
+    <h3>Compare</h3>
+    <div id="CompareDiv"></div>
+    <div id="displayDiv"></div>
+</section>
+<section></section>
+<script src="/nematode.unl.edu/001/js/lightbox-plus-jquery.min.js"></script>
+<div class="overlay"></div>
+</body>
+</html>
