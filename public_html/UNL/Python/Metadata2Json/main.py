@@ -121,7 +121,7 @@ def get_image_file_name(adic, df):
 
 def writeDict2Json(adict):
     json_object = json.dumps(adict, indent=4)
-    fn = "../Metadata/ManualEdits/KeepMetadata2Json_7.json"
+    fn = "../../../files/json/unl/KeepMetadata2Json_7.json"
 
     with open(fn, "w") as outfile:
         json.dump(adict, outfile,indent=4)

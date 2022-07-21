@@ -18,7 +18,7 @@ $(document).ready(function() {
         $.ajax({
             'async': false,
             'global': false,
-            'url': 'json/KeepMetadata2Json_7.json',
+            'url': '/files/json/unl/OFGGMO.json',
             'dataType': 'json',
             'success': function (data) {
                 subjectObject = data;
@@ -121,17 +121,19 @@ function displayImages() {
     var Gender = document.getElementById('Gender').value;
     var Magnification = document.getElementById('Magnification').value;
     var View = document.getElementById('View').value;
+    var nid = null
     //var view = document.getElementById('View');
     var z = subjectObject[Order][Family][Genus][Gender][Magnification][View];
     for (let i = 0; i < z.length; i++) {
         displayimage = 'https://nematode.unl.edu/' + z[i];
+        nid = z[i];
         var image = '<a class="example-image-link" href="[ReplaceImage]" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="[ReplaceThumbnail]" alt="" style="width: 150 px" /></a>';
         image = image.replace('[ReplaceImage]', displayimage);
         image = image.replace('[ReplaceThumbnail]', displayimage);
         $('#displayDiv').append(image);
 
     }
-    compareText =  count.toString() +  ') ' + Order + '--' + Family + '--' + Genus + '--' + View + '<br>';
+    compareText =  count.toString() +  ') '  + 'NID: ' +  nid + '  ' +  Order + '&#8594;' + Family + '&#8594;' + Genus + '&#8594;' + View + '<br>';
     count = count + 1;
     //$('#CompareDiv').text($('#CompareHeader').text().replace('', headerText));
     $('#CompareDiv').append(compareText);
