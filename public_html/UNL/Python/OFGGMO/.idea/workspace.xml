@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="08f04cbd-7d30-4771-85e4-bf1d30750bc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../OOFGGM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../files/json/UNL_Stats.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Order-Family-Genus-Gender-Magnification-Observation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Metadata2Json/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Metadata2Json/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Metadata2Json/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../select_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../OFGGMO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../vendor/lightbox/css/nematode.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../vendor/lightbox/css/nematode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../vendor/lightbox/js/Order-Family-Genus-Gender-Magnification-Observation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../js/UNL/OFGGMO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metadata/ManualEdits/KeepMetadata_002.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Metadata/ManualEdits/KeepMetadata_002.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +27,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -66,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658422215559</updated>
       <workItem from="1658422218980" duration="298000" />
+      <workItem from="1658459692331" duration="686000" />
     </task>
     <servers />
   </component>

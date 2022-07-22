@@ -29,17 +29,228 @@
         <!-- Popupate Comboboxes -->     
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <link rel="stylesheet" href="/vendor/lightbox/css/lightbox.min.css">
-        <script src="/js/UNL/OFGGMO.js"></script>
+        <script src="/js/UNL/OOFGGM.js"></script>
         <!-- Popupate Comboboxes -->     
+
+               <!-- Superfish stuff-->
+        <link rel="stylesheet" href="/vendor/superfish/dist/css/superfish.css" media="screen">
+        <script src="/vendor/superfish/dist/js/jquery.js"></script> 
+        <script src="/vendor/superfish/dist/js/hoverIntent.js"></script>
+        <script src="/vendor/superfish/dist/js/superfish.js"></script>
+        <script>
+
+            (function ($) { //create closure so we can safely use $ as alias for jQuery
+
+                $(document).ready(function () {
+
+                    // initialise plugin
+                    var example = $('#example').superfish({
+                        //add options here if required
+                    });
+
+                    // buttons to demonstrate Superfish's public methods
+                    $('.destroy').on('click', function () {
+                        example.superfish('destroy');
+                    });
+
+                    $('.init').on('click', function () {
+                        example.superfish();
+                    });
+
+                    $('.open').on('click', function () {
+                        example.children('li:first').superfish('show');
+                    });
+
+                    $('.close').on('click', function () {
+                        example.children('li:first').superfish('hide');
+                    });
+                });
+
+            })(jQuery);
+
+
+        </script>
 
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">The Kootenay Worm</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <form class="navbar-form navbar-right" role="form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Password" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign in</button>
+                    </form>
+                </div><!--/.navbar-collapse -->
+            </div>
+        </nav>
+        <!-- **************************************** -->
+        <ul class="sf-menu" id="example">
+            <li>
+                <a href="/index.html">Home</a>
+            </li>	
+            
+            <li class="current">
+                <a href="followed.html">About</a>
+                <ul>
+                    <li>
+                        <a href="followed.html">menu item</a>
+                    </li>
+                    <li class="current">
+                        <a href="followed.html">long menu item sets sub width</a>
+                        <ul>
+                            <li class="current"><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="followed.html">menu item</a>
+                        <ul>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="followed.html">menu item</a>
+                        <ul>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="/WKW/WKW.html">WKW</a>
+                <ul>
+                    <li>
+                        <a href="/WKW/HowTo.html">How to...</a>
+                    </li>
+                    <li>
+                        <a href="/bootstrap_tempale.html">bootstrap_tempale</a>
+                    </li>
+                    <li class="current">
+                        <a href="followed.html">long menu item sets sub width</a>
+                        <ul>
+                            <li class="current"><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="followed.html">menu item</a>
+                        <ul>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="followed.html">menu item</a>
+                        <ul>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="/UNL/UNL.html">UNL</a>
+                <ul>
+                    <li>
+                        <a href="/UNL/How%20to%20compare%20two%20or%20more%20genera.html">How to..</a>
+                    </li>
+                    <li>
+                        <a href="/UNL/OFGGMO.html">OFGGMO</a>
+                    </li>
+                    <li>
+                        <a href="followed.html">menu item</a>
+                        <ul>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="followed.html">menu item</a>
+                        <ul>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="followed.html">menu item</a>
+                        <ul>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="followed.html">menu item</a>
+                        <ul>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                            <li><a href="followed.html">menu item</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="followed.html">Video Gallery</a>
+            </li>	
+        </ul>
+        
         <div class="container">
+            
+        </div>
+        <div class="container">
+            
             <h3>
-                 Select Order first, then Family, then Genus, then Gender, then Magnification, then Observation...
+                  Select Order first, then Family, then Genus, then Gender, then Magnification, then Observation... 
            </h3>
         </div>
         <div class="container">
@@ -52,6 +263,9 @@
                 <p>
                     
                 
+                    <select id="View" name="View">
+                        <option selected="selected" value="">Select Observation</option>
+                    </select>
                     <select id="Order" name="Order">
                         <option selected="selected" value="">Select Order</option>
                     </select>
@@ -67,9 +281,6 @@
                     </select>
                     <select id="Magnification" name="Magnification">
                         <option selected="selected" value="">Select Magnification</option>
-                    </select>
-                    <select id="View" name="View">
-                        <option selected="selected" value="">Select Observation</option>
                     </select>
                 </p>
                 
