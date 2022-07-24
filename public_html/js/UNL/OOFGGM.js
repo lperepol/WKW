@@ -38,6 +38,7 @@ $(document).ready(function() {
     var MagnificationSel = document.getElementById('Magnification');
    
     for (var x in subjectObject) {
+        console.log("view-->" + x);
         ViewSel.options[ViewSel.options.length] = new Option(x,x);
     }
 
@@ -50,7 +51,8 @@ $(document).ready(function() {
         OrderSel.length = 1;
         //display correct values
         for (var q in subjectObject[this.value]) {
-            OrderSel.options[FamilySel.options.length] = new Option(q,q);
+            console.log("Order-->" + q);
+            OrderSel.options[OrderSel.options.length] = new Option(q,q);
         }
     }
     OrderSel.onchange = function() {
@@ -61,7 +63,7 @@ $(document).ready(function() {
         FamilySel.length = 1;
         //display correct values
         for (var r in subjectObject[ViewSel.value][this.value]) {
-            FamilySel.options[GenusSel.options.length] = new Option(r,r);
+            FamilySel.options[FamilySel.options.length] = new Option(r,r);
         }
     }
 
@@ -73,7 +75,7 @@ $(document).ready(function() {
 
         //display correct values
         for (var s in subjectObject[ViewSel.value][OrderSel.value][this.value]) {
-            GenusSel.options[GenderSel.options.length] = new Option(s,s);
+            GenusSel.options[GenusSel.options.length] = new Option(s,s);
         }
     }
 
@@ -125,13 +127,15 @@ function displayImages() {
     var View = document.getElementById('View').value;
     var nid = null
     //var view = document.getElementById('View');
-    var z = subjectObject[Order][Family][Genus][Gender][Magnification][View];
+    var z = subjectObject[View][Order][Family][Genus][Gender][Magnification];
     for (let i = 0; i < z.length; i++) {
         displayimage = 'https://nematode.unl.edu/' + z[i];
         nid = z[i];
         var image = '<a class="example-image-link" href="[ReplaceImage]" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="[ReplaceThumbnail]" alt="" style="width: 150 px" /></a>';
+
+        var image = '<div class="col-md-6"> <a href="[ReplaceImage]" target="_blank"> <img  src="[ReplaceImage]" alt="" style="width: 500px" /></a></div>';
         image = image.replace('[ReplaceImage]', displayimage);
-        image = image.replace('[ReplaceThumbnail]', displayimage);
+        image = image.replace('[ReplaceImage]', displayimage);
         $('#displayDiv').append(image);
 
     }

@@ -26,7 +26,7 @@ def get_view(adic, df):
         if View == '0':
             continue
         View = str(row['View']).strip()
-        adic[View]  = SortedDict()
+        adic[View] = SortedDict()
     return adic
 
 def get_order(adic, df):
