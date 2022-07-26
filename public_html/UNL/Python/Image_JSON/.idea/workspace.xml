@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d21cfdd-e1bb-4081-b8e0-11e52fa39be5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../js/UNL/ImagesByNid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../nbproject/private/private.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../EditImageMetadata.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../EditImageMetadata.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../files/json/unl/UNL_Flat_Images.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../js/UNL/OOFGGM.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../js/UNL/OOFGGM.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metadata/ManualEdits/KeepMetadata_002.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Metadata/ManualEdits/KeepMetadata_002.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../js/UNL/ImagesByNid.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../js/UNL/ImagesByNid.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +74,7 @@
       <workItem from="1658839422743" duration="1759000" />
       <workItem from="1658845148131" duration="32000" />
       <workItem from="1658852385233" duration="332000" />
+      <workItem from="1658868319188" duration="16000" />
     </task>
     <servers />
   </component>
