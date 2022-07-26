@@ -24,6 +24,8 @@ def fixup(df):
 def get_image_file_name(adic, df):
     for index, row in df.iterrows():
         ImageName = str(row['ImageName']).strip()
+        if len(ImageName) < 4:
+            continue
         ImageText = str(row['ImageText']).strip()
         Gender = str(row['Gender']).strip()
         General = str(row['General']).strip()
@@ -64,7 +66,7 @@ def get_image_file_name(adic, df):
 
 def writeDict2Json(adict):
     json_object = json.dumps(adict, indent=4)
-    fn = "../../../files/json/unl/UNL_Flat_Images.json"
+    fn = "../../../files/json/unl/ImagesByNid.json"
 
     with open(fn, "w") as outfile:
         json.dump(adict, outfile,indent=4)

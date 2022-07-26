@@ -19,6 +19,7 @@ $(document).ready(function() {
             'async': false,
             'global': false,
             'url': '/files/json/unl/OOFGGM.json',
+            
             'dataType': 'json',
             'success': function (data) {
                 subjectObject = data;

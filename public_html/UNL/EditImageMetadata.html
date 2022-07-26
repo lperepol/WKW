@@ -29,7 +29,7 @@
         <!-- Popupate Comboboxes -->     
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <link rel="stylesheet" href="/vendor/lightbox/css/lightbox.min.css">
-        <script src="/js/UNL/OOFGGM.js"></script>
+        <script src="/js/UNL/ImagesByNid.js"></script>
         <!-- Popupate Comboboxes -->     
 
         <!-- Superfish stuff-->
@@ -141,131 +141,101 @@
 
 
         <div class="container">
-
-            <h3>
-                Select Order first, then Family, then Genus, then Gender, then Magnification, then Observation... 
-            </h3>
-        </div>
-        <div class="container">
-            <p>
-                <button onclick="resetImages()">Clear Comparisons</button>
-            </p>
-        </div>
-        <div class="container">
-            <div class="btn-group">
-                <p>
-                    <select id="View" name="View">
-                        <option selected="selected" value="">Select Observation</option>
-                    </select>
-                    <select id="Order" name="Order">
-                        <option selected="selected" value="">Select Order</option>
-                    </select>
-                    <select id="Family" name="Family">
-                        <option selected="selected" value="">Select Family</option>
-                    </select>
-
-                    <select id="Genus" name="Genus">
-                        <option selected="selected" value="">Select Genus</option>
-                    </select>
-                    <select id="Gender" name="Gender">
-                        <option selected="selected" value="">Select Gender</option>
-                    </select>
-                    <select id="Magnification" name="Magnification">
-                        <option selected="selected" value="">Select Magnification</option>
-                    </select>
-                </p>
-
-            </div>
-        </div>
-        <div class="container">
-            <p>
-                <button onclick=displayImages()>Display Images</button>
-            </p>
-            <!-- /container -->
-        </div>
-        <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h3>Form</h3>
-                        <form action="http://srv.lp-ubuntu.ca/api/wkw_001_api/wkw" method="post" >
-                            <div class="form-group row">
-                                <div class="form-group">
-                                    <label for="ImageText">ImageText</label>
-                                    <input name="ImageText" type="text" class="form-control" id="ImageText" placeholder="ImageText">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Genus">Genus</label>
-                                    <input name="Genus" type="text" class="form-control" id="Genus" placeholder="Genus">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Species">Species</label>
-                                    <input name="Species" type="text" class="form-control" id="Species" placeholder="Species">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Gender">Gender</label>
-                                    <input name="Gender" type="text" class="form-control" id="Gender" placeholder="Gender">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Detail">Detail</label>
-                                    <input name="Detail" type="text" class="form-control" id="Detail" placeholder="Detail">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Magnification">Magnification</label>
-                                    <input name="Magnification" type="text" class="form-control" id="Magnification" placeholder="Magnification">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Location">Location</label>
-                                    <input name="Location" type="text" class="form-control" id="Location" placeholder="Location">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Host">Host</label>
-                                    <input name="Host" type="text" class="form-control" id="Host" placeholder="Host">
-                                </div>
-
-
-                                <!--
-                                <div class="form-group">
-                                    <label for="General">General</label>
-                                    <input name="General" type="text" class="form-control" id="General" placeholder="General">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Descr">Descr</label>
-                                    <input name="Descr" type="text" class="form-control" id="Descr" placeholder="Descr">
-                                </div>
-                                <div class="form-group">
-                                    <label for="ScientificName_accepted">ScientificName_accepted</label>
-                                    <input name="ScientificName_accepted" type="text" class="form-control" id="ScientificName_accepted" placeholder="ScientificName_accepted">
-                                </div>
-                                <div class="form-group">
-                                    <label for="ScientificName">ScientificName</label>
-                                    <input name="ScientificName" type="text" class="form-control" id="ScientificName" placeholder="ScientificName">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Class">Class</label>
-                                    <input name="Class" type="text" class="form-control" id="Class" placeholder="Class">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Order">Order</label>
-                                    <input name="Order" type="text" class="form-control" id="Order" placeholder="Order">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Family">Family</label>
-                                    <input name="Family" type="text" class="form-control" id="Family" placeholder="Family">
-                                </div>
-                                <div class="form-group">
-                                    <label for="Species">Species</label>
-                                    <input name="Species" type="text" class="form-control" id="Species" placeholder="Species">
-                                </div>
-                                -->
-                                </div>
-                            <div class="col-sm-10">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                    <h3>Corrections</h3>
+                    <form action="http://srv.lp-ubuntu.ca/api/wkw_001_api/wkw" method="post" >
+                        <div class="form-group row">
+                            <div class="form-group">
+                                <label for="ImageText">ImageText</label>
+                                <input name="ImageText" type="text" class="form-control" id="ImageText" placeholder="ImageText">
                             </div>
-                        </form>
+                            <div class="form-group">
+                                <label for="Genus">Genus</label>
+                                <input name="Genus" type="text" class="form-control" id="Genus" placeholder="Genus">
+                            </div>
+                            <div class="form-group">
+                                <label for="Species">Species</label>
+                                <input name="Species" type="text" class="form-control" id="Species" placeholder="Species">
+                            </div>
+                            <div class="form-group">
+                                <label for="Gender">Gender</label>
+                                <input name="Gender" type="text" class="form-control" id="Gender" placeholder="Gender">
+                            </div>
+                            <div class="form-group">
+                                <label for="Detail">Detail</label>
+                                <input name="Detail" type="text" class="form-control" id="Detail" placeholder="Detail">
+                            </div>
+                            <div class="form-group">
+                                <label for="Magnification">Magnification</label>
+                                <input name="Magnification" type="text" class="form-control" id="Magnification" placeholder="Magnification">
+                            </div>
+                            <div class="form-group">
+                                <label for="Location">Location</label>
+                                <input name="Location" type="text" class="form-control" id="Location" placeholder="Location">
+                            </div>
+                            <div class="form-group">
+                                <label for="Host">Host</label>
+                                <input name="Host" type="text" class="form-control" id="Host" placeholder="Host">
+                            </div>
+
+
+                            <!--
+                            <div class="form-group">
+                                <label for="General">General</label>
+                                <input name="General" type="text" class="form-control" id="General" placeholder="General">
+                            </div>
+                            <div class="form-group">
+                                <label for="Descr">Descr</label>
+                                <input name="Descr" type="text" class="form-control" id="Descr" placeholder="Descr">
+                            </div>
+                            <div class="form-group">
+                                <label for="ScientificName_accepted">ScientificName_accepted</label>
+                                <input name="ScientificName_accepted" type="text" class="form-control" id="ScientificName_accepted" placeholder="ScientificName_accepted">
+                            </div>
+                            <div class="form-group">
+                                <label for="ScientificName">ScientificName</label>
+                                <input name="ScientificName" type="text" class="form-control" id="ScientificName" placeholder="ScientificName">
+                            </div>
+                            <div class="form-group">
+                                <label for="Class">Class</label>
+                                <input name="Class" type="text" class="form-control" id="Class" placeholder="Class">
+                            </div>
+                            <div class="form-group">
+                                <label for="Order">Order</label>
+                                <input name="Order" type="text" class="form-control" id="Order" placeholder="Order">
+                            </div>
+                            <div class="form-group">
+                                <label for="Family">Family</label>
+                                <input name="Family" type="text" class="form-control" id="Family" placeholder="Family">
+                            </div>
+                            <div class="form-group">
+                                <label for="Species">Species</label>
+                                <input name="Species" type="text" class="form-control" id="Species" placeholder="Species">
+                            </div>
+                            -->
+                        </div>
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Post</button>
+                            <button type="submit" class="btn btn-primary">Update</button>
+                            <button type="submit" class="btn btn-primary">Delete</button>
+                            <button type="submit" class="btn btn-primary">Put</button>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-md-4">
-                    <h3>Verify</h3>
-                    <div id="CompareDiv"></div>
+                    <h3>Observation</h3>
+                    <div id="CompareDiv">
+                    <div >
+                        <p>
+                            <button  onclick="previousImage()">Previous Observation</button>
+                            <button onclick="nextImage()">Next Observation</button>
+                        </p>
+                        <!-- /container -->
+                    </div>
+                        
+                        
+                    </div>
                     <div class="row">
                         <hr>
                         <div id="displayDiv"></div>
