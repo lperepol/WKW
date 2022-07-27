@@ -21,6 +21,7 @@
             input, label {
                 display:block;
             }
+             .hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }
         </style>
         <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="/css/main.css">
@@ -132,10 +133,13 @@
         <!-- **************************************** -->
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron"  style="background-image: url('/files/images/UNLBackgroundHeader.jpg')">
+        <div class="jumbotron"  style="background-image: url('/files/images/UNL_KonzaPraire.jpg')">
             <div class="container">
-                <h1>Hello, Nematodes of North America!</h1>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+                <h1>Nematode Fauna of North American Grasslands</h1>
+                <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+            </div>
+            <div class="container">
+                <p>Background image: Konza Prairie</p>
             </div>
         </div>
 
@@ -144,8 +148,12 @@
             <div class="row">
                 <div class="col-md-4">
                     <h3>Metadata</h3>
-                    <form action="http://srv.lp-ubuntu.ca/api/wkw_001_api/wkw" method="post" >
+                    <form  id="idEditMetadataForm" action="http://srv.lp-ubuntu.ca/api/wkw_001_api/wkw" method="post" target="hiddenFrame" onsubmit="OnSubmit()"> 
                         <div class="form-group row">
+                            <div class="form-group">
+                                <label for="ImageText">NID</label>
+                                <input name="ImageName" type="text" class="form-control" id="ImageName" placeholder="NID">
+                            </div>
                             <div class="form-group">
                                 <label for="ImageText">ImageText</label>
                                 <input name="ImageText" type="text" class="form-control" id="ImageText" placeholder="ImageText">
@@ -257,7 +265,7 @@
             </footer>
         </div>
         <!-- Example row of columns -->
-
+<iframe name="hiddenFrame" class="hide"></iframe>
         <script>
             window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.2.min.js"><\/script>')
         </script>

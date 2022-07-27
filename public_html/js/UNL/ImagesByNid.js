@@ -76,8 +76,22 @@ $(document).ready(function () {
         }
     });
 
-});
+/*
+    $('#idEditMetadataForm').on('submit', function (e) {
+        $.ajax({
+            type: 'post',
+            url: 'http://srv.lp-ubuntu.ca/api/wkw_001_api/wkw',
+            data: $('#idEditMetadataForm').serialize(),
+            success: function (q) {
+                document.getElementById("pb").innerHTML = q;
+            }
+        });
+        e.preventDefault();
+    });
+*/
 
+
+});
 
 
 
@@ -92,13 +106,15 @@ function displayUNLImage() {
     $('#displayDiv').empty();
     $('#displayDiv').append(image);
 
+    var NID = imageCollection[currentImage][0];
+    ImageNameSel.value = NID;
+
     var ImageText = imageCollection[currentImage][1];
     ImageTextSel.value = ImageText;
-   
-   
+
     var SpeciesText = imageCollection[currentImage][16];
     SpeciesSel.value = SpeciesText;
-   
+
     var GenderText = imageCollection[currentImage][2];
     GenderSel.value = GenderText;
 
@@ -107,24 +123,24 @@ function displayUNLImage() {
 
     var MagnificationText = imageCollection[currentImage][6];
     MagnificationSel.value = MagnificationText;
-    
+
     var LocationText = imageCollection[currentImage][7];
     LocationSel.value = LocationText;
-    
+
     var HostText = imageCollection[currentImage][8];
     HostSel.value = HostText;
 
     /*
-    LocationSel.value = LocationText;
-    HostSel.value = HostText;
-    SpeciesSel.value = SpeciesText;
-    ScientificName_acceptedSel.value = ScientificName_acceptedText;
-    ScientificNameSel.value = ScientificNameText;
-    ClassSel.value = ClassText;
-    OrderSel.value = OrderText;
-    FamilySel.value = FamilyText;
-    console.log('Image data:\n' + ImageText);
-    */
+     LocationSel.value = LocationText;
+     HostSel.value = HostText;
+     SpeciesSel.value = SpeciesText;
+     ScientificName_acceptedSel.value = ScientificName_acceptedText;
+     ScientificNameSel.value = ScientificNameText;
+     ClassSel.value = ClassText;
+     OrderSel.value = OrderText;
+     FamilySel.value = FamilyText;
+     console.log('Image data:\n' + ImageText);
+     */
 
     //currentImage = imageCollection[currentImageKey];
 
@@ -159,3 +175,6 @@ function previousImage() {
     displayUNLImage();
 }
 
+function OnSubmit() {
+    nextImage();
+}
