@@ -76,20 +76,24 @@ $(document).ready(function () {
         }
     });
 
-/*
-    $('#idEditMetadataForm').on('submit', function (e) {
-        $.ajax({
-            type: 'post',
-            url: 'http://srv.lp-ubuntu.ca/api/wkw_001_api/wkw',
-            data: $('#idEditMetadataForm').serialize(),
-            success: function (q) {
-                document.getElementById("pb").innerHTML = q;
-            }
-        });
-        e.preventDefault();
+    /*
+     $('#idEditMetadataForm').on('submit', function (e) {
+     $.ajax({
+     type: 'post',
+     url: 'http://srv.lp-ubuntu.ca/api/wkw_001_api/wkw',
+     data: $('#idEditMetadataForm').serialize(),
+     success: function (q) {
+     document.getElementById("pb").innerHTML = q;
+     }
+     });
+     e.preventDefault();
+     });
+     */
+    $('#idEditMetadataForm').submit(function (e) {
+        e.preventDefault(); // don't submit multiple times
+        this.submit(); // use the native submit method of the form element
+        nextImage();
     });
-*/
-
 
 });
 
@@ -175,6 +179,3 @@ function previousImage() {
     displayUNLImage();
 }
 
-function OnSubmit() {
-    nextImage();
-}
