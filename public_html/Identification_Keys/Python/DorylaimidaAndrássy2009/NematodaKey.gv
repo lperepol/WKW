@@ -1,0 +1,142 @@
+// FOO
+digraph "Nematoda Key" {
+	graph [rankdir=LR]
+	000 [label="Key to the Families
+and Genera of the
+Order Dorylaimida
+ Andrassy 2009" fillcolor=red style=filled]
+	000 -> 001 [label=""]
+	001 [label=001 fillcolor=aqua style=filled]
+	001 -> 002 [label="Nygolaimina Stoma with
+subventral mural tooth,
+stoma wide, cardia
+with 3 gland
+cells
+"]
+	001 -> 017 [label="Dorylaimina Stoma with
+axial odontostyle, stoma
+narrow, cardia small,
+without gland cells
+"]
+	002 [label="002
+Nygolaimina
+Nygolaimoidea" fillcolor=aqua style=filled]
+	002 -> 004 [label="Nygellidae Female reproductive
+system monovarial, opisthodelphic;
+basal part of
+esophagus with a
+sheath of spiral
+muscles
+"]
+	002 -> 003 [label="Female reproductive system
+diovarial, amphidelphic; basal
+part of esophagus
+with a thin
+muscle sheath which
+is difficult to
+discern
+"]
+	003 [label=003 fillcolor=aqua style=filled]
+	003 -> 005 [label="Aetholaimidae Anterior part
+of stoma bowl-shaped
+and sclerotized
+"]
+	003 -> 006 [label="Nygolaimidae Anterior part
+of stoma simple,
+without sclerotization
+"]
+	004 [label="004
+Nygellidae
+Nygelliinae" fillcolor=aqua style=filled]
+	004 -> Nygellus [label="Body length <
+1.4 mm; cuticle
+thin with fine
+transverse striations; lip
+region continuous with
+body contour
+"]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+	"" [label="" fillcolor=aqua style=filled]
+	"" -> "" [label=""]
+	"" -> "" [label=""]
+}

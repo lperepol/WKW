@@ -22,16 +22,16 @@ def fixup(df):
 
 def get_view(adic, df):
     for index, row in df.iterrows():
-        View = str(row['View']).strip()
+        View = str(row['Detail']).strip()
         if View == '0':
             continue
-        View = str(row['View']).strip()
+        View = str(row['Detail']).strip()
         adic[View] = SortedDict()
     return adic
 
 def get_order(adic, df):
     for index, row in df.iterrows():
-        View = str(row['View']).strip()
+        View = str(row['Detail']).strip()
         if View == '0':
             continue
 
@@ -41,7 +41,7 @@ def get_order(adic, df):
 
 def get_family(adic, df):
     for index, row in df.iterrows():
-        View = str(row['View']).strip()
+        View = str(row['Detail']).strip()
         if View == '0':
             continue
         Order = str(row['Order']).strip()
@@ -51,7 +51,7 @@ def get_family(adic, df):
 
 def get_genus(adic, df):
     for index, row in df.iterrows():
-        View = str(row['View']).strip()
+        View = str(row['Detail']).strip()
         if View == '0':
             continue
         Order = str(row['Order']).strip()
@@ -62,7 +62,7 @@ def get_genus(adic, df):
 
 def get_gender(adic, df):
     for index, row in df.iterrows():
-        View = str(row['View']).strip()
+        View = str(row['Detail']).strip()
         if View == '0':
             continue
         Order = str(row['Order']).strip()
@@ -74,7 +74,7 @@ def get_gender(adic, df):
 
 def get_magnification(adic, df):
     for index, row in df.iterrows():
-        View = str(row['View']).strip()
+        View = str(row['Detail']).strip()
         if View == '0':
             continue
         Order = str(row['Order']).strip()
@@ -97,7 +97,7 @@ def get_image_file_name(adic, df):
         Genus = str(row['Genus']).strip()
         Gender = str(row['Gender']).strip()
         Magnification = str(row['Magnification']).strip()
-        View = str(row['View']).strip()
+        View = str(row['Detail']).strip()
         orderSet.add(Order)
         FamilySet.add(Family)
         GenusSet.add(Genus)
@@ -130,7 +130,7 @@ def get_UNL_stats(df):
         Genus = str(row['Genus']).strip()
         Gender = str(row['Gender']).strip()
         Magnification = str(row['Magnification']).strip()
-        View = str(row['View']).strip()
+        View = str(row['Detail']).strip()
         Location = str(row['Location']).strip()
         Host = str(row['Host']).strip()
         Species = str(row['Species']).strip()

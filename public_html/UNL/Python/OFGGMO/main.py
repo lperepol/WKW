@@ -3,6 +3,8 @@ import pandas as pd
 import openpyxl
 import json
 from sortedcontainers import SortedList, SortedSet, SortedDict
+import mysql.connector
+
 
 def read_metadata():
     fn = "../Metadata/ManualEdits/KeepMetadata_002.csv"
@@ -20,75 +22,6 @@ def fixup(df):
         df.loc[index, 'Magnification'] = Magnification
     return df
 
-def get_order(adic, df):
-    for index, row in df.iterrows():
-        View = str(row['View']).strip()
-        if View == '0':
-            continue
-
-        Order = str(row['Order']).strip()
-        adic[Order] = SortedDict()
-    return adic
-
-def get_family(adic, df):
-    for index, row in df.iterrows():
-        View = str(row['View']).strip()
-        if View == '0':
-            continue
-        Order = str(row['Order']).strip()
-        Family = str(row['Family']).strip()
-        adic[Order][Family] = SortedDict()
-    return adic
-
-def get_genus(adic, df):
-    for index, row in df.iterrows():
-        View = str(row['View']).strip()
-        if View == '0':
-            continue
-        Order = str(row['Order']).strip()
-        Family = str(row['Family']).strip()
-        Genus = str(row['Genus']).strip()
-        adic[Order][Family][Genus] = SortedDict()
-    return adic
-
-def get_gender(adic, df):
-    for index, row in df.iterrows():
-        View = str(row['View']).strip()
-        if View == '0':
-            continue
-        Order = str(row['Order']).strip()
-        Family = str(row['Family']).strip()
-        Genus = str(row['Genus']).strip()
-        Gender = str(row['Gender']).strip()
-        adic[Order][Family][Genus][Gender] = SortedDict()
-    return adic
-
-def get_magnification(adic, df):
-    for index, row in df.iterrows():
-        View = str(row['View']).strip()
-        if View == '0':
-            continue
-        Order = str(row['Order']).strip()
-        Family = str(row['Family']).strip()
-        Genus = str(row['Genus']).strip()
-        Gender = str(row['Gender']).strip()
-        Magnification = str(row['Magnification']).strip()
-        adic[Order][Family][Genus][Gender][Magnification] = SortedDict()
-    return adic
-
-def get_view(adic, df):
-    for index, row in df.iterrows():
-        View = str(row['View']).strip()
-        if View == '0':
-            continue
-        Order = str(row['Order']).strip()
-        Family = str(row['Family']).strip()
-        Genus = str(row['Genus']).strip()
-        Gender = str(row['Gender']).strip()
-        Magnification = str(row['Magnification']).strip()
-        View = str(row['View']).strip()
-        adic[Order][Family][Genus][Gender][Magnification][View]  = list()
-    return adic
 
 def get_image_file_name(adic, df):
     orderSet = set()
@@ -101,7 +34,7 @@ def get_image_file_name(adic, df):
         Genus = str(row['Genus']).strip()
         Gender = str(row['Gender']).strip()
         Magnification = str(row['Magnification']).strip()
-        View = str(row['View']).strip()
+        View = str(row['Detail']).strip()
         orderSet.add(Order)
         FamilySet.add(Family)
         GenusSet.add(Genus)
@@ -119,24 +52,16 @@ def get_image_file_name(adic, df):
     # Order:12, Family:67, Genus:248
     return adic
 
-def writeDict2Json(adict):
-    json_object = json.dumps(adict, indent=4)
-    fn = "../../../files/json/unl/OFGGMO.json"
-
-    with open(fn, "w") as outfile:
-        json.dump(adict, outfile,indent=4)
-    return json_object
+def connetct_to_database():
+    cnx = mysql.connector.connect(host="localhost", user="lperepol",
+                        passwd="law715ren*117", db="nematodes")
 
 def main():
+    connetct_to_database()
+    return
     df = read_metadata()
     df = fixup(df)
     nematode_dict = SortedDict()
-    nematode_dict = get_order(nematode_dict, df)
-    nematode_dict = get_family(nematode_dict, df)
-    nematode_dict = get_genus(nematode_dict, df)
-    nematode_dict = get_gender(nematode_dict, df)
-    nematode_dict = get_magnification(nematode_dict, df)
-    nematode_dict = get_view(nematode_dict, df)
     nematode_dict = get_image_file_name(nematode_dict, df)
     jo = writeDict2Json(nematode_dict)
 

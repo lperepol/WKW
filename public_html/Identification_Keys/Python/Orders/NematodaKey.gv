@@ -1,0 +1,257 @@
+// FOO
+digraph "Nematoda Key" {
+	graph [rankdir=LR]
+	000 [label="Diagnostic Key
+to Nematoda Orders" fillcolor=red style=filled]
+	000 -> 001 [label=""]
+	001 [label="001
+Esophagus" fillcolor=aqua style=filled]
+	001 -> 002 [label="Cylindrical or bottle-shaped
+amphids usually post-labial
+excretory system single-cell hypodermal glands
+male with 2 testes
+caudal alae rare
+phasmids absent"]
+	001 -> 008 [label="Subdivided into bulbs
+amphid apertures on lips
+often difficult to see
+or posterior to lips and obvious - round or coiled
+gonads single or paired in both male and female"]
+	002 [label="002
+Anterior sensillae" fillcolor=aqua style=filled]
+	002 -> 003 [label="3 whorls of inner labial papillae
+outer labial setae and cephalic setae
+metanemes (filamentous structures in lateral chors) present
+caudal glands present
+esophageal glands open in or
+near stoma"]
+	002 -> 004 [label="Rarely setiform
+stoma with teeth or odontostyle
+esophagus cylindrical
+bottle-shaped or a stichosome
+caudal glands usually absent
+esophageal glands open in posterior region of esophagus"]
+	003 [label="003
+Spicule " fillcolor=aqua style=filled]
+	003 -> 010 [label="Muscles attached to proximal enlargement
+metanemes present
+marine and fresh water"]
+	003 -> 011 [label="Muscles form a pouch around spicules
+protrusible tooth in some forms"]
+	004 [label="004
+Esophagus" fillcolor=aqua style=filled]
+	004 -> 012 [label="Bottle-shaped
+Movable hollow spear
+"]
+	004 -> 015 [label="Glandular
+Stichosome
+Intestinal trophosome
+Parasites of invertebrates"]
+	004 -> 017 [label="Vestigial
+Parasites of vertebrates"]
+	004 -> 005 [label=Cylindrical]
+	005 [label="005
+Parasites?" fillcolor=aqua style=filled]
+	005 -> 019 [label="Juveniles are parasites of invertebrates;
+adults free-living	"]
+	005 -> 006 [label="All stages parasitic
+adults are vertebrate parasites
+juveniles with or without intermediate hosts"]
+	005 -> 007 [label="All stages
+free-living"]
+	006 [label=006 fillcolor=aqua style=filled]
+	006 -> 016 [label="Posterior esophagus a stichosome
+onchiostyle present
+monovarial
+anphids pore-like"]
+	006 -> 018 [label="Anterior end has a sucker
+males with bell-shaped bursa"]
+	007 [label=007 fillcolor=aqua style=filled]
+	007 -> 013 [label="Strong, large
+cuticularized stoma with prominent dorsal tooth
+predators of nematodes"]
+	007 -> 014 [label="Long and slender
+tubular stoma without teeth
+stoma without lips
+soil inhabitants"]
+	008 [label="008
+Amphids" fillcolor=aqua style=filled]
+	008 -> 026 [label="Amphids Pore-like, on lips
+cephalic sensillae on lip region
+phasmids present
+caudal glands absent
+terrestrial
+include free-living
+animal parasites
+plant parsites"]
+	008 -> 009 [label="Amphids Post-labial, varied shapes
+phasmids absent; somatic seta common
+free-living
+aquatic organisms"]
+	009 [label=009 fillcolor=aqua style=filled]
+	009 -> 020 [label="Anterior sensillae in three whorls
+inner labial
+outer labial and cephalic
+amphids var from circular to complex spirals
+post-labial and usually posterior to cephalic setae
+stoma funnel-shaped with a dorsal tooth
+and two smaller subventral teeth
+esophagus cylindrical with posetrior bulb
+females diovarial
+marine"]
+	009 -> 021 [label="Brownish cuticle
+anterior sensillae in three whorls,
+inner labial, outer labial and cephalic
+amphids spiral, posterior to cephalic setae
+dorsal and smaller subventral teeth
+esophagus cylindrical with enlarged end bulb"]
+	009 -> 023 [label="Anterior sensillae in three whorls,
+inner labial, outer labial and cephalic,
+ cephalic setae on peduncles
+ amphids large, on head
+ ocelli may be present
+ small stoma with small teeth
+ esophagus cylindrical
+ females diovarial
+ mainly marine"]
+	009 -> 022 [label="Small, slender nematodes with a slender tail region
+ three whorls of anterior sensilla
+ amphids round
+ both sexes with one or two gonads
+  Mainly aquatic and wet soil environments"]
+	009 -> 024 [label="Anterior sensillae in three whorls,
+inner labial, outer labial and cephalic
+stoma with 3 to 6 teeth on anterior edge
+amphids loop-shaped
+ocelli may be present
+esophagus cylindrical with no posterior enlargemen"]
+	009 -> 025 [label="Labial sensilla papilliform,
+cephalic sensilla usually setiform
+qamphids circular or simple spiral
+ esophagus cylindrical, with or without basal bulb
+ females usually diovarial"]
+	010 [label=010 fillcolor=aqua style=filled]
+	010 -> Enoplina [label="Enoplida
+ amphids pocket-shaped; esophagus cylindrical
+ 3 esophageal glands opening in or near stoma
+ excretory canal present
+ marine and freshwater"]
+	010 -> Ironina [label="Enoplida
+ amphids pocket-shaped
+ stoma elongated, without teeth or with 3-5 moveable teeth
+ esophagus cylindrical
+ excretory canal present
+ mainly marine but also freshwater"]
+	010 -> Oncholaimina [label="Enoplida
+ amphids pocket-shaped
+ stoma large, refractive, with 3 teeth
+ esophagus cylindrical
+ excretory canal present
+ mainly marine but also freshwater"]
+	010 -> Tripyloidina [label="Enoplida
+ amphids spiral
+ stoma with 1 or more teeth
+ esophagus cylindrical
+ females diovarial
+ mainly marine"]
+	010 -> Campydorina [label="Enoplida
+ amphids pocket-shaped
+ stoma with dorsal tooth
+ esophagus cylindrical with terminal bulb
+ excretory canal present
+ females diovarial
+ soil and freshwater inhabitant"]
+	010 -> Alaimina [label="Enoplida
+ amphids pore or pocket-shaped
+ stoma vestigial, without teeth
+ esophagus slender, cylindrical, enlarged posteriorly
+ soil and freshwater inhabitants"]
+	010 -> Trefusiina [label="Enoplida
+ amphids spiral
+ stoma with teeth
+ esophagus cylindrical
+ females diovarial
+ mainly marine, some freshwater"]
+	011 [label=011 fillcolor=aqua style=filled]
+	011 -> Diphtherophorina [label="Triplonchida
+stoma with curved or complex spear
+ sensilla papilliform
+ esophagus with elongate prosterior bulb"]
+	011 -> Tobrilina [label="Triplonchida
+ stoma wide and refractive or funnel-shaped
+ usually with teeth
+ spinneret at tail tip"]
+	011 -> Tripylina [label="Triplonchida
+  stoma narrow with a dirsal and two small subventral teeth
+ well-developed caudal glands opening at terminal spinneret "]
+	012 [label=012 fillcolor=aqua style=filled]
+	012 -> Dorylaimina [label="	Dorylaimida
+stoma with axial odontostyle"]
+	012 -> Nygolaimina [label="Dorylaimida
+stoma with grooved subventral mural tooth"]
+	013 [label=013 fillcolor=aqua style=filled]
+	013 -> Mononchina [label="Mononchida
+stoma large, wide with 1 to 3 teeth and/or rows of denticles"]
+	013 -> Bathyodontina [label="Mononchida
+Stoma narrow with a single subventral tooth"]
+	014 [label=014 fillcolor=aqua style=filled]
+	014 -> Isolaimiina [label=Isolaimiida]
+	015 [label=015 fillcolor=aqua style=filled]
+	015 -> Mermithina [label=Mermithida]
+	016 [label=016 fillcolor=aqua style=filled]
+	016 -> Trichinellina [label=Trichinellida]
+	017 [label=017 fillcolor=aqua style=filled]
+	017 -> Muscipeicina [label="Muscipeicida;"]
+	018 [label=018 fillcolor=aqua style=filled]
+	018 -> Dioctophymatina [label="Dioctophymatida;"]
+	019 [label=019 fillcolor=aqua style=filled]
+	019 -> Marimermithina [label=Marimermithida]
+	020 [label=020 fillcolor=aqua style=filled]
+	020 -> Chromadorina [label=Chromadorida]
+	021 [label=021 fillcolor=aqua style=filled]
+	021 -> Desmodorina [label=Desmodorida]
+	022 [label=022 fillcolor=aqua style=filled]
+	022 -> Monhysterina [label=Monhysterida]
+	022 -> Linhomoeina [label=Monhysterida]
+	023 [label=023 fillcolor=aqua style=filled]
+	023 -> Desmoscolecina [label="Desmoscolecida;"]
+	024 [label=024 fillcolor=aqua style=filled]
+	024 -> Araeolaimina [label=Araeolaimida]
+	025 [label=025 fillcolor=aqua style=filled]
+	025 -> Plectina [label=Plectida]
+	026 [label=026 fillcolor=aqua style=filled]
+	026 -> "Tylenchina
+Tylenchomorpha" [label="Rhabditida
+stoma with a protrusible stomatostyle
+ lip region simple
+ posterior esophageal region
+either a bulb without valve or overlapping glands"]
+	026 -> "Tylenchina
+Panagrolaimorpha" [label="Rhabditida
+stoma without teeth or with denticles
+lip region simple
+esophageal corpus without bulb
+posterior bulb with valve"]
+	026 -> "Tylenchina
+Cephalobomorpha" [label="Rhabditida
+stoma without teeth or with denticles
+lip region with probolae
+esophageal corpus without bulb
+posterior bulb with valve"]
+	026 -> "Rhabditina
+Diplogasteromorpha" [label="Rhabditida
+stoma with teeth
+lip region simple
+corpus with muscular metacorpus
+no valve in posterior bulb"]
+	026 -> "Rhabditina
+Rhabditomorpha" [label="Rhabditida
+stoma without teeth or with denticles
+lip region simple
+corpus with metacorpus
+posterior bulb with valve"]
+	026 -> Spirurina [label="Rhabditida
+juveniles with cephalic hooks
+multinucleate esophageal glands
+parasites of animals"]
+}

@@ -1,864 +1,4 @@
 {
-    "0": {
-        "0": {
-            "Basiria": {
-                "0": {
-                    "000X": {
-                        "compare": [
-                            "boblicmp.jpg"
-                        ]
-                    }
-                },
-                "female": {
-                    "010X": {
-                        "body": [
-                            "bobli4.jpg"
-                        ]
-                    },
-                    "020X": {
-                        "tail": [
-                            "bobli3.jpg"
-                        ]
-                    },
-                    "040X": {
-                        "head": [
-                            "bobli1.jpg"
-                        ],
-                        "vulva": [
-                            "bobli2.jpg"
-                        ]
-                    }
-                }
-            },
-            "Loncharionema": {
-                "female": {
-                    "000X": {
-                        "anterior": [
-                            "lonchar1.jpg"
-                        ]
-                    }
-                }
-            },
-            "Paraplectonema": {
-                "0": {
-                    "400X": {
-                        "head": [
-                            "parapl1.jpg"
-                        ]
-                    }
-                },
-                "juvenile": {
-                    "000X": {
-                        "basal esophagus": [
-                            "parpl2.jpg"
-                        ]
-                    },
-                    "1000X": {
-                        "head": [
-                            "parpl1.jpg"
-                        ],
-                        "lateral field": [
-                            "parpl3.jpg"
-                        ],
-                        "tail": [
-                            "parpl4.jpg"
-                        ]
-                    }
-                }
-            },
-            "Pararotylenchus": {
-                "female": {
-                    "000X": {
-                        "anterior": [
-                            "pararo28.jpg"
-                        ],
-                        "esophagus": [
-                            "pararo2.jpg",
-                            "pararo22.jpg"
-                        ],
-                        "head": [
-                            "pararo23.jpg",
-                            "pararo9.jpg"
-                        ],
-                        "phasmid": [
-                            "pararo5.jpg"
-                        ],
-                        "tail": [
-                            "pararo11.jpg",
-                            "pararo14.jpg",
-                            "pararo26.jpg",
-                            "pararo29.jpg",
-                            "pararo6.jpg"
-                        ]
-                    },
-                    "1000X": {
-                        "basal esophagus": [
-                            "pararo16.jpg"
-                        ],
-                        "head": [
-                            "pararo15.jpg",
-                            "pararo3.jpg",
-                            "pararo7.jpg"
-                        ],
-                        "tail": [
-                            "pararo4.jpg"
-                        ]
-                    },
-                    "400X": {
-                        "head": [
-                            "pararo13.jpg",
-                            "pararo21.jpg",
-                            "pararo25.jpg"
-                        ],
-                        "vulva": [
-                            "pararo10.jpg"
-                        ]
-                    }
-                },
-                "juvenile": {
-                    "000X": {
-                        "cuticle": [
-                            "pararo19.jpg"
-                        ]
-                    },
-                    "400X": {
-                        "head": [
-                            "pararo18.jpg"
-                        ]
-                    }
-                }
-            },
-            "Paraxonchium": {
-                "female": {
-                    "000X": {
-                        "anterior": [
-                            "paraxom2.jpg",
-                            "paraxom3.jpg",
-                            "paxomadrw.jpg"
-                        ],
-                        "head": [
-                            "paxiden3.jpg"
-                        ],
-                        "tail": [
-                            "paraxom5.jpg"
-                        ],
-                        "vulva": [
-                            "paxiden5.jpg"
-                        ]
-                    },
-                    "1000X": {
-                        "amphid": [
-                            "paraxom7.jpg"
-                        ],
-                        "head": [
-                            "paraxom6.jpg"
-                        ],
-                        "tail": [
-                            "paraxom14.jpg"
-                        ],
-                        "vulva": [
-                            "paraxom12.jpg"
-                        ]
-                    },
-                    "200X": {
-                        "anterior": [
-                            "paxiden1.jpg"
-                        ],
-                        "tail": [
-                            "paxiden2.jpg"
-                        ]
-                    },
-                    "400X": {
-                        "basal esophagus": [
-                            "paxiden4.jpg"
-                        ],
-                        "tail": [
-                            "paxiden6.jpg"
-                        ]
-                    }
-                }
-            },
-            "Pratylenchus": {
-                "0": {
-                    "000X": {
-                        "anterior": [
-                            "paraprojedrw.jpg",
-                            "pratypen30.jpg"
-                        ],
-                        "head": [
-                            "phex5.jpg",
-                            "pracren2.jpg",
-                            "prathom2.jpg",
-                            "prats19.jpg",
-                            "pratycan7.jpg",
-                            "pratypen89.jpg",
-                            "pratys4.jpg",
-                            "pratywis8.jpg",
-                            "pscri11.jpg",
-                            "pscri3.jpg"
-                        ],
-                        "posterior": [
-                            "pracren13.jpg",
-                            "pratypen77.jpg"
-                        ],
-                        "spermatheca": [
-                            "pratser7.jpg",
-                            "pratypen17.jpg",
-                            "pratypen56.jpg",
-                            "pratypen61.jpg"
-                        ],
-                        "tail": [
-                            "pratypen42.jpg",
-                            "pratys9.jpg",
-                            "pscri15.jpg"
-                        ]
-                    },
-                    "1000X": {
-                        "head": [
-                            "phexi21.jpg",
-                            "ploos21.jpg",
-                            "pnegwis3.jpg",
-                            "pracren1.jpg"
-                        ],
-                        "lateral field": [
-                            "pflak37.jpg",
-                            "phexho16.jpg",
-                            "phexi10.jpg",
-                            "phexi14.jpg",
-                            "pratypen33.jpg"
-                        ],
-                        "median bulb": [
-                            "phexin14.jpg",
-                            "praneg12.jpg"
-                        ],
-                        "phasmid": [
-                            "phex8.jpg",
-                            "prapen12.jpg"
-                        ],
-                        "spermatheca": [
-                            "pagil4.jpg",
-                            "pallen13.jpg",
-                            "pallen19.jpg",
-                            "pallen4.jpg",
-                            "pflak26.jpg",
-                            "pflak43.jpg",
-                            "pflak49.jpg",
-                            "pflak5.jpg",
-                            "phexin10.jpg",
-                            "ploos6.jpg",
-                            "pracoff3.jpg",
-                            "pracoff9.jpg",
-                            "praconva4.jpg",
-                            "prapen6.jpg",
-                            "prasc12.jpg",
-                            "prascrib20.jpg",
-                            "pratypen22.jpg",
-                            "pratypen32.jpg",
-                            "pratypen47.jpg",
-                            "pratypen5.jpg",
-                            "pratypen70.jpg",
-                            "pratypen74.jpg",
-                            "pratypen79.jpg",
-                            "pratypen84.jpg",
-                            "pratywis12.jpg",
-                            "pratywis5.jpg",
-                            "pscri23.jpg",
-                            "pscri9.jpg"
-                        ],
-                        "tail": [
-                            "pflak27.jpg",
-                            "pracren3.jpg",
-                            "pralle5.jpg",
-                            "prathy8.jpg"
-                        ]
-                    },
-                    "400X": {
-                        "anterior": [
-                            "pracoff20.jpg"
-                        ],
-                        "egg": [
-                            "phexi2.jpg"
-                        ],
-                        "head": [
-                            "pallen16.jpg",
-                            "pallen6.jpg",
-                            "pratys2.jpg"
-                        ],
-                        "lateral field": [
-                            "pracoff17.jpg"
-                        ],
-                        "spermatheca": [
-                            "pflak28.jpg",
-                            "ploos13.jpg",
-                            "pratfall2.jpg"
-                        ],
-                        "tail": [
-                            "phex3.jpg",
-                            "phexho1.jpg",
-                            "phexi20.jpg",
-                            "pranegwa4.jpg",
-                            "prapen9.jpg"
-                        ]
-                    }
-                },
-                "female": {
-                    "000X": {
-                        "anterior": [
-                            "paraprobo2.jpg",
-                            "prapen8.jpg",
-                            "prasc2.jpg",
-                            "pratypen19.jpg",
-                            "pratypen81.jpg"
-                        ],
-                        "head": [
-                            "pallen3.jpg",
-                            "pflak32.jpg",
-                            "phexi1.jpg",
-                            "phexinc9.jpg",
-                            "ploos8.jpg",
-                            "ppenet4.jpg",
-                            "pracoff1.jpg",
-                            "praflak11.jpg",
-                            "prapse2.jpg",
-                            "prapse4.jpg",
-                            "prascrib4.jpg",
-                            "pratfall4.jpg",
-                            "prathy7.jpg",
-                            "pratypen16.jpg",
-                            "pratypen60.jpg",
-                            "pratypen78.jpg",
-                            "pscri12.jpg",
-                            "pscri19.jpg",
-                            "pscri8.jpg"
-                        ],
-                        "lateral field": [
-                            "pflak21.jpg",
-                            "pflak29.jpg",
-                            "phexin2.jpg",
-                            "prascrib19.jpg",
-                            "prascrib6.jpg",
-                            "pratex3.jpg"
-                        ],
-                        "lips": [
-                            "pscri5.jpg"
-                        ],
-                        "posterior": [
-                            "paraprobo3.jpg",
-                            "pratypen15.jpg",
-                            "pratypen20.jpg",
-                            "pratypen82.jpg"
-                        ],
-                        "tail": [
-                            "pallen1.jpg",
-                            "phexi8.jpg",
-                            "phexinc3.jpg",
-                            "phexinc8.jpg",
-                            "praflak10.jpg",
-                            "pralle3.jpg",
-                            "praneg5.jpg",
-                            "prapenho3.jpg",
-                            "prapse3.jpg",
-                            "pratfall3.jpg",
-                            "prathom3.jpg",
-                            "prats3.jpg",
-                            "pratypen75.jpg",
-                            "pratys3.jpg",
-                            "pratys5.jpg",
-                            "pratywis9.jpg",
-                            "pscri1.jpg",
-                            "pscri7.jpg",
-                            "pscricmp.jpg"
-                        ],
-                        "vulva": [
-                            "pallen2.jpg",
-                            "phexinc4.jpg",
-                            "ploos2.jpg",
-                            "ploos7.jpg",
-                            "prascrib3.jpg",
-                            "pratycan5.jpg",
-                            "pratys8.jpg",
-                            "pscri20.jpg"
-                        ]
-                    },
-                    "1000X": {
-                        "anterior": [
-                            "ppenet2.jpg",
-                            "ppenet6.jpg",
-                            "praneg1.jpg",
-                            "praneg3.jpg",
-                            "prascrib18.jpg",
-                            "prascrib24.jpg",
-                            "prascrib5.jpg",
-                            "prathy1.jpg",
-                            "pratyque1.jpg"
-                        ],
-                        "head": [
-                            "pagil3.jpg",
-                            "pallen12.jpg",
-                            "pallen18.jpg",
-                            "paraq5.jpg",
-                            "paraqua3.jpg",
-                            "pflak25.jpg",
-                            "pflak30.jpg",
-                            "pflak34.jpg",
-                            "pflak35.jpg",
-                            "pflak42.jpg",
-                            "pflak48.jpg",
-                            "pflak6.jpg",
-                            "pflak9.jpg",
-                            "phexho11.jpg",
-                            "phexho15.jpg",
-                            "phexi4.jpg",
-                            "phexi9.jpg",
-                            "phexin13.jpg",
-                            "phexin4.jpg",
-                            "phexin9.jpg",
-                            "phexinc15.jpg",
-                            "phexinc7.jpg",
-                            "ploos11.jpg",
-                            "ploos5.jpg",
-                            "pracoff11.jpg",
-                            "pracoff4.jpg",
-                            "pracren10.jpg",
-                            "pracren19.jpg",
-                            "pracren6.jpg",
-                            "praflak7.jpg",
-                            "pralle4.jpg",
-                            "praneg11.jpg",
-                            "praneg15.jpg",
-                            "praneg16.jpg",
-                            "praneg2.jpg",
-                            "praneg4.jpg",
-                            "pranegwa6.jpg",
-                            "prapen7.jpg",
-                            "prapenho4.jpg",
-                            "prapenho7.jpg",
-                            "prasc10.jpg",
-                            "prasc4.jpg",
-                            "prascrib16.jpg",
-                            "pratex2.jpg",
-                            "prathm1.jpg",
-                            "prathm2.jpg",
-                            "prathom4.jpg",
-                            "prats11.jpg",
-                            "prats4.jpg",
-                            "pratypen21.jpg",
-                            "pratypen27.jpg",
-                            "pratypen44.jpg",
-                            "pratypen45.jpg",
-                            "pratypen46.jpg",
-                            "pratypen55.jpg",
-                            "pratypen69.jpg",
-                            "pratypen73.jpg",
-                            "pratypen83.jpg",
-                            "pratys10.jpg",
-                            "pratywis10.jpg",
-                            "pratywis27.jpg",
-                            "pratywis4.jpg",
-                            "pscri21.jpg"
-                        ],
-                        "lateral field": [
-                            "pallen11.jpg",
-                            "paraqua4.jpg",
-                            "pflak24.jpg",
-                            "phex1.jpg",
-                            "phex10.jpg",
-                            "phexho5.jpg",
-                            "phexi12.jpg",
-                            "phexi7.jpg",
-                            "phexin8.jpg",
-                            "phexinc10.jpg",
-                            "phexinc13.jpg",
-                            "phexinc6.jpg",
-                            "ploos10.jpg",
-                            "ploos15.jpg",
-                            "ploos3.jpg",
-                            "pnegwis4.jpg",
-                            "pracoff2.jpg",
-                            "pracoff8.jpg",
-                            "pracren21.jpg",
-                            "praneg6.jpg",
-                            "pranegwa5.jpg",
-                            "prasc11.jpg",
-                            "prasc13.jpg",
-                            "prasc6.jpg",
-                            "prathom5.jpg",
-                            "prathy6.jpg",
-                            "prats20.jpg",
-                            "prats6.jpg",
-                            "prats8.jpg",
-                            "pratser5.jpg",
-                            "pratser6.jpg",
-                            "pratypen7.jpg",
-                            "pscri14.jpg",
-                            "pscri4.jpg"
-                        ],
-                        "lips": [
-                            "pranegwa8.jpg",
-                            "prascrib15.jpg"
-                        ],
-                        "median bulb": [
-                            "prascrib13.jpg",
-                            "prascrib22.jpg",
-                            "prats5.jpg"
-                        ],
-                        "posterior": [
-                            "ppenet3.jpg",
-                            "ppenet7.jpg",
-                            "prathy4.jpg"
-                        ],
-                        "spermatheca": [
-                            "pflak11.jpg",
-                            "pflak36.jpg"
-                        ],
-                        "stylet": [
-                            "pscri13.jpg",
-                            "pscri6.jpg"
-                        ],
-                        "tail": [
-                            "pagil6.jpg",
-                            "pallen10.jpg",
-                            "pallen17.jpg",
-                            "paraqua5.jpg",
-                            "pflak50.jpg",
-                            "phex11.jpg",
-                            "phexho12.jpg",
-                            "phexho6.jpg",
-                            "phexi15.jpg",
-                            "ploos4.jpg",
-                            "pnegwis6.jpg",
-                            "ppenet5.jpg",
-                            "pracoff6.jpg",
-                            "praconva7.jpg",
-                            "pracren11.jpg",
-                            "pracren18.jpg",
-                            "pracren20.jpg",
-                            "pracren7.jpg",
-                            "praflak8.jpg",
-                            "prasc14.jpg",
-                            "prasc5.jpg",
-                            "pratex4.jpg",
-                            "prathy2.jpg",
-                            "prats13.jpg",
-                            "prats15.jpg",
-                            "prats9.jpg",
-                            "pratser8.jpg",
-                            "pratypen18.jpg",
-                            "pratypen23.jpg",
-                            "pratypen29.jpg",
-                            "pratypen34.jpg",
-                            "pratypen35.jpg",
-                            "pratypen48.jpg",
-                            "pratypen57.jpg",
-                            "pratypen62.jpg",
-                            "pratypen80.jpg",
-                            "pratypen85.jpg",
-                            "pratywis13.jpg",
-                            "pratywis30.jpg",
-                            "pratywis6.jpg"
-                        ],
-                        "vulva": [
-                            "pagil5.jpg",
-                            "paraq4.jpg",
-                            "pracoff10.jpg",
-                            "praconva5.jpg",
-                            "prascrib10.jpg",
-                            "prascrib8.jpg",
-                            "prats12.jpg"
-                        ]
-                    },
-                    "400X": {
-                        "anterior": [
-                            "phexinc5.jpg",
-                            "pnegwis1.jpg",
-                            "pratypen14.jpg",
-                            "pratypen2.jpg",
-                            "pratypen25.jpg",
-                            "pratypen53.jpg",
-                            "pratypen58.jpg"
-                        ],
-                        "head": [
-                            "pflak23.jpg",
-                            "pflak40.jpg",
-                            "pflak46.jpg",
-                            "phexho13.jpg",
-                            "phexho8.jpg",
-                            "phexin6.jpg",
-                            "praflak2.jpg",
-                            "praflak5.jpg",
-                            "praflak9.jpg",
-                            "pralle2.jpg",
-                            "prapenho2.jpg",
-                            "prasc8.jpg",
-                            "prats2.jpg",
-                            "pratycan3.jpg",
-                            "pratypen71.jpg",
-                            "pratys7.jpg",
-                            "pratywis2.jpg"
-                        ],
-                        "posterior": [
-                            "prasc3.jpg",
-                            "pratypen26.jpg",
-                            "pratypen3.jpg",
-                            "pratypen54.jpg",
-                            "pratypen59.jpg"
-                        ],
-                        "tail": [
-                            "pallen15.jpg",
-                            "phexho14.jpg",
-                            "phexinc11.jpg",
-                            "praconva3.jpg",
-                            "praflak3.jpg",
-                            "prasc9.jpg",
-                            "prascrib2.jpg",
-                            "pratser3.jpg",
-                            "pratypen43.jpg",
-                            "pratypen72.jpg",
-                            "pratywis3.jpg"
-                        ],
-                        "vulva": [
-                            "pflak7.jpg",
-                            "ploos14.jpg",
-                            "praconva10.jpg",
-                            "prapenho6.jpg",
-                            "pscri2.jpg"
-                        ]
-                    }
-                },
-                "juvenile": {
-                    "000X": {
-                        "head": [
-                            "phexi24.jpg",
-                            "ploos17.jpg",
-                            "pracoff12.jpg",
-                            "prahex2.jpg",
-                            "pratycan2.jpg",
-                            "pscri16.jpg"
-                        ],
-                        "lateral field": [
-                            "phexi22.jpg"
-                        ]
-                    },
-                    "1000X": {
-                        "head": [
-                            "pracren8.jpg",
-                            "prahex4.jpg",
-                            "pratywis20.jpg"
-                        ],
-                        "tail": [
-                            "phexi23.jpg",
-                            "pracren9.jpg",
-                            "pratywis21.jpg"
-                        ]
-                    },
-                    "400X": {
-                        "head": [
-                            "phexi17.jpg",
-                            "phexi19.jpg",
-                            "pratywis18.jpg"
-                        ],
-                        "tail": [
-                            "phexi25.jpg",
-                            "ploos18.jpg",
-                            "pratywis19.jpg"
-                        ]
-                    }
-                },
-                "male": {
-                    "000X": {
-                        "anterior": [
-                            "pratypen9.jpg"
-                        ],
-                        "head": [
-                            "paraq1.jpg",
-                            "pflak14.jpg",
-                            "pflak15.jpg",
-                            "phex4.jpg",
-                            "phexinc12.jpg",
-                            "praconva11.jpg",
-                            "praconva2.jpg",
-                            "praneg7.jpg",
-                            "prapen2.jpg",
-                            "pratypen87.jpg"
-                        ],
-                        "spicules": [
-                            "pflak13.jpg",
-                            "phex12.jpg",
-                            "prapen3.jpg"
-                        ],
-                        "tail": [
-                            "pflak33.jpg",
-                            "pflak41.jpg",
-                            "phexho9.jpg",
-                            "phexin11.jpg",
-                            "praflak6.jpg",
-                            "praneg8.jpg",
-                            "pranegwa7.jpg",
-                            "pratycan4.jpg",
-                            "pratypen12.jpg",
-                            "pratypen36.jpg",
-                            "pratypen88.jpg"
-                        ]
-                    },
-                    "1000X": {
-                        "anterior": [
-                            "pratser4.jpg"
-                        ],
-                        "head": [
-                            "pallen8.jpg",
-                            "phex13.jpg",
-                            "phexho4.jpg",
-                            "praconva12.jpg",
-                            "praconva6.jpg",
-                            "prapen13.jpg",
-                            "pratypen11.jpg",
-                            "pratypen31.jpg",
-                            "pratypen38.jpg",
-                            "pratypen51.jpg",
-                            "pratypen65.jpg",
-                            "pratywis16.jpg",
-                            "pratywis23.jpg"
-                        ],
-                        "lateral field": [
-                            "pflak19.jpg",
-                            "pflak3.jpg",
-                            "phex9.jpg",
-                            "prapen16.jpg",
-                            "pratywis24.jpg"
-                        ],
-                        "lips": [
-                            "pflak18.jpg"
-                        ],
-                        "spicules": [
-                            "pallen9.jpg",
-                            "pflak16.jpg",
-                            "prapen15.jpg"
-                        ],
-                        "tail": [
-                            "pflak10.jpg",
-                            "pflak38.jpg",
-                            "pflak4.jpg",
-                            "pflak44.jpg",
-                            "phexho17.jpg",
-                            "phexin3.jpg",
-                            "praconva13.jpg",
-                            "praneg10.jpg",
-                            "praneg14.jpg",
-                            "praneg17.jpg",
-                            "prascrib7.jpg",
-                            "pratypen39.jpg",
-                            "pratypen52.jpg",
-                            "pratypen6.jpg",
-                            "pratypen66.jpg",
-                            "pratypen67.jpg",
-                            "pratypen90.jpg",
-                            "pratywis17.jpg",
-                            "pratywis25.jpg"
-                        ]
-                    },
-                    "400X": {
-                        "head": [
-                            "pflak8.jpg",
-                            "phexho2.jpg",
-                            "prapenho1.jpg",
-                            "pratypen41.jpg",
-                            "pratypen49.jpg",
-                            "pratypen63.jpg",
-                            "pratywis14.jpg"
-                        ],
-                        "posterior": [
-                            "pratypen10.jpg"
-                        ],
-                        "tail": [
-                            "pallen7.jpg",
-                            "paraq3.jpg",
-                            "pflak2.jpg",
-                            "pflak22.jpg",
-                            "pflak47.jpg",
-                            "phexho3.jpg",
-                            "phexin7.jpg",
-                            "pratypen37.jpg",
-                            "pratypen50.jpg",
-                            "pratypen64.jpg",
-                            "pratywis15.jpg"
-                        ]
-                    }
-                }
-            },
-            "Tylenchocrionema": {
-                "female": {
-                    "020X": {
-                        "body": [
-                            "crtylecric1.jpg"
-                        ]
-                    },
-                    "040X": {
-                        "anterior": [
-                            "crtylecric3.jpg"
-                        ],
-                        "body": [
-                            "crtylecric2.jpg",
-                            "crtylecric6.jpg"
-                        ],
-                        "midbody": [
-                            "crtylecric4.jpg"
-                        ],
-                        "posterior": [
-                            "crtylecric5.jpg"
-                        ]
-                    }
-                }
-            },
-            "Willinema": {
-                "juvenile": {
-                    "400X": {
-                        "head": [
-                            "willin1.jpg"
-                        ],
-                        "tail": [
-                            "willin2.jpg"
-                        ]
-                    }
-                }
-            },
-            "ceflapd.jpg": {
-                "female": {
-                    "004X": {
-                        "body": [
-                            "ceflapd.jpg"
-                        ]
-                    }
-                }
-            },
-            "nemahead.jpg": {
-                "0": {
-                    "000X": {
-                        "head": [
-                            "nemahead.jpg"
-                        ]
-                    }
-                }
-            },
-            "nemaheadmo.jpg": {
-                "0": {
-                    "000X": {
-                        "head": [
-                            "nemaheadmo.jpg"
-                        ]
-                    }
-                }
-            },
-            "sharkmo.jpg": {
-                "0": {
-                    "000X": {
-                        "tail": [
-                            "sharkmo.jpg"
-                        ]
-                    }
-                }
-            }
-        }
-    },
     "Araeolaimida": {
         "Diplopeltidae": {
             "Cylindrolaimus": {
@@ -1254,6 +394,7 @@
                 "0": {
                     "000X": {
                         "head": [
+                            "neoactinolaimus_head.jpg",
                             "neoasp1.jpg"
                         ]
                     }
@@ -2327,11 +1468,11 @@
                             "axmica25.jpg",
                             "axogi8.jpg"
                         ],
+                        "esophageal bulb": [
+                            "axmica24.jpg"
+                        ],
                         "esophagus": [
                             "agiga7.jpg"
-                        ],
-                        "esophaheal bulb": [
-                            "axmica24.jpg"
                         ],
                         "head": [
                             "axsoli6.jpg"
@@ -3673,6 +2814,18 @@
                         ]
                     }
                 }
+            },
+            "Willinema": {
+                "juvenile": {
+                    "400X": {
+                        "head": [
+                            "willin1.jpg"
+                        ],
+                        "tail": [
+                            "willin2.jpg"
+                        ]
+                    }
+                }
             }
         },
         "Encholaimidae": {
@@ -3965,6 +3118,15 @@
                     }
                 }
             },
+            "Loncharionema": {
+                "female": {
+                    "000X": {
+                        "anterior": [
+                            "lonchar1.jpg"
+                        ]
+                    }
+                }
+            },
             "Tyleptus": {
                 "0": {
                     "000X": {
@@ -4131,11 +3293,9 @@
             "Xiphinema": {
                 "0": {
                     "000X": {
-                        "compar": [
-                            "xiphivcmp.jpg"
-                        ],
                         "compare": [
-                            "xiamcmp.jpg"
+                            "xiamcmp.jpg",
+                            "xiphivcmp.jpg"
                         ]
                     },
                     "400X": {
@@ -4196,7 +3356,7 @@
                         "pharyngeal bulb": [
                             "xibrasil4.jpg"
                         ],
-                        "pharyrgeal bulb/DN": [
+                        "pharyngeal bulb/DN": [
                             "xibrasil10.jpg"
                         ],
                         "tail": [
@@ -4258,10 +3418,6 @@
                         ]
                     },
                     "400X": {
-                        "\"Z\" organ": [
-                            "xiphiv28.jpg",
-                            "xiphiv30.jpg"
-                        ],
                         "amphid": [
                             "xiphiv8.jpg"
                         ],
@@ -4302,6 +3458,10 @@
                             "xiphiv20.jpg",
                             "xiphiv23.jpg",
                             "xiphiv27.jpg"
+                        ],
+                        "z-organ": [
+                            "xiphiv28.jpg",
+                            "xiphiv30.jpg"
                         ]
                     },
                     "400x": {
@@ -4392,9 +3552,6 @@
                         ]
                     },
                     "400X": {
-                        "\"Z\" organ": [
-                            "xiphiv24.jpg"
-                        ],
                         "anterior": [
                             "xiphiv22.jpg",
                             "xiphiv25.jpg"
@@ -4414,7 +3571,7 @@
                         "spicules": [
                             "xiam16.jpg"
                         ],
-                        "spicules /supplements": [
+                        "spicules/supplements": [
                             "xiphiv42.jpg"
                         ],
                         "tail": [
@@ -4425,6 +3582,9 @@
                         ],
                         "tail tip, spicules": [
                             "xiphiv48.jpg"
+                        ],
+                        "z-organ": [
+                            "xiphiv24.jpg"
                         ]
                     },
                     "40X": {
@@ -5208,12 +4368,22 @@
                     }
                 },
                 "female": {
+                    "1000x": {
+                        "vulva": [
+                            "nygomel6.jpg"
+                        ]
+                    },
                     "400X": {
                         "anterior": [
                             "nygomel2.jpg"
                         ],
                         "vulva": [
                             "nygomel3.jpg"
+                        ]
+                    },
+                    "400x": {
+                        "body": [
+                            "nygomel1.jpg"
                         ]
                     }
                 },
@@ -5229,11 +4399,29 @@
                         ],
                         "head": [
                             "nymell1.jpg"
+                        ],
+                        "spare tooth": [
+                            "nymell2.jpg"
+                        ]
+                    },
+                    "1000x": {
+                        "cardia": [
+                            "nymell3.jpg"
+                        ]
+                    },
+                    "100X": {
+                        "body": [
+                            "nygomel10.jpg"
                         ]
                     },
                     "400X": {
                         "tail": [
                             "nygomel12.jpg"
+                        ]
+                    },
+                    "400x": {
+                        "anterior": [
+                            "nygomel11.jpg"
                         ]
                     }
                 },
@@ -5434,16 +4622,15 @@
             "Nygolaimus": {
                 "0": {
                     "000X": {
-                        "basal esophagus": [
-                            "nyten10.jpg"
+                        "compare": [
+                            "nygobcmp.jpg",
+                            "nyparcmp.jpg"
                         ],
                         "head": [
                             "nygob1.jpg",
                             "nygop12.jpg",
                             "nypar1.jpg",
-                            "nyparv6.jpg",
                             "nypus6.jpg",
-                            "nyten11.jpg",
                             "nyten2.jpg"
                         ],
                         "ovary": [
@@ -5455,28 +4642,16 @@
                     },
                     "1000X": {
                         "head": [
-                            "nygols1.jpg",
                             "nypten1.jpg",
-                            "nyten13.jpg",
                             "nyten6.jpg"
-                        ],
-                        "supplements": [
-                            "nypten3.jpg",
-                            "nypten4.jpg"
                         ],
                         "tail": [
                             "nyten14.jpg"
                         ]
                     },
-                    "200X": {
-                        "ovaries": [
-                            "nypa3.jpg"
-                        ]
-                    },
                     "400X": {
                         "anterior": [
-                            "nygop22.jpg",
-                            "nygop9.jpg"
+                            "nygop22.jpg"
                         ],
                         "basal esophagus": [
                             "nygob2.jpg",
@@ -5496,11 +4671,11 @@
                             "nygop21.jpg",
                             "nygop33.jpg"
                         ],
-                        "basal esophagus": [
-                            "nyparv10.jpg"
-                        ],
                         "esophagus": [
                             "nygop31.jpg"
+                        ],
+                        "head": [
+                            "nyparv6.jpg"
                         ],
                         "tail": [
                             "nygop18.jpg",
@@ -5531,10 +4706,31 @@
                             "nyten7.jpg"
                         ]
                     },
+                    "1000x": {
+                        "basal esophagus": [
+                            "nygop36.jpg",
+                            "nypa4.jpg"
+                        ]
+                    },
+                    "100X": {
+                        "body": [
+                            "nygop17.jpg",
+                            "nygop28.jpg",
+                            "nyparv7.jpg"
+                        ]
+                    },
+                    "200X": {
+                        "ovaries": [
+                            "nypa3.jpg"
+                        ]
+                    },
                     "400X": {
                         "anterior": [
                             "nygop27.jpg",
                             "nygop6.jpg"
+                        ],
+                        "anterior ovary": [
+                            "nygop9.jpg"
                         ],
                         "basal esophagus": [
                             "nygop23.jpg",
@@ -5544,6 +4740,11 @@
                             "nypus3.jpg"
                         ],
                         "head": [
+                            "nygop10.jpg",
+                            "nygop24.jpg",
+                            "nygop34.jpg",
+                            "nygop41.jpg",
+                            "nygop7.jpg",
                             "nypa1.jpg",
                             "nyparv2.jpg",
                             "nyparv8.jpg"
@@ -5563,6 +4764,23 @@
                             "nygop30.jpg",
                             "nyparv4.jpg"
                         ]
+                    },
+                    "400x": {
+                        "basal esophagus": [
+                            "nyparv10.jpg"
+                        ]
+                    },
+                    "40X": {
+                        "body": [
+                            "nypus1.jpg"
+                        ]
+                    },
+                    "40x": {
+                        "body": [
+                            "nygop1.jpg",
+                            "nyparv1.jpg",
+                            "nyten1.jpg"
+                        ]
                     }
                 },
                 "juvenile": {
@@ -5571,7 +4789,9 @@
                             "nyparv14.jpg"
                         ],
                         "head": [
-                            "nygop15.jpg"
+                            "nygols3.jpg",
+                            "nygop15.jpg",
+                            "nyten11.jpg"
                         ],
                         "tail": [
                             "nygop16.jpg",
@@ -5584,13 +4804,19 @@
                             "nyten12.jpg"
                         ],
                         "head": [
+                            "nygols1.jpg",
                             "nygop39.jpg",
-                            "nyparv17.jpg"
+                            "nypar7.jpg",
+                            "nyparv17.jpg",
+                            "nyten13.jpg"
                         ]
                     },
                     "100X": {
                         "anterior": [
                             "nypar4.jpg"
+                        ],
+                        "body": [
+                            "nyten8.jpg"
                         ],
                         "posterior": [
                             "nypar5.jpg"
@@ -5604,8 +4830,17 @@
                             "nyparv16.jpg"
                         ],
                         "tail": [
+                            "nygop14.jpg",
                             "nypar3.jpg",
                             "nyparv15.jpg"
+                        ]
+                    },
+                    "400x": {
+                        "basal esophagus": [
+                            "nyten10.jpg"
+                        ],
+                        "head": [
+                            "nypar6.jpg"
                         ]
                     }
                 },
@@ -5626,6 +4861,15 @@
                         ],
                         "spicules": [
                             "nypten5.jpg"
+                        ],
+                        "supplements": [
+                            "nypten3.jpg",
+                            "nypten4.jpg"
+                        ]
+                    },
+                    "1000x": {
+                        "head": [
+                            "nypten2.jpg"
                         ]
                     },
                     "100X": {
@@ -5803,6 +5047,60 @@
                     "1000X": {
                         "basal esophagus": [
                             "sovul5.jpg"
+                        ]
+                    }
+                }
+            }
+        },
+        "Paraxonchiidae": {
+            "Paraxonchium": {
+                "female": {
+                    "000X": {
+                        "anterior": [
+                            "paraxom2.jpg",
+                            "paraxom3.jpg"
+                        ],
+                        "compare": [
+                            "paxomadrw.jpg"
+                        ],
+                        "head": [
+                            "paxiden3.jpg"
+                        ],
+                        "tail": [
+                            "paraxom5.jpg"
+                        ],
+                        "vulva": [
+                            "paxiden5.jpg"
+                        ]
+                    },
+                    "1000X": {
+                        "amphid": [
+                            "paraxom7.jpg"
+                        ],
+                        "head": [
+                            "paraxom6.jpg"
+                        ],
+                        "tail": [
+                            "paraxom14.jpg"
+                        ],
+                        "vulva": [
+                            "paraxom12.jpg"
+                        ]
+                    },
+                    "200X": {
+                        "anterior": [
+                            "paxiden1.jpg"
+                        ],
+                        "tail": [
+                            "paxiden2.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "basal esophagus": [
+                            "paxiden4.jpg"
+                        ],
+                        "tail": [
+                            "paxiden6.jpg"
                         ]
                     }
                 }
@@ -6274,8 +5572,7 @@
                     },
                     "400x": {
                         "basal esophagus": [
-                            "ehope2.jpg",
-                            "elong2.jpg"
+                            "ehope2.jpg"
                         ],
                         "ovary": [
                             "ecumo4.jpg",
@@ -6812,6 +6109,7 @@
                     },
                     "400x": {
                         "basal esophagus": [
+                            "elong2.jpg",
                             "euconf3.jpg",
                             "eudaq3.jpg"
                         ],
@@ -7617,6 +6915,32 @@
                             "micrap8.jpg"
                         ]
                     },
+                    "1000x": {
+                        "basal esophagus": [
+                            "micrap7.jpg"
+                        ]
+                    },
+                    "100X": {
+                        "body": [
+                            "micang1.jpg",
+                            "micang14.jpg",
+                            "miclo7.jpg",
+                            "micrap1.jpg",
+                            "microm1.jpg",
+                            "microm6.jpg",
+                            "mimis1.jpg",
+                            "mimiser1.jpg",
+                            "mimiser8.jpg",
+                            "miparv1.jpg",
+                            "miparv6.jpg"
+                        ]
+                    },
+                    "100x": {
+                        "body": [
+                            "miclo1.jpg",
+                            "microm10.jpg"
+                        ]
+                    },
                     "400X": {
                         "anterior": [
                             "micang15.jpg",
@@ -7631,6 +6955,7 @@
                             "miclo4.jpg",
                             "microm2.jpg",
                             "microth1.jpg",
+                            "mimiser13.jpg",
                             "mimod7.jpg"
                         ],
                         "tail": [
@@ -7655,6 +6980,25 @@
                             "mimod9.jpg",
                             "miparv3.jpg"
                         ]
+                    },
+                    "400x": {
+                        "tail": [
+                            "microth4.jpg"
+                        ],
+                        "vulva": [
+                            "mimod3.jpg"
+                        ]
+                    },
+                    "40X": {
+                        "body": [
+                            "mimiser5.jpg",
+                            "mimod6.jpg"
+                        ]
+                    },
+                    "40x": {
+                        "body": [
+                            "mimod1.jpg"
+                        ]
                     }
                 },
                 "juvenile": {
@@ -7676,7 +7020,8 @@
                             "micang11.jpg"
                         ],
                         "head": [
-                            "mimiser16.jpg"
+                            "mimiser16.jpg",
+                            "mimiser18.jpg"
                         ],
                         "tail": [
                             "micang12.jpg",
@@ -7685,6 +7030,11 @@
                     }
                 },
                 "male": {
+                    "100X": {
+                        "body": [
+                            "microp1.jpg"
+                        ]
+                    },
                     "400X": {
                         "head": [
                             "miparv2.jpg"
@@ -8343,7 +7693,7 @@
                         ]
                     },
                     "1000x": {
-                        "AUB": [
+                        "AUB (Anterior Uterine Branch)": [
                             "tylenaf7.jpg"
                         ]
                     },
@@ -9226,6 +8576,14 @@
                 }
             },
             "Monhystera": {
+                "0": {
+                    "000X": {
+                        "compare": [
+                            "monfili.jpg",
+                            "monvillo.jpg"
+                        ]
+                    }
+                },
                 "female": {
                     "000X": {
                         "basal esophagus": [
@@ -9252,7 +8610,15 @@
                             "monhys11.jpg"
                         ]
                     },
+                    "1000x": {
+                        "basal esophagus": [
+                            "monhys2.jpg"
+                        ]
+                    },
                     "400X": {
+                        "head": [
+                            "monhys8.jpg"
+                        ],
                         "tail": [
                             "monhys9.jpg"
                         ]
@@ -9270,6 +8636,11 @@
                         ],
                         "head": [
                             "monhys14.jpg"
+                        ]
+                    },
+                    "1000x": {
+                        "amphid": [
+                            "monhys15.jpg"
                         ]
                     }
                 }
@@ -9501,9 +8872,34 @@
                             "micof3.jpg",
                             "micof6.jpg"
                         ],
+                        "teeth": [
+                            "micof22.jpg"
+                        ],
                         "vulva": [
                             "micof5.jpg",
                             "micof8.jpg"
+                        ],
+                        "z-organ": [
+                            "micof9.jpg"
+                        ]
+                    },
+                    "400x": {
+                        "ovary": [
+                            "micof10.jpg"
+                        ],
+                        "posterior z-organ": [
+                            "micof14.jpg"
+                        ],
+                        "vulva": [
+                            "micof12.jpg"
+                        ],
+                        "z-organ": [
+                            "micof13.jpg"
+                        ]
+                    },
+                    "40x": {
+                        "body": [
+                            "mica1.jpg"
                         ]
                     }
                 },
@@ -9529,6 +8925,11 @@
                             "micali3.jpg",
                             "micof36.jpg",
                             "micof39.jpg"
+                        ]
+                    },
+                    "40X": {
+                        "body": [
+                            "micali1.jpg"
                         ]
                     }
                 },
@@ -9576,6 +8977,12 @@
                         "head": [
                             "micof46.jpg"
                         ]
+                    },
+                    "40X": {
+                        "body": [
+                            "mica5.jpg",
+                            "micof43.jpg"
+                        ]
                     }
                 }
             },
@@ -9596,6 +9003,9 @@
                         ]
                     },
                     "1000X": {
+                        "esophageal junction": [
+                            "monogs3.jpg"
+                        ],
                         "head": [
                             "monogs2.jpg"
                         ],
@@ -9606,6 +9016,12 @@
                     "400X": {
                         "basal esophagus": [
                             "mono19.jpg"
+                        ],
+                        "body": [
+                            "monogs1.jpg"
+                        ],
+                        "head": [
+                            "mono18.jpg"
                         ]
                     }
                 },
@@ -9630,6 +9046,9 @@
                         ]
                     },
                     "400X": {
+                        "esophageal junction": [
+                            "mono14.jpg"
+                        ],
                         "head": [
                             "mono11.jpg"
                         ]
@@ -9753,13 +9172,11 @@
                             "mymontus9.jpg"
                         ],
                         "head": [
-                            "myparab19.jpg",
                             "myparab31.jpg",
                             "myparab32.jpg"
                         ],
                         "tail": [
-                            "myind15.jpg",
-                            "myparab13.jpg"
+                            "myind15.jpg"
                         ]
                     },
                     "1000X": {
@@ -9783,8 +9200,7 @@
                     "200X": {
                         "ovaries": [
                             "mybra12.jpg",
-                            "mycurv14.jpg",
-                            "myparab12.jpg"
+                            "mycurv14.jpg"
                         ]
                     },
                     "400X": {
@@ -9814,9 +9230,7 @@
                             "mycurv3.jpg",
                             "myind2.jpg",
                             "mylust2.jpg",
-                            "mymont2.jpg",
-                            "myparab22.jpg",
-                            "myparyurus1.jpg"
+                            "mymont2.jpg"
                         ],
                         "tail": [
                             "mybra6.jpg",
@@ -9827,12 +9241,9 @@
                             "mymont4.jpg",
                             "mymonta10.jpg",
                             "mymonta5.jpg",
-                            "myparab21.jpg",
                             "myparab23.jpg",
                             "myparab28.jpg",
-                            "myparab5.jpg",
                             "myparab7.jpg",
-                            "myparyurus2.jpg",
                             "mysig5.jpg"
                         ],
                         "vulva": [
@@ -9840,13 +9251,19 @@
                             "mycurv19.jpg",
                             "mymont3.jpg",
                             "myparab27.jpg",
-                            "myparab4.jpg",
-                            "mysig4.jpg"
+                            "myparab4.jpg"
                         ]
                     },
                     "1000X": {
                         "anus": [
                             "mymont5.jpg"
+                        ],
+                        "denticles": [
+                            "mycurv11.jpg",
+                            "myind13.jpg",
+                            "mylac6.jpg",
+                            "mylac7.jpg",
+                            "myparab16.jpg"
                         ],
                         "head": [
                             "mylonmo11.jpg",
@@ -9858,6 +9275,9 @@
                         "intestinal junction": [
                             "mylongs6.jpg"
                         ],
+                        "spinneret": [
+                            "mylac8.jpg"
+                        ],
                         "tail": [
                             "mycurv12.jpg",
                             "mylacus1.jpg",
@@ -9866,13 +9286,51 @@
                             "mymont7.jpg",
                             "mymonta14.jpg"
                         ],
+                        "teeth": [
+                            "myind12.jpg"
+                        ],
+                        "tooth": [
+                            "mycurv10.jpg"
+                        ],
                         "vulva": [
                             "mymonta7.jpg"
+                        ]
+                    },
+                    "1000x": {
+                        "anus": [
+                            "mymonta15.jpg"
+                        ],
+                        "denticles": [
+                            "mymonta13.jpg"
+                        ],
+                        "head": [
+                            "mymonta6.jpg"
+                        ],
+                        "reproductive tract": [
+                            "mylongs4.jpg"
+                        ],
+                        "tooth": [
+                            "mylongs3.jpg"
                         ]
                     },
                     "100X": {
                         "anus": [
                             "mymonta1.jpg"
+                        ],
+                        "body": [
+                            "myind1.jpg",
+                            "mylopar5.jpg",
+                            "mysig1.jpg"
+                        ]
+                    },
+                    "100x": {
+                        "body": [
+                            "myparab29.jpg"
+                        ]
+                    },
+                    "200X": {
+                        "ovaries": [
+                            "myparab12.jpg"
                         ]
                     },
                     "400X": {
@@ -9895,7 +9353,8 @@
                             "mymonta9.jpg",
                             "myparab15.jpg",
                             "myparab2.jpg",
-                            "myparab25.jpg"
+                            "myparab25.jpg",
+                            "myparab9.jpg"
                         ],
                         "tail": [
                             "mybra4.jpg",
@@ -9915,9 +9374,43 @@
                             "myparab8.jpg"
                         ]
                     },
+                    "400x": {
+                        "head": [
+                            "myparab19.jpg",
+                            "myparab22.jpg",
+                            "myparyurus1.jpg",
+                            "mysig2.jpg"
+                        ],
+                        "tail": [
+                            "myparab13.jpg",
+                            "myparab21.jpg",
+                            "myparab5.jpg",
+                            "myparyurus2.jpg"
+                        ],
+                        "vulva": [
+                            "mysig4.jpg"
+                        ]
+                    },
                     "40X": {
                         "anus": [
                             "mylonmo5.jpg"
+                        ],
+                        "body": [
+                            "mybra1.jpg",
+                            "mybra10.jpg",
+                            "mybra5.jpg",
+                            "mycurv17.jpg",
+                            "mylac1.jpg",
+                            "mylust1.jpg",
+                            "mymont1.jpg",
+                            "myparab11.jpg"
+                        ]
+                    },
+                    "40x": {
+                        "body": [
+                            "mycurv13.jpg",
+                            "myparab1.jpg",
+                            "myparab6.jpg"
                         ]
                     }
                 },
@@ -9934,6 +9427,11 @@
                     "1000X": {
                         "head": [
                             "myind5.jpg"
+                        ]
+                    },
+                    "100X": {
+                        "tail": [
+                            "myind6.jpg"
                         ]
                     },
                     "400X": {
@@ -9958,22 +9456,21 @@
                     "40X": {
                         "anus": [
                             "mylonmo1.jpg"
+                        ],
+                        "body": [
+                            "mylopar1.jpg"
                         ]
                     }
                 },
                 "male": {
                     "000X": {
-                        "basal esophagus": [
-                            "myparab14.jpg"
-                        ],
                         "head": [
                             "mycurv7.jpg"
                         ],
                         "tail": [
                             "myind3.jpg",
                             "mylonmo12.jpg",
-                            "mylust4.jpg",
-                            "myparab18.jpg"
+                            "mylust4.jpg"
                         ]
                     },
                     "1000X": {
@@ -9984,12 +9481,27 @@
                             "mymonta12.jpg"
                         ]
                     },
+                    "1000x": {
+                        "tail": [
+                            "myparab18.jpg"
+                        ]
+                    },
+                    "200X": {
+                        "body": [
+                            "mylongs1.jpg"
+                        ]
+                    },
                     "400X": {
                         "basal esophagus": [
                             "myparab3.jpg"
                         ],
                         "tail": [
                             "myparab33.jpg"
+                        ]
+                    },
+                    "400x": {
+                        "basal esophagus": [
+                            "myparab14.jpg"
                         ]
                     }
                 }
@@ -10038,6 +9550,50 @@
                     "400X": {
                         "head": [
                             "leptols1.jpg"
+                        ]
+                    }
+                }
+            },
+            "Paraplectonema": {
+                "0": {
+                    "400X": {
+                        "head": [
+                            "parapl1.jpg"
+                        ]
+                    }
+                },
+                "juvenile": {
+                    "000X": {
+                        "basal esophagus": [
+                            "parpl2.jpg"
+                        ]
+                    },
+                    "1000X": {
+                        "head": [
+                            "parpl1.jpg"
+                        ],
+                        "lateral field": [
+                            "parpl3.jpg"
+                        ],
+                        "tail": [
+                            "parpl4.jpg"
+                        ]
+                    }
+                }
+            }
+        },
+        "Metateratocephalidae": {
+            "Metateratocephalus": {
+                "juvenile": {
+                    "400x": {
+                        "anterior": [
+                            "metatera1.jpg"
+                        ],
+                        "head": [
+                            "metatera3.jpg"
+                        ],
+                        "tail": [
+                            "metatera2.jpg"
                         ]
                     }
                 }
@@ -10803,9 +10359,6 @@
                         "anterior": [
                             "aagro5.jpg"
                         ],
-                        "basal esophagus": [
-                            "aagro8.jpg"
-                        ],
                         "tail": [
                             "aagro9.jpg"
                         ]
@@ -10820,10 +10373,8 @@
                         ]
                     },
                     "010X": {
-                        "boby": [
-                            "anguipa2.jpg"
-                        ],
                         "body": [
+                            "anguipa2.jpg",
                             "anguipa3.jpg",
                             "antriti5.jpg",
                             "antriti6.jpg",
@@ -10895,6 +10446,11 @@
                     "400X": {
                         "tail": [
                             "aagro6.jpg"
+                        ]
+                    },
+                    "400x": {
+                        "basal esophagus": [
+                            "aagro8.jpg"
                         ]
                     },
                     "40X": {
@@ -11006,10 +10562,10 @@
                         ]
                     },
                     "100X": {
-                        "PUS": [
+                        "Post-Uterine Sac": [
                             "dicaud7.jpg"
                         ],
-                        "PUS, tail": [
+                        "Post-Uterine Sac, tail": [
                             "didest17.jpg"
                         ],
                         "anterior": [
@@ -11214,12 +10770,22 @@
                         "anterior": [
                             "nothenac8.jpg"
                         ],
+                        "lateral field": [
+                            "nothenac6.jpg"
+                        ],
                         "tail": [
                             "nothenac10.jpg",
                             "nothenac11.jpg"
                         ],
                         "vulva": [
                             "nothenac9.jpg"
+                        ]
+                    },
+                    "200X": {
+                        "body": [
+                            "nothenac1.jpg",
+                            "nothenac2.jpg",
+                            "nothenac3.jpg"
                         ]
                     },
                     "400X": {
@@ -11753,7 +11319,7 @@
                         ]
                     },
                     "100X": {
-                        "dorsal gland orafice": [
+                        "dorsal gland orifice": [
                             "buxy22.jpg"
                         ],
                         "head": [
@@ -13289,10 +12855,8 @@
                             "croidan11.jpg"
                         ],
                         "submedian lobes": [
+                            "crinfo4.jpg",
                             "croidinfo5.jpg"
-                        ],
-                        "submedianlobes": [
-                            "crinfo4.jpg"
                         ],
                         "tail": [
                             "cricoide13.jpg",
@@ -13319,12 +12883,18 @@
                             "croidan6.jpg"
                         ]
                     },
+                    "200x": {
+                        "body": [
+                            "nothocrif1.jpg"
+                        ]
+                    },
                     "400X": {
                         "anterior": [
                             "nothocrif3.jpg"
                         ],
                         "body": [
-                            "croidan8.jpg"
+                            "croidan8.jpg",
+                            "nothocrif2.jpg"
                         ],
                         "tail": [
                             "nothocrif4.jpg"
@@ -13364,6 +12934,16 @@
                         "tail": [
                             "cricodel3.jpg",
                             "cricomt7.jpg"
+                        ]
+                    },
+                    "200X": {
+                        "body": [
+                            "nothocrif5.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "body": [
+                            "nothocrif6.jpg"
                         ]
                     }
                 }
@@ -13445,6 +13025,9 @@
                             "ogmaf12.jpg",
                             "omenze6.jpg"
                         ],
+                        "cephalic annules": [
+                            "ogmaf10.jpg"
+                        ],
                         "head": [
                             "ogmaf9.jpg",
                             "ogmenze4.jpg",
@@ -13479,6 +13062,18 @@
                         "head": [
                             "crosson6.jpg"
                         ]
+                    },
+                    "200X": {
+                        "body": [
+                            "ogmenze1.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "body": [
+                            "ogmaf7.jpg",
+                            "ogmenze2.jpg",
+                            "ogmenze3.jpg"
+                        ]
                     }
                 },
                 "juvenile": {
@@ -13501,6 +13096,11 @@
                         "tail": [
                             "ogmaf4.jpg",
                             "omenze26.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "body": [
+                            "ogmaf1.jpg"
                         ]
                     }
                 },
@@ -13611,11 +13211,9 @@
                 },
                 "juvenile": {
                     "040X": {
-                        "bodt": [
-                            "crcricroc31.jpg"
-                        ],
                         "body": [
-                            "crcricroc28.jpg"
+                            "crcricroc28.jpg",
+                            "crcricroc31.jpg"
                         ]
                     },
                     "100X": {
@@ -13687,7 +13285,8 @@
                     },
                     "400X": {
                         "body": [
-                            "hemicriche4.jpg"
+                            "hemicriche4.jpg",
+                            "ogbold1.jpg"
                         ],
                         "cuticle": [
                             "hemicriche5.jpg"
@@ -13703,9 +13302,6 @@
                         ]
                     },
                     "1000X": {
-                        "cuticle": [
-                            "neolob5.jpg"
-                        ],
                         "head": [
                             "neolob3.jpg"
                         ]
@@ -13845,7 +13441,8 @@
                     "400x": {
                         "body": [
                             "lobocriche1.jpg",
-                            "mesinc1.jpg"
+                            "mesinc1.jpg",
+                            "mesxen1.jpg"
                         ]
                     }
                 },
@@ -13856,13 +13453,20 @@
                         ]
                     },
                     "1000X": {
+                        "body": [
+                            "neolob6.jpg"
+                        ],
+                        "scales on cuticle": [
+                            "neolob5.jpg"
+                        ],
                         "tail": [
                             "neolob4.jpg"
                         ]
                     },
                     "400X": {
                         "body": [
-                            "lobocrip6.jpg"
+                            "lobocrip6.jpg",
+                            "neolob1.jpg"
                         ],
                         "cuticle": [
                             "neolob2.jpg"
@@ -14254,9 +13858,6 @@
                         "anterior": [
                             "crcricopex8.jpg"
                         ],
-                        "bocy": [
-                            "cricone10.jpg"
-                        ],
                         "body": [
                             "cdiscuspara1.jpg",
                             "cdiscuspara10.jpg",
@@ -14274,6 +13875,7 @@
                             "crickalsow6.jpg",
                             "cricome2.jpg",
                             "cricone1.jpg",
+                            "cricone10.jpg",
                             "cricone15.jpg",
                             "cricone18.jpg",
                             "cricone2.jpg",
@@ -14388,6 +13990,7 @@
                             "mesphaero12.jpg",
                             "mesphaero17.jpg",
                             "mesxens33.jpg",
+                            "mesxens54.jpg",
                             "mexegsm13.jpg",
                             "mxenmile11.jpg"
                         ],
@@ -14401,14 +14004,17 @@
                             "mexenova7.jpg"
                         ],
                         "excretory duct": [
-                            "macurv31.jpg"
+                            "macurv31.jpg",
+                            "mexenob2.jpg",
+                            "mexenob3.jpg"
                         ],
                         "excretory pore": [
                             "macurk12.jpg",
                             "mesodisc7.jpg"
                         ],
                         "excretory pore and duct": [
-                            "mesoxege11.jpg"
+                            "mesoxege11.jpg",
+                            "mexeplaxgw4.jpg"
                         ],
                         "face view (profile)": [
                             "macurk13.jpg"
@@ -14559,10 +14165,14 @@
                             "macwilliam4.jpg"
                         ],
                         "lip region": [
-                            "mesoxege10.jpg"
+                            "mesoxege10.jpg",
+                            "mexeplaxgw7.jpg"
                         ],
                         "lips": [
                             "mecki4.jpg"
+                        ],
+                        "midbody Cuticle": [
+                            "mesphaero14.jpg"
                         ],
                         "posterior": [
                             "macurv94.jpg",
@@ -14583,7 +14193,14 @@
                             "mecreek67.jpg"
                         ],
                         "submedian lobes": [
-                            "macroplax16.jpg"
+                            "macroplax16.jpg",
+                            "mesxens1.jpg",
+                            "mesxens9.jpg",
+                            "mexega8.jpg",
+                            "mexegsm17.jpg"
+                        ],
+                        "submedian lobes / divided first annule": [
+                            "mexegsm24.jpg"
                         ],
                         "tail": [
                             "cricov3.jpg",
@@ -14795,9 +14412,16 @@
                         "body": [
                             "mesoboc6.jpg"
                         ],
+                        "cuticle": [
+                            "mexegsm5.jpg"
+                        ],
+                        "excretory duct": [
+                            "mexenob15.jpg"
+                        ],
                         "head": [
                             "macbeal15.jpg",
-                            "mesorpe8.jpg"
+                            "mesorpe8.jpg",
+                            "mesphaero2.jpg"
                         ],
                         "labial region- submedian lobes": [
                             "macroplax15.jpg"
@@ -14806,7 +14430,9 @@
                             "macurk3.jpg",
                             "mecroth10.jpg",
                             "mesogbend21.jpg",
-                            "mesoroth5.jpg"
+                            "mesoroth5.jpg",
+                            "mexegreen4.jpg",
+                            "mexegsm20.jpg"
                         ],
                         "vulva-anterior projection": [
                             "mesorna9.jpg"
@@ -14835,7 +14461,8 @@
                             "mesocur10.jpg",
                             "mesocur13.jpg",
                             "mesoxege16.jpg",
-                            "mesph1.jpg"
+                            "mesph1.jpg",
+                            "mesru4.jpg"
                         ],
                         "head": [
                             "cdisc4.jpg",
@@ -14909,6 +14536,11 @@
                             "cdiscuspara4.jpg"
                         ]
                     },
+                    "100x": {
+                        "body": [
+                            "mexen1.jpg"
+                        ]
+                    },
                     "200X": {
                         "body": [
                             "macbeal1.jpg",
@@ -14916,7 +14548,13 @@
                             "mackals1.jpg",
                             "macroplax2.jpg",
                             "macwil1.jpg",
-                            "macwilliam1.jpg"
+                            "macwilliam1.jpg",
+                            "mexegsm1.jpg"
+                        ]
+                    },
+                    "200x": {
+                        "body": [
+                            "mexegsm2.jpg"
                         ]
                     },
                     "400X": {
@@ -15049,8 +14687,32 @@
                             "mesoxege8.jpg",
                             "mesoxmon1.jpg",
                             "mesoxmon4.jpg",
+                            "mesphaero13.jpg",
+                            "mesphaero5.jpg",
+                            "mesphaero9.jpg",
+                            "mesruk1.jpg",
+                            "mesruk6.jpg",
+                            "mesxens15.jpg",
+                            "mesxens29.jpg",
+                            "mesxens3.jpg",
                             "mesxens32.jpg",
-                            "mxenmile12.jpg"
+                            "mexark15.jpg",
+                            "mexega1.jpg",
+                            "mexega15.jpg",
+                            "mexega24.jpg",
+                            "mexegreen1.jpg",
+                            "mexegsm15.jpg",
+                            "mexegsm21.jpg",
+                            "mexegsm26.jpg",
+                            "mexegsm9.jpg",
+                            "mexenob1.jpg",
+                            "mexenob5.jpg",
+                            "mexenov1.jpg",
+                            "mornams1.jpg",
+                            "mxenmile1.jpg",
+                            "mxenmile12.jpg",
+                            "mxenmile4.jpg",
+                            "mxenmile8.jpg"
                         ],
                         "cuticle": [
                             "macurk7.jpg",
@@ -15130,7 +14792,13 @@
                             "mesoroth1.jpg",
                             "mesoroth15.jpg",
                             "mesoroth6.jpg",
-                            "mesphaero1.jpg"
+                            "mesphaero1.jpg",
+                            "mesxens6.jpg",
+                            "mexark1.jpg",
+                            "mexenob12.jpg",
+                            "mexenova1.jpg",
+                            "mexenova4.jpg",
+                            "mexeplaxgw1.jpg"
                         ]
                     },
                     "40X": {
@@ -15258,6 +14926,9 @@
                             "mesxens14.jpg",
                             "mexega13.jpg",
                             "mxenmile15.jpg"
+                        ],
+                        "crenate annule margins": [
+                            "mesxens23.jpg"
                         ],
                         "cuticle": [
                             "meckroth23.jpg",
@@ -15431,12 +15102,16 @@
                         "anterior cuticle": [
                             "mesorna16.jpg"
                         ],
+                        "crenate annules": [
+                            "mexega23.jpg"
+                        ],
                         "head": [
                             "macurv53.jpg",
                             "mecreek73.jpg"
                         ],
                         "midbody Cuticle": [
-                            "mesohaig9.jpg"
+                            "mesohaig9.jpg",
+                            "mexark8.jpg"
                         ],
                         "posterior cuticle": [
                             "macurk18.jpg"
@@ -15526,7 +15201,18 @@
                             "mesornate3.jpg",
                             "mesornate7.jpg",
                             "mesorpe15.jpg",
-                            "mesoxege4.jpg"
+                            "mesoxege4.jpg",
+                            "mesxens19.jpg",
+                            "mesxens24.jpg",
+                            "mesxens47.jpg",
+                            "mexark18.jpg",
+                            "mexark4.jpg",
+                            "mexega10.jpg",
+                            "mexega21.jpg",
+                            "mexenhi1.jpg",
+                            "mexenob8.jpg",
+                            "mexenom1.jpg",
+                            "mornams8.jpg"
                         ],
                         "cuticle": [
                             "macurv44.jpg"
@@ -15556,7 +15242,9 @@
                             "mecreek58.jpg",
                             "mescu13.jpg",
                             "mesoaps10.jpg",
-                            "mesocrin88.jpg"
+                            "mesocrin88.jpg",
+                            "mespring1.jpg",
+                            "mesxens10.jpg"
                         ]
                     }
                 },
@@ -15688,6 +15376,10 @@
                 },
                 "female": {
                     "000X": {
+                        "body": [
+                            "ogmaflo8.jpg",
+                            "ogmas1.jpg"
+                        ],
                         "cuticle": [
                             "ogde3.jpg",
                             "ogde4.jpg",
@@ -15751,6 +15443,9 @@
                             "ogmadeth4.jpg",
                             "ogsey6.jpg"
                         ],
+                        "cephalic disc": [
+                            "ogmoc9.jpg"
+                        ],
                         "cuticle": [
                             "ogdebier5.jpg",
                             "ogmaflo4.jpg",
@@ -15766,6 +15461,12 @@
                             "ogmaflo9.jpg",
                             "ogsey3.jpg",
                             "ooctan2.jpg"
+                        ],
+                        "head/cuticle": [
+                            "ogoa4.jpg"
+                        ],
+                        "labial region": [
+                            "ogmoc3.jpg"
                         ],
                         "scales": [
                             "ogdec8.jpg",
@@ -15795,7 +15496,9 @@
                             "bakers5.jpg"
                         ],
                         "body": [
-                            "crcricobrv20.jpg"
+                            "crcricobrv20.jpg",
+                            "ogde6.jpg",
+                            "ogde8.jpg"
                         ],
                         "cuticle": [
                             "crcricobrv18.jpg",
@@ -15824,9 +15527,24 @@
                             "crcricols5.jpg"
                         ]
                     },
+                    "200X": {
+                        "body": [
+                            "ogdec1.jpg",
+                            "ogmoc1.jpg",
+                            "ogoa1.jpg"
+                        ]
+                    },
                     "400X": {
                         "body": [
-                            "bakers1.jpg"
+                            "bakers1.jpg",
+                            "ogdebier1.jpg",
+                            "ogdec10.jpg",
+                            "ogdec25.jpg",
+                            "ogdec30.jpg",
+                            "ogmadeth1.jpg",
+                            "ogmoc2.jpg",
+                            "ogmoc6.jpg",
+                            "ogoa3.jpg"
                         ],
                         "cuticle": [
                             "ogmoc5.jpg"
@@ -15842,6 +15560,9 @@
                 },
                 "juvenile": {
                     "000X": {
+                        "body": [
+                            "ogoa14.jpg"
+                        ],
                         "cuticle": [
                             "odeca2.jpg"
                         ],
@@ -15867,7 +15588,8 @@
                     "1000X": {
                         "anterior": [
                             "ogbutt4.jpg",
-                            "ogdec20.jpg"
+                            "ogdec20.jpg",
+                            "ogoa15.jpg"
                         ],
                         "body": [
                             "ogdec23.jpg",
@@ -15878,11 +15600,16 @@
                             "ogoa10.jpg"
                         ],
                         "head": [
+                            "ogbutt2.jpg",
                             "ogmasad2.jpg",
-                            "ogoa12.jpg"
+                            "ogoa12.jpg",
+                            "ogoa8.jpg"
                         ],
                         "lips": [
                             "ogmala5.jpg"
+                        ],
+                        "spicules/gubernaculum": [
+                            "ogdec22.jpg"
                         ],
                         "tail": [
                             "ogbutt3.jpg",
@@ -15891,9 +15618,32 @@
                             "ogoa9.jpg"
                         ]
                     },
+                    "1000x": {
+                        "scales": [
+                            "ogmala6.jpg",
+                            "ogmala7.jpg"
+                        ]
+                    },
+                    "100x": {
+                        "body": [
+                            "ogmala1.jpg"
+                        ]
+                    },
+                    "200X": {
+                        "body": [
+                            "ogmoc12.jpg"
+                        ]
+                    },
                     "400X": {
                         "anterior": [
                             "ogmoc14.jpg"
+                        ],
+                        "body": [
+                            "ogbutt1.jpg",
+                            "ogdec18.jpg",
+                            "ogmasad1.jpg",
+                            "ogmoc13.jpg",
+                            "ogoa11.jpg"
                         ],
                         "cuticle": [
                             "ogdec19.jpg"
@@ -15909,13 +15659,15 @@
                 "male": {
                     "000X": {
                         "head": [
-                            "ogde1.jpg",
                             "ogde7.jpg"
                         ]
                     },
                     "400X": {
                         "anterior": [
                             "ogmoc7.jpg"
+                        ],
+                        "body": [
+                            "ogmoc4.jpg"
                         ],
                         "cuticle": [
                             "ogdec7.jpg"
@@ -15925,6 +15677,11 @@
                         ],
                         "tail": [
                             "ogde2.jpg"
+                        ]
+                    },
+                    "400x": {
+                        "head": [
+                            "ogde1.jpg"
                         ]
                     }
                 }
@@ -16721,6 +16478,17 @@
                         "spermatheca": [
                             "merling6.jpg"
                         ]
+                    },
+                    "400X": {
+                        "head": [
+                            "monic3.jpg"
+                        ],
+                        "spicules": [
+                            "monic1.jpg"
+                        ],
+                        "stylet knobs": [
+                            "monic2.jpg"
+                        ]
                     }
                 },
                 "female": {
@@ -16761,6 +16529,11 @@
                             "meralp7.jpg"
                         ]
                     },
+                    "400x": {
+                        "head": [
+                            "mineat2.jpg"
+                        ]
+                    },
                     "40x": {
                         "body": [
                             "meralp4.jpg"
@@ -16778,7 +16551,7 @@
                         "head, heavy sclerotization": [
                             "maffin4.jpg"
                         ],
-                        "spiclue": [
+                        "spicule": [
                             "merbus2.jpg"
                         ],
                         "spicules": [
@@ -16831,6 +16604,11 @@
                     }
                 },
                 "female": {
+                    "100x": {
+                        "body": [
+                            "nagle1.jpg"
+                        ]
+                    },
                     "400X": {
                         "tail": [
                             "nagle4.jpg"
@@ -17794,7 +17572,7 @@
                 },
                 "cyst": {
                     "000X": {
-                        "bode": [
+                        "body": [
                             "globop2.jpg",
                             "globop3.jpg",
                             "globop5.jpg",
@@ -17805,7 +17583,7 @@
                 },
                 "juvenile": {
                     "000X": {
-                        "bode": [
+                        "body": [
                             "glopall8.jpg"
                         ],
                         "head": [
@@ -17821,7 +17599,7 @@
                         "basal esophagus": [
                             "glopall6.jpg"
                         ],
-                        "bode": [
+                        "body": [
                             "glopall2.jpg"
                         ],
                         "esophagus": [
@@ -18753,6 +18531,7 @@
                             "melochit5.jpg",
                             "memay12.jpg",
                             "mhaplan10.jpg",
+                            "mhaplan2.jpg",
                             "mhaplan5.jpg"
                         ],
                         "lateral field": [
@@ -18850,7 +18629,9 @@
                             "melicola1.jpg",
                             "melochit32.jpg",
                             "melochit8.jpg",
-                            "memay1.jpg"
+                            "memay1.jpg",
+                            "mhaplan1.jpg",
+                            "mhaplan7.jpg"
                         ],
                         "head": [
                             "memay2.jpg"
@@ -19181,6 +18962,21 @@
                         "anterior": [
                             "naberra2.jpg"
                         ]
+                    },
+                    "100X": {
+                        "body": [
+                            "naberra8.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "body": [
+                            "naberra1.jpg"
+                        ]
+                    },
+                    "50X": {
+                        "body": [
+                            "naberra7.jpg"
+                        ]
                     }
                 },
                 "juvenile": {
@@ -19202,7 +18998,16 @@
                             "naberra17.jpg"
                         ]
                     },
+                    "200X": {
+                        "body": [
+                            "naberra9.jpg"
+                        ]
+                    },
                     "400X": {
+                        "body": [
+                            "naberra10.jpg",
+                            "naberra15.jpg"
+                        ],
                         "head": [
                             "naberra6.jpg"
                         ]
@@ -19215,6 +19020,611 @@
                         ],
                         "spicules": [
                             "naberra4.jpg"
+                        ]
+                    }
+                }
+            },
+            "Pratylenchus": {
+                "0": {
+                    "000X": {
+                        "anterior": [
+                            "pratypen30.jpg"
+                        ],
+                        "compare": [
+                            "paraprojedrw.jpg"
+                        ],
+                        "head": [
+                            "phex5.jpg",
+                            "pracren2.jpg",
+                            "prathom2.jpg",
+                            "prats19.jpg",
+                            "pratycan7.jpg",
+                            "pratypen89.jpg",
+                            "pratys4.jpg",
+                            "pratywis8.jpg",
+                            "pscri11.jpg",
+                            "pscri3.jpg"
+                        ],
+                        "posterior": [
+                            "pracren13.jpg",
+                            "pratypen77.jpg"
+                        ],
+                        "spermatheca": [
+                            "pratser7.jpg",
+                            "pratypen17.jpg",
+                            "pratypen56.jpg",
+                            "pratypen61.jpg"
+                        ],
+                        "tail": [
+                            "pratypen42.jpg",
+                            "pratys9.jpg",
+                            "pscri15.jpg"
+                        ]
+                    },
+                    "1000X": {
+                        "head": [
+                            "phexi21.jpg",
+                            "ploos21.jpg",
+                            "pnegwis3.jpg",
+                            "pracren1.jpg"
+                        ],
+                        "lateral field": [
+                            "pflak37.jpg",
+                            "phexho16.jpg",
+                            "phexi10.jpg",
+                            "phexi14.jpg",
+                            "pratypen33.jpg"
+                        ],
+                        "median bulb": [
+                            "phexin14.jpg",
+                            "praneg12.jpg"
+                        ],
+                        "phasmid": [
+                            "phex8.jpg",
+                            "prapen12.jpg"
+                        ],
+                        "spermatheca": [
+                            "pagil4.jpg",
+                            "pallen13.jpg",
+                            "pallen19.jpg",
+                            "pallen4.jpg",
+                            "pflak26.jpg",
+                            "pflak43.jpg",
+                            "pflak49.jpg",
+                            "pflak5.jpg",
+                            "phexin10.jpg",
+                            "ploos6.jpg",
+                            "pracoff3.jpg",
+                            "pracoff9.jpg",
+                            "praconva4.jpg",
+                            "prapen6.jpg",
+                            "prasc12.jpg",
+                            "prascrib20.jpg",
+                            "pratypen22.jpg",
+                            "pratypen32.jpg",
+                            "pratypen47.jpg",
+                            "pratypen5.jpg",
+                            "pratypen70.jpg",
+                            "pratypen74.jpg",
+                            "pratypen79.jpg",
+                            "pratypen84.jpg",
+                            "pratywis12.jpg",
+                            "pratywis5.jpg",
+                            "pscri23.jpg",
+                            "pscri9.jpg"
+                        ],
+                        "tail": [
+                            "pflak27.jpg",
+                            "pracren3.jpg",
+                            "pralle5.jpg",
+                            "prathy8.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "anterior": [
+                            "pracoff20.jpg"
+                        ],
+                        "egg": [
+                            "phexi2.jpg"
+                        ],
+                        "head": [
+                            "pallen16.jpg",
+                            "pallen6.jpg",
+                            "pratys2.jpg"
+                        ],
+                        "lateral field": [
+                            "pracoff17.jpg"
+                        ],
+                        "spermatheca": [
+                            "pflak28.jpg",
+                            "ploos13.jpg",
+                            "pratfall2.jpg"
+                        ],
+                        "tail": [
+                            "phex3.jpg",
+                            "phexho1.jpg",
+                            "phexi20.jpg",
+                            "pranegwa4.jpg",
+                            "prapen9.jpg"
+                        ]
+                    }
+                },
+                "female": {
+                    "000X": {
+                        "anterior": [
+                            "paraprobo2.jpg",
+                            "prapen8.jpg",
+                            "prasc2.jpg",
+                            "pratypen19.jpg",
+                            "pratypen81.jpg"
+                        ],
+                        "compare": [
+                            "pagilcmp.jpg"
+                        ],
+                        "head": [
+                            "pallen3.jpg",
+                            "pflak32.jpg",
+                            "phexi1.jpg",
+                            "phexinc9.jpg",
+                            "ploos8.jpg",
+                            "ppenet4.jpg",
+                            "pracoff1.jpg",
+                            "praflak11.jpg",
+                            "prapse2.jpg",
+                            "prapse4.jpg",
+                            "prascrib4.jpg",
+                            "pratfall4.jpg",
+                            "prathy7.jpg",
+                            "pratypen16.jpg",
+                            "pratypen60.jpg",
+                            "pratypen78.jpg",
+                            "pscri12.jpg",
+                            "pscri19.jpg",
+                            "pscri8.jpg"
+                        ],
+                        "lateral field": [
+                            "pflak21.jpg",
+                            "pflak29.jpg",
+                            "phexin2.jpg",
+                            "prascrib19.jpg",
+                            "prascrib6.jpg",
+                            "pratex3.jpg"
+                        ],
+                        "lips": [
+                            "pscri5.jpg"
+                        ],
+                        "posterior": [
+                            "paraprobo3.jpg",
+                            "pratypen15.jpg",
+                            "pratypen20.jpg",
+                            "pratypen82.jpg"
+                        ],
+                        "tail": [
+                            "pallen1.jpg",
+                            "phexi8.jpg",
+                            "phexinc3.jpg",
+                            "phexinc8.jpg",
+                            "praflak10.jpg",
+                            "pralle3.jpg",
+                            "praneg5.jpg",
+                            "prapenho3.jpg",
+                            "prapse3.jpg",
+                            "pratfall3.jpg",
+                            "prathom3.jpg",
+                            "prats3.jpg",
+                            "pratypen75.jpg",
+                            "pratys3.jpg",
+                            "pratys5.jpg",
+                            "pratywis9.jpg",
+                            "pscri1.jpg",
+                            "pscri7.jpg",
+                            "pscricmp.jpg"
+                        ],
+                        "vulva": [
+                            "pallen2.jpg",
+                            "phexinc4.jpg",
+                            "ploos2.jpg",
+                            "ploos7.jpg",
+                            "prascrib3.jpg",
+                            "pratycan5.jpg",
+                            "pratys8.jpg",
+                            "pscri20.jpg"
+                        ]
+                    },
+                    "1000X": {
+                        "anterior": [
+                            "ppenet2.jpg",
+                            "ppenet6.jpg",
+                            "praneg1.jpg",
+                            "praneg3.jpg",
+                            "prascrib18.jpg",
+                            "prascrib24.jpg",
+                            "prascrib5.jpg",
+                            "prathy1.jpg",
+                            "pratyque1.jpg"
+                        ],
+                        "head": [
+                            "pagil3.jpg",
+                            "pallen12.jpg",
+                            "pallen18.jpg",
+                            "pflak25.jpg",
+                            "pflak30.jpg",
+                            "pflak34.jpg",
+                            "pflak35.jpg",
+                            "pflak42.jpg",
+                            "pflak48.jpg",
+                            "pflak6.jpg",
+                            "pflak9.jpg",
+                            "phexho11.jpg",
+                            "phexho15.jpg",
+                            "phexi4.jpg",
+                            "phexi9.jpg",
+                            "phexin13.jpg",
+                            "phexin4.jpg",
+                            "phexin9.jpg",
+                            "phexinc15.jpg",
+                            "phexinc7.jpg",
+                            "ploos11.jpg",
+                            "ploos5.jpg",
+                            "pracoff11.jpg",
+                            "pracoff4.jpg",
+                            "pracren10.jpg",
+                            "pracren19.jpg",
+                            "pracren6.jpg",
+                            "praflak7.jpg",
+                            "pralle4.jpg",
+                            "praneg11.jpg",
+                            "praneg15.jpg",
+                            "praneg16.jpg",
+                            "praneg2.jpg",
+                            "praneg4.jpg",
+                            "pranegwa6.jpg",
+                            "prapen7.jpg",
+                            "prapenho4.jpg",
+                            "prapenho7.jpg",
+                            "prasc10.jpg",
+                            "prasc4.jpg",
+                            "prascrib16.jpg",
+                            "pratex2.jpg",
+                            "prathm1.jpg",
+                            "prathm2.jpg",
+                            "prathom4.jpg",
+                            "prats11.jpg",
+                            "prats4.jpg",
+                            "pratypen21.jpg",
+                            "pratypen27.jpg",
+                            "pratypen44.jpg",
+                            "pratypen45.jpg",
+                            "pratypen46.jpg",
+                            "pratypen55.jpg",
+                            "pratypen69.jpg",
+                            "pratypen73.jpg",
+                            "pratypen83.jpg",
+                            "pratys10.jpg",
+                            "pratywis10.jpg",
+                            "pratywis27.jpg",
+                            "pratywis4.jpg",
+                            "pscri21.jpg"
+                        ],
+                        "lateral field": [
+                            "pallen11.jpg",
+                            "pflak24.jpg",
+                            "phex1.jpg",
+                            "phex10.jpg",
+                            "phexho5.jpg",
+                            "phexi12.jpg",
+                            "phexi7.jpg",
+                            "phexin8.jpg",
+                            "phexinc10.jpg",
+                            "phexinc13.jpg",
+                            "phexinc6.jpg",
+                            "ploos10.jpg",
+                            "ploos15.jpg",
+                            "ploos3.jpg",
+                            "pnegwis4.jpg",
+                            "pracoff2.jpg",
+                            "pracoff8.jpg",
+                            "pracren21.jpg",
+                            "praneg6.jpg",
+                            "pranegwa5.jpg",
+                            "prasc11.jpg",
+                            "prasc13.jpg",
+                            "prasc6.jpg",
+                            "prathom5.jpg",
+                            "prathy6.jpg",
+                            "prats20.jpg",
+                            "prats6.jpg",
+                            "prats8.jpg",
+                            "pratser5.jpg",
+                            "pratser6.jpg",
+                            "pratypen7.jpg",
+                            "pscri14.jpg",
+                            "pscri4.jpg"
+                        ],
+                        "lips": [
+                            "pranegwa8.jpg",
+                            "prascrib15.jpg"
+                        ],
+                        "median bulb": [
+                            "prascrib13.jpg",
+                            "prascrib22.jpg",
+                            "prats5.jpg"
+                        ],
+                        "posterior": [
+                            "ppenet3.jpg",
+                            "ppenet7.jpg",
+                            "prathy4.jpg"
+                        ],
+                        "spermatheca": [
+                            "pflak11.jpg",
+                            "pflak36.jpg"
+                        ],
+                        "stylet": [
+                            "pscri13.jpg",
+                            "pscri6.jpg"
+                        ],
+                        "tail": [
+                            "pagil6.jpg",
+                            "pallen10.jpg",
+                            "pallen17.jpg",
+                            "pflak50.jpg",
+                            "phex11.jpg",
+                            "phexho12.jpg",
+                            "phexho6.jpg",
+                            "phexi15.jpg",
+                            "ploos4.jpg",
+                            "pnegwis6.jpg",
+                            "ppenet5.jpg",
+                            "pracoff6.jpg",
+                            "praconva7.jpg",
+                            "pracren11.jpg",
+                            "pracren18.jpg",
+                            "pracren20.jpg",
+                            "pracren7.jpg",
+                            "praflak8.jpg",
+                            "prasc14.jpg",
+                            "prasc5.jpg",
+                            "pratex4.jpg",
+                            "prathy2.jpg",
+                            "prats13.jpg",
+                            "prats15.jpg",
+                            "prats9.jpg",
+                            "pratser8.jpg",
+                            "pratypen18.jpg",
+                            "pratypen23.jpg",
+                            "pratypen29.jpg",
+                            "pratypen34.jpg",
+                            "pratypen35.jpg",
+                            "pratypen48.jpg",
+                            "pratypen57.jpg",
+                            "pratypen62.jpg",
+                            "pratypen80.jpg",
+                            "pratypen85.jpg",
+                            "pratywis13.jpg",
+                            "pratywis30.jpg",
+                            "pratywis6.jpg"
+                        ],
+                        "vulva": [
+                            "pagil5.jpg",
+                            "pracoff10.jpg",
+                            "praconva5.jpg",
+                            "prascrib10.jpg",
+                            "prascrib8.jpg",
+                            "prats12.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "anterior": [
+                            "phexinc5.jpg",
+                            "pnegwis1.jpg",
+                            "pratypen14.jpg",
+                            "pratypen2.jpg",
+                            "pratypen25.jpg",
+                            "pratypen53.jpg",
+                            "pratypen58.jpg"
+                        ],
+                        "head": [
+                            "pflak23.jpg",
+                            "pflak40.jpg",
+                            "pflak46.jpg",
+                            "phexho13.jpg",
+                            "phexho8.jpg",
+                            "phexin6.jpg",
+                            "praflak2.jpg",
+                            "praflak5.jpg",
+                            "praflak9.jpg",
+                            "pralle2.jpg",
+                            "prapenho2.jpg",
+                            "prasc8.jpg",
+                            "prats2.jpg",
+                            "pratycan3.jpg",
+                            "pratypen71.jpg",
+                            "pratys7.jpg",
+                            "pratywis2.jpg"
+                        ],
+                        "posterior": [
+                            "prasc3.jpg",
+                            "pratypen26.jpg",
+                            "pratypen3.jpg",
+                            "pratypen54.jpg",
+                            "pratypen59.jpg"
+                        ],
+                        "tail": [
+                            "pallen15.jpg",
+                            "phexho14.jpg",
+                            "phexinc11.jpg",
+                            "praconva3.jpg",
+                            "praflak3.jpg",
+                            "prasc9.jpg",
+                            "prascrib2.jpg",
+                            "pratser3.jpg",
+                            "pratypen43.jpg",
+                            "pratypen72.jpg",
+                            "pratywis3.jpg"
+                        ],
+                        "vulva": [
+                            "pflak7.jpg",
+                            "ploos14.jpg",
+                            "praconva10.jpg",
+                            "prapenho6.jpg",
+                            "pscri2.jpg"
+                        ]
+                    }
+                },
+                "juvenile": {
+                    "000X": {
+                        "head": [
+                            "phexi24.jpg",
+                            "ploos17.jpg",
+                            "pracoff12.jpg",
+                            "prahex2.jpg",
+                            "pratycan2.jpg",
+                            "pscri16.jpg"
+                        ],
+                        "lateral field": [
+                            "phexi22.jpg"
+                        ]
+                    },
+                    "1000X": {
+                        "head": [
+                            "pracren8.jpg",
+                            "prahex4.jpg",
+                            "pratywis20.jpg"
+                        ],
+                        "tail": [
+                            "phexi23.jpg",
+                            "pracren9.jpg",
+                            "pratywis21.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "head": [
+                            "phexi17.jpg",
+                            "phexi19.jpg",
+                            "pratywis18.jpg"
+                        ],
+                        "tail": [
+                            "phexi25.jpg",
+                            "ploos18.jpg",
+                            "pratywis19.jpg"
+                        ]
+                    }
+                },
+                "male": {
+                    "000X": {
+                        "anterior": [
+                            "pratypen9.jpg"
+                        ],
+                        "head": [
+                            "pflak14.jpg",
+                            "pflak15.jpg",
+                            "phex4.jpg",
+                            "phexinc12.jpg",
+                            "praconva11.jpg",
+                            "praconva2.jpg",
+                            "praneg7.jpg",
+                            "prapen2.jpg",
+                            "pratypen87.jpg"
+                        ],
+                        "spicules": [
+                            "pflak13.jpg",
+                            "phex12.jpg",
+                            "prapen3.jpg"
+                        ],
+                        "tail": [
+                            "pflak33.jpg",
+                            "pflak41.jpg",
+                            "phexho9.jpg",
+                            "phexin11.jpg",
+                            "praflak6.jpg",
+                            "praneg8.jpg",
+                            "pranegwa7.jpg",
+                            "pratycan4.jpg",
+                            "pratypen12.jpg",
+                            "pratypen36.jpg",
+                            "pratypen88.jpg"
+                        ]
+                    },
+                    "1000X": {
+                        "anterior": [
+                            "pratser4.jpg"
+                        ],
+                        "head": [
+                            "pallen8.jpg",
+                            "phex13.jpg",
+                            "phexho4.jpg",
+                            "praconva12.jpg",
+                            "praconva6.jpg",
+                            "prapen13.jpg",
+                            "pratypen11.jpg",
+                            "pratypen31.jpg",
+                            "pratypen38.jpg",
+                            "pratypen51.jpg",
+                            "pratypen65.jpg",
+                            "pratywis16.jpg",
+                            "pratywis23.jpg"
+                        ],
+                        "lateral field": [
+                            "pflak19.jpg",
+                            "pflak3.jpg",
+                            "phex9.jpg",
+                            "prapen16.jpg",
+                            "pratywis24.jpg"
+                        ],
+                        "lips": [
+                            "pflak18.jpg"
+                        ],
+                        "spicules": [
+                            "pallen9.jpg",
+                            "pflak16.jpg",
+                            "prapen15.jpg"
+                        ],
+                        "tail": [
+                            "pflak10.jpg",
+                            "pflak38.jpg",
+                            "pflak4.jpg",
+                            "pflak44.jpg",
+                            "phexho17.jpg",
+                            "phexin3.jpg",
+                            "praconva13.jpg",
+                            "praneg10.jpg",
+                            "praneg14.jpg",
+                            "praneg17.jpg",
+                            "prascrib7.jpg",
+                            "pratypen39.jpg",
+                            "pratypen52.jpg",
+                            "pratypen6.jpg",
+                            "pratypen66.jpg",
+                            "pratypen67.jpg",
+                            "pratypen90.jpg",
+                            "pratywis17.jpg",
+                            "pratywis25.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "head": [
+                            "pflak8.jpg",
+                            "phexho2.jpg",
+                            "prapenho1.jpg",
+                            "pratypen41.jpg",
+                            "pratypen49.jpg",
+                            "pratypen63.jpg",
+                            "pratywis14.jpg"
+                        ],
+                        "posterior": [
+                            "pratypen10.jpg"
+                        ],
+                        "tail": [
+                            "pallen7.jpg",
+                            "pflak2.jpg",
+                            "pflak22.jpg",
+                            "pflak47.jpg",
+                            "phexho3.jpg",
+                            "phexin7.jpg",
+                            "pratypen37.jpg",
+                            "pratypen50.jpg",
+                            "pratypen64.jpg",
+                            "pratywis15.jpg"
                         ]
                     }
                 }
@@ -19709,6 +20119,21 @@
                         "tail": [
                             "neodohy7.jpg"
                         ]
+                    },
+                    "1000x": {
+                        "tail": [
+                            "neodohy3.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "body": [
+                            "neodohy1.jpg"
+                        ]
+                    },
+                    "400x": {
+                        "body": [
+                            "neodohy8.jpg"
+                        ]
                     }
                 }
             }
@@ -19810,36 +20235,136 @@
                 }
             },
             "Basiria": {
+                "0": {
+                    "000X": {
+                        "compare": [
+                            "bagracmp.jpg",
+                            "bassicmp.jpg",
+                            "boblicmp.jpg"
+                        ]
+                    }
+                },
                 "female": {
                     "000X": {
                         "compare": [
-                            "baclacmp.jpg"
+                            "baclacmp.jpg",
+                            "bafficmp.jpg"
+                        ]
+                    },
+                    "004X": {
+                        "body": [
+                            "basob27.jpg"
                         ]
                     },
                     "010X": {
                         "body": [
-                            "bacon6.jpg"
+                            "bacon6.jpg",
+                            "baffi18.jpg",
+                            "bagra5.jpg",
+                            "basim20.jpg",
+                            "basob14.jpg",
+                            "bassi1.jpg",
+                            "bobli4.jpg"
+                        ]
+                    },
+                    "020X": {
+                        "tail": [
+                            "bobli3.jpg"
                         ]
                     },
                     "040X": {
+                        "anterior": [
+                            "basim15.jpg"
+                        ],
                         "head": [
                             "baclak10.jpg",
                             "baclak3.jpg",
                             "baclak4.jpg",
                             "bacon1.jpg",
-                            "bacon4.jpg"
+                            "bacon4.jpg",
+                            "baffi19.jpg",
+                            "bagra4.jpg",
+                            "bagra6.jpg",
+                            "basim11.jpg",
+                            "basim8.jpg",
+                            "basob1.jpg",
+                            "basob28.jpg",
+                            "basob30.jpg",
+                            "basob5.jpg",
+                            "bassi2.jpg",
+                            "bobli1.jpg"
                         ],
                         "tail": [
                             "baclak1.jpg",
-                            "baclak11.jpg"
+                            "baclak11.jpg",
+                            "baffi5.jpg",
+                            "bagra8.jpg",
+                            "basim13.jpg",
+                            "basim17.jpg",
+                            "basim22.jpg",
+                            "basob29.jpg",
+                            "basob3.jpg",
+                            "basob7.jpg",
+                            "bassi4.jpg"
+                        ],
+                        "tail tip": [
+                            "bagra3.jpg"
                         ],
                         "vulva": [
-                            "baclak2.jpg"
+                            "baclak2.jpg",
+                            "baffi20.jpg",
+                            "baffi4.jpg",
+                            "bagra7.jpg",
+                            "basim12.jpg",
+                            "basim16.jpg",
+                            "basim21.jpg",
+                            "basob10.jpg",
+                            "basob2.jpg",
+                            "basob6.jpg",
+                            "bassi3.jpg",
+                            "bobli2.jpg"
+                        ]
+                    },
+                    "1000X": {
+                        "amphid": [
+                            "bagra10.jpg"
+                        ],
+                        "amphid aperature": [
+                            "bagra2.jpg"
                         ]
                     },
                     "100X": {
+                        "amphid": [
+                            "basim18.jpg",
+                            "basob12.jpg"
+                        ],
+                        "basal bulb": [
+                            "basob11.jpg"
+                        ],
+                        "basal esophagus": [
+                            "basob9.jpg"
+                        ],
                         "head": [
-                            "bacon5.jpg"
+                            "bacon5.jpg",
+                            "baffi21.jpg",
+                            "baffi3.jpg",
+                            "baffi6.jpg",
+                            "bagra1.jpg",
+                            "bagra9.jpg",
+                            "basim19.jpg",
+                            "basim9.jpg",
+                            "basob31.jpg",
+                            "basob4.jpg"
+                        ],
+                        "lateral field": [
+                            "basim14.jpg",
+                            "basob13.jpg"
+                        ],
+                        "median bulb": [
+                            "basob8.jpg"
+                        ],
+                        "tail": [
+                            "basim10.jpg"
                         ]
                     }
                 },
@@ -19847,17 +20372,35 @@
                     "010X": {
                         "body": [
                             "bacla5.jpg",
-                            "baclak8.jpg"
+                            "baclak8.jpg",
+                            "baffi1.jpg",
+                            "baffi13.jpg",
+                            "bassi5.jpg"
                         ]
                     },
                     "040X": {
                         "head": [
                             "bacla6.jpg",
-                            "baclak7.jpg"
+                            "baclak7.jpg",
+                            "baffi14.jpg",
+                            "baffi15.jpg",
+                            "baffi2.jpg",
+                            "basim5.jpg",
+                            "basim6.jpg",
+                            "bassi7.jpg"
                         ],
                         "tail": [
                             "bacla7.jpg",
-                            "baclak9.jpg"
+                            "baclak9.jpg",
+                            "bassi6.jpg"
+                        ]
+                    },
+                    "100X": {
+                        "head": [
+                            "baffi16.jpg",
+                            "baffi17.jpg",
+                            "basim7.jpg",
+                            "basob26.jpg"
                         ]
                     }
                 },
@@ -19866,7 +20409,12 @@
                         "body": [
                             "baber1.jpg",
                             "bacla1.jpg",
-                            "baclak5.jpg"
+                            "baclak5.jpg",
+                            "baffi12.jpg",
+                            "basim1.jpg",
+                            "basob15.jpg",
+                            "basob21.jpg",
+                            "bassi8.jpg"
                         ]
                     },
                     "020X": {
@@ -19878,18 +20426,35 @@
                         ]
                     },
                     "040X": {
+                        "esophagus": [
+                            "bassi9.jpg"
+                        ],
                         "head": [
                             "baber4.jpg",
                             "bacla2.jpg",
-                            "bacon3.jpg"
+                            "bacon3.jpg",
+                            "baffi9.jpg",
+                            "basim2.jpg",
+                            "basimil1.jpg",
+                            "basob16.jpg",
+                            "basob18.jpg",
+                            "basob25.jpg"
                         ],
                         "spicules": [
                             "baber5.jpg",
                             "bacla4.jpg",
-                            "bacon2.jpg"
+                            "bacon2.jpg",
+                            "baffi8.jpg",
+                            "basimil2.jpg",
+                            "basob17.jpg",
+                            "basob19.jpg",
+                            "bassi10.jpg"
                         ],
                         "tail": [
-                            "baclak6.jpg"
+                            "baclak6.jpg",
+                            "baffi7.jpg",
+                            "basim3.jpg",
+                            "basob24.jpg"
                         ],
                         "tail tip": [
                             "bacla3.jpg"
@@ -19902,10 +20467,17 @@
                     },
                     "100X": {
                         "head": [
-                            "baber6.jpg"
+                            "baber6.jpg",
+                            "baffi11.jpg",
+                            "basim4.jpg",
+                            "basimil3.jpg",
+                            "basob22.jpg",
+                            "basob23.jpg"
                         ],
                         "spicules": [
-                            "baber7.jpg"
+                            "baber7.jpg",
+                            "baffi10.jpg",
+                            "basob20.jpg"
                         ]
                     }
                 }
@@ -20998,6 +21570,11 @@
                             "musiform3.jpg",
                             "musiform4.jpg"
                         ]
+                    },
+                    "100X": {
+                        "body": [
+                            "musiform1.jpg"
+                        ]
                     }
                 },
                 "male": {
@@ -21009,6 +21586,11 @@
                             "musiform8.jpg"
                         ]
                     },
+                    "100X": {
+                        "body": [
+                            "musiform6.jpg"
+                        ]
+                    },
                     "400X": {
                         "spicules": [
                             "musiform7.jpg"
@@ -21018,10 +21600,9 @@
             },
             "Neopsilenchus": {
                 "0": {
-                    "1000X": {
-                        "head": [
-                            "neoma2.jpg",
-                            "neoma3.jpg"
+                    "000X": {
+                        "compare": [
+                            "neomacmp.jpg"
                         ]
                     }
                 },
@@ -21033,10 +21614,17 @@
                     },
                     "1000X": {
                         "head": [
+                            "neoma2.jpg",
+                            "neoma3.jpg",
                             "neomag3.jpg"
                         ],
                         "median bulb": [
                             "neoma1.jpg"
+                        ]
+                    },
+                    "100x": {
+                        "body": [
+                            "neoma5.jpg"
                         ]
                     },
                     "400X": {
@@ -21054,11 +21642,19 @@
                     "1000X": {
                         "head": [
                             "neoma10.jpg"
+                        ],
+                        "tail": [
+                            "neoma11.jpg"
                         ]
                     },
                     "400X": {
                         "head": [
                             "neoma8.jpg"
+                        ]
+                    },
+                    "400x": {
+                        "head": [
+                            "neoma9.jpg"
                         ]
                     }
                 }
@@ -21436,12 +22032,29 @@
             "Paratylenchus": {
                 "female": {
                     "000X": {
+                        "anterior": [
+                            "pararo28.jpg"
+                        ],
+                        "esophagus": [
+                            "pararo2.jpg",
+                            "pararo22.jpg"
+                        ],
                         "head": [
                             "paragsm2.jpg",
                             "paragsm6.jpg",
+                            "pararo23.jpg",
+                            "pararo9.jpg",
                             "pavar1.jpg"
                         ],
+                        "phasmid": [
+                            "pararo5.jpg"
+                        ],
                         "tail": [
+                            "pararo11.jpg",
+                            "pararo14.jpg",
+                            "pararo26.jpg",
+                            "pararo29.jpg",
+                            "pararo6.jpg",
                             "pavar5.jpg"
                         ],
                         "vulva": [
@@ -21449,13 +22062,22 @@
                         ]
                     },
                     "1000X": {
+                        "basal esophagus": [
+                            "pararo16.jpg"
+                        ],
                         "head": [
+                            "paraq5.jpg",
+                            "paraqua3.jpg",
+                            "pararo15.jpg",
+                            "pararo3.jpg",
+                            "pararo7.jpg",
                             "parva4.jpg",
                             "pavar13.jpg",
                             "pavar17.jpg",
                             "pavar7.jpg"
                         ],
                         "lateral field": [
+                            "paraqua4.jpg",
                             "pavar12.jpg",
                             "pavar15.jpg",
                             "pavar9.jpg"
@@ -21463,12 +22085,15 @@
                         "tail": [
                             "paragsm3.jpg",
                             "paragsm7.jpg",
+                            "paraqua5.jpg",
+                            "pararo4.jpg",
                             "parva5.jpg",
                             "pavar14.jpg",
                             "pavar16.jpg",
                             "pavar19.jpg"
                         ],
                         "vulva": [
+                            "paraq4.jpg",
                             "pavar11.jpg",
                             "pavar18.jpg",
                             "pavar8.jpg"
@@ -21476,6 +22101,9 @@
                     },
                     "400X": {
                         "head": [
+                            "pararo13.jpg",
+                            "pararo21.jpg",
+                            "pararo25.jpg",
                             "pariat2.jpg",
                             "parva2.jpg",
                             "pavar3.jpg"
@@ -21485,17 +22113,38 @@
                             "pavar2.jpg"
                         ],
                         "vulva": [
+                            "pararo10.jpg",
                             "parva3.jpg"
                         ]
                     }
                 },
                 "juvenile": {
                     "000X": {
+                        "cuticle": [
+                            "pararo19.jpg"
+                        ],
                         "head": [
                             "parats1.jpg"
                         ],
                         "tail": [
                             "parats2.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "head": [
+                            "pararo18.jpg"
+                        ]
+                    }
+                },
+                "male": {
+                    "000X": {
+                        "head": [
+                            "paraq1.jpg"
+                        ]
+                    },
+                    "400X": {
+                        "tail": [
+                            "paraq3.jpg"
                         ]
                     }
                 }
@@ -21542,6 +22191,30 @@
                     "400X": {
                         "head": [
                             "tropho12.jpg"
+                        ]
+                    }
+                }
+            },
+            "Tylenchocrionema": {
+                "female": {
+                    "020X": {
+                        "body": [
+                            "crtylecric1.jpg"
+                        ]
+                    },
+                    "040X": {
+                        "anterior": [
+                            "crtylecric3.jpg"
+                        ],
+                        "body": [
+                            "crtylecric2.jpg",
+                            "crtylecric6.jpg"
+                        ],
+                        "midbody": [
+                            "crtylecric4.jpg"
+                        ],
+                        "posterior": [
+                            "crtylecric5.jpg"
                         ]
                     }
                 }
@@ -21758,6 +22431,9 @@
                         "esophageal bulb": [
                             "odontos3.jpg"
                         ],
+                        "fungal spore in gut": [
+                            "odontos8.jpg"
+                        ],
                         "head": [
                             "odontos10.jpg",
                             "odontos7.jpg"
@@ -21766,7 +22442,16 @@
                             "odontos9.jpg"
                         ]
                     },
+                    "100X": {
+                        "body": [
+                            "odontos14.jpg",
+                            "odontos16.jpg"
+                        ]
+                    },
                     "400X": {
+                        "amphid": [
+                            "odosp2.jpg"
+                        ],
                         "anterior": [
                             "odontos15.jpg"
                         ],
@@ -22074,206 +22759,6 @@
                     "400X": {
                         "spicules": [
                             "tripyho5.jpg"
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    "Tylenchida": {
-        "Tylenchidae": {
-            "Basiria": {
-                "0": {
-                    "000X": {
-                        "compare": [
-                            "bagracmp.jpg",
-                            "bassicmp.jpg"
-                        ]
-                    }
-                },
-                "female": {
-                    "000X": {
-                        "compare": [
-                            "bafficmp.jpg"
-                        ]
-                    },
-                    "004X": {
-                        "body": [
-                            "basob27.jpg"
-                        ]
-                    },
-                    "010X": {
-                        "bode": [
-                            "bagra5.jpg"
-                        ],
-                        "body": [
-                            "baffi18.jpg",
-                            "basim20.jpg",
-                            "basob14.jpg",
-                            "bassi1.jpg"
-                        ]
-                    },
-                    "040X": {
-                        "anterior": [
-                            "basim15.jpg"
-                        ],
-                        "head": [
-                            "baffi19.jpg",
-                            "bagra4.jpg",
-                            "bagra6.jpg",
-                            "basim11.jpg",
-                            "basim8.jpg",
-                            "basob1.jpg",
-                            "basob28.jpg",
-                            "basob30.jpg",
-                            "basob5.jpg",
-                            "bassi2.jpg"
-                        ],
-                        "tail": [
-                            "baffi5.jpg",
-                            "bagra8.jpg",
-                            "basim13.jpg",
-                            "basim17.jpg",
-                            "basim22.jpg",
-                            "basob29.jpg",
-                            "basob3.jpg",
-                            "basob7.jpg",
-                            "bassi4.jpg"
-                        ],
-                        "tail tip": [
-                            "bagra3.jpg"
-                        ],
-                        "vulva": [
-                            "baffi20.jpg",
-                            "baffi4.jpg",
-                            "bagra7.jpg",
-                            "basim12.jpg",
-                            "basim16.jpg",
-                            "basim21.jpg",
-                            "basob10.jpg",
-                            "basob2.jpg",
-                            "basob6.jpg",
-                            "bassi3.jpg"
-                        ]
-                    },
-                    "1000X": {
-                        "amphid": [
-                            "bagra10.jpg"
-                        ],
-                        "amphid aperature": [
-                            "bagra2.jpg"
-                        ]
-                    },
-                    "100X": {
-                        "amphid": [
-                            "basim18.jpg",
-                            "basob12.jpg"
-                        ],
-                        "basal bulb": [
-                            "basob11.jpg"
-                        ],
-                        "basal esophagus": [
-                            "basob9.jpg"
-                        ],
-                        "head": [
-                            "baffi21.jpg",
-                            "baffi3.jpg",
-                            "baffi6.jpg",
-                            "bagra1.jpg",
-                            "bagra9.jpg",
-                            "basim19.jpg",
-                            "basim9.jpg",
-                            "basob31.jpg",
-                            "basob4.jpg"
-                        ],
-                        "lateral field": [
-                            "basim14.jpg",
-                            "basob13.jpg"
-                        ],
-                        "median bulb": [
-                            "basob8.jpg"
-                        ],
-                        "tail": [
-                            "basim10.jpg"
-                        ]
-                    }
-                },
-                "juvenile": {
-                    "010X": {
-                        "body": [
-                            "baffi1.jpg",
-                            "baffi13.jpg",
-                            "bassi5.jpg"
-                        ]
-                    },
-                    "040X": {
-                        "head": [
-                            "baffi14.jpg",
-                            "baffi15.jpg",
-                            "baffi2.jpg",
-                            "basim5.jpg",
-                            "basim6.jpg",
-                            "bassi7.jpg"
-                        ],
-                        "tail": [
-                            "bassi6.jpg"
-                        ]
-                    },
-                    "100X": {
-                        "head": [
-                            "baffi16.jpg",
-                            "baffi17.jpg",
-                            "basim7.jpg",
-                            "basob26.jpg"
-                        ]
-                    }
-                },
-                "male": {
-                    "010X": {
-                        "body": [
-                            "baffi12.jpg",
-                            "basim1.jpg",
-                            "basob15.jpg",
-                            "basob21.jpg",
-                            "bassi8.jpg"
-                        ]
-                    },
-                    "040X": {
-                        "esophagus": [
-                            "bassi9.jpg"
-                        ],
-                        "head": [
-                            "baffi9.jpg",
-                            "basim2.jpg",
-                            "basimil1.jpg",
-                            "basob16.jpg",
-                            "basob18.jpg",
-                            "basob25.jpg"
-                        ],
-                        "spicules": [
-                            "baffi8.jpg",
-                            "basimil2.jpg",
-                            "basob17.jpg",
-                            "basob19.jpg",
-                            "bassi10.jpg"
-                        ],
-                        "tail": [
-                            "baffi7.jpg",
-                            "basim3.jpg",
-                            "basob24.jpg"
-                        ]
-                    },
-                    "100X": {
-                        "head": [
-                            "baffi11.jpg",
-                            "basim4.jpg",
-                            "basimil3.jpg",
-                            "basob22.jpg",
-                            "basob23.jpg"
-                        ],
-                        "spicules": [
-                            "baffi10.jpg",
-                            "basob20.jpg"
                         ]
                     }
                 }

@@ -1,0 +1,1972 @@
+// FOO
+digraph GraphTitle {
+	graph [rankdir=LR]
+	Aporcelaimidae_002 [label=002]
+	Aporcelaiminae_002 [label=002]
+	Actinolaimoidinae_002 [label=002]
+	Actinolaimoidea_002 [label=002]
+	Actinolaimidae_002 [label=002]
+	Actinca_002 [label=002]
+	Axonchium_002 [label=002]
+	Aulolaimoididae_002 [label=002]
+	Belondiridae_002 [label=002]
+	Belondirinae_002 [label=002]
+	Belonenchinae_002 [label=002]
+	Basirotyleptus_002 [label=002]
+	Carcharolaiminae_002 [label=002]
+	Calolaiminae_002 [label=002]
+	Dorylaimoidea_002 [label=002]
+	Dorylaimidae_002 [label=002]
+	Discolaiminae_002 [label=002]
+	Dorylaimellus_002 [label=002]
+	Dorylaimoides_002 [label=002]
+	Enchodelus_002 [label=002]
+	Laimydorinae_002 [label=002]
+	Lordellonematinae_002 [label=002]
+	Longidoridae_002 [label=002]
+	Leptonchidae_002 [label=002]
+	Leptonchinae_002 [label=002]
+	Mydonominae_002 [label=002]
+	Nordiidae_002 [label=002]
+	Neoactinolaiminae_002 [label=002]
+	Nygolaimoidea_002 [label=002]
+	Nygolaiminae_002 [label=002]
+	Nygolaimellinae_002 [label=002]
+	Pungentiinae_002 [label=002]
+	Paractinolaiminae_002 [label=002]
+	Qudsianematidae_002 [label=002]
+	Qudsianematinae_002 [label=002]
+	Swangeriinae_002 [label=002]
+	Solididentinae_002 [label=002]
+	Thornenematinae_002 [label=002]
+	Thorniinae_002 [label=002]
+	Tylencholaimoidea_002 [label=002]
+	Tylencholaimidae_002 [label=002]
+	Tylencholaiminae_002 [label=002]
+	Tylencholaimus_002 [label=002]
+	Tyleptinae_002 [label=002]
+	Tylencholaimellinae_002 [label=002]
+	Vanderlindiinae_002 [label=002]
+	Xiphinemellinae_002 [label=002]
+	Aporcelaiminae_003 [label=003]
+	Actinolaimoidinae_003 [label=003]
+	Actinolaimidae_003 [label=003]
+	Axonchium_003 [label=003]
+	Belondirinae_003 [label=003]
+	Belonenchinae_003 [label=003]
+	Basirotyleptus_003 [label=003]
+	Carcharolaiminae_003 [label=003]
+	Dorylaimoidea_003 [label=003]
+	Dorylaimidae_003 [label=003]
+	Discolaiminae_003 [label=003]
+	Dorylaimellus_003 [label=003]
+	Dorylaimoides_003 [label=003]
+	Enchodelus_003 [label=003]
+	Laimydorinae_003 [label=003]
+	Lordellonematinae_003 [label=003]
+	Leptonchidae_003 [label=003]
+	Leptonchinae_003 [label=003]
+	Nordiidae_003 [label=003]
+	Neoactinolaiminae_003 [label=003]
+	Nygolaimoidea_003 [label=003]
+	Nygolaiminae_003 [label=003]
+	Pungentiinae_003 [label=003]
+	Paractinolaiminae_003 [label=003]
+	Qudsianematidae_003 [label=003]
+	Qudsianematinae_003 [label=003]
+	Swangeriinae_003 [label=003]
+	Thornenematinae_003 [label=003]
+	Tylencholaimoidea_003 [label=003]
+	Tylencholaimidae_003 [label=003]
+	Tylencholaiminae_003 [label=003]
+	Tylencholaimus_003 [label=003]
+	Tylencholaimellinae_003 [label=003]
+	Vanderlindiinae_003 [label=003]
+	Xiphinemellinae_003 [label=003]
+	Aporcelaiminae_004 [label=004]
+	Actinolaimoidinae_004 [label=004]
+	Axonchium_004 [label=004]
+	Belondirinae_004 [label=004]
+	Belonenchinae_004 [label=004]
+	Basirotyleptus_004 [label=004]
+	Carcharolaiminae_004 [label=004]
+	Discolaiminae_004 [label=004]
+	Dorylaimellus_004 [label=004]
+	Dorylaimoides_004 [label=004]
+	Enchodelus_004 [label=004]
+	Laimydorinae_004 [label=004]
+	Leptonchidae_004 [label=004]
+	Leptonchinae_004 [label=004]
+	Nordiidae_004 [label=004]
+	Nygolaiminae_004 [label=004]
+	Pungentiinae_004 [label=004]
+	Qudsianematidae_004 [label=004]
+	Qudsianematinae_004 [label=004]
+	Swangeriinae_004 [label=004]
+	Thornenematinae_004 [label=004]
+	Tylencholaiminae_004 [label=004]
+	Tylencholaimus_004 [label=004]
+	Tylencholaimellinae_004 [label=004]
+	Aporcelaiminae_005 [label=005]
+	Axonchium_005 [label=005]
+	Belondirinae_005 [label=005]
+	Carcharolaiminae_005 [label=005]
+	Dorylaimellus_005 [label=005]
+	Dorylaimoides_005 [label=005]
+	Laimydorinae_005 [label=005]
+	Leptonchidae_005 [label=005]
+	Leptonchinae_005 [label=005]
+	Nygolaiminae_005 [label=005]
+	Pungentiinae_005 [label=005]
+	Qudsianematidae_005 [label=005]
+	Qudsianematinae_005 [label=005]
+	Swangeriinae_005 [label=005]
+	Thornenematinae_005 [label=005]
+	Tylencholaiminae_005 [label=005]
+	Tylencholaimus_005 [label=005]
+	Tylencholaimellinae_005 [label=005]
+	Aporcelaiminae_006 [label=006]
+	Axonchium_006 [label=006]
+	Belondirinae_006 [label=006]
+	Dorylaimellus_006 [label=006]
+	Laimydorinae_006 [label=006]
+	Leptonchinae_006 [label=006]
+	Nygolaiminae_006 [label=006]
+	Pungentiinae_006 [label=006]
+	Qudsianematidae_006 [label=006]
+	Qudsianematinae_006 [label=006]
+	Swangeriinae_006 [label=006]
+	Thornenematinae_006 [label=006]
+	Tylencholaiminae_006 [label=006]
+	Tylencholaimus_006 [label=006]
+	Tylencholaimellinae_006 [label=006]
+	Aporcelaiminae_007 [label=007]
+	Axonchium_007 [label=007]
+	Belondirinae_007 [label=007]
+	Dorylaimellus_007 [label=007]
+	Laimydorinae_007 [label=007]
+	Qudsianematinae_007 [label=007]
+	Swangeriinae_007 [label=007]
+	Thornenematinae_007 [label=007]
+	Tylencholaiminae_007 [label=007]
+	Tylencholaimellinae_007 [label=007]
+	Aporcelaiminae_008 [label=008]
+	Belondirinae_008 [label=008]
+	Dorylaimellus_008 [label=008]
+	Laimydorinae_008 [label=008]
+	Qudsianematinae_008 [label=008]
+	Thornenematinae_008 [label=008]
+	Belondirinae_009 [label=009]
+	Dorylaimellus_009 [label=009]
+	Laimydorinae_009 [label=009]
+	Qudsianematinae_009 [label=009]
+	Thornenematinae_009 [label=009]
+	Dorylaimellus_010 [label=010]
+	Laimydorinae_010 [label=010]
+	Qudsianematinae_010 [label=010]
+	Dorylaimellus_011 [label=011]
+	Laimydorinae_011 [label=011]
+	Qudsianematinae_011 [label=011]
+	Dorylaimellus_012 [label=012]
+	Qudsianematinae_012 [label=012]
+	Dorylaimellus_013 [label=013]
+	Qudsianematinae_013 [label=013]
+	Qudsianematinae_014 [label=014]
+	labelloc=t
+	label="Keys from
+Dorylaimda
+ Free-living, Predaceous and
+ Plant-parasitic Nematodes
+
+ M. Shamim Jairajpuri
+ and Wasim Ahmad (1992)."
+	Dorylaimida -> Dorylaimina [label="Odontostyle feeding apparatus
+"]
+	Dorylaimida -> "Dorylaimida 002" [label="Mural-tooth feeding apparatus
+"]
+	"Dorylaimida 002" -> Campydorina [label="Mural tooth located
+on subdorsal wall
+of buccal cavity;
+basal part of
+esophagus small with
+a strongly-developed triquetrous
+chamber
+"]
+	"Dorylaimida 002" -> Nygolaimina [label="Mural tooth located
+on subventral wall
+of buccal cavity;
+basal part of
+esophagus fairly long
+and without triquetrous
+chamber
+"]
+	Dorylaimina -> Actinolaimoidea [label="Cheilostom strongly sclerotized,
+with plate- or
+basket-like structures, frequently
+with large onchia,
+with or without
+denticles
+"]
+	Dorylaimina -> "Dorylaimina 002" [label="Cheilostom usually thin-walled,
+without onchia or
+denticles
+"]
+	"Dorylaimina 002" -> Longidoroidea [label="Odontostyle long, attenuated;
+esophagus with three
+glands
+"]
+	"Dorylaimina 002" -> "Dorylaimina 003" [label="Odontostyle comparatively small;
+esophagus with five
+glands
+"]
+	"Dorylaimina 003" -> Belondiroidea [label="Expanded part of
+esophagus enclosed in
+a spiral muscular
+sheath
+"]
+	"Dorylaimina 003" -> "Dorylaimina 004" [label="Expanded part of
+esophagus not enclosed
+in a spiral
+muscular sheath
+"]
+	"Dorylaimina 004" -> Tylencholaimoidea [label="Subcuticle coarsely striated,
+with abundant radial
+striae; expanded part
+of esophagus usually
+a small basal
+bulb
+"]
+	"Dorylaimina 004" -> Dorylaimoidea [label="Subcuticle not striated,
+few if any
+radial striae; expanded
+part of esophagus
+usually about 50%
+of total esophagus
+length
+"]
+	Dorylaimoidea -> Aporcelaimidae [label="Odontostyle aperture wide,
+usually more than
+half odontostyle length;
+guiding ring plicated,
+not sclerotized
+"]
+	Dorylaimoidea -> Dorylaimoidea_002 [label="Odontostyle with smaller
+aperture, usually <
+33% of odontostyle
+length; guiding ring
+sclerotized
+"]
+	Dorylaimoidea_002 -> Nordiidae [label="Odontostyle attenuated, usually
+longer than lip
+region width
+"]
+	Dorylaimoidea_002 -> Dorylaimoidea_003 [label="Odontostyle not attenuated,
+usually about as
+long as lip
+region width
+"]
+	Dorylaimoidea_003 -> Dorylaimidae [label="Large, stout nematodes,
+usually with long,
+filiform tail which
+exhibits sexual dimorphism
+"]
+	Dorylaimoidea_003 -> Qudsianematidae [label="Medium-sized nematodes with
+short tails which
+are similar in
+both sexes
+"]
+	Dorylaimidae -> Dorylaimidae_002 [label="Cuticle with longitudinal
+ridges
+"]
+	Dorylaimidae -> Dorylaimidae_003 [label="Cuticle without longitudinal
+ridges
+"]
+	Dorylaimidae_002 -> Arctidorylaiminae [label="Tail elongate-conoid, similar
+in both sexes
+"]
+	Dorylaimidae_002 -> Dorylaiminae [label="Tail elongate-conoid to
+filiform in females,
+short and bluntly
+rounded in males
+"]
+	Dorylaimidae_003 -> Thornenematinae [label="Cheilostom (between guiding
+ring and oral
+aperture) with minute
+to well-developed sclerotized
+plates; S2N (nuclei
+of second pair
+of ventro-sublateral glands)
+well anterior to
+base of esophagus
+"]
+	Dorylaimidae_003 -> Laimydorinae [label="Cheilostom without sclerotized
+plates; S2N close
+to base of
+esophagus
+"]
+	Dorylaiminae -> Dorylaimus [label="Ventromedian supplements in
+a contiguous series
+of 25-55
+"]
+	Dorylaiminae -> Ischiodorylaimus [label="Ventromedian supplements in
+2-3 groups (fascicles)
+"]
+	Laimydorinae -> Laimydorinae_002 [label="Tails similar in
+both sexes
+"]
+	Laimydorinae -> Laimydorinae_004 [label="Tails dissimilar in
+males and females
+"]
+	Laimydorinae_002 -> Amphidorylaimus [label="Lip region offset;
+spicules narrow and
+\"non-dorylaimoid\"
+"]
+	Laimydorinae_002 -> Laimydorinae_003 [label="Lip region continuous;
+spicules broad and
+dorylaimoid
+"]
+	Laimydorinae_003 -> Prodorylaimus [label="Ventromedian supplements numerous,
+contiguous
+"]
+	Laimydorinae_003 -> Prodorylaimium [label="Ventromedian supplements few,
+spaced
+"]
+	Laimydorinae_004 -> Laimydorinae_005 [label="Guiding ring sclerotized,
+appearing double; male
+prerectum long, beginning
+anterior to supplements
+"]
+	Laimydorinae_004 -> Laimydorinae_006 [label="Guiding ring not
+sclerotized, appearing single
+or weakly double;
+male prerectum short,
+beginning within range
+of supplements
+"]
+	Laimydorinae_005 -> Idiodorylaimus [label="Subcuticle with coarse
+striations
+"]
+	Laimydorinae_005 -> Laimydorus [label="Subcuticle without coarse
+striations
+"]
+	Laimydorinae_006 -> Laimydorinae_007 [label="Male tail with
+rounded terminus
+"]
+	Laimydorinae_006 -> Afrodorylaimus [label="Male tail with
+pointed terminus
+"]
+	Laimydorinae_007 -> Drepanodorylaimus [label="Odontostyle asymmetrical; two
+parts of esophagus
+not clearly demarcated
+"]
+	Laimydorinae_007 -> Laimydorinae_008 [label="Odontostyle symmetrical; two
+parts of esophagus
+clearly demarcated
+"]
+	Laimydorinae_008 -> Minidorylaimus [label="Odontophore slightly swollen
+at base
+"]
+	Laimydorinae_008 -> Laimydorinae_009 [label="Odontophore rod like
+"]
+	Laimydorinae_009 -> Laimydorinae_010 [label="Ventromedian supplements contiguous
+or uniformly spaced
+"]
+	Laimydorinae_009 -> Calodorylaimus [label="Ventromedian supplements in
+two groups (fascicles)
+"]
+	Laimydorinae_010 -> Miodorylaimus [label="Cuticle thin, vulva
+not sclerotized; spicules
+comparatively weak; prerectum
+extending much beyond
+range of supplements
+"]
+	Laimydorinae_010 -> Laimydorinae_011 [label="Cuticle thick, vulva
+sclerotized; spicules well
+developed; prerectum beginning
+at anterior end
+or within range
+of supplements
+"]
+	Laimydorinae_011 -> Calcaridorylaimus [label="Spicules large, with
+double contour on
+dorsal side and
+spur near tip;
+supplements very small
+"]
+	Laimydorinae_011 -> Mesodorylaimus [label="Spicules without double
+contour on dorsal
+side and without
+spur near tip;
+supplements well developed
+"]
+	Thornenematinae -> Thornenematinae_002 [label="Female reproductive system
+monovarial, opisthodelphic
+"]
+	Thornenematinae -> Thornenematinae_006 [label="Female reproductive system
+diovarial, amphidelphic
+"]
+	Thornenematinae_002 -> Thornenematinae_003 [label="Female tail short,
+rounded
+"]
+	Thornenematinae_002 -> Thornenematinae_004 [label="Female tail elongate-conoid
+to long, filiform
+"]
+	Thornenematinae_003 -> Sclerolabia [label="No labial or
+postlabial sclerotization
+"]
+	Thornenematinae_003 -> Willinema [label="Tail elongate-conoid, similar
+in both sexes
+"]
+	Thornenematinae_004 -> Indiodorylaimus [label="Tail elongate-conoid, similar
+in both sexes
+"]
+	Thornenematinae_004 -> Thornenematinae_005 [label="Tail elongate-conoid to
+long, filiform in
+females and short-conoid
+in males
+"]
+	Thornenematinae_005 -> Opisthodorylaimus [label="Odontostyle broad, with
+wide lumen and
+aperture; no labial
+sclerotization
+"]
+	Thornenematinae_005 -> Thornenema [label="Odontostyle narrow, labial
+sclerotization
+"]
+	Thornenematinae_006 -> Coomansinema [label="Odontostyle broad, with
+wide lumen and
+aperture; no labial
+sclerotization
+"]
+	Thornenematinae_006 -> Thornenematinae_007 [label="Odontostyle relatively narrow,
+labial sclerotization
+"]
+	Thornenematinae_007 -> Thornenematinae_008 [label="Cheilorhabdions strongly sclerotized,
+forming chamber-like structure
+"]
+	Thornenematinae_007 -> Thornenematinae_009 [label="Cheilorhabdions sclerotized, but
+not forming chamber-like
+structure
+"]
+	Thornenematinae_008 -> Silvallis [label="Guiding ring single,
+plicated; tail short,
+bluntly rounded
+"]
+	Thornenematinae_008 -> Fuscheila [label="Guiding ring appears
+double; tail long,
+filiform
+"]
+	Thornenematinae_009 -> Timminema [label="Female tail short
+and rounded
+"]
+	Thornenematinae_009 -> Sicaguttur [label="Female tail long
+and filiform
+"]
+	Arctidorylaiminae -> Arctidorylaimus
+	Aporcelaimidae -> Paraxonchiinae [label="Body sharply tapering
+towards anterior end
+"]
+	Aporcelaimidae -> Aporcelaimidae_002 [label="Body not sharply
+tapering towards anterior
+end
+"]
+	Aporcelaimidae_002 -> Aporcelaiminae [label="Odontostyle axial with
+wide aperture
+"]
+	Aporcelaimidae_002 -> Sectonematinae [label="Odontostyle a mural
+tooth
+"]
+	Aporcelaiminae -> Aporcelaiminae_002 [label="Cuticular layers inconspicuous;
+no criss-cross lines
+or punctations
+"]
+	Aporcelaiminae -> Aporcelaiminae_003 [label="Cuticular layers conspicuous;
+transverse of criss-cross
+lines or punctations
+"]
+	Aporcelaiminae_002 -> Aporcedorus [label="Female tail long,
+filiform
+"]
+	Aporcelaiminae_002 -> Aporcelaimium [label="Female tail short,
+conoid
+"]
+	Aporcelaiminae_003 -> Makatinus [label="Lip region offset
+by slight depression;
+vulva longitudinal
+"]
+	Aporcelaiminae_003 -> Aporcelaiminae_004 [label="Lip region offset
+by deep constriction;
+vulva lips a
+transverse slit or
+pore-like
+"]
+	Aporcelaiminae_004 -> Akrotonus [label="Lip region rounded,
+labial papillae not
+projecting above contour;
+two ventromedian supplements
+"]
+	Aporcelaiminae_004 -> Aporcelaiminae_005 [label="Lip region angular,
+labial papillae projecting
+above contour; >2
+ventromedian supplements
+"]
+	Aporcelaiminae_005 -> Tubixaba [label="Body very long
+(9-11 mm); aperture
+of odontostyle 1/3
+its length
+"]
+	Aporcelaiminae_005 -> Aporcelaiminae_006 [label="Body <6mm; odontostyle
+aperture about Ã‚Â½
+its length or
+greater
+"]
+	Aporcelaiminae_006 -> Aporcelaiminae_007 [label="Cuticle with faint
+longitudinal markings or
+criss-cross lines
+"]
+	Aporcelaiminae_006 -> Aporcelaiminae_008 [label="Cuticle with transverse
+striations
+"]
+	Aporcelaiminae_007 -> Torumanawa [label="Body relatively small;
+three cardia glands
+at esophago-intestinal junction
+"]
+	Aporcelaiminae_007 -> Aporcelaimus [label="Body large; cardia
+glands absent
+"]
+	Aporcelaiminae_008 -> Takamangi [label="Oral aperture circular
+"]
+	Aporcelaiminae_008 -> Aporcelaimellus [label="Oral aperture hexagonal
+"]
+	Sectonematinae -> Sectonema
+	Paraxonchiinae -> Gopalus [label="Odontostyle long, straight,
+attenuated, with small
+aperture; cardia glands
+poorly developed
+"]
+	Paraxonchiinae -> Paraxonchium [label="Odontostyle smaller, wide,
+a little bent,
+with larger aperture;
+cardia glands well-developed
+"]
+	Qudsianematidae -> Qudsianematidae_002 [label="Cuticle with coarse
+transverse striations
+"]
+	Qudsianematidae -> Qudsianematidae_003 [label="Cuticle with fine
+transverse striations
+"]
+	Qudsianematidae_002 -> Crateronematinae [label="Body slender; body
+pores indistinct; odontostyle
+attenuated
+"]
+	Qudsianematidae_002 -> Lordellonematinae [label="Body not slender;
+body pores distinct;
+odontostyle not attenuated
+"]
+	Qudsianematidae_003 -> Discolaiminae [label="Lip region discoid;
+well-developed hypodermal glands
+"]
+	Qudsianematidae_003 -> Qudsianematidae_004 [label="Lip region not
+discoid; hypodermal glands
+absent or poorly
+developed
+"]
+	Qudsianematidae_004 -> Qudsianematidae_005 [label="Lip region continuous
+with body contour;
+lips amalgamated
+"]
+	Qudsianematidae_004 -> Qudsianematidae_006 [label="Lip region offset;
+lips usually separated
+"]
+	Qudsianematidae_005 -> Thorniinae [label="Tail short and
+hemispherical in both
+sexes; only one
+adanal pair of
+supplements present (rarely
+a single ventromedian)
+"]
+	Qudsianematidae_005 -> Chrysonematinae [label="Tail elongate conoid
+in both sexes;
+adanal pair and
+a series of
+ventromedian supplements present
+"]
+	Qudsianematidae_006 -> Qudsianematinae [label="Dorsal esophageal gland
+nucleus near anterior
+of esophageal enlargement;
+female tail short,
+hemispherical to elongate
+conoid
+"]
+	Qudsianematidae_006 -> Hulqinae [label="Dorsal esophageal gland
+nucleus two or
+more body widths
+behind anterior of
+esophageal enlargement; female
+tail long, filiform
+"]
+	Qudsianematinae -> Qudsianematinae_002 [label="Female reproductive system
+monovarial, opisthodelphic
+"]
+	Qudsianematinae -> Qudsianematinae_003 [label="Female reproductive system
+diovarial, amphidelphic
+"]
+	Qudsianematinae_002 -> Indokochinema [label="Amphids labial
+"]
+	Qudsianematinae_002 -> Ecumenicus [label="Amphids post-labial
+"]
+	Qudsianematinae_003 -> Qudsianematinae_004 [label="Odontophore simple, rod-like
+"]
+	Qudsianematinae_003 -> Qudsianematinae_013 [label="Odontophore flanged or
+with basal knobs
+"]
+	Qudsianematinae_004 -> Qudsianematinae_005 [label="Odontostyle large; guiding
+ring appears double
+"]
+	Qudsianematinae_004 -> Qudsianematinae_006 [label="Odontostyle small; guiding
+ring appears single
+"]
+	Qudsianematinae_005 -> Labronemella [label="Lip region with
+deeply sunken circumoral
+area and distinct
+inner liplets
+"]
+	Qudsianematinae_005 -> Labronema [label="Lip region without
+deeply sunken circumoral
+area; inner liplets
+not well separated;
+odontostyle slender
+"]
+	Qudsianematinae_006 -> Baqriella [label="Outer margin of
+lips forming flap
+over oral area;
+inner margin of
+lips sunken
+"]
+	Qudsianematinae_006 -> Qudsianematinae_007 [label="Outer margin of
+lips not forming
+flap over oral
+area; inner margin
+of lips not
+sunken
+"]
+	Qudsianematinae_007 -> Skibbernema [label="Constriction between slender
+and expanded parts
+of esophagus; expanded
+part bipartite
+"]
+	Qudsianematinae_007 -> Qudsianematinae_008 [label="No constriction between
+slender and expanded
+parts of esophagus;
+expanded part not
+bipartite
+"]
+	Qudsianematinae_008 -> Crassolabium [label="Lips with cuticularized
+pieces
+"]
+	Qudsianematinae_008 -> Qudsianematinae_009 [label="Lips without cuticularized
+pieces
+"]
+	Qudsianematinae_009 -> Thonus [label="Cardia disk present
+"]
+	Qudsianematinae_009 -> Qudsianematinae_010 [label="Cardia disk absent
+"]
+	Qudsianematinae_010 -> Epidorylaimus [label="Tail elongate conoid,
+3.5-8.0 x anal
+body diameter.
+"]
+	Qudsianematinae_010 -> Qudsianematinae_011 [label="Tail short-conoid, 1-3
+x anal body
+diameter
+"]
+	Qudsianematinae_011 -> Microdorylaimus [label="Body small (<1mm);
+esophagus long, almost
+1/3 body length
+"]
+	Qudsianematinae_011 -> Qudsianematinae_012 [label="Body long (>1mm);
+esophagus short
+"]
+	Qudsianematinae_012 -> Eudorylaimus [label="Precloacal space present
+"]
+	Qudsianematinae_012 -> Allodorylaimus [label="Precloacal space absent
+"]
+	Qudsianematinae_013 -> Qudsianematinae_014 [label="Odontophore flanged
+"]
+	Qudsianematinae_013 -> Tylenchodorus [label="Odontophore with three
+prominent knobs
+"]
+	Qudsianematinae_014 -> Pachydorylaimus [label="Odontostyle thick-walled
+"]
+	Qudsianematinae_014 -> Qudsianema [label="Odontostyle thin-walled
+"]
+	Thorniinae -> Nygolaimoides [label="Males with large
+ventromedian supplements and
+small gubernaculum
+"]
+	Thorniinae -> Thorniinae_002 [label="Males without ventromedian
+supplements or gubernaculum
+"]
+	Thorniinae_002 -> Thornia [label="Amphids stirrup-shaped, aperture
+as wide as
+fovea; spicules not
+dorylaimoid, lateral guiding
+pieces absent
+"]
+	Thorniinae_002 -> Thorneella [label="Amphids oval, aperture
+smaller than fovea;
+spicules dorylaimoid with
+lateral guiding pieces
+"]
+	Crateronematinae -> Crateronema
+	Chrysonematinae -> Chrysonema [label="Lips rounded; female
+tail long, conoid;
+male tail short,
+convex-conoid
+"]
+	Chrysonematinae -> Chrysonemoides [label="Lips knob-like; tail
+in both sexes
+elongate-conoid, ventrally-curved
+"]
+	Discolaiminae -> Mylodiscus [label="Lip region with
+cuticularized, shallow, bowl-like
+plates
+"]
+	Discolaiminae -> Discolaiminae_002 [label="Lip region without
+cuticularized plates
+"]
+	Discolaiminae_002 -> Discolaimus [label="Lip region discoid
+"]
+	Discolaiminae_002 -> Discolaiminae_003 [label="Lip region not
+discoid
+"]
+	Discolaiminae_003 -> Discolaimoides [label="Lip region offset
+by an expansion
+"]
+	Discolaiminae_003 -> Discolaiminae_004 [label="Lip region offset
+by a constriction
+"]
+	Discolaiminae_004 -> Discolaimium [label="Female reproductive system
+diovarial, amphidelphic
+"]
+	Discolaiminae_004 -> Latocephalus [label="Female reproductive system
+monovarial, opisthodelphic
+"]
+	Lordellonematinae -> Sicorinema [label="Body pores indistinct;
+female reproductive system
+monovarial, opisthodelphic
+"]
+	Lordellonematinae -> Lordellonematinae_002 [label="Body pores distinct;
+female reproductive system
+monovarial, prodelphic
+"]
+	Lordellonematinae_002 -> Poronemella [label="Ventral body pores
+only in esophageal
+region; tail elongate-conoid,
+bent dorsally
+"]
+	Lordellonematinae_002 -> Lordellonematinae_003 [label="Ventral body pores
+along entire body;
+tail short-conoid, or
+subdigitate
+"]
+	Lordellonematinae_003 -> Moshajia [label="Odontostyle aperture >
+1/2 its length;
+spicules non-dorylaimoid
+"]
+	Lordellonematinae_003 -> Lordellonema [label="Odontostyle aperture <
+1/2 its length;
+spicules dorylaimoid
+"]
+	Hulqinae -> Hulqus [label="Female reproductive system
+monovarial, opisthodelphic
+"]
+	Hulqinae -> Mitoaxonchium [label="Female reproductive system
+diovarial, amphidelphic
+"]
+	Nordiidae -> Nordiidae_002 [label="Labial papillae rising
+above lip contour
+"]
+	Nordiidae -> Nordiidae_003 [label="Labial papillae not
+enlarged
+"]
+	Nordiidae_002 -> Helmabiinae [label="Cuticle with longitudinal
+and horizontal lamelliform
+striations
+"]
+	Nordiidae_002 -> Cephalodorylaiminae [label="Cuticle smooth, striations
+absent
+"]
+	Nordiidae_003 -> Pungentiinae [label="Odontophore usually flanged
+"]
+	Nordiidae_003 -> Nordiidae_004 [label="Odontophore not flanged
+"]
+	Nordiidae_004 -> Nordiinae [label="Body usually robust;
+odontostyle length 3-5
+x lip region
+width
+"]
+	Nordiidae_004 -> Actinolaimoidinae [label="Body usually slender;
+odontostyle length <
+2 x lip
+region width
+"]
+	Nordiinae -> "Longidorella
+Saevadorella" [label="Body robust; odontostyle
+length 3-5 x
+lip region width
+"]
+	Nordiinae -> Thornedia [label="Body slender; odontostyle
+length < 2
+x lip region
+width
+"]
+	Cephalodorylaiminae -> Cephalodorylaimus [label="Inner labial papillae
+setiform; female reproductive
+system diovarial, amphidelphic
+"]
+	Cephalodorylaiminae -> Acephalodorylaimus [label="Inner labial papillae
+barely raised; female
+reproductive system monovarial,
+prodelphic
+"]
+	Pungentiinae -> Pungentiinae_002 [label="Tail short to
+elongate-conoid
+"]
+	Pungentiinae -> Pungentiinae_006 [label="Tail long, filiform
+"]
+	Pungentiinae_002 -> Californidorus [label="Odontostyle very long,
+> 50 µm
+"]
+	Pungentiinae_002 -> Pungentiinae_003 [label="Odontostyle shorter, <
+50 µm
+"]
+	Pungentiinae_003 -> Kochinema [label="Amphids labial
+"]
+	Pungentiinae_003 -> Pungentiinae_004 [label="Amphids post-labial
+"]
+	Pungentiinae_004 -> Rhyssocolpus [label="Cuticle near vulva
+coarsely striated
+"]
+	Pungentiinae_004 -> Pungentiinae_005 [label="Cuticle near vulva
+not striated
+"]
+	Pungentiinae_005 -> Pungentus [label="Cuticularized platelets around
+stoma
+"]
+	Pungentiinae_005 -> Enchodelus [label="No cuticularized platelets
+around stoma
+"]
+	Pungentiinae_006 -> Enchodorus [label="Odontostyle < 10
+µm; ventromedian supplements
+few and spaced
+"]
+	Pungentiinae_006 -> Lenonchium [label="Odontostyle > 15
+µm; ventromedian supplements
+numerous and contiguous
+"]
+	Enchodelus -> Enchodelus_002 [label="Tail hemispherical or
+bluntly conoid
+"]
+	Enchodelus -> Enchodelus_003 [label="Tail short-conoid or
+elongate-conoid
+"]
+	Enchodelus_002 -> Enchodelus [label="Odontostyle fairly long;
+odontophore with broad
+basal flanges
+"]
+	Enchodelus_002 -> Rotundus [label="Odontostyle short; odontophore
+without basal flanges
+"]
+	Enchodelus_003 -> Heterodorus [label="Lip region not
+offset from body
+contour; female gonads
+with ovoid chamber
+"]
+	Enchodelus_003 -> Enchodelus_004 [label="Lip region distinctly
+offset from body
+contour; female gonads
+without ovoid chamber
+"]
+	Enchodelus_004 -> Nepalus [label="Odontostyle>50µm; odontophore with
+moderate basal flanges
+"]
+	Enchodelus_004 -> Paraenchodelus [label="Odontostyle<50µm; odontophore rod-like
+"]
+	Helmabiinae -> Helmabia
+	Actinolaimoidinae -> Actinolaimoidinae_002 [label="Odontostyle very narrow;
+aperture indistinct
+"]
+	Actinolaimoidinae -> Actinolaimoidinae_003 [label="Odontostyle narrow; aperture
+distinct
+"]
+	Actinolaimoidinae_002 -> Malekus [label="Labial papillae prominent;
+projecting above lip
+contour
+"]
+	Actinolaimoidinae_002 -> Oonaguntus [label="Labial papillae indistinct;
+not projecting above
+lip contour
+"]
+	Actinolaimoidinae_003 -> Actinolaimoides [label="Lip region continuous;
+first pair of
+ventro-sub-lateral esophageal glands
+close together
+"]
+	Actinolaimoidinae_003 -> Actinolaimoidinae_004 [label="Lip region offset;
+first pair of
+ventro-sub-lateral esophageal glands
+widely separated
+"]
+	Actinolaimoidinae_004 -> Oriverutus [label="Odontostyle usually <
+2 lip widths
+long; well-developed glands
+at esophago-intestinal junction
+"]
+	Actinolaimoidinae_004 -> Pararoriverutus [label="Odontostyle usually 3
+lip widths long;
+no glands at
+esophago-intestinal junction
+"]
+	Actinolaimoidea -> Carcharolaimidae [label="Female tail <
+2x abd, conical
+or rounded; vestibule
+with basket-like structures
+"]
+	Actinolaimoidea -> Actinolaimoidea_002 [label="Female tail >4x
+abd; vestibule without
+basket-like structures
+"]
+	Actinolaimoidea_002 -> Actinolaimidae [label="Vestibule with four
+massive onchia, with
+or without denticles
+"]
+	Actinolaimoidea_002 -> Trachypleurosidae [label="Vestibule without onchia
+but with corrugated
+ring and tranverse
+rows of mural
+denticles
+"]
+	Actinolaimidae -> Actinolaimidae_002 [label="Cuticle with longitudinal
+striations
+"]
+	Actinolaimidae -> Actinolaimidae_003 [label="Cuticle without longitudinal
+striations
+"]
+	Actinolaimidae_002 -> Actinolaiminae [label="Odontostyle massive, robust,
+aperture 1/2 its
+length
+"]
+	Actinolaimidae_002 -> Brittonematinae [label="Odontostyle slender, 2-3
+lip widths long;
+aperture about 1/3
+its length
+"]
+	Actinolaimidae_003 -> Paractinolaiminae [label="Vestibule with minute
+denticles
+"]
+	Actinolaimidae_003 -> Neoactinolaiminae [label="Vestibule without denticles
+"]
+	Actinolaiminae -> Actinolaimus
+	Neoactinolaiminae -> Neoactinolaiminae_002 [label="Vestibule with four
+onchia
+"]
+	Neoactinolaiminae -> Hexactinolaimus [label="Vestibule with six
+onchia
+"]
+	Neoactinolaiminae_002 -> Metactinolaimus [label="Onchia fused into
+a strong second
+spear guide
+"]
+	Neoactinolaiminae_002 -> Neoactinolaiminae_003 [label="Onchia not fused
+"]
+	Neoactinolaiminae_003 -> Neoactinolaimus [label="Ventromedian supplements in
+2-3 fascicles
+"]
+	Neoactinolaiminae_003 -> Egtitus [label="Ventromedian supplements arranged
+in series
+"]
+	Paractinolaiminae -> Paractinolaiminae_002 [label="Vestibule with four
+onchia
+"]
+	Paractinolaiminae -> Paractinolaiminae_003 [label="Vestibule with six
+onchia
+"]
+	Paractinolaiminae_002 -> Metactinolaimus [label="Onchia fused into
+a strong second
+spear guide
+"]
+	Paractinolaiminae_002 -> Paractinolaiminae_003 [label="Onchia not fused
+"]
+	Paractinolaiminae_003 -> Neoactinolaimus [label="Ventromedian supplements in
+2-3 fascicles
+"]
+	Paractinolaiminae_003 -> Egtitus [label="Ventromedian supplements arranged
+in series
+"]
+	Brittonematinae -> Actinca [label="Lip region almost
+continuous with body;
+female tail long,
+filiform; male tail
+short, rounded
+"]
+	Brittonematinae -> Paractinocephalus [label="Lip region expanded;
+tail long, filiform
+in both sexes
+"]
+	Actinca -> Actinca [label="Lip region narrow
+and high; vestibule
+ring weak
+"]
+	Actinca -> Actinca_002 [label="Lip region wide
+and low; vestibule
+ring well developed
+"]
+	Actinca_002 -> Stomachoglossa [label="Body < 3
+mm, odontostyle slender
+"]
+	Actinca_002 -> Parastomachoglossa [label="Body > 3
+mm, odontostyle robust
+"]
+	Trachypleurosidae -> Trachypleurosum
+	Carcharolaimidae -> Carcharolaiminae [label="Stoma narrowing behind
+guiding ring
+"]
+	Carcharolaimidae -> Caribenematinae [label="Stoma not narrowing
+behind guiding ring
+"]
+	Carcharolaiminae -> Carcharolaiminae_002 [label="Lip region offset;
+tail conoid; curved
+ventrally
+"]
+	Carcharolaiminae -> Brasilaimus [label="Lip region continuous;
+tail elongate, straight
+"]
+	Carcharolaiminae_002 -> Antholaimus [label="Lips angular, petaloid,
+bearing rods and
+plates
+"]
+	Carcharolaiminae_002 -> Carcharolaiminae_003 [label="Lips not angular,
+without rods and
+plates
+"]
+	Carcharolaiminae_003 -> Carcharolaiminae_004 [label="Cephalic framework basket-like
+"]
+	Carcharolaiminae_003 -> Mylodiscoides [label="Cephalic framework with
+two plates, posterior
+one shallow, bowl-like,
+anterior small
+"]
+	Carcharolaiminae_004 -> Carcharolaiminae_005 [label="Cephalic framework with
+strong onchia
+"]
+	Carcharolaiminae_004 -> Carcharolaimus [label="Cephalic framework with
+ribs, denticles or
+small teeth
+"]
+	Carcharolaiminae_005 -> Carcharoides [label="Six onchia
+"]
+	Carcharolaiminae_005 -> Caryboca [label="Four onchia
+"]
+	Caribenematinae -> Caribenema
+	Longidoroidea -> Xiphinematidae [label="Guiding ring double;
+odontophore flanged
+"]
+	Longidoroidea -> Longidoridae [label="Guiding ring single;
+odontophore not flanged
+"]
+	Longidoridae -> Paralongidorus [label="Amphids with stirrup-shaped
+fovea
+"]
+	Longidoridae -> Longidoridae_002 [label="Amphids with pouch-like
+fovea
+"]
+	Longidoridae_002 -> Longidorus [label="Amphid apertures pore-like,
+inconspicuous
+"]
+	Longidoridae_002 -> Longidoroides [label="Amphid apertures slit-like
+"]
+	Xiphinematidae -> Xiphinematinae [label="Amphids stirrup-shaped with
+slit-like apertures; dorsal
+gland nucleus at
+same level as
+dorsal gland opening
+"]
+	Xiphinematidae -> Xiphidorinae [label="Amphids pouch-like with
+pore-like apertures; dorsal
+gland nucleus far
+behind dorsal gland
+opening
+"]
+	Xiphinematinae -> Xiphinema
+	Xiphidorinae -> Xiphidorus
+	Belondiroidea -> Belondiridae
+	Belondiridae -> Dorylaimellinae [label="Cuticularized pieces around
+oral aperture; odontophore
+flanged
+"]
+	Belondiridae -> Belondiridae_002 [label="Cuticularized pieces absent
+around oral aperture;
+odontophore rod-like
+"]
+	Belondiridae_002 -> Belondirinae [label="Female tail short;
+digitate, conoid or
+rounded
+"]
+	Belondiridae_002 -> Swangeriinae [label="Female tail long,
+filiform
+"]
+	Belondirinae -> Belondirinae_002 [label="Female reproductive system
+diovarial, amphidelphic
+"]
+	Belondirinae -> Belondirinae_004 [label="Female reproductive system
+monovarial, opisthodelphic
+"]
+	Belondirinae_002 -> Anchobelondira [label="Anterior of esophagus
+set off by
+constriction
+"]
+	Belondirinae_002 -> Belondirinae_003 [label="Anterior of esophagus
+not set off
+by constriction
+"]
+	Belondirinae_003 -> Belondirella [label="Lip region with
+6 liplets; 2
+ventromedian supplements
+"]
+	Belondirinae_003 -> Amphibelondira [label="Lip region without
+liplets, no ventromedian
+supplements
+"]
+	Belondirinae_004 -> Nimigula [label="Esophagus > 1/2
+body length; vulva
+anterior to esophago-intestinal
+junction
+"]
+	Belondirinae_004 -> Belondirinae_005 [label="Esophagus < Â½
+body length; vulva
+posterior to esophago-intestinal
+junction
+"]
+	Belondirinae_005 -> Belondirinae_006 [label="Anterior of esophagus
+set off by
+constriction or isthmus
+"]
+	Belondirinae_005 -> Belondira [label="Anterior part of
+esophagus continuous
+"]
+	Belondirinae_006 -> Dactyluraxonchium [label="Tail apically digitate
+"]
+	Belondirinae_006 -> Belondirinae_007 [label="Tail apically hemispherical
+"]
+	Belondirinae_007 -> Phallaxonchium [label="Spicules very long,
+narrow, alate, without
+median pieces
+"]
+	Belondirinae_007 -> Belondirinae_008 [label="Spicules massive, non-alate,
+with median pieces
+"]
+	Belondirinae_008 -> Heynsaxonchium [label="Odontostyle narrow, >
+2 lip widths
+long
+"]
+	Belondirinae_008 -> Belondirinae_009 [label="Odontostyle fusiform to
+cylindroid, < 2
+lip widths long
+"]
+	Belondirinae_009 -> Axonchoides [label="Labial framework semi-sclerotized,
+cephalic papillae mammiform,
+anterior of esophagus
+non-muscular
+"]
+	Belondirinae_009 -> Axonchium [label="Labial framework not
+sclerotized, cephalic papillae
+not mammiform, anterior
+of esophagus muscular
+"]
+	Axonchium -> Syncheilaxonchium [label="Lip region not
+offset, bluntly conoid
+to hemispherical, lips
+amalgamated
+"]
+	Axonchium -> Axonchium_002 [label="Lip region offset
+"]
+	Axonchium_002 -> Poraxonchium [label=">100 lateral body
+pores, > 50
+ventral body pores;
+5-7 caudal pores
+in female, 7-10
+in male; spiral
+muscle sheath encircling
+posterior part of
+esophagus
+"]
+	Axonchium_002 -> Axonchium_003 [label="Fewer lateral and
+ventral body pores;
+1-2 caudal pores
+in female, up
+to 6 in
+male; muscle sheath
+with straight bundles
+encircling posterior part
+of esophagus
+"]
+	Axonchium_003 -> Axonchium_004 [label="Vagina sclerotized
+"]
+	Axonchium_003 -> Axonchium_007 [label="Vagina not sclerotized
+"]
+	Axonchium_004 -> Discaxonchium [label="Disk-like structure between
+body cuticle and
+vaginal sclerotization; males
+with many contiguous
+supplements
+"]
+	Axonchium_004 -> Axonchium_005 [label="No disk-like structure
+between body cuticle
+and vaginal scerotization;
+males with spaced
+supplements
+"]
+	Axonchium_005 -> Axonchium_006 [label="Anterior part of
+esophagus separated by
+an isthmus; spicules
+arcuate; ventromedian supplements
+regularly spaced
+"]
+	Axonchium_005 -> Spiculaxonchium [label="Anterior part of
+esophagus not separated
+by an isthmus;
+spicules plow-shaped; ventromedian
+supplements poorly developed,
+in two groups
+"]
+	Axonchium_006 -> Epaxonchium [label="Anterior part of
+esophagus slender, with
+fusiform section; male
+spicules > 2x
+anal body diameter
+long
+"]
+	Axonchium_006 -> Metaxonchium [label="Anterior part of
+esophagus muscular, without
+fusiform section; male
+spicules smaller
+"]
+	Axonchium_007 -> Hypaxonchium [label="Vulva broad, longitudinally
+oval, vagina lumen
+wide
+"]
+	Axonchium_007 -> Axonchium [label="Vulva a transverse
+slit, vagina lumen
+narrow
+"]
+	Dorylaimellinae -> Dorylaimellus
+	Dorylaimellus -> Dorylaimellus_002 [label="Female reproductive system
+monovarial
+"]
+	Dorylaimellus -> Dorylaimellus_006 [label="Female reproductive system
+diovarial, amphidelphic
+"]
+	Dorylaimellus_002 -> Dorylaimellus_003 [label="Female reproductive system
+monovarial, prodelphic
+"]
+	Dorylaimellus_002 -> Dorylaimellus_004 [label="Female reproductive system
+monovarial, opisthodelphic
+"]
+	Dorylaimellus_003 -> Mesodorylaimellus [label="Vulva a transverse
+slit
+"]
+	Dorylaimellus_003 -> Ibadanus [label="Vulva a longitudinal
+slit
+"]
+	Dorylaimellus_004 -> Sindellus [label="Peri-oral disk present,
+odontostyle attenuated
+"]
+	Dorylaimellus_004 -> Dorylaimellus_005 [label="Peri-oral disk absent,
+odontostyle lumen distinct
+"]
+	Dorylaimellus_005 -> Metadorylaimellus [label="Tail hemispherical or
+conoid
+"]
+	Dorylaimellus_005 -> Amazonema [label="Tail long, attenuated
+"]
+	Dorylaimellus_006 -> Capitellus [label="Lip region continuous
+with body contour
+"]
+	Dorylaimellus_006 -> Dorylaimellus_007 [label="Lip region offset
+"]
+	Dorylaimellus_007 -> Dorylaimellus_008 [label="Peri-oral disk present
+"]
+	Dorylaimellus_007 -> Dorylaimellus_010 [label="Peri-oral disk absent
+"]
+	Dorylaimellus_008 -> Axodorylaimellus [label="Vulva transverse
+"]
+	Dorylaimellus_008 -> Dorylaimellus_009 [label="Vulva pore-like or
+longitudinal
+"]
+	Dorylaimellus_009 -> Belondorylaimellus [label="Vulva longitudinal; tail
+cylindroid or sub-cylindroid
+"]
+	Dorylaimellus_009 -> Jamilius [label="Vulva pore-like; tail
+elongate, attenuated
+"]
+	Dorylaimellus_010 -> Rashidanema [label="Vulva transverse
+"]
+	Dorylaimellus_010 -> Dorylaimellus_011 [label="Vulva longitudinal
+"]
+	Dorylaimellus_011 -> Clavidorylaimellus [label="Tail terminus clavate
+"]
+	Dorylaimellus_011 -> Dorylaimellus_012 [label="Tail terminus not
+clavate
+"]
+	Dorylaimellus_012 -> Dorylaimellus [label="Tail digitate or
+subdigitate
+"]
+	Dorylaimellus_012 -> Dorylaimellus_013 [label="Tail elongate-conoid to
+filiform
+"]
+	Dorylaimellus_013 -> Elongidorylaimellus [label="Tail very long
+(c=8-16); spicules with
+abrupt ventral angle;
+ventromedian supplements in
+pairs
+"]
+	Dorylaimellus_013 -> Filidorylaimellus [label="Tail long (c=4-5);
+spicules dorylaimoid; ventromedian
+supplements in pairs
+"]
+	Swangeriinae -> Swangeriinae_002 [label="Tail similar in
+both sexes
+"]
+	Swangeriinae -> Swangeriinae_007 [label="Tail dissimilar in
+both sexes
+"]
+	Swangeriinae_002 -> Swangeria [label="Basket-like structure around
+oral aperture
+"]
+	Swangeriinae_002 -> Swangeriinae_003 [label="No basket-like structure
+around oral aperture
+"]
+	Swangeriinae_003 -> Oxybelondira [label="Cephalic sclerotization
+"]
+	Swangeriinae_003 -> Swangeriinae_004 [label="No cephalic sclerotization
+"]
+	Swangeriinae_004 -> Swangeriinae_005 [label="Odontostyle straight
+"]
+	Swangeriinae_004 -> Swangeriinae_006 [label="Odontostyle asymmetrical
+"]
+	Swangeriinae_005 -> Falcihasta [label="Body length <
+2mm; female tail
+with lateral expansions;
+few ventromedian supplements
+"]
+	Swangeriinae_005 -> Paraoxydirus [label="Body length >
+3mm; female tail
+without lateral expansions;
+numerous ventromedian supplements
+"]
+	Swangeriinae_006 -> Qudsiella [label="Odontostyle long, attenuated
+"]
+	Swangeriinae_006 -> Oxydirus [label="Odontostyle short, not
+attenuated
+"]
+	Swangeriinae_007 -> Lindseyus [label="Odontostyle narrow; weak
+labial basket present
+"]
+	Swangeriinae_007 -> Roqueus [label="Odontostyle fusiform; labial
+basket absent
+"]
+	Tylencholaimoidea -> Aulolaimoididae [label="Esophagus with 3
+sections
+"]
+	Tylencholaimoidea -> Tylencholaimoidea_002 [label="Esophagus with 2
+sections
+"]
+	Tylencholaimoidea_002 -> Tylencholaimidae [label="Odontostyle usually well
+developed; expanded part
+of esophagus about
+1/2 esophagus length
+"]
+	Tylencholaimoidea_002 -> Tylencholaimoidea_003 [label="Odontostyle slender; expanded
+part of esophagus
+short, cylindroid or
+pyriform
+"]
+	Tylencholaimoidea_003 -> Mydonomidae [label="Odontostyle asymmetrical, aperture
+distinct; esophageal bulb
+cylindroid
+"]
+	Tylencholaimoidea_003 -> Leptonchidae [label="Odontostyle symmetrical, attenuated,
+often solid, needle-like;
+esophageal bulb usually
+pyriform
+"]
+	Tylencholaimidae -> Mumtaziinae [label="Amphids small, pouch-shaped,
+with oval aperture;
+odontostyle asymmetrical
+"]
+	Tylencholaimidae -> Tylencholaimidae_002 [label="Amphids stirrup-shaped, with
+slit-like aperture; odontostyle
+symmetrical
+"]
+	Tylencholaimidae_002 -> Vanderlindiinae [label="Odontostyle massive with
+very thick walls
+"]
+	Tylencholaimidae_002 -> Tylencholaimidae_003 [label="Odontostyle not massive,
+walls not thick
+"]
+	Tylencholaimidae_003 -> Xiphinemellinae [label="Odontostyle long, attenuated
+with narrow lumen
+and aperture
+"]
+	Tylencholaimidae_003 -> Tylencholaiminae [label="Odontostyle generally small,
+with distinct lumen
+and aperture; odontophore
+usually knobbed
+"]
+	Tylencholaiminae -> Tantunema [label="Amphid aperture small,
+pore-like
+"]
+	Tylencholaiminae -> Tylencholaiminae_002 [label="Amphid aperture slit-like
+"]
+	Tylencholaiminae_002 -> Tylencholaiminae_003 [label="Odontophore with distinct
+basal knobs
+"]
+	Tylencholaiminae_002 -> Tylencholaiminae_004 [label="Odontophore without basal
+knobs
+"]
+	Tylencholaiminae_003 -> Tylencholaimus [label="Tail short-conoid or
+elongate-conoid
+"]
+	Tylencholaiminae_003 -> Discomyctus [label="ail long, filiform
+"]
+	Tylencholaiminae_004 -> Tylencholaiminae_005 [label="Odontostyle 2 lip-region
+widths long
+"]
+	Tylencholaiminae_004 -> Tylencholaiminae_007 [label="Odontostyle 1 lip-region
+width long
+"]
+	Tylencholaiminae_005 -> Tylencholaiminae_006 [label="Body length <
+1 mm; odontostyle
+long and very
+thin; vulva transverse
+"]
+	Tylencholaiminae_005 -> Chitwoodius [label="Body length about
+2 mm; odontostyle
+long and robust;
+vulva longitudinal
+"]
+	Tylencholaiminae_006 -> Meylonema [label="Female reproductive system
+monovarial, prodelphic
+"]
+	Tylencholaiminae_006 -> Utahnema [label="Female reproductive system
+diovarial, amphidelphic
+"]
+	Tylencholaiminae_007 -> Sclerolaimus [label="Six sclerotized pieces
+around oral opening;
+labial disk absent;
+female reproductive system
+diovarial, amphidelphic
+"]
+	Tylencholaiminae_007 -> Capilonchus [label="Sclerotized pieces absent
+around oral opening;
+labial disk present;
+female reproductive system
+monovarial, prodelphic
+"]
+	Tylencholaimus -> Disctylencholaimus [label="Labial disk present
+"]
+	Tylencholaimus -> Tylencholaimus_002 [label="Labial disk absent
+"]
+	Tylencholaimus_002 -> Tylencholaimus_003 [label="Female reproductive system
+monovaria
+"]
+	Tylencholaimus_002 -> Tylencholaimus_006 [label="Female reproductive system
+diovarial, amphidelphic
+"]
+	Tylencholaimus_003 -> Tylencholaimus_004 [label="Female reproductive system
+prodelphic
+"]
+	Tylencholaimus_003 -> Opisthotylencholaimus [label="Female reproductive system
+opisthodelphic
+"]
+	Tylencholaimus_004 -> Tylencholaimus_005 [label="Lip region offset
+by deep constriction;
+odontophore with distinct
+basal knobs
+"]
+	Tylencholaimus_004 -> Protylencholaimus [label="Lip region offset
+by shallow depression;
+odontophore with very
+small basal knobs
+"]
+	Tylencholaimus_005 -> Tylencholaimus [label="Tail short-conoid
+"]
+	Tylencholaimus_005 -> Leptotylencholaimus [label="Tail elongate-conoid
+"]
+	Tylencholaimus_006 -> Pseudotylencholaimus [label="Odontostyle long, strongly
+cuticularized, small aperture
+"]
+	Tylencholaimus_006 -> Amphitylencholaimus [label="Odontostyle short, slender,
+with aperture 1/3
+its length
+"]
+	Xiphinemellinae -> Loncharionema [label="Female reproductive system
+monovarial prodelphic; tail
+long, filiform
+"]
+	Xiphinemellinae -> Xiphinemellinae_002 [label="Female reproductive system
+diovarial, amphidelphic; tail
+short, conoid
+"]
+	Xiphinemellinae_002 -> Xiphinemella [label="Labial disk present
+"]
+	Xiphinemellinae_002 -> Xiphinemellinae_003 [label="Labial disk absent
+"]
+	Xiphinemellinae_003 -> Zalophidera [label="Stoma sclerotized; odontophore
+flanged; vulva transverse
+"]
+	Xiphinemellinae_003 -> Kantbhala [label="Stoma not sclerotized;
+odontophore without knobs
+or flanges; vulva
+pore-like
+"]
+	Vanderlindiinae -> Vanderlindiinae_002 [label="Odontostyle ventrally curved
+"]
+	Vanderlindiinae -> Vanderlindiinae_003 [label="Odontostyle straight
+"]
+	Vanderlindiinae_002 -> Curvidorylaimus [label="Odontostyle base furcate,
+two distinct parts
+of esophagus; vulva
+transverse
+"]
+	Vanderlindiinae_002 -> Vanderlindia [label="Odontostyle base not
+furcate, parts of
+esophagus not distinctly
+demarcated; vulva circular
+"]
+	Vanderlindiinae_003 -> Metadorylaimus [label="Odontostyle aperture small;
+vulva transverse
+"]
+	Vanderlindiinae_003 -> Neometadorylaimus [label="Odontostyle aperture large;
+vulva longitudinal
+"]
+	Mumtaziinae -> Promumtazium [label="Female reproductive system
+diovarial, amphidelphic; tail
+short, conoid
+"]
+	Mumtaziinae -> Mumtazium [label="Female reproductive system
+monovarial, opisthodelphic; tail
+long, filiform
+"]
+	Leptonchidae -> Encholaiminae [label="Cuticle heavily striated,
+both transversely and
+longitudinally forming a
+lamelliform pattern; cephalic
+setae present
+"]
+	Leptonchidae -> Leptonchidae_002 [label="Cuticle finely striated;
+no longitudinal straie
+or cephalic setae
+"]
+	Leptonchidae_002 -> Athernematinae [label="Odontostyle asymmetrical; amphids
+strongly sclerotized
+"]
+	Leptonchidae_002 -> Leptonchidae_003 [label="Odontostyle symmetrical; amphids
+not sclerotized
+"]
+	Leptonchidae_003 -> Belonenchinae [label="Odontostyle solid, needle
+like, without distinct
+lumen
+"]
+	Leptonchidae_003 -> Leptonchidae_004 [label="Odontostyle not solid,
+with distinct lumen
+"]
+	Leptonchidae_004 -> Tylencholaimellinae [label="Odontophore with distinct
+knobs or flanges
+"]
+	Leptonchidae_004 -> Leptonchidae_005 [label="Odontophore without distinct
+knobs, rarely flanged
+"]
+	Leptonchidae_005 -> Leptonchinae [label="Odontostyle slender; inner
+cuticle lining of
+esophageal bulb not
+thickened
+"]
+	Leptonchidae_005 -> Tyleptinae [label="Odontostyle robust; inner
+cuticle lining of
+esophageal bulb distinctly
+thickened
+"]
+	Leptonchinae -> Leptonchinae_002 [label="Esophageal bulb offset
+by Constriction
+"]
+	Leptonchinae -> Leptonchinae_004 [label="Esophageal bulb not
+offset by constriction
+"]
+	Leptonchinae_002 -> Meylis [label="Lip region distinctly
+offset; labial disk
+present; female reproductive
+system diovarial; amphidelphic
+"]
+	Leptonchinae_002 -> Leptonchinae_003 [label="Lip region slightly
+offset; labial disk
+absent; female reproductive
+system monovarial; prodelphic
+"]
+	Leptonchinae_003 -> Proleptonchoides [label="Odontophore flanged; tail
+digitate-spicate
+"]
+	Leptonchinae_003 -> Proleptonchus [label="Odontophore not flanged;
+tail hemispherical or
+bluntly conoid
+"]
+	Leptonchinae_004 -> Funaria [label="Vulva longitudinal; esophageal
+bulb cylindroid
+"]
+	Leptonchinae_004 -> Leptonchinae_005 [label="Vulva transverse or
+pore-like; esophageal bulb
+pyriform
+"]
+	Leptonchinae_005 -> Bertzuckermania [label="Lip region continuous
+with body contour;
+stomal ring present
+"]
+	Leptonchinae_005 -> Leptonchinae_006 [label="Lip region offset;
+stomal ring absent
+"]
+	Leptonchinae_006 -> Leptonchus [label="Odontophore sclerotized, arcuate;
+vulva transverse
+"]
+	Leptonchinae_006 -> Apoleptonchus [label="Odontophore sclerotized only
+at base, straight;
+vulva pore-like
+"]
+	Tyleptinae -> Caveonchus [label="Labial disk present;
+odontostyle attenuated, with
+narrow lumen and
+aperture
+"]
+	Tyleptinae -> Tyleptinae_002 [label="Labial disk absent;
+odontostyle robust, with
+wide lumen and
+aperture
+"]
+	Tyleptinae_002 -> Tyleptus [label="Inner liplets around
+oral aperture; valvular
+chamber in esophageal
+bulb distinctly thickened
+"]
+	Tyleptinae_002 -> Gymnotyleptus [label="Inner liplets absent
+around oral aperture;
+valvular chamber in
+esophageal bulb indistinct
+"]
+	Belonenchinae -> Punctoleptus [label="Cuticle with punctations
+over entire body
+"]
+	Belonenchinae -> Belonenchinae_002 [label="Cuticle without punctations
+"]
+	Belonenchinae_002 -> Belonenchinae_003 [label="Basal esophageal bulb
+pyriform with distinct,
+valvular thickenings
+"]
+	Belonenchinae_002 -> Belonenchinae_004 [label="Basal esophageal bulb
+cylindrical, without valvular
+thickenings
+"]
+	Belonenchinae_003 -> Sclerostylus [label="Stoma heavily sclerotized
+at base; odontostyle
+long; odontophore conspicuously
+flanged
+"]
+	Belonenchinae_003 -> Basirotyleptus [label="Stoma weakly sclerotized
+at base; odontostyle
+short; odontophore simple,
+rod-like or weakly
+flanged
+"]
+	Belonenchinae_004 -> Glochidorella [label="Labial disk present;
+odontophore with basal
+knobs
+"]
+	Belonenchinae_004 -> Zetalaimus [label="Labial disk absent;
+odontophore flanged
+"]
+	Basirotyleptus -> Coronatyleptus [label="Labial disk present
+"]
+	Basirotyleptus -> Basirotyleptus_002 [label="Labial disk absent
+"]
+	Basirotyleptus_002 -> Aculonchus [label="Female reproductive system
+diovarial, amphidelphic
+"]
+	Basirotyleptus_002 -> Basirotyleptus_003 [label="Female reproductive system
+monovarial
+"]
+	Basirotyleptus_003 -> Trichonchium [label="Female reproductive system
+monovarial, prodelphic
+"]
+	Basirotyleptus_003 -> Basirotyleptus_004 [label="Female reproductive system
+monovarial; opisthodelphic
+"]
+	Basirotyleptus_004 -> Opisthotyleptus [label="Odontophore flanged
+"]
+	Basirotyleptus_004 -> Basirotyleptus [label="Odontophore not flanged
+"]
+	Encholaiminae -> Encholaimus
+	Tylencholaimellinae -> Tylencholaimellinae_002 [label="Esophageal bulb not
+offset by constriction
+"]
+	Tylencholaimellinae -> Tylencholaimellinae_004 [label="Esophageal bulb offset
+by constriction
+"]
+	Tylencholaimellinae_002 -> Oostebrinkella [label="Tail long, filiform
+"]
+	Tylencholaimellinae_002 -> Tylencholaimellinae_003 [label="Tail short, rounded
+"]
+	Tylencholaimellinae_003 -> Gerthus [label="Odontophore with basal
+knobs, female reproductive
+system monovarial, opisthodelphic
+"]
+	Tylencholaimellinae_003 -> Goferus [label="Odontophore without basal
+knobs, female reproductive
+system diovarial, amphidelphic
+"]
+	Tylencholaimellinae_004 -> Tylencholaimellinae_005 [label="Odontostyle with accessory
+stiffening piece
+"]
+	Tylencholaimellinae_004 -> Tylencholaimellinae_006 [label="Odontostyle without accessory
+stiffening piece
+"]
+	Tylencholaimellinae_005 -> Tylencholaimellus [label="Accessory stiffening piece
+on dorsal side
+of odontostyle; female
+reproductive system monovarial,
+opisthodelphic
+"]
+	Tylencholaimellinae_005 -> Dorella [label="Accessory stiffening piece
+on ventral side
+of odontostyle; female
+reproductive system monovarial,
+prodelphic
+"]
+	Tylencholaimellinae_006 -> Agmodorus [label="Tail elongate
+"]
+	Tylencholaimellinae_006 -> Tylencholaimellinae_007 [label="Tail short and
+rounded
+"]
+	Tylencholaimellinae_007 -> Doryllium [label="Sclerotized pieces absent
+around oral aperture;
+female reproductive system
+monovarial, opisthodelphic
+"]
+	Tylencholaimellinae_007 -> Phellonema [label="Sclerotized pieces present
+around oral aperture;
+female reproductive system
+diovarial, amphidelphic
+"]
+	Tylencholaimellus -> Coronatylencholaimellus [label="Labial disk present
+"]
+	Tylencholaimellus -> Tylencholaimellus [label="Labial disk absent
+"]
+	Mydonomidae -> Calolaiminae [label="Odontophore straight, rod-like;
+guiding ring thick
+"]
+	Mydonomidae -> Mydonominae [label="Odontophore angular; guiding
+ring not thick
+"]
+	Mydonominae -> Mydonomus [label="Esophageal bulb enclosed
+in muscular sheath
+"]
+	Mydonominae -> Mydonominae_002 [label="Esophageal bulb not
+enclosed in muscular
+sheath
+"]
+	Mydonominae_002 -> Dorylaimoides [label="Tail similar in
+both sexes
+"]
+	Mydonominae_002 -> Morasia [label="Tail dissimilar in
+both sexes
+"]
+	Dorylaimoides -> Dorylaimoides_002 [label="Female reproductive system
+diovarial, amphidelphic
+"]
+	Dorylaimoides -> Dorylaimoides_004 [label="Female reproductive system
+monovarial, opisthodelphic
+"]
+	Dorylaimoides_002 -> Longidorylaimoides [label="Tail long, filiform
+"]
+	Dorylaimoides_002 -> Dorylaimoides_003 [label="Tail not long
+and filiform
+"]
+	Dorylaimoides_003 -> Dorylaimoides [label="Tail short, conoid
+to hemispheroid
+"]
+	Dorylaimoides_003 -> Digidorylaimoides [label="Tail subdigtate or
+bent dorsally
+"]
+	Dorylaimoides_004 -> Shamimonema [label="Tail short, conoid
+or digitate
+"]
+	Dorylaimoides_004 -> Dorylaimoides_005 [label="Tail elongate, conoid
+or long, filiform
+"]
+	Dorylaimoides_005 -> Arcidorylaimoides [label="Tail elongate, conoid,
+ventrally arcuate
+"]
+	Dorylaimoides_005 -> Tarjania [label="Tail elongate, conoid,
+bent dorsally or
+long, filiform
+"]
+	Calolaiminae -> Miranema [label="Tail dissimilar in
+both sexes; odontophore
+strongly sclerotized
+"]
+	Calolaiminae -> Calolaiminae_002 [label="Tail similar in
+both sexes; odontophore
+not strongly sclerotized
+"]
+	Calolaiminae_002 -> Calolaimus [label="Odontostyle and guiding
+ring very thick;
+esophageal bulb long,
+cylindroid
+"]
+	Calolaiminae_002 -> Timmus [label="Odontostyle and guiding
+ring not very
+thick; esophageal bulb
+short, pyriform
+"]
+	Aulolaimoididae -> Aulolaimoides [label="Tail long and
+filiform
+"]
+	Aulolaimoididae -> Aulolaimoididae_002 [label="Tail short and
+rounded
+"]
+	Aulolaimoididae_002 -> Adenolaimus [label="Pharyngeal structures present;
+female reproductive system
+monovarial, opisthodelphic
+"]
+	Aulolaimoididae_002 -> Oostenbrinckia [label="Pharyngeal structures absent;
+female reproductive system
+diovarial, amphidelphic
+"]
+	Nygolaimina -> Nygolaimoidea
+	Nygolaimoidea -> Nygellidae [label="Basal expanded part
+of esophagus enclosed
+in a thick
+sheath of spiral
+muscles; female reproductive
+system monovarial, opisthodelphic
+"]
+	Nygolaimoidea -> Nygolaimoidea_002 [label="Basal part of
+esophagus not enclosed
+in muscle sheath;
+female reproductive system
+diovarial, amphidelphic
+"]
+	Nygolaimoidea_002 -> Aetholaimidae [label="Stoma sclerotized
+"]
+	Nygolaimoidea_002 -> Nygolaimoidea_003 [label="Stoma not sclerotized
+"]
+	Nygolaimoidea_003 -> Nygolaimidae [label="Basal expanded part
+of esophagus about
+1/2 esophagus length;
+cardiac glands present
+"]
+	Nygolaimoidea_003 -> Nygolaimellidae [label="Basal expanded part
+of esophagus about
+2/3 esophagus length,
+bibulbar; cardiac disk
+present
+"]
+	Nygolaimidae -> Nygolaiminae [label="Mural tooth deltoid
+to linear or
+dorylaimoid
+"]
+	Nygolaimidae -> Solididentinae [label="Mural tooth solid
+or acicular
+"]
+	Nygolaiminae -> Paravulvus [label="Vulva longitudinal; paravulvae
+usually present
+"]
+	Nygolaiminae -> Nygolaiminae_002 [label="Vulva transverse; paravulvae
+absent
+"]
+	Nygolaiminae_002 -> Afronygus [label="Tail elongate, conoid,
+ventrally arcuate
+"]
+	Nygolaiminae_002 -> Nygolaiminae_003 [label="Tail short, convex-conoid,
+ventrally arcuate, hemispheroid
+or clavate
+"]
+	Nygolaiminae_003 -> Laevides [label="Tooth dorylaimoid
+"]
+	Nygolaiminae_003 -> Nygolaiminae_004 [label="Tooth deltoid or
+linear
+"]
+	Nygolaiminae_004 -> Nygolaiminae_005 [label="Lip region offset
+by constriction
+"]
+	Nygolaiminae_004 -> Nygolaiminae_006 [label="Lip region usually
+continuous with body
+contour
+"]
+	Nygolaiminae_005 -> Nygolaimus [label="Males without gubernaculum
+and with weakly-developed
+ventromedian supplements
+"]
+	Nygolaiminae_005 -> Paranygolaimus [label="Males with gubernaculum
+and with well-developed
+ventromedian supplements
+"]
+	Nygolaiminae_006 -> Aquatides [label="Tooth linear; body
+usually straight; tail
+convex-conoid to hemispherical
+"]
+	Nygolaiminae_006 -> Clavicaudoides [label="Tooth deltoid to
+linear; body ventrally
+curved; tail hemispherical
+to clavate
+"]
+	Solididentinae -> Solididens [label="Body C- or
+S-shaped; lip region
+offset by constriction
+"]
+	Solididentinae -> Solididentinae_002 [label="Body almost straight;
+lip region continuous
+with body contour
+"]
+	Solididentinae_002 -> Feroxides [label="Tail short, bluntly
+rounded
+"]
+	Solididentinae_002 -> Clavicauda [label="Tail long with
+clavate terminus
+"]
+	Nygellidae -> Nygellinae
+	Aetholaimidae -> Aetholaiminae
+	Aetholaiminae -> Aetholaimus
+	Nygolaimellidae -> Nygolaimiinae [label="Pharynx with rasp-like
+area of minute
+denticles
+"]
+	Nygolaimellidae -> Nygolaimellinae [label="Pharynx without rasp-like
+area
+"]
+	Nygolaimellinae -> Nygolaimellus [label="Basal expanded part
+of esophagus bibulbular;
+cardiac disk present
+"]
+	Nygolaimellinae -> Nygolaimellinae_002 [label="Basal expanded part
+of esophagus simple;
+cardiac disk absent
+"]
+	Nygolaimellinae_002 -> Aporcelaimoides [label="Mural tooth dorylaimoid,
+long, with dorsal
+aperture
+"]
+	Nygolaimellinae_002 -> Scapidens [label="Mural tooth small
+without dorsal aperture
+"]
+	Nygolaimiinae -> Nygolaimium
+	Campydorina -> Campydoroidea
+	Campydoroidea -> Campydora
+}

@@ -1,0 +1,232 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Select 7</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+            input, label {
+                display:block;
+            }
+             .hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }
+        </style>
+        <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>        
+
+        <script src="/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <!-- Popupate Comboboxes -->     
+        <link rel="stylesheet" href="/vendor/lightbox/css/lightbox.min.css">
+        <script src="/js/UNL/ImagesByNid.js"></script>
+        <!-- Popupate Comboboxes -->     
+
+        <!-- Superfish stuff-->
+        <link rel="stylesheet" href="/vendor/superfish/dist/css/superfish.css" media="screen">
+       <script src="/vendor/superfish/dist/js/hoverIntent.js"></script>
+       <script src="/vendor/superfish/dist/js/superfish.js"></script>
+        <script src="/js/main.js"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">The Kootenay Nematode</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <form class="navbar-form navbar-right" role="form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Password" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign in</button>
+                    </form>
+                </div><!--/.navbar-collapse -->
+            </div>
+        </nav>
+        <div w3-include-html="/menu.html"></div>
+        <script>
+            includeHTML();
+        </script>
+        <!-- **************************************** -->
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron"  style="background-image: url('/files/images/UNL_KonzaPraire.jpg')">
+            <div class="container">
+                <h1>Nematode Fauna of North American Grasslands</h1>
+                <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+            </div>
+            <div class="container">
+                <p>Background image: Konza Prairie</p>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Metadata</h3>
+                    <form  id="idEditMetadataForm" action="http://srv.lp-ubuntu.ca/api/wkw_001_api/wkw" method="post" target="hiddenFrame" > 
+                        <div class="form-group row">
+                            <div class="form-group">
+                                <!-- <label for="ImageText">NID</label> -->
+                                <input type="hidden" name="ImageName" type="text" class="form-control" id="ImageName" placeholder="NID">
+                            </div>
+                            <div class="form-group">
+                                <!-- <label for="ImageText">ImageText</label> -->
+                                <input type="hidden" name="ImageText" type="text" class="form-control" id="ImageText" placeholder="ImageText">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="Species">Species</label>
+                                <input name="Species" type="text" class="form-control" id="Species" placeholder="Species">
+                            </div>
+                            <div class="form-group">
+                                <label for="Gender">Gender</label>
+                                <input name="Gender" type="text" class="form-control" id="Gender" placeholder="Gender">
+                            </div>
+                            <div class="form-group">
+                                <label for="Detail">Detail</label>
+                                <input name="Detail" type="text" class="form-control" id="Detail" placeholder="Detail">
+                            </div>
+                            <div class="form-group">
+                                <label for="Magnification">Magnification</label>
+                                <input name="Magnification" type="text" class="form-control" id="Magnification" placeholder="Magnification">
+                            </div>
+                            <div class="form-group">
+                                <label for="Location">Location</label>
+                                <input name="Location" type="text" class="form-control" id="Location" placeholder="Location">
+                            </div>
+                            <div class="form-group">
+                                <label for="Host">Host</label>
+                                <input name="Host" type="text" class="form-control" id="Host" placeholder="Host">
+                            </div>
+                            <!--
+                            
+                            -->
+                            <!--
+                            <div class="form-group">
+                                <label for="Genus">Genus</label>
+                                <input name="Genus" type="text" class="form-control" id="Genus" placeholder="Genus">
+                            </div>
+                            <div class="form-group">
+                                <label for="General">General</label>
+                                <input name="General" type="text" class="form-control" id="General" placeholder="General">
+                            </div>
+                            <div class="form-group">
+                                <label for="Descr">Descr</label>
+                                <input name="Descr" type="text" class="form-control" id="Descr" placeholder="Descr">
+                            </div>
+                            <div class="form-group">
+                                <label for="ScientificName_accepted">ScientificName_accepted</label>
+                                <input name="ScientificName_accepted" type="text" class="form-control" id="ScientificName_accepted" placeholder="ScientificName_accepted">
+                            </div>
+                            <div class="form-group">
+                                <label for="ScientificName">ScientificName</label>
+                                <input name="ScientificName" type="text" class="form-control" id="ScientificName" placeholder="ScientificName">
+                            </div>
+                            <div class="form-group">
+                                <label for="Class">Class</label>
+                                <input name="Class" type="text" class="form-control" id="Class" placeholder="Class">
+                            </div>
+                            <div class="form-group">
+                                <label for="Order">Order</label>
+                                <input name="Order" type="text" class="form-control" id="Order" placeholder="Order">
+                            </div>
+                            <div class="form-group">
+                                <label for="Family">Family</label>
+                                <input name="Family" type="text" class="form-control" id="Family" placeholder="Family">
+                            </div>
+                            <div class="form-group">
+                                <label for="Species">Species</label>
+                                <input name="Species" type="text" class="form-control" id="Species" placeholder="Species">
+                            </div>
+                            -->
+                        </div>
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                            <!--
+                            <button type="submit" class="btn btn-primary">Post</button>
+                            <button type="submit" class="btn btn-primary">Delete</button>
+                            <button type="submit" class="btn btn-primary">Put</button>
+                            -->
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h3>Observation</h3>
+                    <div id="CompareDiv">
+                    <div >
+                        <p>
+                            <button  onclick="previousImage()">Previous Observation</button>
+                            <button onclick="nextImage()">Next Observation</button>
+                        </p>
+                        <!-- /container -->
+                    </div>
+                        
+                        
+                    </div>
+                    <div class="row">
+                        <hr>
+                        <div id="displayDiv"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <hr>
+            <footer>
+                <h3>Footer</h3>
+            </footer>
+        </div>
+        <!-- Example row of columns -->
+<iframe name="hiddenFrame" class="hide"></iframe>
+        <script src="/js/vendor/bootstrap.min.js"></script>
+        <script src="/js/main.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function (b, o, i, l, e, r) {
+                b.GoogleAnalyticsObject = l;
+                b[l] || (b[l] = function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                }
+                );
+                b[l].l = +new Date;
+                e = o.createElement(i);
+                r = o.getElementsByTagName(i)[0];
+                e.src = '//www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e, r)
+            }(window, document, 'script', 'ga'));
+            ga('create', 'UA-XXXXX-X', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>

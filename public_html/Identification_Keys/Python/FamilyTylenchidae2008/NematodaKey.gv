@@ -1,0 +1,395 @@
+// FOO
+digraph "Nematoda Key" {
+	graph [rankdir=LR]
+	000 [label="Key to the
+ Genera of
+ Tylenchidae" fillcolor=red style=filled]
+	000 -> 001 [label=""]
+	001 [label=001 fillcolor=aqua style=filled]
+	001 -> 002 [label="Female didelphic
+"]
+	001 -> 004 [label="Female monodelphic
+"]
+	002 [label=002 fillcolor=aqua style=filled]
+	002 -> Antarctenchus [label="Cephalic framework moderately
+sclerotized; vulva provided
+with lateral vulval
+membranes; male cloaca
+provided with large
+hypoptygmata
+"]
+	002 -> 003 [label="Cephalic framework not
+sclerotized; vulva without
+lateral vulval membranes;
+male without hypoptygmata
+"]
+	003 [label=003 fillcolor=aqua style=filled]
+	003 -> Psilenchus [label="Head high with
+distinct amphidial slit
+on the lateral
+side; median bulb
+usually behind middle
+of pharynx
+"]
+	003 -> Atetylenchus [label="Head low with
+indistinct amphidial slit;
+median bulb anterior
+to middle of
+pharynx
+"]
+	004 [label=004 fillcolor=aqua style=filled]
+	004 -> 005 [label="Stylet = 76-104µm
+"]
+	004 -> Epicharinema [label="Stylet = 38-52µm
+"]
+	004 -> 006 [label="Stylet = 22-34µm
+"]
+	004 -> 007 [label="Stylet less than
+22µm
+"]
+	005 [label=005 fillcolor=aqua style=filled]
+	005 -> Tylodorus [label="Cephalic region continuous,
+not lobed; lateral
+field beginning near
+middle of pharynx
+"]
+	005 -> Arboritynchus [label="Cephalic region offset,
+with four prominent
+lobes; lateral field
+beginning at base
+of pharynx
+"]
+	006 [label=006 fillcolor=aqua style=filled]
+	006 -> Campbellenchus [label="Cuticle with longitudinal
+ridges
+"]
+	006 -> Gracilancea [label="Cuticle without longitudinal
+ridges except for
+the lateral field
+"]
+	007 [label=007 fillcolor=aqua style=filled]
+	007 -> 008 [label="Head provided with
+setae
+"]
+	007 -> 009 [label="Head without setae
+"]
+	008 [label=008 fillcolor=aqua style=filled]
+	008 -> Atetylenchus [label="Vulva covered by
+longitudinal flap, male
+without caudal alae;
+cloaca provided with
+large hypoptytgmata
+"]
+	008 -> Eutylenchus [label="Vulva with lateral
+vulval flaps; male
+with caudal alae;
+cloaca raised
+"]
+	009 [label=009 fillcolor=aqua style=filled]
+	009 -> 010 [label="Cuticle provided with
+longitudinal ridges
+"]
+	009 -> 014 [label="Cuticle without longitudinal
+ridges except for
+the lateral field
+"]
+	010 [label=010 fillcolor=aqua style=filled]
+	010 -> 011 [label="Stylet conus about
+1/3 of stylet
+length
+"]
+	010 -> 013 [label="Stylet conus about
+1/2 of stylet
+length
+"]
+	011 [label=011 fillcolor=aqua style=filled]
+	011 -> Ridgellus [label="The longitudinal ridges
+mask the transverse
+body annulations; lateral
+field not distinct
+(the mid-lateral ridge
+appears slightly larger
+than the others)
+"]
+	011 -> 012 [label="The longitudinal ridges
+divide the transverse
+annulations into blocks
+"]
+	012 [label=012 fillcolor=aqua style=filled]
+	012 -> Neothada [label="Lateral field with
+four lines
+"]
+	012 -> Ecphyadophoriodes [label="Lateral field with
+two lines, very
+thin animals
+"]
+	013 [label=013 fillcolor=aqua style=filled]
+	013 -> Pleurotylencus [label="Vulva covered by
+longitudinal flap; stylet
+= 17-19µm
+"]
+	013 -> Coslenchus [label="Vulva with lateral
+flaps (sometimes small
+or absent); stylet
+less than 15µm
+(exceptionally 17-19µm
+"]
+	014 [label=014 fillcolor=aqua style=filled]
+	014 -> 015 [label="Stylet conus about
+1/3 of stylet
+length
+"]
+	014 -> 015 [label="Stylet conus about
+1/2 stylet length
+"]
+	015 [label=015 fillcolor=aqua style=filled]
+	015 -> 016 [label="Boleodoridinae Head high
+with oblique or
+transverse amphidial slit
+on the lateral
+side
+"]
+	015 -> 018 [label="Head variously shaped,
+amphidial slit longitudinally
+oriented or only
+present on the
+front (than not
+seen by light
+microscopy
+"]
+	016 [label=016 fillcolor=aqua style=filled]
+	016 -> Boleodorus [label="Body ventrally curved,
+sometimes in spiral;
+female reproductive system
+with offset spermatheca
+filled with small
+refractive sperm and
+ovary with oocytes
+in multiple rows
+"]
+	016 -> 017 [label="Body straight or
+only slightly curved;
+sperm not refractive
+and oocytes not
+in multiple rows
+"]
+	017 [label=017 fillcolor=aqua style=filled]
+	017 -> Neopsilenchus [label="Anterior part of
+stylet not conical
+but with wide
+lumen, stylet without
+knobs
+"]
+	017 -> Basiria [label="Anterior part of
+stylet conical with
+the usual very
+fine lumen; stylet
+with or without
+knobs
+"]
+	018 [label=018 fillcolor=aqua style=filled]
+	018 -> Cucullitylenchus [label="Head with large
+dome-shaped structure
+"]
+	018 -> 019 [label="Head with small
+disc-like structure at
+front end
+"]
+	018 -> 020 [label="Head with smooth
+contour
+"]
+	019 [label=019 fillcolor=aqua style=filled]
+	019 -> Mitranema [label="Very slender, (a-value=62-67);
+caudal alae posteriorly
+concave
+"]
+	019 -> Discotylenchus [label="Not so slender;
+caudal alae rounded,
+no vulval flaps
+"]
+	019 -> Malenchus [label="Not so slender;
+caudal alae rounded,
+distinct vulval flaps
+"]
+	020 [label=020 fillcolor=aqua style=filled]
+	020 -> 021 [label="Very slender body
+(a-value 60-180); bursa
+lobed
+"]
+	020 -> 022 [label="Very slender body,
+bursa not lobed
+"]
+	020 -> 023 [label="Body not extremely
+slender; bursa (if
+present) not lobed
+"]
+	021 [label=021 fillcolor=aqua style=filled]
+	021 -> Ecyphyadophora [label="Body constricted at
+vulva; head quadrangular
+(amphidial openings small
+pores on front,
+not distinct with
+light microscopy)
+"]
+	021 -> Tenunemellus [label="Body not constricted
+at vulva; head
+dorso-ventrally flattened; long
+sinuous amphidial aperture
+"]
+	022 [label=022 fillcolor=aqua style=filled]
+	022 -> Ultratenella [label="Lateral field absent
+"]
+	022 -> Chilenchus [label="Lateral field prominent
+with four lines
+"]
+	023 [label=023 fillcolor=aqua style=filled]
+	023 -> 024 [label="Cuticular annuli deeply
+incised
+"]
+	023 -> 027 [label="Cuticular annuli not
+so deeply incised,
+sometimes indistinct
+"]
+	024 [label=024 fillcolor=aqua style=filled]
+	024 -> Thada [label="Stylet with minute
+swellings, median bulb
+hardly developed
+"]
+	024 -> 025 [label="Stylet with small
+knobs, median bulb
+hardly or well
+developed
+"]
+	025 [label=025 fillcolor=aqua style=filled]
+	025 -> Miculenchus [label="Annuli zigzag in
+surface view; annulations
+continue on the
+head; male without
+caudal alae
+"]
+	025 -> 026 [label="Annuli normal; male
+with caudal alae
+"]
+	026 [label=026 fillcolor=aqua style=filled]
+	026 -> Silenchus [label="Vulva with projecting
+vulval lips, male
+with elongated bursa
+"]
+	026 -> Malenchus [label="Vulva sunken in
+body; male with
+rather short, ad-cloacal
+bursa
+"]
+	027 [label=027 fillcolor=aqua style=filled]
+	027 -> Lelenchus [label="Head dorso-ventrally flattened
+with longitudinal sinuous
+amphidial apertures; the
+small head contains
+large amphidial pouches;
+body usually very
+slender
+"]
+	027 -> 028 [label="Head quadrangular with
+usually longitudinal (but
+not sinuous) amphidial
+apertures; amphidial pouches
+not distinct; relatively
+thicker species
+"]
+	028 [label=028 fillcolor=aqua style=filled]
+	028 -> Irantylenchus [label="Clavate stylet knobs
+with ventrally situated
+opening of pharyngeal
+lumen; dorsal gland
+has opening one
+half to one
+stylet length posterior
+to knobs
+"]
+	028 -> 029 [label="Stylet has rounded
+knobs; dorsal gland
+opening close to
+knobs
+"]
+	029 [label=029 fillcolor=aqua style=filled]
+	029 -> Fraglenchus [label="Lateral vulval membranes
+"]
+	029 -> 030 [label="Lateral vulval membranes
+absent
+"]
+	030 [label=030 fillcolor=aqua style=filled]
+	030 -> Sakia [label="Median bulb underdeveloped,
+no valves
+"]
+	030 -> Filenchus [label="Median bulb slightly
+or well developed,
+with valves
+"]
+	031 [label=031 fillcolor=aqua style=filled]
+	031 -> 032 [label="Vulva provided with
+lateral flaps
+"]
+	031 -> 033 [label="Vulva without flaps
+"]
+	032 [label=032 fillcolor=aqua style=filled]
+	032 -> Allotylenchus [label="Lateral field with
+two lines; vagina
+thin; post-vulval sac
+short
+"]
+	032 -> Aglenchus [label="Lateral field with
+three lines (but
+the two ridges
+can slightly separate
+so that in
+total four lines
+can sometimes be
+seen); vagina thickened;
+post-vulval sac short
+"]
+	032 -> Fraglenchus [label="Lateral field with
+four lines, vagina
+not swollen, no
+post-vulval uterine sac
+"]
+	032 -> Cephalenchus [label="Lateral field usually
+with six lines,
+sometimes four lines;
+vagina not thickened;
+post-vulval uterine sac
+well developed
+"]
+	033 [label=033 fillcolor=aqua style=filled]
+	033 -> Tanzanius [label="Pharynx without median
+bulb
+"]
+	033 -> 034 [label="Pharynx with median
+bulb
+"]
+	034 [label=034 fillcolor=aqua style=filled]
+	034 -> 035 [label="Lateral field and
+body annulations at
+mid-body mostly inconspicuous
+"]
+	034 -> 036 [label="Lateral field and
+body annulations distinct;
+caudal alae distinct
+"]
+	035 [label=035 fillcolor=aqua style=filled]
+	035 -> Cervoannulatus [label="A few large
+annuli just posterior
+to the head
+"]
+	035 -> Polenchus [label="Not such large
+annuli
+"]
+	036 [label=036 fillcolor=aqua style=filled]
+	036 -> Silenchus [label="Vulva with projecting
+vulval lips, male
+with elongated bursa
+"]
+	036 -> Tylenchus [label="Vulva plain, male
+with shorter, ad-cloacal
+bursa
+"]
+}

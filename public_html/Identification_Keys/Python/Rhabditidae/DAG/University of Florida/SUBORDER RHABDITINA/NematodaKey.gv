@@ -1,0 +1,436 @@
+// FOO
+digraph "Nematoda Key" {
+	graph [rankdir=LR]
+	000 [label="SUBORDER RHABDITINA" fillcolor=red style=filled]
+	003 [label="Aloionematoidea " fillcolor=aqua style=filled]
+	000 -> 003 [label="Stoma short,
+ with weakly cuticularized rhabdions;
+ bursa absent"]
+	002 [label=" " fillcolor=aqua style=filled]
+	000 -> 002 [label="Stoma cylindrical,
+ well cuticularized;
+bursa present supported by ribs,
+sometimes reduced "]
+	002 [label=002 fillcolor=aqua style=filled]
+	004 [label=Bunonematoidea fillcolor=aqua style=filled]
+	002 -> 004 [label="Body asymetrical,
+ left side with longitudinal ridges,
+ right side with various structures
+ such as network pattern,
+ tubercles, warts, fins
+ (Fig. 4)"]
+	002 -> 011 [label=" Body symetrical;
+ various structures such as network pattern,
+ tubercles, warts,fins absent "]
+	003 [label="SUPERFAMILY
+ALLOIONEMATOIDEA" fillcolor=aqua style=filled]
+	Alloionematidae [label=Alloionematidae fillcolor=aqua style=filled]
+	003 -> Alloionematidae [label="One family"]
+	Alloionema [label=Alloionema fillcolor=aqua style=filled]
+	003 -> Alloionema [label="Labial region with 6 fused lips;
+dorsal metarhabdion with numerous denticles"]
+	Rhabditophanes [label=Rhabditophanes fillcolor=aqua style=filled]
+	003 -> Rhabditophanes [label="Labial region with 4 lips;
+metastom without denticles;
+esophagus with a slight swelling
+ anterior to median bulb"]
+	004 [label="SUPERFAMILY
+BUNONEMATOIDEA" fillcolor=aqua style=filled]
+	005 [label=Bunonematidae fillcolor=aqua style=filled]
+	004 -> 005 [label="Right side of body with hexagonal network,
+ tubercles or warts,
+ left side with 5 longitudinal
+  ridges (Fig. 4-10 )"]
+	Pterygonematidae [label=Pterygonematidae fillcolor=aqua style=filled]
+	004 -> Pterygonematidae [label="Right side of body without network,
+ tubercles or warts but with rows of rhomboidal structures,
+ left side with longitudinal ridges "]
+	Pterygonematinae [label=Pterygonematinae fillcolor=aqua style=filled]
+	004 -> Pterygonematinae [label="Only one subfamily"]
+	Pterygorhabditis [label=Pterygorhabditis fillcolor=aqua style=filled]
+	004 -> Pterygorhabditis [label="Only one genus
+  (Fig. 3) "]
+	005 [label=005 fillcolor=aqua style=filled]
+	005 -> 006 [label="Right side of body with warts,
+ papillae or longitudinal ridges (Fig. 4-7)"]
+	009 [label="Craspedonematinae." fillcolor=aqua style=filled]
+	005 -> 009 [label="Right side with large shield-like structures
+ or with crust-like swellings (Fig. 8-10)"]
+	006 [label=Bunonematinae fillcolor=aqua style=filled]
+	Bunonema [label=Bunonema fillcolor=aqua style=filled]
+	006 -> Bunonema [label="Dorsal and ventral menbranes
+ forming collar on right side of body;
+ warts paired,
+ supported  by internal rods
+  (Fig. 4) ."]
+	006 -> 007 [label="No collar forming on right side of body;
+ warts without internal rods,
+ paired, unpaired or lacking
+ (Fig. 5)..."]
+	007 [label=007 fillcolor=aqua style=filled]
+	Rhodonema [label=Rhodonema fillcolor=aqua style=filled]
+	007 -> Rhodonema [label="Warts or papillae absent,
+ right side with striated ridges
+  (Fig. 5"]
+	007 -> 008 [label="Warts  or papillae present,
+ striated ridges on right side absent
+ (Fig. 6,7)."]
+	008 [label=008 fillcolor=aqua style=filled]
+	Serronema [label=Serronema fillcolor=aqua style=filled]
+	008 -> Serronema [label="Right side of body ornamented with single row of rod-like warts(Fig. 6)"]
+	Rhodolaimus [label=Rhodolaimus fillcolor=aqua style=filled]
+	008 -> Rhodolaimus [label="Two or more warts joined to form
+ paired or unpaired fins,
+ or continuous rows
+  (Fig. 7) "]
+	009 [label=009 fillcolor=aqua style=filled]
+	Craspedonema [label=Craspedonema fillcolor=aqua style=filled]
+	009 -> Craspedonema [label="Right side without warts
+ but with several shields
+ or crust-like swellings (Fig. 8)"]
+	009 -> 010 [label="Right side with warts and shields (Fig. 9, 10)"]
+	010 [label=010 fillcolor=aqua style=filled]
+	Aspidonema [label=Aspidonema fillcolor=aqua style=filled]
+	010 -> Aspidonema [label="Warts paired, in two longitudinal rows  (Fig. 9) .."]
+	Sachsium [label=Sachsium fillcolor=aqua style=filled]
+	010 -> Sachsium [label="Warts unpaired,
+ in single row alternating with large
+ shields or crust-like structures
+ (Fig. 10)"]
+	011 [label="SUPERFAMILY
+RHABDITOIDEA" fillcolor=aqua style=filled]
+	Diploscapteridae [label=Diploscapteridae fillcolor=aqua style=filled]
+	011 -> Diploscapteridae [label="Dorsal and ventral lips
+ transformed into
+ cuticularized fossors
+ (Fig. 11) "]
+	Diploscapterinae [label=Diploscapterinae fillcolor=aqua style=filled]
+	011 -> Diploscapterinae [label="Only one subfamily"]
+	Diploscapter [label=Diploscapter fillcolor=aqua style=filled]
+	011 -> Diploscapter [label="Only one genus
+  (Fig. 11) "]
+	011 -> 012 [label="Dorsal and ventral lips normal "]
+	012 [label=012 fillcolor=aqua style=filled]
+	012 -> 014 [label="Stoma long with large,
+transverse dorsal tooth
+ (Fig. 12, 13)"]
+	012 -> 013 [label="Stoma long with parallel walls,
+ without tooth
+ (Fig. 14, 15)."]
+	013 [label=013 fillcolor=aqua style=filled]
+	013 -> 015 [label="Stoma about twice as long as wide;
+ esophageal corpus cylindrical;
+ bursa absent."]
+	016 [label=Rhabditidae fillcolor=aqua style=filled]
+	013 -> 016 [label="Stoma more than 3 times
+ as long as wide
+ (except in Amphidirhabditinae,
+ then amphids large);
+ bursa generally
+ well developed,
+ if rudimentary, 
+then esophageal corpus
+ distinctly swollen."]
+	014 [label=Odontorhabditidae fillcolor=aqua style=filled]
+	Diploscapteroides [label=Diploscapteroides fillcolor=aqua style=filled]
+	014 -> Diploscapteroides [label="Cheilorhabdion
+strongly cuticularized,
+ female tail long,
+ tapering gradually"]
+	Cephaloboides [label=Cephaloboides fillcolor=aqua style=filled]
+	014 -> Cephaloboides [label="Cheilorhabdion
+slightly cuticularized,
+female tail narrowing suddenly
+ to form spike
+(Fig. 13) "]
+	015 [label=Rhabditonematidae fillcolor=aqua style=filled]
+	Rhabditonema [label=Rhabditonema fillcolor=aqua style=filled]
+	015 -> Rhabditonema [label="Metarhabdion
+ with small denticles,
+ female tail long,
+ about 1/8 of body length
+ (Fig. 14)"]
+	Saprorhabditis [label=Saprorhabditis fillcolor=aqua style=filled]
+	015 -> Saprorhabditis [label="Metarhabdion
+ without denticles;
+ female tail short,
+ about 1/50 of body length
+ (Fig. 15)."]
+	016 [label=016 fillcolor=aqua style=filled]
+	Stomachorhabditinae [label=Stomachorhabditinae fillcolor=aqua style=filled]
+	016 -> Stomachorhabditinae [label="Anterior end of intestinal
+ wall folded
+ (Fig. 16);
+ bursa absent"]
+	Stomachorhabditis [label=Stomachorhabditis fillcolor=aqua style=filled]
+	016 -> Stomachorhabditis [label="Only one genus
+ (Fig. 16)"]
+	016 -> 017 [label="Anterior end of intestinal
+ wall not folded,
+ bursa present"]
+	017 [label=017 fillcolor=aqua style=filled]
+	Amphidirhabditinae [label=Amphidirhabditinae fillcolor=aqua style=filled]
+	017 -> Amphidirhabditinae [label="Stoma short,
+ amphids large,
+ at about mid-stoma;
+ cheilorhabdion long,
+ curved, well cuticularized
+ (Fig.17) ."]
+	Amphidirhabditis [label=Amphidirhabditis fillcolor=aqua style=filled]
+	017 -> Amphidirhabditis [label="Only one genus  (Fig. 17)"]
+	017 -> 018 [label="Stoma longer,
+ amphids very small,
+ on lateral lips;
+ cheilorhabdion simple,
+ not well cuticularized"]
+	018 [label=018 fillcolor=aqua style=filled]
+	018 -> 022 [label="Stoma usually long and narrow;
+ glotoid apparatus and denticles absent"]
+	018 -> 019 [label="Stoma typical rhabditoid;
+ glotoid apparatus and denticles present "]
+	019 [label=019 fillcolor=aqua style=filled]
+	019 -> 025 [label="Female usually small,
+ gonad single;
+ vulva close to anus"]
+	019 -> 020 [label="Female gonads
+ usually paired,
+ vulva at mid-body"]
+	020 [label=020 fillcolor=aqua style=filled]
+	020 -> 032 [label="Bursa
+peloderan"]
+	020 -> 021 [label="Bursa
+leptoderan"]
+	021 [label=021 fillcolor=aqua style=filled]
+	021 -> 039 [label="Lips with numerous cilliae,
+ anterior part of esophagus
+ covering more than half of stoma(Fig. 38-39) "]
+	021 -> 040 [label=" Lips without cilliae,
+ anterior part of esophagus
+ usually covering less
+ than half of stoma "]
+	022 [label="Subfamily
+Protorhabditinae" fillcolor=aqua style=filled]
+	Parasitorhabditis [label=Parasitorhabditis fillcolor=aqua style=filled]
+	022 -> Parasitorhabditis [label=" Female gonad single;
+ spicules fused (Fig. 18)"]
+	022 -> 023 [label="Female gonads paired;
+ spicules not fused."]
+	023 [label=023 fillcolor=aqua style=filled]
+	Paradoxorhabditis [label=Paradoxorhabditis fillcolor=aqua style=filled]
+	023 -> Paradoxorhabditis [label="Bursa pseudopeloderan;
+ corpus of esophagus cylindrical,
+ isthmus very weak
+  (Fig. 19) ."]
+	023 -> 024 [label="Bursa peloderan;
+ esophagus with distinct
+ corpus and isthmus"]
+	024 [label=024 fillcolor=aqua style=filled]
+	Prodontorhabditis [label=Prodontorhabditis fillcolor=aqua style=filled]
+	024 -> Prodontorhabditis [label="Anterior end of prorhabdion
+ with three small teeth;
+ bursa closed  (Fig. 20)"]
+	Protorhabditis [label=Protorhabditis fillcolor=aqua style=filled]
+	024 -> Protorhabditis [label="Prorhabdion without small teeth;
+ bursa usually open (Fig. 21)"]
+	025 [label="Subfamily
+Mesorhabditinae" fillcolor=aqua style=filled]
+	025 -> 026 [label="Cheilorhabdion
+ cuticularized
+ (Fig. 22-24)."]
+	025 -> 028 [label="Cheilorhabdion
+ not cuticularized"]
+	026 [label=026 fillcolor=aqua style=filled]
+	Teratorhabditis [label=Teratorhabditis fillcolor=aqua style=filled]
+	026 -> Teratorhabditis [label="Labial edges strongly cuticularized (Fig. 22)."]
+	026 -> 027 [label="Labial edges not strongly cuticularized "]
+	027 [label=027 fillcolor=aqua style=filled]
+	Rhabpanus [label=Rhabpanus fillcolor=aqua style=filled]
+	027 -> Rhabpanus [label="Bursa pseudopeloderan  (Fig. 23)"]
+	Cruznema [label=Cruznema fillcolor=aqua style=filled]
+	027 -> Cruznema [label="Bursa peloderan  (Fig. 24)"]
+	028 [label=028 fillcolor=aqua style=filled]
+	028 -> 029 [label="Female tail very short,
+ broadly rounded or narrowing
+ suddenly with spine at terminus  (Fig. 25,26) "]
+	028 -> 030 [label="Female tail elongate, conical with pointed terminus "]
+	029 [label=029 fillcolor=aqua style=filled]
+	Operculorhabditis [label=Operculorhabditis fillcolor=aqua style=filled]
+	029 -> Operculorhabditis [label="Female tail
+ with spine
+  (Fig. 25) "]
+	Marispelodera [label=Marispelodera fillcolor=aqua style=filled]
+	029 -> Marispelodera [label="Female tail with broadly
+ rounded terminus,
+ without spine (Fig. 26)"]
+	030 [label=030 fillcolor=aqua style=filled]
+	Bursilla [label=Bursilla fillcolor=aqua style=filled]
+	030 -> Bursilla [label="Bursa very narrow;
+ spicules shorter than tail
+ and fused at tip (Fig. 27)."]
+	030 -> 031 [label="Bursa well developed;
+spicules longer than tail and
+ fused at least to one third
+ of their length."]
+	031 [label=031 fillcolor=aqua style=filled]
+	Crustorhabditis [label=Crustorhabditis fillcolor=aqua style=filled]
+	031 -> Crustorhabditis [label="Spicules
+ fused to two third of their length;
+ bursa crenate in its anterior half
+ (Fig. 28)"]
+	Mesorhabditis [label=Mesorhabditis fillcolor=aqua style=filled]
+	031 -> Mesorhabditis [label="Spicules
+ fused to one third,
+ sometimes one half of their length;
+ bursa smooth (Fig. 29)."]
+	032 [label="Subfamily
+Peloderinae" fillcolor=aqua style=filled]
+	032 -> 033 [label=" Bursa
+ closed anteriorly
+ (Fig. 30, 31) "]
+	032 -> 034 [label="Bursa
+ not closed anteriorly"]
+	033 [label=033 fillcolor=aqua style=filled]
+	"" [label="" fillcolor=aqua style=filled]
+	033 -> "" [label="Female tail
+ tapering gradually;
+ spicules not fused;
+ bursa with nine
+ pairs of ribs
+ (Fig. 30)"]
+	"" [label="" fillcolor=aqua style=filled]
+	033 -> "" [label="Female tail
+ narrowing suddenly
+ with or without spike on terminus;
+ spicules fused;
+ bursa with ten
+ pairs of ribs  (Fig. 31) ...."]
+	034 [label=034 fillcolor=aqua style=filled]
+	Phasmarhabditis [label=Phasmarhabditis fillcolor=aqua style=filled]
+	034 -> Phasmarhabditis [label="Stomal
+ tube short,
+ about once or twice as long as wide;
+ cheilorhabdion cuticularized;
+ phasmids dot-like,
+very prominent   (Fig. 32) ."]
+	034 -> 035 [label="Stomal
+ tube normal,
+ at least 4 times as long as wide,
+ cheilorhabdion usually not cuticularized;
+ phasmids point-like,
+ small "]
+	035 [label=035 fillcolor=aqua style=filled]
+	035 -> 036 [label="Spicules
+ fused;
+ bursa with ten pairs
+ of ribs
+ (Fig. 33,34) ."]
+	035 -> 037 [label="Spicules
+ not fused;
+ bursa with nine pairs
+ of ribs
+ (Fig. 35, 37) "]
+	036 [label=036 fillcolor=aqua style=filled]
+	Rhomborhabditis [label=Rhomborhabditis fillcolor=aqua style=filled]
+	036 -> Rhomborhabditis [label=" Two first pairs of ribs not on bursa;
+ female tail rounded (Fig. 33)."]
+	Pelodera [label=Pelodera fillcolor=aqua style=filled]
+	036 -> Pelodera [label="All ribs on bursa;
+ female tail spicate  (Fig. 34)"]
+	037 [label=037 fillcolor=aqua style=filled]
+	Pellioditis [label=Pellioditis fillcolor=aqua style=filled]
+	037 -> Pellioditis [label="Metarhabdion
+ each with 3 or 5
+ minute warts
+   (Fig. 35) ."]
+	037 -> 038 [label="Metarhabdion
+ each with 2 to 3
+ bristle-like denticles
+ (Fig. 36, 37) "]
+	038 [label="" fillcolor=aqua style=filled]
+	Xylorhabditis [label=Xylorhabditis fillcolor=aqua style=filled]
+	038 -> Xylorhabditis [label="Cheilorhabdion
+ cuticularized;
+ corpus swollen  (Fig. 36) "]
+	Dolichorhabditis [label=Dolichorhabditis fillcolor=aqua style=filled]
+	038 -> Dolichorhabditis [label="Cheilorhabdion
+ not cuticularized;
+ corpus cylindrical"]
+	039 [label="Subfamily
+Ablechroiulinae" fillcolor=aqua style=filled]
+	Rhabditoides [label=Rhabditoides fillcolor=aqua style=filled]
+	039 -> Rhabditoides [label="Bursa
+ rudimentary
+ with 10 pairs of ribs
+ (Fig. 38)."]
+	Ablechroiulus [label=Ablechroiulus fillcolor=aqua style=filled]
+	039 -> Ablechroiulus [label="Bursa
+ narrow,
+ but well visible,
+ with nine pairs of ribs
+ (Fig. 39)"]
+	040 [label="Subfamily
+Rhabditinae" fillcolor=aqua style=filled]
+	Colporhabditis [label=Colporhabditis fillcolor=aqua style=filled]
+	040 -> Colporhabditis [label="Labial edges strongly cuticularized (Fig. 40).."]
+	040 -> 041 [label="Labial edges not cuticularized."]
+	041 [label=041 fillcolor=aqua style=filled]
+	Oscheius [label=Oscheius fillcolor=aqua style=filled]
+	041 -> Oscheius [label="Stoma
+ very short,
+ protostom as long as or 
+slightly longer than wide
+ (Fig. 41)"]
+	041 -> 042 [label="Stoma
+ much longer"]
+	042 [label=042 fillcolor=aqua style=filled]
+	042 -> 043 [label="Bursa rudimentary (Fig. 42-46"]
+	042 -> 047 [label="Bursa normal (Fig. 47, 48) "]
+	043 [label=043 fillcolor=aqua style=filled]
+	043 -> 044 [label="Each spicule
+ with long dorsal thorn
+ (Fig. 42-43);
+ metarhabdion
+ with minute warts"]
+	043 -> 045 [label="Spicules
+ without dorsal thorn;
+ metarhabdion with
+ setose denticles
+ (Fig.44, 46)"]
+	044 [label=044 fillcolor=aqua style=filled]
+	Curviditis [label=Curviditis fillcolor=aqua style=filled]
+	044 -> Curviditis [label="Female tail
+ narrowing suddenlly
+ to form spike;
+ bursa with ten pairs of ribs"]
+	Rhabditella [label=Rhabditella fillcolor=aqua style=filled]
+	044 -> Rhabditella [label="Female tail
+ tapering gradually
+ to form long,
+ finely pointed tail (Fig. 43)."]
+	045 [label=045 fillcolor=aqua style=filled]
+	Poikilolaimus [label=Poikilolaimus fillcolor=aqua style=filled]
+	045 -> Poikilolaimus [label="Amphids
+ relatively large,
+ behind labial region;
+ bursa with 7 pairs of ribs
+  (Fig. 44)"]
+	045 -> 046 [label=" Amphids
+ very small,
+ on lateral lip;
+ bursa with nine pairs of ribs."]
+	046 [label=046 fillcolor=aqua style=filled]
+	Cuticularia [label=Cuticularia fillcolor=aqua style=filled]
+	046 -> Cuticularia [label="Nematode
+ with cuticular sheath;
+ female tail short,
+ spikate  (Fig. 45)"]
+	Rhittis [label=Rhittis fillcolor=aqua style=filled]
+	046 -> Rhittis [label="Nematode
+ with normal cuticle;
+ female tail tapering gradually  (Fig. 46) "]
+	047 [label=047 fillcolor=aqua style=filled]
+	Discoditis [label=Discoditis fillcolor=aqua style=filled]
+	047 -> Discoditis [label="Bursa closed anteriorly (Fig. 47)"]
+	Rhabditis [label=Rhabditis fillcolor=aqua style=filled]
+	047 -> Rhabditis [label=" Bursa open anteriorly  (Fig. 48)"]
+}

@@ -1,0 +1,809 @@
+// FOO
+digraph "Nematoda Key" {
+	graph [rankdir=LR tooltip=" "]
+	000 [label="UNL Nematology Lab
+Interactive Diagnostic Key 
+to Plant Parasitic, 
+Freeliving and Predaceous Nematodes" fillcolor=red style=filled tooltip=" "]
+	000 -> 001 [tooltip="tooltip 000->00"]
+	001 -> 002 [tooltip="000tooltip 001->0" xlabel="Cephalic setae
+ indistinct or absent"]
+	001 -> 064 [tooltip="  tooltip 001->0" xlabel="Cephalic setae
+ absent 
+but setae-like head appendages present"]
+	001 -> 069 [label="Cephalic setae
+ present" tooltip="  tooltip 001->0"]
+	002 [label=002 fillcolor=aqua style=filled]
+	002 -> 003 [xlabel="Stylet
+ Visible"]
+	002 -> 038 [xlabel="Stylet
+ Absent"]
+	003 [label=003 fillcolor=aqua style=filled]
+	003 -> 004 [label=Knobbed]
+	003 -> 029 [label="No Knobs"]
+	004 [label=004 fillcolor=aqua style=filled]
+	004 -> 005 [label="Median
+Bulb  Visible"]
+	004 -> 022 [label="Median
+Bulb  Absent"]
+	005 [label=005 fillcolor=aqua style=filled]
+	005 -> 006 [label="Females Eel-like"]
+	005 -> 021 [label="Females Swollen"]
+	006 [label=006 fillcolor=aqua style=filled]
+	006 -> 007 [label="Vulva Mid-body"]
+	006 -> 014 [label="Vulva Lower third"]
+	007 [label=007 fillcolor=aqua style=filled]
+	007 -> 008 [label="Esophagus No
+overlap"]
+	007 -> 011 [label="Esophagus Overlapping
+intestine"]
+	008 [label=008 fillcolor=aqua style=filled]
+	008 -> 009 [label="Stylet < 80 μm"]
+	"Genus
+Dolichodorus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	008 -> "Genus
+Dolichodorus" [label="Stylet > 80 μm"]
+	009 [label=009 fillcolor=aqua style=filled]
+	"Genus
+Tetylenchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	009 -> "Tail
+Terminus Genus
+Tetylenchus" [label=Pointed]
+	009 -> 010 [label="Tail
+Terminus Round"]
+	010 [label="Tail
+Terminus" fillcolor=aqua style=filled]
+	"Genus
+Psilenchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	010 -> "Genus
+Psilenchus" [label=Knobbed]
+	"Genus
+Tylenchorhynchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	010 -> "Genus
+Tylenchorhynchus" [label=Round]
+	011 [label=Labium fillcolor=aqua style=filled]
+	011 -> 012 [label=Offset]
+	011 -> 013 [label="Flattened
+amalgamated"]
+	012 [label=Stylet fillcolor=aqua style=filled]
+	"Genus
+Hoplolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	012 -> "Genus
+Hoplolaimus" [label="40-50 μm
+fat"]
+	"Genus
+Belonolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	012 -> "Genus
+Belonolaimus" [label="> 90 μm
+"]
+	013 [label=Body fillcolor=aqua style=filled]
+	"Genus
+Radopholus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	013 -> "Genus
+Radopholus" [label="0.5-1 mm"]
+	"Genus
+Hirschmanniella" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	013 -> "Genus
+Hirschmanniella" [label="2-3 mm"]
+	014 [label=Cuticle fillcolor=aqua style=filled]
+	014 -> 015 [label=Annulated]
+	014 -> 017 [label=Smooth]
+	015 [label="Cuticle
+Sheath" fillcolor=aqua style=filled]
+	015 -> 016 [label=Absent]
+	"Genus
+Hemicycliophora" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	015 -> "Genus
+Hemicycliophora" [label=Visible]
+	016 [label="Annules
+Spines or Scales" fillcolor=aqua style=filled]
+	"Genus
+Criconema" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	016 -> "Genus
+Criconema" [label=Visible]
+	"Genus
+Mesocriconema" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	016 -> "Genus
+Mesocriconema" [label=Absent]
+	017 [label="Body
+Death Position " fillcolor=aqua style=filled]
+	017 -> 018 [label=Straight]
+	"Genus
+Helicotylenchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	017 -> "Genus
+Helicotylenchus" [label=Spiral]
+	018 [label="Median/Bulb" fillcolor=aqua style=filled]
+	018 -> 019 [label=Inconspicous]
+	"Genus
+Aphelenchoides" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	018 -> "Genus
+Aphelenchoides" [label=Conspicous]
+	019 [label=Esophagus fillcolor=aqua style=filled]
+	019 -> 020 [label="Overlapping
+Intestine"]
+	"Genus
+Tylenchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	019 -> "Genus
+Tylenchus" [label="No
+Overlap"]
+	020 [label="Median/Bulb" fillcolor=aqua style=filled]
+	"Genus
+Ditylenchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	020 -> "Genus
+Ditylenchus" [label="Valves Small
+Stylet weak"]
+	"Genus
+Pratylenchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	020 -> "Genus
+Pratylenchus" [label="Valves and stylet
+well developed,
+labium flattened"]
+	021 [label="Female Body" fillcolor=aqua style=filled]
+	"Genus
+Meloidogyne" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	021 -> "Genus
+Meloidogyne" [label="White
+without eggs"]
+	"Genus
+Heterodera" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	021 -> "Genus
+Heterodera" [label="Brown
+with eggs"]
+	022 [label=Stylet fillcolor=aqua style=filled]
+	022 -> 023 [label="< 100 μm"]
+	"Genus
+Xiphinema" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	022 -> "Genus
+Xiphinema" [label="> 100 μm"]
+	023 [label=Stylet fillcolor=aqua style=filled]
+	023 -> 024 [label=Complex]
+	023 -> 025 [label=Simple]
+	024 [label=Stylet fillcolor=aqua style=filled]
+	"Genus
+Diphtherophora" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	024 -> "Genus
+Diphtherophora" [label="Anterior
+arch-like"]
+	"Genus
+Tylencholaimellus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	024 -> "Genus
+Tylencholaimellus" [label="Dorsal
+thickening"]
+	025 [label="Stylet Knobs" fillcolor=aqua style=filled]
+	025 -> 026 [label="Elongate
+flange-like"]
+	025 -> 027 [label=Round]
+	026 [label=Tail fillcolor=aqua style=filled]
+	"Genus
+Aulolaimoides" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	026 -> "Genus
+Aulolaimoides" [label=Filiform]
+	"Genus
+Enchodelus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	026 -> "Genus
+Enchodelus" [label=Round]
+	027 [label=Tail fillcolor=aqua style=filled]
+	027 -> 028 [label=Round]
+	"Genus
+Nothotylenchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	027 -> "Genus
+Nothotylenchus" [label=Pointed]
+	028 [label="Basal
+part" fillcolor=aqua style=filled]
+	"Genus
+Tylencholaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	028 -> "Genus
+Tylencholaimus" [label="Esophagus
+elongate"]
+	"Genus
+Doryllium" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	028 -> "Genus
+Doryllium" [label="Esophagus
+oval"]
+	029 [label="Valvate median
+esophageal bulb" fillcolor=aqua style=filled]
+	029 -> 030 [label=Absent]
+	029 -> 037 [label=Visible]
+	030 [label="Stomal
+walls" fillcolor=aqua style=filled]
+	030 -> 031 [label="Not cuticularized"]
+	"Genus
+Actinolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	030 -> "Genus
+Actinolaimus" [label=Cuticularized]
+	"Genus
+Metactinolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	030 -> "Genus
+Metactinolaimus" [label=Cuticularized]
+	"Genus
+Neoactinolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	030 -> "Genus
+Neoactinolaimus" [label=Cuticularized]
+	"Genus
+Paractinolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	030 -> "Genus
+Paractinolaimus" [label=Cuticularized]
+	"Genus
+Actinolaimoides" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	030 -> "Genus
+Actinolaimoides" [label=Cuticularized]
+	031 [label=Esophagus fillcolor=aqua style=filled]
+	031 -> 032 [label="Basal
+expansions"]
+	"Genus
+Oionchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	031 -> "Genus
+Oionchus" [label="Expanding
+uniformly"]
+	032 [label=Esophagus fillcolor=aqua style=filled]
+	032 -> 033 [label="Ovoid bulb
+at terminal fifth or sixth"]
+	032 -> 036 [label="Posterior
+third swollen"]
+	033 [label="Stylet
+Axial" fillcolor=aqua style=filled]
+	033 -> 034 [label="Positioned centrally"]
+	"Genus
+Campydora" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	033 -> "Genus
+Campydora" [label="Not axial
+orginating from tooth
+in stoma wall"]
+	034 [label=Gonads fillcolor=aqua style=filled]
+	034 -> 035 [label="Paired
+vulva about 50%"]
+	"Genus
+Tyleptus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	034 -> "Genus
+Tyleptus" [label="Single
+vulva > 50%"]
+	035 [label=Stylet fillcolor=aqua style=filled]
+	"Genus
+Leptonchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	035 -> "Genus
+Leptonchus" [label=Slender]
+	"Genus
+Dorylaimoides" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	035 -> "Genus
+Dorylaimoides" [label=Thick]
+	036 [label="Stylet
+Axial" fillcolor=aqua style=filled]
+	"Genus
+Dorylaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	036 -> "Genus
+Dorylaimus" [label=Central]
+	"Genus
+Eudorylaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	036 -> "Genus
+Eudorylaimus" [label=Central]
+	"Genus
+Labronema" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	036 -> "Genus
+Labronema" [label=Central]
+	"Genus
+Mesodorylaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	036 -> "Genus
+Mesodorylaimus" [label=Central]
+	"Genus
+Thornia" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	036 -> "Genus
+Thornia" [label=Central]
+	"Genus
+Laimydorus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	036 -> "Genus
+Laimydorus" [label=Central]
+	"Genus
+Prodorylaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	036 -> "Genus
+Prodorylaimus" [label=Central]
+	"Genus
+Dorylaiminae" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	036 -> "Genus
+Dorylaiminae" [label=Central]
+	"Genus
+Nygolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	036 -> "Genus
+Nygolaimus" [label="Not axial
+originating from
+tooth in stoma wall"]
+	037 [label=Tail fillcolor=aqua style=filled]
+	"Genus
+Seinura" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	037 -> "Genus
+Seinura" [label="Pointed "]
+	"Genus
+Aphelenchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	037 -> "Genus
+Aphelenchus" [label=Rounded]
+	038 [label=Teeth fillcolor=aqua style=filled]
+	038 -> 039 [label=Visible]
+	038 -> 050 [label="Absent/minute/indistinct"]
+	039 [label=Esophagus fillcolor=aqua style=filled]
+	039 -> 040 [label="No mid-region
+expansion"]
+	039 -> 049 [label="Expanded
+at mid-region"]
+	040 [label=Tail fillcolor=aqua style=filled]
+	040 -> 041 [label="Pointed
+or tapering"]
+	040 -> 047 [label=Rounded]
+	041 [label="Male Tail
+Setae" fillcolor=aqua style=filled]
+	041 -> 042 [label=None]
+	"Genus
+Oncholaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	041 -> "Genus
+Oncholaimus" [label=Visible]
+	042 [label="Stoma
+Denticles " fillcolor=aqua style=filled]
+	042 -> 043 [label=Visible]
+	042 -> 045 [label=Absent]
+	043 [label=Denticles fillcolor=aqua style=filled]
+	043 -> 044 [label="Scattered
+or in longitudinal rows"]
+	"Genus
+Mylonchulus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	043 -> "Genus
+Mylonchulus" [label="In
+transverse rows"]
+	044 [label=Denticles fillcolor=aqua style=filled]
+	"Genus
+Prionchulus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	044 -> "Genus
+Prionchulus" [label="On longitudinal
+rib of stoma"]
+	"Genus
+Sporonchulus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	044 -> "Genus
+Sporonchulus" [label="Scattered
+on stoma wall "]
+	045 [label=Tooth fillcolor=aqua style=filled]
+	045 -> 046 [label="Pointing
+forward"]
+	"Genus
+Anatonchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	045 -> "Genus
+Anatonchus" [label="Turned or
+pointing backward"]
+	046 [label="Tooth
+Position" fillcolor=aqua style=filled]
+	"Genus
+Iotonchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	046 -> "Genus
+Iotonchus" [label="In botton part of stoma"]
+	"Genus
+Mononchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	046 -> "Genus
+Mononchus" [label="In top
+part of stoma"]
+	047 [label=Stoma fillcolor=aqua style=filled]
+	047 -> 048 [label="With prominent medial
+or apical tooth"]
+	"Genus
+Bathyodontus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	047 -> "Genus
+Bathyodontus" [label="With small
+basal tooth"]
+	048 [label=Stoma fillcolor=aqua style=filled]
+	"Genus
+Enoplocheilus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	048 -> "Genus
+Enoplocheilus" [label="With 3 teeth
+without small basal tooth
+caudal glands terminal"]
+	"Genus
+Mononchulus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	048 -> "Genus
+Mononchulus" [label="With large anterior
+& small basal tooth
+caudal glands ventral"]
+	049 [label="Lip Region
+Rib-Like Armature" fillcolor=aqua style=filled]
+	"Genus
+Mononchoides" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	049 -> "Genus
+Mononchoides" [label=Distinct]
+	"Genus
+Diplogaster" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	049 -> "Genus
+Diplogaster" [label=Absent]
+	050 [label=Esophagus fillcolor=aqua style=filled]
+	050 -> 051 [label="With basal
+expansions"]
+	050 -> 060 [label="Uniformly
+cylindrical"]
+	051 [label=Esophagus fillcolor=aqua style=filled]
+	051 -> 052 [label="Without
+mid-region expansion"]
+	051 -> 055 [label="Expanded
+at mid-region"]
+	052 [label=Amphids fillcolor=aqua style=filled]
+	052 -> 053 [label=Distinct]
+	052 -> 054 [label=Indistinct]
+	053 [label="Stoma
+Walls" fillcolor=aqua style=filled]
+	"Genus
+Microlaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	053 -> "Genus
+Microlaimus" [label="Anteriorly inflated
+with minute tooth"]
+	"Genus
+Leptolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	053 -> "Genus
+Leptolaimus" [label="Without tooth and
+with straight,
+tapering sides"]
+	054 [label="Stoma
+Rod-Like Thickenings " fillcolor=aqua style=filled]
+	"Genus
+Rhabdolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	054 -> "Genus
+Rhabdolaimus" [label=Distinct]
+	"Genus
+Monochromadora" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	054 -> "Genus
+Monochromadora" [label=Indistinct]
+	055 [label=Gonads fillcolor=aqua style=filled]
+	055 -> 056 [label=Paired]
+	055 -> 058 [label=Single]
+	056 [label="Stoma
+walls" fillcolor=aqua style=filled]
+	056 -> 057 [label="Straight
+amalgamated"]
+	"Genus
+Alloionema" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	056 -> "Genus
+Alloionema" [label="Separated,
+not straight"]
+	057 [label=Metacorpus fillcolor=aqua style=filled]
+	"Genus
+Rhabditis" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	057 -> "Genus
+Rhabditis" [label="Moderately swollen
+stoma not
+excessively elongate"]
+	"Genus
+Cylindrocorpus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	057 -> "Genus
+Cylindrocorpus" [label="Elongate
+cyclindrical metacorpus
+stoma elongate"]
+	058 [label=Tail fillcolor=aqua style=filled]
+	058 -> 059 [label="Sharp
+terminus"]
+	"Genus
+Cephalobus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	058 -> "Genus
+Cephalobus" [label="Bluntly conical"]
+	059 [label="Stoma
+Anterior part" fillcolor=aqua style=filled]
+	"Genus
+Panagrolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	059 -> "Genus
+Panagrolaimus" [label="Broad
+open chamber"]
+	060 [label=Stoma fillcolor=aqua style=filled]
+	060 -> 061 [label="Absent or
+indistinct"]
+	060 -> 063 [label=Distinct]
+	061 [label="Lip
+region" fillcolor=aqua style=filled]
+	061 -> 062 [label="Narrow
+tooth absent"]
+	"Genus
+Tripyla" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	061 -> "Genus
+Tripyla" [label="Broad
+small denticle
+apparent in stomal area"]
+	062 [label="Amphid
+Aperture" fillcolor=aqua style=filled]
+	"Genus
+Amphidelus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	062 -> "Genus
+Amphidelus" [label="Appears as
+large slit"]
+	"Genus
+Alaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	062 -> "Genus
+Alaimus" [label="Appears as minute pores"]
+	063 [label=Stoma fillcolor=aqua style=filled]
+	"Genus
+Cryptonchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	063 -> "Genus
+Cryptonchus" [label="Narrow and long"]
+	"Genus
+Bathyonchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	063 -> "Genus
+Bathyonchus" [label="Wide and shallow"]
+	064 [label=Body fillcolor=aqua style=filled]
+	064 -> 065 [label="Symmetrical "]
+	"Genus
+Bunonema" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	064 -> "Genus
+Bunonema" [label="Asymmetrical
+bearing series of
+protuberances on side"]
+	065 [label="Lip
+Appendages" fillcolor=aqua style=filled]
+	065 -> 066 [label="Not elaborate"]
+	065 -> 068 [label=Elaborate]
+	066 [label="Lateral
+Lip
+Appendages" fillcolor=aqua style=filled]
+	"Genus
+Diploscapter" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	066 -> "Genus
+Diploscapter" [label="Thorn-like
+directed laterally"]
+	066 -> 067 [label="Not thorn-like
+or directed laterally"]
+	067 [label=Head fillcolor=aqua style=filled]
+	"Genus
+Macrolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	067 -> "Genus
+Macrolaimus" [label="Papillae or
+setae horn-like"]
+	"Genus
+Teratocephalus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	067 -> "Genus
+Teratocephalus" [label="Lips flap-like
+and pointed forward"]
+	068 [label="Lip
+Appendages" fillcolor=aqua style=filled]
+	"Genus
+Acrobeles" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	068 -> "Genus
+Acrobeles" [label="Forked and
+elaborately fringed"]
+	"Genus
+Wilsonema" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	068 -> "Genus
+Wilsonema" [label="Membranous and wing-like"]
+	"Genus
+Tylocephalus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	068 -> "Genus
+Tylocephalus" [label="Membranous
+and wing-like"]
+	069 [label="Post-cephalic
+Setae" fillcolor=aqua style=filled]
+	069 -> 070 [label=Absent]
+	069 -> 092 [label=Distinct]
+	070 [label=Stylet fillcolor=aqua style=filled]
+	070 -> 071 [label=Absent]
+	070 -> 091 [label=Visible]
+	071 [label=Teeth fillcolor=aqua style=filled]
+	071 -> 072 [label="Absent
+minute
+or indistinct"]
+	071 -> 085 [label=Distinct]
+	072 [label=Esophagus fillcolor=aqua style=filled]
+	072 -> 073 [label="With basal
+expansions"]
+	072 -> 082 [label="Uniformaly
+cylindrical"]
+	073 [label=Amphids fillcolor=aqua style=filled]
+	073 -> 074 [label="Oval
+spiral
+or stirrup-shaped"]
+	073 -> 080 [label=Circular]
+	074 [label=Amphids fillcolor=aqua style=filled]
+	074 -> 075 [label="Spiral "]
+	074 -> 079 [label="Not Spiral"]
+	075 [label="Cuticular
+Punctations" fillcolor=aqua style=filled]
+	075 -> 076 [label=Absent]
+	075 -> 078 [label=Visible]
+	076 [label="Esophageal
+Bulb" fillcolor=aqua style=filled]
+	076 -> 077 [label="No valves"]
+	"Genus
+Plectus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	076 -> "Genus
+Plectus" [label="valvate "]
+	"Genus
+Anaplectus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	076 -> "Genus
+Anaplectus" [label="valvate "]
+	077 [label="Esophageal-intestinal
+valve" fillcolor=aqua style=filled]
+	"Genus
+Paraplectonema" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	077 -> "Genus
+Paraplectonema" [label="Elongate "]
+	"Genus
+Paraphanolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	077 -> "Genus
+Paraphanolaimus" [label="Valve
+shortened"]
+	078 [label="Labial
+Region" fillcolor=aqua style=filled]
+	"Genus
+Euteratocephalus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	078 -> "Genus
+Euteratocephalus" [label="Flap-like"]
+	"Genus
+Ethmolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	078 -> "Genus
+Ethmolaimus" [label="Lips bluntly
+rounded"]
+	079 [label=Amphids fillcolor=aqua style=filled]
+	"Genus
+Greenenema" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	079 -> "Genus
+Greenenema" [label=Oval]
+	"Genus
+Chronogaster" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	079 -> "Genus
+Chronogaster" [label="Stirrup-shaped"]
+	080 [label="Esophageal-intestinal
+valve" fillcolor=aqua style=filled]
+	080 -> 081 [label=Short]
+	"Genus
+Desmolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	080 -> "Genus
+Desmolaimus" [label="Elongate "]
+	081 [label="Excretory
+Pore" fillcolor=aqua style=filled]
+	"Genus
+Domorganus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	081 -> "Genus
+Domorganus" [label="Visible and
+large excretory gland present"]
+	"Genus
+Monhystera" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	081 -> "Genus
+Monhystera" [label="Pore indistinct or absent
+Gland indistinct or absent"]
+	082 [label=Stoma fillcolor=aqua style=filled]
+	"Genus
+Prismatolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	082 -> "Genus
+Prismatolaimus" [label="Wide and shallow
+conspicuous
+tail filiform"]
+	082 -> 083 [label="Narrow, elongate, collapsed or inconspicuous"]
+	083 [label=Gonads fillcolor=aqua style=filled]
+	"Genus
+Cylindrolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	083 -> "Genus
+Cylindrolaimus" [label=Single]
+	083 -> 084 [label=Paired]
+	084 [label=Amphids fillcolor=aqua style=filled]
+	"Genus
+Tripyla" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	084 -> "Genus
+Tripyla" [label=Inconspicuous]
+	"Genus
+Aphanolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	084 -> "Genus
+Aphanolaimus" [label="Conspicuous "]
+	085 [label="Esophagus " fillcolor=aqua style=filled]
+	085 -> 086 [label="Ovoid bulb
+Terminal fifth or sixth"]
+	"Genus
+Ironus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	085 -> "Genus
+Ironus" [label="Uniformly cylindrical
+stoma with massive teeth"]
+	086 [label="Cuticular
+Punctations" fillcolor=aqua style=filled]
+	086 -> 087 [label=Visible]
+	086 -> 089 [label=Absent]
+	087 [label=Amphids fillcolor=aqua style=filled]
+	087 -> 088 [label="Not Spiral"]
+	"Genus
+Achromadora" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	087 -> "Genus
+Achromadora" [label=Spiral]
+	088 [label="Longitudinal rows of
+cuticular markings" fillcolor=aqua style=filled]
+	"Genus
+Chromadora" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	088 -> "Genus
+Chromadora" [label=Conspicous]
+	"Genus
+Prochromadorella" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	088 -> "Genus
+Prochromadorella" [label=None]
+	089 [label=Amphids fillcolor=aqua style=filled]
+	089 -> 090 [label="Distinct "]
+	"Genus
+Butlerius" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	089 -> "Genus
+Butlerius" [label="Indistinct "]
+	090 [label="Female
+Gonad" fillcolor=aqua style=filled]
+	"Genus
+Anonchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	090 -> "Genus
+Anonchus" [label="Double
+amphid hook-shaped"]
+	"Genus
+Monhystrella" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	090 -> "Genus
+Monhystrella" [label="Single
+amphid circular"]
+	091 [label="Lip
+region" fillcolor=aqua style=filled]
+	"Genus
+Atylenchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	091 -> "Genus
+Atylenchus" [label="Annulated
+not set off"]
+	"Genus
+Eutylenchus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	091 -> "Genus
+Eutylenchus" [label="Smooth
+set off"]
+	092 [label=Esophagus fillcolor=aqua style=filled]
+	092 -> 093 [label="With basal
+expansion"]
+	092 -> 098 [label="Uniformly cylindrical"]
+	093 [label="Cuticular
+punctation" fillcolor=aqua style=filled]
+	093 -> 094 [label="Visible
+amphids not circular"]
+	093 -> 097 [label="Absent
+amphids circular"]
+	094 [label=Ocelli fillcolor=aqua style=filled]
+	094 -> 095 [label="Eye spots
+present"]
+	094 -> 096 [label=Absent]
+	095 [label=Stoma fillcolor=aqua style=filled]
+	"Genus
+Chromadorina" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	095 -> "Genus
+Chromadorina" [label="Three equal-sized teeth"]
+	"Genus
+Punctodora" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	095 -> "Genus
+Punctodora" [label="At least one
+large tooth"]
+	096 [label=Cuticle fillcolor=aqua style=filled]
+	"Genus
+Hypodontolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	096 -> "Genus
+Hypodontolaimus" [label="Lateral longitudinal
+rows of punctation"]
+	"Genus
+Chromadorita" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	096 -> "Genus
+Chromadorita" [label="Without lateral
+differentiations"]
+	097 [label="Esophageal
+Bulb" fillcolor=aqua style=filled]
+	"Genus
+Prodesmodora" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	097 -> "Genus
+Prodesmodora" [label="Valvate "]
+	"Genus
+Odontolaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	097 -> "Genus
+Odontolaimus" [label="No valves"]
+	098 [label=Amphid fillcolor=aqua style=filled]
+	098 -> 099 [label="Anterior
+on body"]
+	"Genus
+Bastia" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	098 -> "Genus
+Bastia" [label="Posteroirly
+located"]
+	099 [label=Amphid fillcolor=aqua style=filled]
+	"Genus
+Paracyatholaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	099 -> "Genus
+Paracyatholaimus" [label=Spiral]
+	099 -> 100 [label="Cup-shaped or obscure"]
+	100 [label=Stoma fillcolor=aqua style=filled]
+	"Genus
+Oncholaimus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	100 -> "Genus
+Oncholaimus" [label="Teeth
+massive"]
+	"Genus
+Tobrilus" [color=blue fillcolor=aquamarine3 shape=doubleoctagon style="rounded,filled"]
+	100 -> "Genus
+Tobrilus" [label="Teeth
+small"]
+}

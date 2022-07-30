@@ -1,0 +1,334 @@
+// FOO
+digraph "Nematoda Key" {
+	graph [rankdir=LR]
+	C000 [label="Key to Families
+of the Superfamily
+Criconematoidea
+" fillcolor=red style=filled]
+	C000 -> C001 [label=""]
+	C001 [label=C001 fillcolor=aqua style=filled]
+	C001 -> C002 [label="Cuticle thick,coarsely annulated,
+often with extensions,
+isthmus broad amalgamated
+with basal bulb
+"]
+	C001 -> C003 [label="Cuticle thin, finely
+annulated, without extensions,
+isthmus slender, not
+amalgamated with basal
+bulb
+"]
+	C002 [label=C002 fillcolor=aqua style=filled]
+	C002 -> Criconematidae [label="Females and juveniles
+cigar-shaped; cuticular annules
+retrorse, often with
+extensions; male tail
+short, bursa small
+or absent
+"]
+	C002 -> Hemicycliophoridae [label="Females and juveniles
+slender, vermiform; cuticular
+annules rounded; male
+tail long, bursa
+large
+"]
+	C003 [label=C003 fillcolor=aqua style=filled]
+	C003 -> Paratylenchidae [label="Mature female vermiform
+to elongate-obese; procorpus
+of esophagus wide;
+stylet may be
+long
+"]
+	C003 -> C004 [label="Mature female saccate
+or spherical; procorpus
+of esophagus slender;
+stylet short
+"]
+	C004 [label=C004 fillcolor=aqua style=filled]
+	C004 -> Sphaeronematidae [label="Mature female spherical,
+vulva terminal; excretory
+pore in anterior
+25% of body
+"]
+	C004 -> Tylenchulidae [label="Mature female elongate-obese;
+vulva not terminal;
+excretory pore at
+>50% of body
+length
+"]
+	Criconematidae [label=Criconematidae fillcolor=aqua style=filled]
+	Criconematidae -> Hemicriconemoides [label="Female with a
+cuticular sheath of
+rounded annules
+"]
+	Criconematidae -> 002 [label="Female without cuticular
+sheath
+"]
+	002 [label=002 fillcolor=aqua style=filled]
+	002 -> 003 [label="Cuticular annules in
+females and juveniles
+with scales, spines
+or other extensions
+"]
+	002 -> 009 [label="Cuticular annules in
+females smooth, occasionally
+with extensions in
+juveniles
+"]
+	003 [label=003 fillcolor=aqua style=filled]
+	003 -> Blandicephalonema [label="Cephalic region small,
+knob-like
+"]
+	003 -> 004 [label="Cephalic region not
+knob-like, usually with
+two annules
+"]
+	004 [label=004 fillcolor=aqua style=filled]
+	004 -> Crossonema [label="Each cuticular annule
+with continuous fringe
+of spines
+"]
+	004 -> 005 [label="Extensions of cuticular
+annules separated, not
+fringe-like
+"]
+	005 [label=005 fillcolor=aqua style=filled]
+	005 -> Croserinema [label="Cuticular extensions in
+alternating rows
+"]
+	005 -> 006 [label="Cuticular extensions not
+alternating, arranged in
+longitudinal rows
+"]
+	006 [label=006 fillcolor=aqua style=filled]
+	006 -> Paterocephalonema [label="One large saucer-shaped
+cephalic annule
+"]
+	006 -> 007 [label="Two, sometimes three,
+moderately-sized cephalic annules
+"]
+	007 [label=007 fillcolor=aqua style=filled]
+	007 -> Bakernema [label="Cuticular extensions transparent,
+membranous
+"]
+	007 -> 008 [label="Cuticular extensions not
+membranous
+"]
+	008 [label=008 fillcolor=aqua style=filled]
+	008 -> Orphreyus [label="Shape and size
+of cuticular extensions
+differ on dorsal
+and ventral sides
+"]
+	008 -> Ogma [label="Shape and size
+of cuticular extensions
+similar on dorsal
+and ventral sides
+"]
+	009 [label=009 fillcolor=aqua style=filled]
+	009 -> 010 [label="Annules of juveniles
+with longitudinal rows
+of scales or
+spines; females with
+smmoth annules, except
+in tail region
+"]
+	009 -> 013 [label="Annules of both
+juveniles and females
+without scales or
+spines
+"]
+	010 [label=010 fillcolor=aqua style=filled]
+	010 -> Neolobocriconema [label="Scales and spines
+present on annules
+in posterior region
+of females
+"]
+	010 -> 011 [label="Scales and spines
+not present on
+annules in posterior
+region of females
+"]
+	011 [label=011 fillcolor=aqua style=filled]
+	011 -> Lobocriconema [label="Cephalic region with
+submedial lobes
+"]
+	011 -> 012 [label="Cephalic region without
+submedial lobes
+"]
+	012 [label=012 fillcolor=aqua style=filled]
+	012 -> Amphisbaenema [label="Head with one
+dome-shaped annule; annules
+with encrustations
+"]
+	012 -> Criconema [label="Head with two
+ring-like annules; annules
+without encrustations
+"]
+	013 [label=013 fillcolor=aqua style=filled]
+	013 -> Mesocriconema [label="Vulva open; cephalic
+region with submedial
+lobes
+"]
+	013 -> 014 [label="Vulva closed; cephalic
+region without submedial
+lobes
+"]
+	014 [label=014 fillcolor=aqua style=filled]
+	014 -> Discocriconemella [label="Anterior cephalic annule
+disc-like, offset by
+a collar
+"]
+	014 -> 015 [label="Anterior cephalic annule
+not disc-like, not
+offset
+"]
+	015 [label=015 fillcolor=aqua style=filled]
+	015 -> Xenocriconemella [label="Stylet exceedingly long,
+flexible
+"]
+	015 -> 016 [label="Stylet not exceedingly
+long, not flexible
+"]
+	016 [label=016 fillcolor=aqua style=filled]
+	016 -> Nothocriconemoides [label="Anterior lip of
+vulva overhanging aperture
+"]
+	016 -> Criconemoides [label="Anterior lip of
+vulva not overhanging
+aperture
+"]
+	Hemicriconemoides [label=Hemicriconemoides fillcolor=aqua style=filled]
+	Hemicriconemoides -> "H. obtusus" [label="Lip region strongly
+offset
+"]
+	Hemicriconemoides -> H002 [label="Lip region slightly
+offset or not
+offset
+"]
+	H002 [label=H002 fillcolor=aqua style=filled]
+	H002 -> "H. strictathecatus" [label="Stylet knobs rounded
+without forward processes
+"]
+	H002 -> H003 [label="Stylet knobs anchor
+shaped with prominent
+forward processes
+"]
+	H003 [label=H003 fillcolor=aqua style=filled]
+	H003 -> "H. brevicaudatus" [label="Vulva on 2nd
+annule from tail
+tip, fewer than
+56 annules in
+sheath, sheath annules
+rounded
+"]
+	H003 -> H004 [label="Vulva on 7th
+to 21st annule
+from tail tip,
+more than 75
+annules in sheath,
+sheath annules flattened
+"]
+	H004 [label=H004 fillcolor=aqua style=filled]
+	H004 -> H005 [label="Stylet < 46
+µm
+"]
+	H004 -> H006 [label="Stylet > 46
+µm
+"]
+	H005 [label=H005 fillcolor=aqua style=filled]
+	H005 -> H006 [label="Vulval sheath present
+"]
+	H005 -> H010 [label="Vulval sheath absent
+"]
+	H006 [label=H006 fillcolor=aqua style=filled]
+	H006 -> H007 [label="Fewer than 98
+annules in sheath
+"]
+	H006 -> H009 [label="More than 98
+annules in sheath
+"]
+	H007 [label=H007 fillcolor=aqua style=filled]
+	H007 -> "H. minutus" [label="Stylet > 71
+µm
+"]
+	H007 -> H008 [label="Stylet < 60
+µm
+"]
+	H008 [label=H008 fillcolor=aqua style=filled]
+	H008 -> "H. wessoni" [label="Tail narrows abruptly
+after anus
+"]
+	H008 -> "H. intermedius" [label="Tail regularly conoid
+after anus
+"]
+	H009 [label=H009 fillcolor=aqua style=filled]
+	H009 -> "H. brachyurus" [label="Lip region rounded,
+no amphidial plate,
+tail rounded
+"]
+	H009 -> "H. cocophilus" [label="Lip region truncate,
+no amphidial plate,
+tail tapered
+"]
+	H010 [label=H010 fillcolor=aqua style=filled]
+	H010 -> "H. kanayaensis" [label="Lip region conoid,
+vulva on 16th
+to 21st annule
+from tail tip
+"]
+	H010 -> H011 [label="Lip region rounded
+to truncate, vulva
+on 7th to
+17th annule from
+tail tip
+"]
+	H011 [label=H011 fillcolor=aqua style=filled]
+	H011 -> "H. insignis" [label="Lip region with
+a conspicuously large
+annule
+"]
+	H011 -> H012 [label="Lip region with
+2 distinct annules
+"]
+	H012 [label=H012 fillcolor=aqua style=filled]
+	H012 -> "H. parvus" [label="Length = 0.29-0.38
+mm
+"]
+	H012 -> H013 [label="Length = 0.41-0.61
+mm
+"]
+	H013 [label=H013 fillcolor=aqua style=filled]
+	H013 -> "H. pseudobrachyurum" [label="Fewer than 104
+annules in sheath,
+stylet < 60
+µm
+"]
+	H013 -> H014 [label="More than 104
+annules in sheath,
+stylet > 60
+µm
+"]
+	H014 [label=H014 fillcolor=aqua style=filled]
+	H014 -> "H. mangiferae" [label="Tail rounded or
+convex to conoid
+"]
+	H014 -> H015 [label="Tail conoid, tapering
+to an angular
+tip
+"]
+	H015 [label=H015 fillcolor=aqua style=filled]
+	H015 -> "H. gaddi" [label="Lip region rounded,
+not offset, first
+annule rounded, second
+annule as large
+or larger than
+first
+"]
+	H015 -> "H. chitwoodi" [label="Lip region truncate,
+slightly offset, first
+annule angular, second
+annule smaller than
+first
+"]
+}

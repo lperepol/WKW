@@ -1,0 +1,2755 @@
+<!DOCTYPE html>
+<!-- saved from url=(0184)https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans -->
+<html lang="en" class="fa-events-icons-ready js-focus-visible wf-lato-n4-active wf-lato-n7-active wf-lato-i4-active wf-sourcecodepro-n4-active wf-sourcecodepro-n7-active wf-displayswap-n4-inactive wf-active fontawesome-i2svg-active fontawesome-i2svg-complete" data-js-focus-visible=""><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--mui-inject-first--><style data-jss="" data-meta="MuiTouchRipple">
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.MuiTouchRipple-ripple {
+  opacity: 0;
+  position: absolute;
+}
+.MuiTouchRipple-rippleVisible {
+  opacity: 0.3;
+  animation: MuiTouchRipple-keyframes-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+}
+.MuiTouchRipple-ripplePulsate {
+  animation-duration: 200ms;
+}
+.MuiTouchRipple-child {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+.MuiTouchRipple-childLeaving {
+  opacity: 0;
+  animation: MuiTouchRipple-keyframes-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.MuiTouchRipple-childPulsate {
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: MuiTouchRipple-keyframes-pulsate 2500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-enter {
+  0% {
+    opacity: 0.1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+</style><style data-jss="" data-meta="MuiButtonBase">
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    -webkit-print-color-adjust: exact;
+  }
+}
+</style><style data-jss="" data-meta="MuiButton">
+.MuiButton-root {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.MuiButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-root:hover.Mui-disabled {
+  background-color: transparent;
+}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiButton-text {
+  padding: 6px 8px;
+}
+.MuiButton-textPrimary {
+  color: #2196f3;
+}
+.MuiButton-textPrimary:hover {
+  background-color: rgba(33, 150, 243, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-textSecondary {
+  color: #008000;
+}
+.MuiButton-textSecondary:hover {
+  background-color: rgba(0, 128, 0, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 5px 15px;
+}
+.MuiButton-outlined.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiButton-outlinedPrimary {
+  color: #2196f3;
+  border: 1px solid rgba(33, 150, 243, 0.5);
+}
+.MuiButton-outlinedPrimary:hover {
+  border: 1px solid #2196f3;
+  background-color: rgba(33, 150, 243, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-outlinedPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlinedSecondary {
+  color: #008000;
+  border: 1px solid rgba(0, 128, 0, 0.5);
+}
+.MuiButton-outlinedSecondary:hover {
+  border: 1px solid #008000;
+  background-color: rgba(0, 128, 0, 0.04);
+}
+.MuiButton-outlinedSecondary.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-outlinedSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-contained {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  background-color: #e0e0e0;
+}
+.MuiButton-contained:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  background-color: #d5d5d5;
+}
+.MuiButton-contained.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiButton-contained:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiButton-contained.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+}
+.MuiButton-contained:hover.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #2196f3;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #1976d2;
+}
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #2196f3;
+  }
+}
+.MuiButton-containedSecondary {
+  color: #fff;
+  background-color: #008000;
+}
+.MuiButton-containedSecondary:hover {
+  background-color: rgb(0, 89, 0);
+}
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #008000;
+  }
+}
+.MuiButton-disableElevation {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:hover {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-focusVisible {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:active {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-disabled {
+  box-shadow: none;
+}
+.MuiButton-colorInherit {
+  color: inherit;
+  border-color: currentColor;
+}
+.MuiButton-textSizeSmall {
+  padding: 4px 5px;
+  font-size: 0.8125rem;
+}
+.MuiButton-textSizeLarge {
+  padding: 8px 11px;
+  font-size: 0.9375rem;
+}
+.MuiButton-outlinedSizeSmall {
+  padding: 3px 9px;
+  font-size: 0.8125rem;
+}
+.MuiButton-outlinedSizeLarge {
+  padding: 7px 21px;
+  font-size: 0.9375rem;
+}
+.MuiButton-containedSizeSmall {
+  padding: 4px 10px;
+  font-size: 0.8125rem;
+}
+.MuiButton-containedSizeLarge {
+  padding: 8px 22px;
+  font-size: 0.9375rem;
+}
+.MuiButton-fullWidth {
+  width: 100%;
+}
+.MuiButton-startIcon {
+  display: inherit;
+  margin-left: -4px;
+  margin-right: 8px;
+}
+.MuiButton-startIcon.MuiButton-iconSizeSmall {
+  margin-left: -2px;
+}
+.MuiButton-endIcon {
+  display: inherit;
+  margin-left: 8px;
+  margin-right: -4px;
+}
+.MuiButton-endIcon.MuiButton-iconSizeSmall {
+  margin-right: -2px;
+}
+.MuiButton-iconSizeSmall > *:first-child {
+  font-size: 18px;
+}
+.MuiButton-iconSizeMedium > *:first-child {
+  font-size: 20px;
+}
+.MuiButton-iconSizeLarge > *:first-child {
+  font-size: 22px;
+}
+</style><style data-jss="" data-meta="MuiDrawer">
+.MuiDrawer-docked {
+  flex: 0 0 auto;
+}
+.MuiDrawer-paper {
+  top: 0;
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+  outline: 0;
+  z-index: 1200;
+  position: fixed;
+  overflow-y: auto;
+  flex-direction: column;
+  -webkit-overflow-scrolling: touch;
+}
+.MuiDrawer-paperAnchorLeft {
+  left: 0;
+  right: auto;
+}
+.MuiDrawer-paperAnchorRight {
+  left: auto;
+  right: 0;
+}
+.MuiDrawer-paperAnchorTop {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  height: auto;
+  max-height: 100%;
+}
+.MuiDrawer-paperAnchorBottom {
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  max-height: 100%;
+}
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedTop {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedRight {
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedBottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+</style><style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><style data-tippy-stylesheet="">.tippy-box[data-animation=fade][data-state=hidden]{opacity:0}[data-tippy-root]{max-width:calc(100vw - 10px)}.tippy-box{position:relative;background-color:#333;color:#fff;border-radius:4px;font-size:14px;line-height:1.4;white-space:normal;outline:0;transition-property:transform,visibility,opacity}.tippy-box[data-placement^=top]>.tippy-arrow{bottom:0}.tippy-box[data-placement^=top]>.tippy-arrow:before{bottom:-7px;left:0;border-width:8px 8px 0;border-top-color:initial;transform-origin:center top}.tippy-box[data-placement^=bottom]>.tippy-arrow{top:0}.tippy-box[data-placement^=bottom]>.tippy-arrow:before{top:-7px;left:0;border-width:0 8px 8px;border-bottom-color:initial;transform-origin:center bottom}.tippy-box[data-placement^=left]>.tippy-arrow{right:0}.tippy-box[data-placement^=left]>.tippy-arrow:before{border-width:8px 0 8px 8px;border-left-color:initial;right:-7px;transform-origin:center left}.tippy-box[data-placement^=right]>.tippy-arrow{left:0}.tippy-box[data-placement^=right]>.tippy-arrow:before{left:-7px;border-width:8px 8px 8px 0;border-right-color:initial;transform-origin:center right}.tippy-box[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}.tippy-arrow{width:16px;height:16px;color:#333}.tippy-arrow:before{content:"";position:absolute;border-color:transparent;border-style:solid}.tippy-content{position:relative;padding:5px 9px;z-index:1}</style><link media="screen" type="text/css" rel="stylesheet" href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/anonymous.css" id="mt-screen-css"><link media="print" type="text/css" rel="stylesheet" href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/print.css" id="mt-print-css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="MindTouch">
+        <meta name="robots" content="index,follow">
+        <meta property="og:title" content="19.1.12: Caenorhabditis Elegans">
+        <meta property="og:site_name" content="Biology LibreTexts">
+        <meta property="og:type" content="article">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:url" content="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans">
+        <meta property="og:image" content="https://a.mtstatic.com/@public/production/site_4463/1478192291-social-share.png">
+        <meta property="og:description" content="Caenorhabditis elegans is a microscopic (~1 mm) nematode (roundworm) that normally lives in soil. It has become one of the &amp;quot;model&amp;quot; organisms in biology. It is a true animal with at least …">
+        <meta property="article:published_time" content="2016-08-03T20:46:06Z">
+        <meta property="article:modified_time" content="2020-12-31T22:02:04Z">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="19.1.12: Caenorhabditis Elegans">
+        <meta name="twitter:description" content="Caenorhabditis elegans is a microscopic (~1 mm) nematode (roundworm) that normally lives in soil. It has become one of the &amp;quot;model&amp;quot; organisms in biology. It is a true animal with at least …">
+        <meta name="twitter:image" content="https://a.mtstatic.com/@public/production/site_4463/1478192291-social-share.png">
+        <meta name="description" content="Caenorhabditis elegans is a microscopic (~1 mm) nematode (roundworm) that normally lives in soil. It has become one of the &amp;quot;model&amp;quot; organisms in biology. It is a true animal with at least …">
+        <link rel="canonical" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans">
+        <link rel="search" type="application/opensearchdescription+xml" title="Biology LibreTexts Search" href="https://bio.libretexts.org/@api/deki/site/opensearch/description">
+        <link rel="apple-touch-icon" href="https://a.mtstatic.com/@public/production/site_4463/1474922675-apple-touch-icon.png">
+        <link rel="shortcut icon" href="https://a.mtstatic.com/@public/production/site_4463/1478193068-favicon.ico">
+
+        <script async="" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/analytics.js.download"></script><script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Article","name":"19.1.12: Caenorhabditis Elegans","url":"https:\/\/bio.libretexts.org\/Bookshelves\/Introductory_and_General_Biology\/Book%3A_Biology_(Kimball)\/19%3A_The_Diversity_of_Life\/19.01%3A_Eukaryotic_Life\/19.1.12%3A_Caenorhabditis_Elegans","image":{"@type":"ImageObject","url":"https:\/\/a.mtstatic.com\/@public\/production\/site_4463\/1478192291-social-share.png","height":{"@type":"QuantitativeValue","maxValue":315},"width":{"@type":"QuantitativeValue","maxValue":600}},"datePublished":"2016-08-03T20:46:06Z","dateModified":"2020-12-31T22:02:04Z","description":"Caenorhabditis elegans is a microscopic (~1 mm) nematode (roundworm) that normally lives in soil. It has become one of the &quot;model&quot; organisms in biology. It is a true animal with at least rudiments of the physiological systems - feeding, nervous, muscle, reproductive - found in &quot;higher&quot; animals like mice and humans. However, it is so small that large numbers can be raised in petri dishes (where it is fed E. coli - another model organism). It reproduces rapidly.","thumbnailUrl":"https:\/\/bio.libretexts.org\/@api\/deki\/pages\/5960\/thumbnail?default=https%3A%2F%2Fbio.libretexts.org%2F%40style%2Fcommon%2Fimages%2Fimage-placeholder.png","mainEntityofPage":{"@type":"WebPage","@id":"https:\/\/bio.libretexts.org\/Bookshelves\/Introductory_and_General_Biology\/Book%3A_Biology_(Kimball)\/19%3A_The_Diversity_of_Life\/19.01%3A_Eukaryotic_Life\/19.1.12%3A_Caenorhabditis_Elegans"},"headline":"19.1.12: Caenorhabditis Elegans","author":{"@type":"Organization","name":"Libretexts","logo":{"@type":"ImageObject","url":"http:\/\/chem.libretexts.org\/@api\/deki\/files\/98015\/libretexts.Logo600.png","height":{"@type":"QuantitativeValue","maxValue":60},"width":{"@type":"QuantitativeValue","maxValue":600}}},"publisher":{"@type":"Organization","name":"Libretexts","logo":{"@type":"ImageObject","url":"http:\/\/chem.libretexts.org\/@api\/deki\/files\/98015\/libretexts.Logo600.png","height":{"@type":"QuantitativeValue","maxValue":60},"width":{"@type":"QuantitativeValue","maxValue":600}}}}</script>
+        <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebPage","name":"19.1.12: Caenorhabditis Elegans","url":"https:\/\/bio.libretexts.org\/Bookshelves\/Introductory_and_General_Biology\/Book%3A_Biology_(Kimball)\/19%3A_The_Diversity_of_Life\/19.01%3A_Eukaryotic_Life\/19.1.12%3A_Caenorhabditis_Elegans","relatedLink":["https:\/\/bio.libretexts.org\/Bookshelves\/Introductory_and_General_Biology\/Book%3A_Biology_(Kimball)\/19%3A_The_Diversity_of_Life\/19.01%3A_Eukaryotic_Life\/19.1.01%3A_Taxonomy","https:\/\/bio.libretexts.org\/Bookshelves\/Introductory_and_General_Biology\/Book%3A_Biology_(Kimball)\/19%3A_The_Diversity_of_Life\/19.01%3A_Eukaryotic_Life\/19.1.02%3A_Protists","https:\/\/bio.libretexts.org\/Bookshelves\/Introductory_and_General_Biology\/Book%3A_Biology_(Kimball)\/19%3A_The_Diversity_of_Life\/19.01%3A_Eukaryotic_Life\/19.1.03%3A_Ciliates","https:\/\/bio.libretexts.org\/Bookshelves\/Introductory_and_General_Biology\/Book%3A_Biology_(Kimball)\/19%3A_The_Diversity_of_Life\/19.01%3A_Eukaryotic_Life\/19.1.04%3A_Volvox","https:\/\/bio.libretexts.org\/Bookshelves\/Introductory_and_General_Biology\/Book%3A_Biology_(Kimball)\/19%3A_The_Diversity_of_Life\/19.01%3A_Eukaryotic_Life\/19.1.05%3A_Diversity_and_Evolutionary_Relationships_of_the_Plants"]}</script>
+        <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/bio.libretexts.org\/Bookshelves","name":"Bookshelves"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/bio.libretexts.org\/Bookshelves\/Introductory_and_General_Biology","name":"Introductory and General Biology"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/bio.libretexts.org\/Bookshelves\/Introductory_and_General_Biology\/Book%3A_Biology_(Kimball)","name":"Book: Biology (Kimball)"}},{"@type":"ListItem","position":4,"item":{"@id":"https:\/\/bio.libretexts.org\/Bookshelves\/Introductory_and_General_Biology\/Book%3A_Biology_(Kimball)\/19%3A_The_Diversity_of_Life","name":"Unit 19: The Diversity of Life"}}]}</script>
+
+        <title>19.1.12: Caenorhabditis Elegans - Biology LibreTexts</title>
+
+
+    <style type="text/css">/*<![CDATA[*/
+#mt-toc-container {
+    display: none !important;
+}/*]]>*/</style><style type="text/css">/*<![CDATA[*/
+dt {
+    color: #0372a6;
+    cursor: pointer;
+}
+@media only screen{
+    dd {
+        display: none;
+    }
+    dd.mt-listing-detailed-overview {
+        display: block;
+}/*]]>*/</style><style type="text/css">/*<![CDATA[*/
+.mt-video-widget:not(.cke_widget_element) {
+    margin: 0 auto !important;
+}/*]]>*/</style><style type="text/css">/*<![CDATA[*/
+/* CSS pseudo-element styling https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements */
+
+/* general reset/setup styling for icons - needed on all */
+
+.lt-icon-default::before, .lt-icon-brain::before, .lt-icon-pin::before , .lt-icon-hand::before, .lt-icon-pathway::before, .lt-icon-logic::before, .lt-icon-check::before, .lt-icon-question::before, .lt-icon-exclamation::before    {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block; 
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1.5;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  margin-right: 0.5rem;
+}
+
+/*default */
+
+.box-example .lt-icon-default::before {
+  content: "\f00c";
+}
+.box-exercise .lt-icon-default::before {
+  content: "\f128";
+}
+.box-query .lt-icon-default::before {
+  content: "\f126";
+}
+.box-adapt .lt-icon-default::before {
+  content: "\f126";
+}
+.box-interactive .lt-icon-default::before{
+  content: "\f542";
+}
+.box-note .lt-icon-default::before {
+  content: "\f08d";
+}
+.box-objectives .lt-icon-default::before {
+  content: "\f5dc";
+}
+.box-definition .lt-icon-default::before {
+  content: "\f303";
+}
+.box-theorem .lt-icon-default::before {
+  content: "\f1b3";
+}
+.box-warning .lt-icon-default::before {
+  content: "\f256";    
+}
+
+
+/*specific icons*/
+.lt-icon-brain::before  {
+  content: "\f5dc";
+}
+
+.lt-icon-pin::before {
+  content: "\f08d";
+}
+
+.lt-icon-pathway::before, {
+  content: "\f126";
+}
+
+.lt-icon-logic::before, {
+  content: "\f1b3";
+}
+
+.lt-icon-hand::before, {
+  content: "\f126";
+}
+
+.lt-icon-pathway::before, {
+  content: "\f256";
+}
+
+.lt-icon-check::before, {
+  content: "\f00c";
+}
+
+.lt-icon-question::before, {
+  content: "\f128";
+}
+
+.lt-icon-exclamation::before, {
+  content: "\f12a";
+}/*]]>*/</style><style type="text/css">/*<![CDATA[*/
+/* Partner Area CSS */
+.partners-logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	position: relative;
+	z-index: 1;
+}
+
+.partners-logo a {
+	display: inline-block;
+	max-width: 15%;
+	margin-bottom: 15px;
+}
+#topHeader {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#topHeader > ol {
+	display: flex;
+	justify-content: space-around;
+	flex: 1;
+}
+
+#topHeader > ol > li > a {
+	display: flex;
+	align-items: center;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 2px;
+	color: #127bc4;
+	/* font-size: 0px; */
+	transition-duration: .5s;
+	flex-direction: column;
+	text-align: center;
+}
+
+#topHeader > ol > li:last-child {
+	margin-right: 1rem;
+}
+
+#topHeader > ol > li > a:hover {
+	font-size: medium;
+}
+
+#topHeader > ol > li > a > img {
+	width: 23px;
+	height: 23px;
+	margin-right: 2px;
+	object-fit: contain;
+	max-width: unset;
+}
+
+@media only screen and (max-width: 767px) {
+	.partners-logo a {
+		max-width: 30%;
+	}
+}
+@media only screen and (max-width: 1350px) {
+	#topHeader > ol {
+		font-size: 0px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.partners-logo a {
+		max-width: 150px;
+	}
+}
+div.elm-nav-container > a > img {
+	max-width: unset;
+}
+
+nav.elm-nav.my-custom-class {
+	padding: .25rem 0;
+}
+
+#bottomFooter p.mt-align-center {
+    margin: 5px;
+    line-height: initial;
+}
+
+.LTBranding {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: min-content;
+}
+
+.LTBranding img{
+	object-fit: contain;
+}/*]]>*/</style><style type="text/css">/*<![CDATA[*/
+#LTAnnouncement {
+    display: flex;
+    margin: 10px;   
+    color: white;    
+}
+
+#LTAnnouncement > a {
+    background: #127bc4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px 20px 10px 0;
+    color: white;
+    height: fit-content;
+    transition-duration: 500ms;
+    height: 95px;
+    box-sizing: border-box;
+}
+
+#LTAnnouncement > a > p{
+    margin: 0;
+}
+
+#trapezoid {
+ height: 95px;   
+ transition-duration: 500ms;
+}
+
+#LTAnnouncement:hover > a {
+    box-shadow: 2px 4px 16px 0px #80808091;
+}
+
+#LTAnnouncement:hover >#trapezoid {
+    box-shadow: 20px 20px 20px 0px #8080801a
+}
+
+
+
+
+@media (max-width: 600px) {
+    #LTAnnouncement {
+        margin: 10px 0px;
+    }
+
+    #LTAnnouncement > a {
+        border-radius: 20px;
+        padding: 10px;
+        height: auto;
+    }
+}/*]]>*/</style><style type="text/css">/*<![CDATA[*/
+.darkMode {
+   background-color:#252525; 
+    color: white;
+}
+
+.darkMode .mt-content-container p {
+    color: white;
+}
+
+.darkMode .mt-content-container .boxexample,
+.darkMode .mt-content-container .boxexercise,
+.darkMode .mt-content-container .boxlemma,
+.darkMode .mt-content-container .boxnotation,
+.darkMode .mt-content-container .boxnotewithlegend,
+.darkMode .mt-content-container .boxnotewithoutlegend,
+.darkMode .mt-content-container .boxprocedure,
+.darkMode .mt-content-container .boxproposition,
+.darkMode .mt-content-container .boxquery,
+.darkMode .mt-content-container .boxtheorem,
+.darkMode .mt-content-container .boxobjectives, 
+.darkMode .mt-content-container .box-example,
+.darkMode .mt-content-container .box-exercise,
+.darkMode .mt-content-container .box-lemma,
+.darkMode .mt-content-container .box-notation,
+.darkMode .mt-content-container .box-warning,
+.darkMode .mt-content-container .box-note,
+.darkMode .mt-content-container .box-notewithlegend,
+.darkMode .mt-content-container .box-notewithoutlegend,
+.darkMode .mt-content-container .box-procedure,
+.darkMode .mt-content-container .box-proposition,
+.darkMode .mt-content-container .box-query,
+.darkMode .mt-content-container .box-theorem,
+.darkMode .mt-content-container .box-objectives 
+{
+    background: #f0f5ff24;
+    box-shadow: 3px 3px 4px #00000085;
+}
+
+.darkMode p.boxtitle {
+    color:white;
+}
+
+.darkMode th {
+    background:#00629a;
+}
+
+
+.darkMode tr, .darkMode tr td {
+    background:none;
+}
+
+.darkMode tr:nth-child(even), .darkMode tr:nth-child(even) td {
+    background:#555555;
+}
+
+.optimize {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Hide header if in iframe*/
+.contentOnly .elm-header,
+.contentOnly .elm-meta-icons,
+.contentOnly div.annotator-frame,
+.adaptView .elm-footer,
+/*.contentOnly article#elm-main-content > *:not(:first-child, .mt-content-container), */
+.adaptView article#elm-main-content > header, 
+.contentOnly hypothesis-sidebar,
+.contentOnly #custom_open,
+.contentOnly .sbHeader {
+    display:none;
+}
+
+.contentOnly #mt-summary {
+    display:none!important;
+}
+
+iframe.imathas_problem, iframe.webwork_problem {
+    border: none;
+    width: 100%;
+}
+
+/*GeoGebra fix*/
+article.elm-content-container, section.mt-content-container {
+	height: auto !important;
+	width: auto !important;
+}
+
+
+.elm-meta-top .mt-article-pagination a {
+	width: auto;
+	color: #30b3f6;
+}
+
+.elm-meta-top .mt-article-pagination a:hover {
+	color: #b4b4b4;
+}
+
+.elm-meta-top .elm-article-pagination {
+	float: unset;
+}
+
+#elm-main-content ol.elm-meta-data .elm-social-share {
+	margin: 0;
+}
+
+#MathJax_Zoom {
+ color: black;   
+}
+
+#donate {
+	background-color: green;
+	color: white;
+	display: flex;
+	padding: 5px;
+	align-items: center;
+	font-size: 80%;
+}
+
+#donate:hover {
+	background-color: #005E00;
+}
+
+.youtubeImageContainer {
+    position: relative;
+}
+
+a.notSS {
+	width: auto;
+	height: auto;
+	margin-top: 0;
+}
+
+.toc-button.mt-icon-hierarchy-trigger-closed:before {
+	content: "\e8a6";
+	font-size: 150%;
+}
+
+span.fancytree-icon:before {
+	content: "\e8aa";
+}
+
+.mt-icon-hierarchy-trigger-open:before {
+	font-size: 150%;
+}
+
+span.fancytree-has-children > span.fancytree-icon:before {
+	content: "\e8b3";
+}
+
+span.fancytree-title > a {
+	color: #666;
+}
+
+span.fancytree-selected .fancytree-title, span.fancytree-selected .fancytree-icon {
+	color: #1a9003;
+}
+
+.toc-hierarchy > div {
+	display: none;
+}
+
+.toc-hierarchy h6 {
+	margin-top: 0;
+	color: #137ac3
+}
+
+.pageInfo {
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+.cc {
+	color: black;
+}
+
+.glossarizer_replaced {
+    border-bottom: 1px #333 dotted;
+}
+
+#pageTagsHolder {
+	display: none;
+}
+
+#batchPrint {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+}
+
+#TOCbutton {
+	margin: 2px;
+	display: flex;
+	line-height: 2.4;
+	justify-content: center;
+	align-items: center;
+	color: #127bc4;
+	font-size: 100%;
+	height: 100%;
+}
+
+@media (min-width: 1000px) {
+	nav.elm-header-global-nav ol.mt-breadcrumbs {
+		max-width: 85% !important;
+	}
+	#TOCbutton {
+		width: auto;
+	}
+}
+
+div.propagatorLoader {
+	display: flex;
+	margin: 10px;
+	justify-content: center;
+}
+
+.loaderStatus {
+	/* flex: 1; */
+	justify-content: center;
+	text-align: center;
+}
+
+/* Modal Foundation*/
+#warningModal {
+    
+  position: fixed ;
+  left: 0px;
+  top: 0px;
+  bottom:0px;
+  right:0px;
+  margin:0px;
+
+  display: none; /* Hidden by default */
+  z-index: 10000; 
+  padding-top: 0px; /* Location of the box */
+  
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgb(0,0,0,0);/* Black w/ opacity */
+}
+
+/* Modal Content */
+#warningModalSlide {
+
+  font-family: 'Roboto';
+  font-size: 14px;
+  background-color: #EFEFEF ;
+  margin: auto;
+  padding: 15px;
+  /*border: 0px solid #888;*/
+  width: 40%;
+  box-shadow: -2px 8px 10px #c7c7c7;
+}
+
+
+#elm-main-content figure {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+    margin: 0;
+    page-break-inside: avoid;
+    margin-bottom: 0.3em !important;
+}
+
+.mt-video-widget:not(.cke_widget_element) {
+	margin: 0 auto !important;
+}
+
+.glmol{
+    text-align: left;
+}
+
+
+
+
+#copyResults img {
+	width: 30px;
+	height: 30px;
+	object-fit: contain;
+}
+
+#LTform, #LTPreview {
+	display: flex;
+	flex-direction: column;
+}
+
+#LTFormContainer, .LTFormHeader, #LTFormFooter {
+	display: flex;
+}
+
+#LTFormContainer .fancytree-container, #LTPreviewForm .fancytree-container {
+	background: #f3f3f3;
+	border-radius: 10px;
+	overflow: auto;
+	flex: 1;
+}
+
+#LTLeft, #LTRight, #LTPreviewForm, #LTTutorial {
+	/*flex: 1;*/
+	align-items: stretch;
+	height: 60vh;
+	max-width: 45vw;
+	overflow: hidden;
+	width: 100%;
+	background: #f3f3f3;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+#LTLeft, #LTTutorial {
+	border-radius: 0 0 10px 10px;
+}
+
+select.LTFormSubdomain {
+	border-radius: 10px 10px 0 0;
+}
+
+#LTFormFooter {
+	flex-direction: column;
+}
+
+.LTFormHeader {
+	justify-content: flex-end;
+	margin-top: 30px;
+	background-color: #127bc4;
+	padding: 10px;
+	border-radius: 5px;
+	color: white
+}
+
+ul.ui-fancytree.fancytree-container.fancytree-plain.fancytree-ext-dnd5 {
+}
+
+#LTFormContainer > div {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+	max-width: 45vw;
+}
+
+.LTTitle {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+div#LTPreviewForm {
+	max-width: unset;
+	margin: 10px;
+	width: auto;
+}
+
+div#LTLeftAlert, div#LTRightAlert {
+	height: 30px;
+	background-color: rgba(18, 122, 196, 0.61);
+	width: inherit;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+select#LTFormSubdomain {
+	border-radius: 10px 10px 0 0;
+}
+
+#mt-site-search-input {
+    max-width: 40vw;
+}
+
+#getTOCLink {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: slategrey;
+	color: white;
+	width: fit-content;
+	padding: 0 3px;
+}
+
+.annotator-frame.annotator-collapsed > div.annotator-bucket-bar {
+	background: none;
+}
+
+.mobileOnly {
+	display: none;
+}
+
+#RemixerIcon, #DownloadIcon, #SSOInstructorIcon {
+	width: auto;
+}
+
+#RemixerIcon:before, #DownloadIcon:before, #SSOInstructorIcon:before {
+	vertical-align: middle;
+}
+
+.elm-header-user-nav .mt-user-menu li.mt-user-quick-login {
+	margin-left: 0;
+}
+
+.mt-user-menu {
+    display: flex;
+    justify-content: center;
+}
+li.elm-social-share a {
+    height: unset;
+    width: auto;
+    margin: 0 2px 0 0;
+}
+
+#LTRight > ul > li {
+	min-height: 100%;
+}
+
+.react-toggle {
+	height: 24px;
+}
+
+.buttonsetForm > button:first-child {
+	background: #525050;
+	color: white;
+}
+
+/*Added to make a hyperlink position below the breadcrumb bar and is viewable */
+/*#pageText > .mt-section > span:first-child {
+    top: -50px;
+    display: block;
+    position: relative;
+}*/
+
+.elm-header-notice.fixed {
+position: static;
+}
+
+.elm-fixed-header {
+position: static;
+}
+
+/* Dropdown Button */
+.LTdropdown > .dropbtn {
+    color: inherit;
+	background-color: inherit;
+	border: none;
+	height: 100%;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.LTdropdown a:visited {
+    color: inherit;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.LTdropdown {
+	position: relative;
+	display: inline-block;
+	margin-right: 2px;
+    color: white;
+    background: black;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.LTdropdown-content {
+    color: inherit;
+	display: none;
+	position: absolute;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background: inherit;
+	z-index: 5;
+	flex-direction: column;
+	align-items: stretch;
+	width: max-content;
+	width: -moz-max-content;
+}
+
+/* Links inside the dropdown */
+.LTdropdown > .LTdropdown-content a {
+    color: inherit;
+    background: inherit;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	width: initial;
+	text-align: center;
+	font-size: 12px;
+    margin: 0;
+}
+
+/* Change color of dropdown links on hover */
+.LTdropdown > .LTdropdown-content a:hover  {
+    filter: brightness(85%);
+	transition-duration: 250ms;
+    color: white;
+}
+
+.LTdropdown-content a:before  {
+    margin-right: 2px;
+}
+
+.LTdropdown-content a:not(:first-child) {
+	border-top: 1px solid white;
+}
+
+/* Show the dropdown menu on hover */
+.LTdropdown:hover .LTdropdown-content {
+	display: flex;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.LTdropdown:hover .dropbtn {
+    filter: brightness(85%);
+}
+
+nav.elm-header-user-nav > div.elm-nav-container > ol {
+	display: flex;
+}
+
+
+nav.elm-header-user-nav > div.elm-nav-container > ol > li {
+	display: flex;
+}
+
+li.elm-global-search {
+	flex: 1
+}
+
+#mt-site-search-input {
+	width: auto;
+}
+
+
+.mt-breadcrumbs a span.nb-comment-highlight {
+   font-size: unset;
+   margin-right: unset;
+   vertical-align: unset;
+}
+
+@font-face {
+    font-family: 'moreicons';
+    src: url(https://cdn.libretexts.net/github/LibreTextsMain/Miscellaneous/icosso.woff) format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+.icon-SSO:before {
+    font-family: 'moreicons' !important;
+    content: "\e95d";
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 0.25em;
+}
+.sso-user {
+    border: 2px solid white;
+    border-radius: 5px; 
+    vertical-align: middle;  
+}
+.sso-user:hover:after {
+    content: " (Logout)";
+}
+
+.authenticated-sso.elm-header-user-nav {
+    background-color: #0f67a6;
+        
+}
+.authenticated-sso.elm-header-user-nav .mt-user-menu-user  {
+    background: #323232;
+    border-radius: 5px;
+}
+.authenticated-sso.elm-header-user-nav .mt-user-menu > li > a {
+    color: white;
+}
+
+/*Media Queries*/
+@media (max-width: 600px) {
+	.mobileOnly {
+		display: block;
+	}
+
+	.mobileHide {
+		display: none;
+	}
+
+	.LTBranding {
+		flex-direction: column;
+	}
+
+}
+
+@media (max-width: 875px) {
+	#RemixerIcon, #DownloadIcon, #SSOInstructorIcon {
+		width: 1.95em;
+	}
+}
+
+@media (min-width: 1000px) {
+	nav.elm-header-global-nav ol.mt-breadcrumbs {
+		max-width: 85% !important;
+	}
+
+	#TOCbutton {
+		width: auto;
+	}
+}
+
+@media (max-width: 1001px) {
+
+	#TOCbutton {
+		width: 20px;
+		justify-content: flex-start;
+	}
+}
+/*
+@media (min-width: 83em) {
+   article.elm-content-container {
+      min-width: unset;
+   }
+}
+*/
+/*
+@media (min-width: 37.5em){
+    .elm-header-user-nav {
+        z-index: 1;
+    }
+}
+*/
+
+.mt-content-container img {
+    height: auto!important;
+    object-fit: contain;
+}
+.mt-content-container .mt-sortable-listing-link img {
+    height: 150px!important;
+}
+
+.mt-video-widget > p {
+    text-align: center;
+}
+
+option[value="article:topic-portfolio"] {
+    display: none;
+}
+option[value="article:howto"] {
+    display: none;
+}
+option[value="article:reference"] {
+    display: none;
+}
+
+.live-tag-link {
+    white-space: normal;
+    user-select: text;
+    -webkit-user-drag: none;
+}
+
+span.mt-font-ma-shan-zheng{
+    font-family: 'Ma Shan Zheng';
+        
+}/*]]>*/</style><style type="text/css">/*<![CDATA[*/
+.printOnly {
+     display: none;
+}
+ .hideprint {
+     visibility: visible !important;
+     display: block !important;
+}
+ .showprint {
+     visibility: hidden !important;
+     display: none !important;
+}
+ @media print {
+    h1#title {
+      margin-top: 0!important  
+     }
+     
+    .box-interactive, .box-query, .box-adapt {
+         visibility: hidden !important;
+         display: none !important;
+    }
+     
+    table.mt-responsive-table {
+        /*table-layout: auto;
+        */
+    }
+     #librelens-attribution-list {
+         display: none;
+    }
+     .elm-meta-top .mt-article-pagination * {
+         display: none;
+    }
+     .mt-author-container {
+         background: #f0f0f0;
+         border-radius: .5em;
+         visibility: hidden !important;
+         display: none !important;
+    }
+     #elm-main-content {
+         padding-bottom: 0;
+    }
+     main.elm-skin-container {
+         display: inline;
+    }
+     .mt-video-widget:not(.cke_widget_element) {
+         margin: 0 auto !important;
+         width: 60% !important;
+         page-break-inside: avoid;
+    }
+     .elm-skin-container {
+         background-color: #ffffff !important;
+    }
+     .mt-sortable-listing {
+         background-color: #ffffff !important;
+    }
+     .twocolumn {
+         -webkit-column-count: 2;
+        /* Chrome, Safari, Opera */
+         -moz-column-count: 2;
+        /* Firefox */
+         column-count: 2;
+    }
+     .threecolumn {
+         -webkit-column-count: 3;
+        /* Chrome, Safari, Opera */
+         -moz-column-count: 3;
+        /* Firefox */
+         column-count: 3;
+    }
+     .hideprint {
+         visibility: hidden !important;
+         ;
+         display: none !important;
+         ;
+    }
+     .showprint {
+         visibility: visible !important;
+         ;
+         display: block !important;
+         ;
+    }
+     .printOnly {
+         display: block;
+    }
+     .printHide {
+         display: none;
+    }
+     img {
+         zoom: 0.60;
+         page-break-inside: avoid;
+    }
+     .mt-author-container img {
+         zoom: 1;
+    }
+     .MathJax_Display {
+         margin-top: 0.7em !important;
+         margin-bottom: 0.7em !important;
+    }
+    blockquote {
+         display: block;
+         font-size: 120%;
+         color: black;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         margin-left: 40px;
+         padding-left: 15px;
+         padding-top: 0px;
+         padding-bottom: 0px;
+         border-left: 3px solid #0f67a6;
+         border-top: 0px;
+         border-bottom: 0px;
+         border-right: 0px;
+    }
+    p {
+         text-align: justify;
+         orphans: 2;
+         widows: 2;
+         margin-block-start: 0.5em;
+         margin-block-end: 0.5em;
+         margin-inline-start: 0px;
+         margin-inline-end: 0px;
+    }
+     .definition, .note1, .example, .exercise, .skills {
+         border: solid 1px hsla(0, 0%, 0%, 0.5);
+         -moz-border-radius: 5px;
+         -webkit-border-radius: 5px;
+         border-radius: 5px;
+         padding-left: 7px;
+         padding-right: 7px;
+         padding-bottom: 0px;
+         padding-top: 0px;
+         margin-bottom: 5px;
+         margin-top: 5px;
+    }
+     .definition {
+         background-color: hsla(7, 93%, 41%, 0.03);
+    }
+     .example {
+         background-color: hsla(215, 93%, 39%, 0.03);
+    }
+     .note1 {
+         background-color: hsla(78, 93%, 39%, 0.03);
+    }
+     .exercise {
+         background-color: hsla(283, 93%, 24%, 0.03);
+    }
+     .skills {
+         background-color: hsla(7, 93%, 41%, 0.03);
+    }
+     ol.elm-meta-top {
+         display: none;
+    }
+     body:not(.cke_editable) .mt-responsive-table th, body:not(.cke_editable) .mt-responsive-table td, body:not(.cke_editable) table th[data-th] {
+         display: table-cell !important;
+         background-image: none !important;
+         font-size: 95%;
+    }
+     #mt-page-health-container, header.elm-header, #mt-toc-container, #mt-content-side, div#mt-summary, li.elm-pdf-export, li.elm-social-share, footer.elm-footer, footer.elm-content-footer, li.elm-meta-icons, li.elm-last-modified, li.elm-page-restriction, body:not(.cke_editable) .mt-responsive-table td:before {
+         display: none !important;
+    }
+     body {
+         font-size: 0.80em !important;
+         font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif !important;
+    }
+     .mt-content-container ol, .mt-content-container p, .mt-content-container ul {
+         font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif !important;
+         font-size: 100%;
+         line-height: 1.4;
+    }
+     h1, h2, h3, h4, h5 {
+         color: hsl(205, 82%, 42%) !important;
+         align-content: left;
+         font-family: "Tahoma", Arial, serif !important;
+         text-align: left !important;
+         margin: 0.8em 0 0 0 !important;
+         page-break-after: avoid !important;
+         page-break-inside: avoid !important;
+         break-after: avoid !important;
+         break-after: avoid-page !important;
+         orphans: 1;
+         margin-block-end: -3px !important;
+    }
+     h1 {
+         font-size: 18px !important;
+    }
+     h2 {
+         font-size: 15px !important;
+    }
+     h3 {
+         font-size: 13px !important;
+    }
+     h4 {
+         font-size: 11px !important;
+    }
+     h5 {
+         font-size: 10px !important;
+    }
+     .mt-new-features-container {
+         display: none;
+    }
+
+     
+     
+          /*https://stackoverflow.com/questions/9238868/how-do-i-avoid-a-page-break-immediately-after-a-heading/53742871#53742871*/  
+    h2, h3, h4, h5, h6 {
+        page-break-inside: avoid;
+    }
+    h2::after {
+       content: "";
+       display: block;
+       height: 2.5rem; /* pretend that the header is at least 8rem high so this header cannot fit near the end of page */
+       margin-bottom: -2.5rem; /* however, reduce the margin the same amount so that the following content can stay in its usual place */
+    }
+    h3::after {
+       content: "";
+       display: block;
+       height: 2.5rem; /* pretend that the header is at least 8rem high so this header cannot fit near the end of page */
+       margin-bottom: -2.5rem; /* however, reduce the margin the same amount so that the following content can stay in its usual place */
+    }
+    h4::after {
+       content: "";
+       display: block;
+       height: 2.5rem; /* pretend that the header is at least 8rem high so this header cannot fit near the end of page */
+       margin-bottom: -2.5rem; /* however, reduce the margin the same amount so that the following content can stay in its usual place */
+    }
+
+   
+    .box-legend::before
+    {
+       content: "";
+       display: block;
+       height: 5rem; /* pretend that the header is at least 8rem high so this header cannot fit near the end of page */
+       margin-bottom: -5rem; /* however, reduce the margin the same amount so that the following content can stay in its usual place */
+       page-break-inside: avoid;
+       break-inside: avoid;
+    }
+    
+     
+     
+     
+     
+     p.boxtitle {
+         font-style: normal;
+         font-size: 120%;
+         color: DarkSlateGray;
+         line-height: 80% !important;
+         background: none;
+         margin-top: 0 !important;
+         margin-bottom: 0 !important;
+         padding: 0 !important;
+         text-align: left !important;
+         border-bottom: 1px solid DarkSlateGray;
+         font-family: "Tahoma", Arial, serif !important;
+         page-break-after: avoid;
+         page-break-inside: avoid;
+         break-after: avoid-page;
+         orphans: 1;
+    }
+    dt {
+         color: initial;
+    }
+    dl, dt { 
+        text-align: left !important;
+    }
+     
+     .row {
+         padding: 0;
+         margin: 0;
+         list-style: none;
+         display: -webkit-box;
+         display: -moz-box;
+         display: -ms-flexbox;
+         display: -webkit-flex;
+         display: flex;
+         -webkit-flex-flow: row wrap;
+         justify-content: center;
+         break-inside: avoid;
+    }
+     #elm-main-content figcaption {
+         caption-side: bottom;
+         text-align: justify;
+         font-size: 90%;
+         margin-left: 5%;
+         margin-right: 5%;
+         margin-top: 0.3em;
+         break-inside: avoid-page;
+    }
+     .rightfig {
+         display: table;
+         float: right;
+         margin: 0em 0 0em 1em;
+    }
+     .rightfigcaption {
+         display: table-caption;
+         caption-side: bottom;
+         margin: 0.3em 0 0 0;
+         text-align: justify;
+         font-size: 90%;
+    }
+    /**************************** table bar ***************************/
+     caption {
+         display: table-caption;
+         text-align: center;
+         font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif !important;
+    }
+     body:not(.cke_editable) .mt-responsive-table td, body:not(.cke_editable) .mt-responsive-table th {
+         padding: 0.4em !important;
+         padding-top: 0.3em !important;
+         padding-right: 0.4em !important;
+         padding-bottom: 0.3em !important;
+         padding-left: 0.4em !important;
+         vertical-align: middle;
+    }
+     body:not(.cke_editable) .mt-responsive-table p {
+         margin: 0em !important;
+    }
+     body:not(.cke_editable) .mt-responsive-table tr td:last-child {
+         border: none !important;
+    }
+     body:not(.cke_editable) .mt-responsive-table tr th:last-child {
+         border-bottom-width: 0.15em !important;
+    }
+     table {
+         margin-top: 0.5em !important;
+         margin-bottom: 1em !important;
+         -webkit-print-color-adjust: exact;
+         page-break-inside: none;
+    }
+     .mt-content-container table p {
+         margin: 0em !important;
+    }
+     th, td {
+         font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif !important;
+        /*text-align: center;
+        */
+        /*vertical-align: middle;
+        */
+    }
+    /**************************** lists ***************************/
+     ul, ol {
+         text-align: left !important;
+         margin: 0.3em 0 0.5em 0;
+    }
+     ol li, ul li {
+         text-align: left !important;
+         font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif !important;
+         margin-top: 0em !important;
+         margin-bottom: 0em !important;
+    }
+     .attributions li, .attributions p {
+         line-height: 1.25 !important;
+         margin-block-start: 0em !important;
+         margin-block-end: 0em !important;
+         /*font-size: 12px !important;*/
+    }
+    /**************************** author bar ***************************/
+     .mt-author-container {
+         /*background: @secondary-container-background-color;*/
+         /*border: 1px solid @secondary-container-border-color;*/
+         /*border-radius: @border-radius-default;*/
+         clear: both;
+         /*color: @tertiary-font-color;*/
+         font-size: 85%;
+         margin: 0 0 1em;
+         overflow: hidden;
+         padding: .5em 1em;
+    }
+     .mt-author-container ul {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+    }
+     .mt-author-container .mt-author-image {
+         float: left;
+         margin: 0 1em 0 0;
+    }
+     .mt-author-container .mt-author-image-crop {
+         /*border: 1px solid @primary-container-border-color;*/
+         border-radius: 50%;
+         height: 3em;
+         overflow: hidden;
+         position: relative;
+         width: 3em;
+    }
+     .mt-author-container .mt-author-image-crop img {
+         display: inline;
+         height: 100%;
+         margin: 0 auto;
+         width: auto;
+    }
+     .mt-author-container img {
+         max-height: 3em;
+         max-width: 3em;
+         vertical-align: middle;
+    }
+     elm-skin-container {
+         display: block !important;
+    }
+     hypothesis-sidebar,
+     hypothesis-adder,
+     .h-sidebar-iframe,
+     .annotator-frame {
+         display: none;
+    }
+    /* canvas, img, object, video {
+         max-width: 100%;
+         max-height: 500px;
+    }
+     */
+    /**************** Box container styles *******************/
+     .mt-content-container .boxobjectives, .boxexample, .boxexercise, .boxquery, .boxnotewithlegend, .boxnotewithoutlegend, .boxprocedure, .boxdefinition, .boxtheorem, .boxlemma, .boxnotation, .boxproposition {
+         -moz-border-radius: 8px;
+         -webkit-border-radius: 8px;
+         border-radius: 8px;
+         padding-top: 0em;
+         padding-bottom: 0em;
+         padding-left: 1em;
+         padding-right: 1em;
+         margin-bottom: 1em;
+         overflow: visible;
+         border: 0px;
+         orphans: 2;
+    }
+     .mt-content-container .boxnotewithlegend, .boxprocedure, .notation {
+         background-color: hsla(20, 0%, 93%, 1);
+    }
+     .mt-content-container .boxexample, .boxexercise {
+         background-color: hsla(220, 100%, 97%, 1);
+    }
+     .mt-content-container .boxwarning {
+         background-color: hsla(0, 100%, 96%, 1);
+    }
+     .mt-content-container .boxdefinition, .boxtheorem, .boxlemma, .boxnotation, .boxproposition {
+         background-color: hsla(28, 80%, 95%, 1);
+    }
+     .mt-content-container .boxobjectives {
+         background-color: hsla(0, 0%, 90%, 1);
+    }
+     .mt-content-container .boxnotewithoutlegend {
+         background-color: hsla(20, 0%, 93%, 1);
+         padding-right: 1em;
+         padding-left: 1em;
+         padding-top: 0.5em !important;
+         padding-bottom: 0.5em !important;
+         margin-right: 1em;
+         margin-left: 1em;
+    }
+     .mt-content-container .boxquery {
+         border: 2px solid green;
+         page-break-inside: avoid;
+         visibility: hidden !important;
+         display: none !important;
+    }
+    /**************** Box legend container styles *******************/
+     .mt-content-container .boxlegend {
+         font-style: normal !important;
+         font-size: 1.1em !important;
+         font-weight: normal !important;
+         font-family: "Tahoma", Arial, serif !important;
+         padding-top: 0.2em !important;
+         padding-bottom: 0.2em !important;
+         padding-left: 0.3em !important;
+         padding-right: 0.3em !important;
+         margin-left: 0.35em;
+         color: white;
+         border-radius: 3px;
+         overflow: visible;
+         break-inside: avoid !important;
+    }
+     .boxnotewithlegend .boxlegend {
+         background-color: hsla(20, 0%, 45%, 1);
+    }
+     .boxnotewithoutlegend .boxlegend {
+         background-color: hsla(20, 0%, 45%, 1);
+         font-size: 0em !important;
+         visibility: hidden !important;
+    }
+     .boxprocedure .boxlegend {
+         background-color: hsla(20, 0%, 45%, 1);
+    }
+     .boxnotation .boxlegend {
+         background-color: hsla(20, 0%, 45%, 1);
+    }
+     .boxexample .boxlegend {
+         background-color: hsla(220, 100%, 60%, 1);
+    }
+     .boxexercise .boxlegend {
+         background-color: hsla(0, 100%, 56%, 1);
+    }
+     .boxquery .boxlegend {
+         background-color: hsl(120, 100%, 25%, 1);
+    }
+     .boxobjectives .boxlegend {
+         background-color: hsla(0, 0%, 10%, 1);
+    }
+     .boxdefinition .boxlegend {
+         background-color: hsla(28, 80%, 52%, 1);
+    }
+     .boxtheorem .boxlegend {
+         background-color: hsla(28, 80%, 52%, 1);
+    }
+     .boxlemma .boxlegend {
+         background-color: hsla(28, 80%, 52%, 1);
+    }
+     .boxnotation .boxlegend {
+         background-color: hsla(28, 80%, 52%, 1);
+    }
+     .boxproposition .boxlegend {
+         background-color: hsla(28, 80%, 52%, 1);
+    }
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    /****************************************** Current New boxes **********************************************************************/
+     .box-objectives, .box-emphasis, .box-structure, .box-example, .box-exercise, .box-warning, .box-query, .box-note, .box-procedure, .box-definition, .box-theorem, .box-lemma, .box-notation, .box-proposition, .box-interactive {
+         display: block;
+
+         border-top: none;
+         border-bottom: none;
+         border-right: none;
+         padding: 0px 10px 1px 8px;
+         margin-bottom: 0.8em !important;
+         margin-top: 0.8em !important;
+         orphans: 3;
+         
+         border-radius: 4px 8px 8px 4px;
+        -moz-border-radius: 4px 8px 8px 4px;
+        -webkit-border-radius: 4px 8px 8px 4px;
+    }
+
+    .box-emphasis {
+         padding: 5px 10px 5px 10px;
+    }
+     
+    /**************** Tuning the box colors ***************/
+     .box-objectives{
+         background-color: hsla(204, 83%, 97%, 1);
+         border-left: 3px solid hsla(204, 83%, 41%, 1);
+    }
+     .box-example{
+         background-color: hsla(204, 83%, 97%, 1);
+         border-left: 3px solid hsla(204, 83%, 41%, 1);
+    }
+     .box-exercise{
+         background-color: hsla(204, 83%, 97%, 1);
+         border-left: 3px solid hsla(204, 83%, 41%, 1);
+    }
+     .box-warning{
+         background-color: hsl(0, 100%, 96%);
+         border-left: 3px solid hsl(0, 100%, 31%);
+    }
+    .box-structure{
+	    background-color: hsl(240, 67%, 97%);
+    	border-left: 4px solid hsl(240, 67%, 62%);
+    }
+    .box-emphasis{
+	    background-color: hsl(180, 8%, 94%);
+    	border-left: 4px solid 	hsl(180, 8%, 40%);
+    }
+     .box-query{
+         border: 3px solid hsla(220, 100%, 60%, 1);
+    }
+     .box-interactive{
+         border: 3px solid black;
+    }
+     .box-definition, .box-theorem, .box-lemma, .box-notation, .box-proposition {
+         background-color: hsl(124, 33%, 94%);
+         border-left: 3px solid hsl(132, 36%, 27%);
+    }
+     .box-note{
+         background-color: hsla(204, 83%, 97%, 1);
+         border-left: 3px solid hsla(204, 83%, 41%, 1);
+    }
+     .boxprocedure, .notation {
+         background-color: hsla(20, 0%, 93%, 1);
+         border-left: 3px solid hsl(43,81%,36%, 1) 
+    }
+
+     
+     /************** Defining the Legends ******************/
+     .box-legend {
+         display: block;
+         overflow: hidden;
+         margin: 0 0 5px 0;
+         transform: translate(-11px, 0px);
+         break-inside: avoid-page !important;
+         page-break-inside: avoid !important;
+    }
+     .box-legend > span {
+         float: left;
+         font-family: "Tahoma", Arial, serif !important;
+         font-size: 13px !important;
+         font-weight: normal !important;
+         color: white;
+         padding: 3px 5px 3px 5px !important;
+         margin: 0 0 3px 0;
+         line-height: 0.8em;
+         border-radius: 1px;
+    }
+     .box-legend p {
+         float: left;
+         font-family: "Tahoma", Arial, serif !important;
+         font-size: 14px !important;
+         font-weight: normal !important;
+         color: white;
+         font-size: 14px !important;
+         padding: 4px 5px 4px 5px !important;
+         margin: 0 0 3px 0;
+         line-height: 0.8em;
+         border-radius: 1px;
+    }  
+
+    /************** Tuning the Legends ******************/
+     .box-objectives .box-legend > span{
+         background-color: hsl(212,77%,47%,1);
+    }
+     .box-example .box-legend > span{
+         background-color: hsl(212,77%,47%,1);
+    }
+     .box-exercise .box-legend > span{
+         background-color: hsl(212,77%,47%,1);
+    }
+     .box-query .box-legend > span{
+         background-color: hsl(212,77%,47%,1);
+    }
+     .box-interactive .box-legend > span{
+         background-color: black;
+    }
+     .box-note .box-legend > span{
+         background-color: hsla(204, 83%, 41%, 1);
+    }
+     .box-warning .box-legend > span{
+         background-color: hsl(0, 100%, 31%);
+    }
+    .box-structure .box-legend > span{
+  	     background-color:  hsl(240, 67%, 62%);
+    } 
+     .box-procedure .box-legend > span{
+         background-color: hsla(39, 100%, 58%, 1);
+    }
+     .box-definition .box-legend > span{
+         background-color: hsl(132, 36%, 27%);
+    }
+     .box-theorem .box-legend > span{
+         background-color: hsl(132, 36%, 27%);
+    }
+     .box-lemma .box-legend > span{
+         background-color: hsl(132, 36%, 27%);
+    }
+     .box-notation .box-legend > span{
+         background-color: hsl(132, 36%, 27%);
+    }
+     .box-proposition .box-legend > span{
+         background-color: hsl(132, 36%, 27%);
+    }
+     
+     
+     
+     
+.box-definition > header, .box-structure> header, .box-note > header, .box-theorem > header, .box-example > header, .box-exercise > header, .box-query > header, .box-adapt > header, .box-objectives > header, .box-warning > header{
+        display: inline-flex;
+        overflow: hidden;
+        break-inside: avoid-page;
+        page-break-inside: avoid;
+        text-align: left;
+        width: auto;
+        margin: 0 0px 2px 0px !important;
+        padding: 2px 6px 2px 4px !important;
+        transform: translate(-11px, 0px) !important;
+        border-radius: 3px 5px 5px 0;
+        -moz-border-radius: 3px 5px 5px 0;
+        -webkit-border-radius: 3px 5px 5px 0;
+} 
+
+.box-definition > header *, .box-structure> header *,.box-note > header *, .box-theorem > header *, .box-example > header *, .box-exercise > header *, .box-query > header *, .box-adapt > header *, .box-objectives > header *, .box-warning > header * {
+        font-family: "Tahoma", Arial, serif !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        color: white !important;;    
+        width: auto !important;;
+        float: left !important;;
+        line-height: 1 !important;;
+        margin-block-start: 0 !important;
+        margin-block-end: 0 !important;
+    }
+
+.box-definition > header, .box-theorem > header{
+        background-color: hsl(132, 36%, 27%);
+}
+.box-definition > header * {
+        background-color: hsl(132, 36%, 27%);
+}
+.box-example > header, .box-exercise > header, .box-query > header, .box-objectives > header, .box-adapt > header, .box-note > header{
+  	background-color: hsla(204, 83%, 41%, 1);
+}
+.box-example > header *, .box-objectives > header *, .box-exercise > header *, .box-note > header *{
+  	background-color: hsla(204, 83%, 41%, 1);
+}
+.box-structure > header{
+         background-color:  hsl(240, 67%, 62%);
+}
+.box-structure > header *{
+         background-color:  hsl(240, 67%, 62%);
+}
+.box-warning > header{
+         background-color: hsl(0, 100%, 31%);
+}
+.box-warning > header *{
+         background-color: hsl(0, 100%, 31%);
+}
+
+.mt-content-container::before{
+    content: none;
+}
+     
+     
+section::before {
+    content: "";
+    display: block;
+    height: 4.5rem; /* pretend that the header is at least 8rem high so this header cannot fit near the end of page */
+    margin-bottom: -4.5rem; /* however, reduce the margin the same amount so that the following content can stay in its usual place */
+    page-break-inside: avoid;
+    break-inside: avoid; 
+}
+     
+}/*]]>*/</style><style type="text/css">/*<![CDATA[*/
+ul.jmolPopupMenu {
+overflow: initial;
+float: initial;
+max-height: none;
+opacity: initial;
+}
+ul.jmolPopupMenu .ui-menu, .ui-selectmenu-button {
+overflow: initial;
+}
+
+ul.jmolPopupMenu .ui-menu, ul.jmolPopupMenu .ui-menu-item {
+float: initial;
+max-height: none;
+}
+
+ul.jmolPopupMenu .ui-state-disabled {
+opacity: initial;
+}
+
+div.iCn3D .icn3d-mn.ui-menu {
+    overflow: visible;
+    max-height: unset;
+}
+div.iCn3D .icn3d-mn.ui-menu .ui-menu-item{
+    padding: 0;
+    overflow: visible;
+    float: none;
+}
+
+div.iCn3D label:after{
+     content: unset;   
+}
+
+div.iCn3D div {
+    word-wrap: normal;
+}/*]]>*/</style>
+
+        
+
+    
+        
+
+
+    <script type="application/json" id="mt-localizations-draft">
+{"Draft.JS.alert.cancel.button":"OK","Draft.JS.alert.cancel.message":"You can not cancel a draft when the live page is unpublished.","Draft.JS.alert.cancel.title":"This draft cannot be canceled","Draft.JS.alert.publish.button":"OK","Draft.JS.alert.publish.message":"You can not publish a draft of a page with an unpublished parent","Draft.JS.alert.publish.title":"This draft cannot be published","Draft.JS.alert.unpublish.button":"OK","Draft.JS.alert.unpublish.message":"You can not unpublish a page when published subpages are present.","Draft.JS.alert.unpublish.title":"This page cannot be unpublished","Draft.JS.success.cancel":"The draft was successfully deleted.","Draft.JS.success.publish":"The draft was successfully published.","Draft.JS.success.unpublish":"The page was successfully unpublished.","Draft.error.cancel":"There was an error cancelling the draft.","Draft.error.publish":"There was an error publishing the draft.","Draft.error.unpublish":"There was an error unpublishing the page.","Dialog.ConfirmSave.StrictIdf.title":"Oops!","Dialog.ConfirmSave.StrictIdf.error.missing-template-reference":"This article type requires a template reference widget. Not having one may negatively impact your site and SEO. Please contact CXone Expert support.","Dialog.ConfirmSave.StrictIdf.label.continue":"Proceed anyway","Dialog.ConfirmSave.StrictIdf.label.cancel":"Cancel","Dialog.ConfirmSave.StrictIdf.label.missing-template-reference-help-link":"Learn more about required references","Dialog.ConfirmSave.StrictIdf.error.invalid-idf":"This type of article should not exist at the requested location in the site hierarchy. Proceeding with the requested move may negatively impact site navigation and SEO.","Dialog.ConfirmSave.StrictIdf.label.invalid-idf-help-link":"Learn more about IDF structure"}    </script>    <script type="application/json" id="mt-localizations-editor">
+{"Article.Attach.file.upload.toobig":"The file you selected is too large.  The maximum allowed file size is {0}.","Article.Attach.file.upload.notAllowed":"The selected file can not be uploaded because you do not have permission to upload files of that type.","Article.Attach.file.upload.fileExtension":"You picked a file with an unsupported extension.  Please try again with a valid file.","Article.Common.page-is-restricted-login":"You do not have permission to view this page - please try signing in.","Article.Common.page-save-conflict":"You may have overwritten a concurrent editor's changes. Use this page's <a title=\"Revision History\" target=\"_blank\" href=\"{0}\" >Revision History<\/a> to review.","Article.Edit.extensions-list":"[MISSING: article.edit.extensions-list]","Article.Error.page-couldnt-be-loaded":"The requested page's contents could not be loaded.","Article.Error.page-save-conflict":"A page already exists at {0}. Navigate to the existing page and edit the page if you wish to modify its contents.","Article.Error.page-save-forbidden":"Your session has expired or you do not have permission to edit this page.","Article.edit.summary":"Edit summary","Component.YoutubeSearch.error.key-invalid":"Your YouTube API Key was improperly configured. Please review the article at the","Component.YoutubeSearch.error.key-missing":"Your CXone Expert deployment needs to update your YouTube API Key. Details on how to update can be found at the","Component.YoutubeSearch.error.search-failed":"Search failed","Component.YoutubeSearch.info.not-found":"No videos found","Component.YoutubeSearch.label.video-url":"Video URL","Component.YoutubeSearch.placeholder.query":"Video URL or YouTube search query","Dialog.ConfirmDeleteRedirects.label.delete-redirects-help-link":"Learn more about deleting redirects","Dialog.ConfirmSave.error.redirect":"A redirect exists at this location and will be deleted if you continue. This may negatively impact your site and SEO. Please contact CXone Expert support.","Dialog.ConfirmSave.label.cancel":"Cancel","Dialog.ConfirmSave.label.continue":"Continue","Dialog.ConfirmSave.title":"Delete redirect?","Dialog.ConfirmSave.StrictIdf.error.invalid-idf":"This type of article should not exist at the requested location in the site hierarchy. Proceeding with the requested move may negatively impact site navigation and SEO.","Dialog.ConfirmSave.StrictIdf.error.missing-template-reference-insert":"You've removed the template reference, which is required for this page. Click Insert to reinsert the template reference.","Dialog.ConfirmSave.StrictIdf.label.cancel":"Cancel","Dialog.ConfirmSave.StrictIdf.label.continue":"Proceed anyway","Dialog.ConfirmSave.StrictIdf.label.insert":"Insert","Dialog.ConfirmSave.StrictIdf.label.missing-template-reference-help-link":"Learn more about required references","Dialog.ConfirmSave.StrictIdf.label.invalid-idf-help-link":"Learn more about IDF structure","Dialog.ConfirmSave.StrictIdf.title":"Oops!","Dialog.JS.wikibits-edit-section":"Edit section","Draft.error.save-unpublished":"You cannot save an unpublished draft at {0}. A published page already exists at that location.","GUI.Editor.alert-changes-made-without-saving":"You have made changes to the content without saving your changes. Are you sure you want to exit this page?","GUI.Editor.error.copy-hint":"To avoid losing your work, copy the page contents to a new file and retry saving again.","GUI.Editor.error.server-error":"A server error has occurred.","GUI.Editor.error.unable-to-save":"We are unable to save this page","System.API.Error.invalid-redirect":"Cannot create a redirect on a page with sub-pages.","System.API.Error.invalid-redirect-target":"The redirect does not point at a valid page."}    </script>    <script type="application/json" id="mt-localizations-file-uploader">
+{"Dialog.Attach.allowed-types":"Allowed file types:","Dialog.Attach.button.upload":"Upload","Dialog.Attach.choose-files-dad":"Choose files to upload or drag and drop files into this window.","Dialog.Attach.max-size":"Maximum upload file size: {0}"}    </script>    <script type="application/json" id="mt-localizations-grid-widget">
+{"Article.Common.page-is-restricted-login":"You do not have permission to view this page - please try signing in.","MindTouch.Help.Page.search-unavailable":"Sorry, search is currently unavailable.","Page.StructuredTags.error-update":"An unknown error occurred."}    </script>    <script type="application/json" id="mt-localizations-tree-widget">
+{"Skin.Common.home":"Home","Dialog.Common.error.path-not-found":"The requested page or section could not be loaded. Please update the link.","Dialog.JS.loading":"Loading...","Dialog.JS.loading.copy":"Copying page(s)...","Dialog.JS.loading.insertImage":"Inserting image...","Dialog.JS.loading.move":"Moving page(s)...","Dialog.JS.loading.moveFile":"Moving file...","Dialog.JS.loading.search":"Searching...","MindTouch.Help.Page.in":"in","MindTouch.Help.Page.no-search-results":"Sorry, we can't find what you are looking for.","MindTouch.Help.Page.no-search-try":"Try searching for something else, selecting a category, or try creating a ticket.","MindTouch.Help.Page.retrysearch":"Click here to search the whole site.","MindTouch.Help.Page.search-error-try":"Please try again later.","MindTouch.Help.Page.search-unavailable":"Sorry, search is currently unavailable."}    </script>    <script type="application/json" id="mt-localizations-dialog">
+{"Dialog.Common.button.cancel":"Cancel","Dialog.Common.button.ok":"OK"}    </script>
+    <script type="text/javascript" data-mindtouch-module="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/globals.js.download"></script><script type="application/json" id="mt-global-settings">{"articleType":"topic","attachFileMax":1000,"baseHref":"https:\/\/bio.libretexts.org","cacheFingerprint":"6269b922254baf07fb383dcaee90f9948cabbe4a:site_4463","cdnHostname":"a.mtstatic.com","clientSideWarnings":false,"draftEditable":false,"followRedirects":1,"idfHideTemplateTags":false,"idfVersion":"IDF3","isInteractionAnalyticsEnabled":true,"isInteractionAnalyticsDebugEnabled":false,"isArticleReviewCommunityMembersEnabled":false,"isDraftAllowed":false,"isDraftRequest":false,"isGoogleAnalyticsEnabled":true,"isReportDownloadEnabled":false,"isSkinResponsive":true,"isXhrF1WebWidgetEnabled":true,"isXhrIEMode":false,"learningPathsEnabled":true,"kcsEnabled":false,"kcsV2Enabled":false,"isKcsEnabledOnPage":false,"isSentimentAnalysisEnabled":true,"maxFileSize":268435456,"moduleMode":"global","pageEditable":false,"pageId":5960,"pageIsRedirect":false,"pageLanguageCode":"en-US","pageName":"19.1.12: Caenorhabditis Elegans","pageNamespace":"","pageOrderLimit":1000,"pagePermissions":["LOGIN","BROWSE","READ","SUBSCRIBE"],"pageRevision":"22","pageSectionEditable":false,"pageTitle":"Bookshelves\/Introductory and General Biology\/Book: Biology (Kimball)\/19: The Diversity of Life\/19.01: Eukaryotic Life\/19.1.12: Caenorhabditis Elegans","pathCommon":"\/@style\/common","pathSkin":"\/@style\/elm","pageViewId":"ae031538-4ab6-4e8e-bc6b-82b895fda608","relatedArticlesDetailed":true,"removeBlankTemplate":false,"removeDeleteCheckbox":true,"scriptParser":2,"sessionId":"NGJhZGU3NzAtYjRlNS00YmIxLWI1ZGYtNDdmOWZjNWNkMzNkfDIwMjEtMTItMDVUMDc6NTI6NTU=","showAllTemplates":true,"skinStyle":"columbia.elm","siteAuthoringPageThumbnailManagementEnabled":true,"spaceballs2Enabled":false,"strictIdfEnabled":false,"userId":2,"userIsAnonymous":true,"userIsSeated":false,"userIsAdmin":false,"userName":"Anonymous","userPermissions":["LOGIN","BROWSE","READ","SUBSCRIBE"],"userSystemName":"Anonymous","userTimezone":"-07:00","webFontConfig":{"google":{"families":["Lato:r,b,i","Source Code Pro:r,b","&display=swap"]}},"apiToken":"xhr_2_1638696151_c884fafd87802b81610454fec9c5cdaf3ad0a8ffd7efa0146993a40c52b8300d"}</script><script type="text/javascript" data-mindtouch-module="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/deki.legacy.js.download"></script><script type="text/javascript" data-mindtouch-module="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/community.js.download"></script><script type="text/javascript" data-mindtouch-module="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/skin_elm.js.download"></script><script type="text/javascript" data-mindtouch-module="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/pageBootstrap.js.download"></script>
+
+    
+<script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-18110546-1','bio.libretexts.org',{allowLinker:true});ga('send','pageview');ga('create','UA-65721316-22','bio.libretexts.org',{name:'mtTracker',allowLinker:true});ga('mtTracker.require','linker');ga('mtTracker.set', 'anonymizeIp', true);ga('mtTracker.send','pageview');document.addEventListener('mindtouch-web-widget:f1:loaded',function(e){var t=e.data||{},d=t.widget;d&&''!==t.embedId&&document.addEventListener('mindtouch-web-widget:f1:clicked',function(e){var t=(e.data||{}).href;if(t){var n=document.createElement('a');n.setAttribute('href',t),'success.mindtouch.com'===n.hostname&&(e.preventDefault(),ga('linker:decorate',n),d.open(n.href))}})});</script>
+<link href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/84b10e0f37.css" media="all" rel="stylesheet"><link rel="sidebar" href="https://hypothes.is/app.html" type="application/annotator+html" data-hypothesis-asset=""><link rel="notebook" href="https://hypothes.is/notebook" type="application/annotator+html" data-hypothesis-asset=""><link rel="preload" as="style" href="https://cdn.hypothes.is/hypothesis/1.931.0/build/styles/annotator.css?1c6c62" data-hypothesis-asset=""><link rel="hypothesis-client" href="https://cdn.hypothes.is/hypothesis/1.931.0/build/boot.js" type="application/annotator+javascript" data-hypothesis-asset=""><script type="module" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/annotator.bundle.js.download" data-hypothesis-asset=""></script><link rel="stylesheet" type="text/css" href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/highlights.css" data-hypothesis-asset=""><link rel="stylesheet" type="text/css" href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/pdfjs-overrides.css" data-hypothesis-asset=""><style>.cke_button_icon.cke_button__enablebinder_icon{background-image:url(https://binderhub.readthedocs.io/en/latest/_static/favicon.png?t=JB9B) !important;background-position:0 0px !important;background-size:16px !important}.columbia-skin-elm .cke_dialog .cke_dialog_contents tbody tr td.cke_dialog_contents_body{display:block;overflow:auto;width:100% !important;max-height:60vh}.columbia-skin-elm .cke_dialog .cke_dialog_contents tbody tr td.cke_dialog_contents_body .thebelab-cell{max-width:55vw}.columbia-skin-elm .cke_dialog .cke_dialog_contents tbody tr td.cke_dialog_contents_body .thebelab-cell .jp-OutputArea-output{overflow-x:scroll}.jp-Stdin-input{width:42%;min-width:200px}.thebelab-widget pre.no-code{display:none}.leaflet-pane canvas{max-width:unset}.fa{font-family:FontAwesome !important}.mt-editor-dialog-binderDialog .mt-label:after,.mt-editor-dialog-binderDialog label:after{content:""}.thebe-status-field{position:fixed;bottom:15px;left:40px;border:2px solid #aaa;padding:4px;border-radius:4px;background-color:#f9f9f9;opacity:1;display:block;z-index:10000}.thebe-status-field.thebe-status-building{background-color:#83cffa}.thebe-status-field.thebe-status-built{background-color:#83cffa}.thebe-status-field.thebe-status-launching{background-color:#83cffa}.thebe-status-field.thebe-status-starting{background-color:#83cffa}.thebe-status-field.thebe-status-ready{background-color:#38e038}.thebe-status-field.thebe-status-failed{background-color:red}@media print{.thebe-status-field{display:none}}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvcGx1Z2luLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0EsK0NBQ0Usc0dBQUEsQ0FDQSxvQ0FBQSxDQUNBLCtCQUFBLENBUVEseUZBQ0UsYUFBQSxDQUNBLGFBQUEsQ0FDQSxxQkFBQSxDQUNBLGVBQUEsQ0FFQSx3R0FDRSxjQUFBLENBRUEsOEhBQ0UsaUJBQUEsQ0FZaEIsZ0JBQ0UsU0FBQSxDQUNBLGVBQUEsQ0FJQSw2QkFDRSxZQUFBLENBS0oscUJBQ0UsZUFBQSxDQUdGLElBQ0Usa0NBQUEsQ0FHRiwwRkFDRSxVQUFBLENBTUYsb0JBQ0UsY0FBQSxDQUNBLFdBQUEsQ0FDQSxTQUFBLENBQ0EscUJBQUEsQ0FDQSxXQUFBLENBQ0EsaUJBQUEsQ0FDQSx3QkFBQSxDQUNBLFNBQUEsQ0FDQSxhQUFBLENBQ0EsYUFBQSxDQUVBLDBDQUVFLHdCQWpCZ0IsQ0FvQmxCLHVDQUVFLHdCQXRCZ0IsQ0F5QmxCLDJDQUVFLHdCQTNCZ0IsQ0E4QmxCLDBDQUVFLHdCQWhDZ0IsQ0FtQ2xCLHVDQUVFLHdCQXBDaUIsQ0F1Q25CLHdDQUVFLG9CQUFBLENBSUosYUFDQyxvQkFDRSxZQUFBLENBQUEiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBmb3JjZSBvdmVyd2lydGUgY3NzIHNldHRpbmdzIGZyb20gTWluZFRvdWNoXG4uY2tlX2J1dHRvbl9pY29uLmNrZV9idXR0b25fX2VuYWJsZWJpbmRlcl9pY29uIHtcbiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKGh0dHBzOi8vYmluZGVyaHViLnJlYWR0aGVkb2NzLmlvL2VuL2xhdGVzdC9fc3RhdGljL2Zhdmljb24ucG5nP3Q9SkI5QikgIWltcG9ydGFudDtcbiAgYmFja2dyb3VuZC1wb3NpdGlvbjogMCAwcHggIWltcG9ydGFudDtcbiAgYmFja2dyb3VuZC1zaXplOiAxNnB4ICFpbXBvcnRhbnQ7XG59XG5cbi5jb2x1bWJpYS1za2luLWVsbSB7XG4gIC5ja2VfZGlhbG9nIHtcbiAgICAuY2tlX2RpYWxvZ19jb250ZW50cyB7XG4gICAgICB0Ym9keSB7XG4gICAgICAgIHRyIHtcbiAgICAgICAgICB0ZC5ja2VfZGlhbG9nX2NvbnRlbnRzX2JvZHkge1xuICAgICAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgICAgICBvdmVyZmxvdzogYXV0bztcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7XG4gICAgICAgICAgICBtYXgtaGVpZ2h0OiA2MHZoO1xuXG4gICAgICAgICAgICAudGhlYmVsYWItY2VsbCB7XG4gICAgICAgICAgICAgIG1heC13aWR0aDogNTV2dztcblxuICAgICAgICAgICAgICAuanAtT3V0cHV0QXJlYS1vdXRwdXQge1xuICAgICAgICAgICAgICAgIG92ZXJmbG93LXg6IHNjcm9sbDtcbiAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuXG4vLyB0aGViZSBkb2VzIG5vdCBpbmNsdWRlIHRoZSBjc3Mgb2YgdGhlIHBhY2thZ2VzIGl0IHVzZXNcbi8vIHNlZSBodHRwczovL2dpdGh1Yi5jb20vanVweXRlcmxhYi9qdXB5dGVybGFiL2Jsb2IvbWFzdGVyL3BhY2thZ2VzL291dHB1dGFyZWEvc3R5bGUvYmFzZS5jc3MjTDE5MFxuLmpwLVN0ZGluLWlucHV0IHtcbiAgd2lkdGg6IDQyJTtcbiAgbWluLXdpZHRoOiAyMDBweDtcbn1cblxuLnRoZWJlbGFiLXdpZGdldCB7XG4gIHByZS5uby1jb2RlIHtcbiAgICBkaXNwbGF5OiBub25lO1xuICB9XG59XG5cbi8vIGFsbG93cyBpcHlsZWFmbGV0J3Mgb3ZlcmxheSB0byB3b3JrXG4ubGVhZmxldC1wYW5lIGNhbnZhcyB7XG4gIG1heC13aWR0aDogdW5zZXQ7XG59XG5cbi5mYSB7XG4gIGZvbnQtZmFtaWx5OiBGb250QXdlc29tZSAhaW1wb3J0YW50O1xufVxuXG4ubXQtZWRpdG9yLWRpYWxvZy1iaW5kZXJEaWFsb2cgLm10LWxhYmVsOmFmdGVyLCAubXQtZWRpdG9yLWRpYWxvZy1iaW5kZXJEaWFsb2cgbGFiZWw6YWZ0ZXIge1xuICBjb250ZW50OiAnJztcbn1cblxuJHN0YXR1cy1maWVsZC1ibHVlOiBkYXJrZW4ocmdiKDIyOSwgMjQ1LCAyNTQpLCAyMCk7XG4kc3RhdHVzLWZpZWxkLWdyZWVuOiBkYXJrZW4obGlnaHRncmVlbiwgMjApO1xuXG4udGhlYmUtc3RhdHVzLWZpZWxkIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBib3R0b206IDE1cHg7XG4gIGxlZnQ6IDQwcHg7XG4gIGJvcmRlcjogMnB4IHNvbGlkIHJnYigxNzAsIDE3MCwgMTcwKTtcbiAgcGFkZGluZzogNHB4O1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYigyNDksIDI0OSwgMjQ5KTtcbiAgb3BhY2l0eTogMTtcbiAgZGlzcGxheTogYmxvY2s7XG4gIHotaW5kZXg6IDEwMDAwO1xuXG4gICYudGhlYmUtc3RhdHVzLWJ1aWxkaW5nIHtcbiAgICAvKiBCaW5kZXIgaXMgYnVpbGRpbmcgdGhlIGltYWdlICovXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJHN0YXR1cy1maWVsZC1ibHVlO1xuICB9XG5cbiAgJi50aGViZS1zdGF0dXMtYnVpbHQge1xuICAgIC8qIEJpbmRlciBpcyBidWlsdCB0aGUgaW1hZ2UgKi9cbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkc3RhdHVzLWZpZWxkLWJsdWU7XG4gIH1cblxuICAmLnRoZWJlLXN0YXR1cy1sYXVuY2hpbmcge1xuICAgIC8qIEJpbmRlciBsYXVuY2hpbmcgdGhlIHNlcnZlciAqL1xuICAgIGJhY2tncm91bmQtY29sb3I6ICRzdGF0dXMtZmllbGQtYmx1ZTtcbiAgfVxuXG4gICYudGhlYmUtc3RhdHVzLXN0YXJ0aW5nIHtcbiAgICAvKiBCaW5kZXIgc3RhcnRpbmcgdGhlIHNlcnZlciAqL1xuICAgIGJhY2tncm91bmQtY29sb3I6ICRzdGF0dXMtZmllbGQtYmx1ZTtcbiAgfVxuXG4gICYudGhlYmUtc3RhdHVzLXJlYWR5IHtcbiAgICAvKiBUaGUga2VybmVsIGlzIGNvbm5lY3RlZCBhbmQgcmVhZHkgKi9cbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkc3RhdHVzLWZpZWxkLWdyZWVuO1xuICB9XG5cbiAgJi50aGViZS1zdGF0dXMtZmFpbGVkIHtcbiAgICAvKiBCdWlsZGluZyB0aGUgaW1hZ2Ugb3IgbGF1bmNoaW5nIHRoZSBrZXJuZWwgZmFpbGVkICovXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmVkO1xuICB9XG59XG5cbkBtZWRpYSBwcmludCB7XG4gLnRoZWJlLXN0YXR1cy1maWVsZCB7XG4gICBkaXNwbGF5OiBub25lO1xuICB9XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><script src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/require.min.js.download"></script><script src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/all.min.js.download"></script><script src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/v4-shims.min.js.download"></script><style>.cke_button_icon.cke_button__openlibretextsquerydialog_icon{background-image:url(https://a.mtstatic.com/@public/production/site_4538/1579208579-favicon.ico?t=cffb82d…K9LL&_=cffb82d…:site_4538) !important;background-position:0 undefinedpx !important;background-size:16px !important}.cke_button_icon.cke_button__openlibretextsadaptdialog_icon{background-image:url(https://d2xt85ly3365wl.cloudfront.net/4eb3ead8-6be4-4cfe-be83-e06cd40dd54b/assets/img/favicon.png) !important;background-position:0 undefinedpx !important;background-size:16px !important}</style><link rel="stylesheet" href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/css" media="all"><style id="mt-fixed-header-styles"></style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+<body class="elm-user-anonymous columbia-page-main columbia-article-topic columbia-browser-chrome columbia-platform-windows columbia-breadcrumb-home-bookshelves-introductoryandgeneralbiology-book%3Abiology%28kimball%29-19%3Athediversityoflife-19.01%3Aeukaryoticlife-19.1.12%3Acaenorhabditiselegans columbia-live no-touch columbia-lang-en-us columbia-skin-elm" style="margin-top: 45px;" data-new-gr-c-s-check-loaded="14.1041.0" data-gr-ext-installed=""><div id="MathJax_Message" style="display: none;"></div>
+<a class="elm-skip-link" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans#elm-main-content" title="Press enter to skip to the main content">Skip to main content</a><main class="elm-skin-container" data-ga-category="Anonymous | page">
+    <header class="elm-header">
+        <div class="elm-header-custom"><div class="mt-container-highlight" style="background-color: #ffffff;">
+<nav class="elm-nav my-custom-class">
+<div class="elm-nav-container">
+<div class="LTBranding"><a title="http://bio.libretexts.org/" href="https://bio.libretexts.org/" rel="internal"><img alt="libretexts_section_complete_photon_124.png" class="internal default" style="width: 289px; height: 124px;" width="289px" height="124px" loading="lazy" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/libretexts_section_complete_bio_header.png"></a>
+<div id="LTAnnouncement"><img id="trapezoid" class="mobileHide" alt="" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/Capture.PNG"><a href="https://commons.libretexts.org/" target="_blank" rel="external noopener nofollow" class="link-https"><img class="mobileHide" style="height: 50px; border-radius:10px;" alt="" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/Conductor.svg"><p>Check out our new LibreCommons search portal</p></a></div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/reuse.js.download"></script>
+
+</div>
+</nav>
+</div>
+
+
+
+
+
+<div style="display:none"><div style="display:none" id="modifiedHolder">Thu, 31 Dec 2020 22:02:04 GMT</div><div style="display:none" id="titleHolder">19.1.12: Caenorhabditis Elegans</div><div style="display:none" id="IDHolder">5960</div><div style="display:none" id="pageIDHolder">5960</div><div style="display:none" id="groupHolder">{ }</div><div style="display:none" id="usernameHolder">Anonymous</div><div style="display:none" id="displaynameHolder">Anonymous</div><div style="display:none" id="userEmailHolder"></div><div style="display:none" id="emailHolder"></div><div style="display:none" id="userIDHolder">2</div><div style="display:none" id="proHolder">false</div><div style="display:none" id="adminHolder">false</div><div style="display:none" id="pageTagsHolder">[ "article:topic", "authorname:kimballj", "C. Elegans", "showtoc:no", "license:ccby" ]</div><div style="display:none" id="tagsHolder">[ "article:topic", "authorname:kimballj", "C. Elegans", "showtoc:no", "license:ccby" ]</div><div style="display:none" id="ssoHolder">https://bio.libretexts.org/@app/auth/3/login?returnto=https%3A%2F%2Fbio.libretexts.org%2FBookshelves%2FIntroductory_and_General_Biology%2FBook%253A_Biology_(Kimball)%2F19%253A_The_Diversity_of_Life%2F19.01%253A_Eukaryotic_Life%2F19.1.12%253A_Caenorhabditis_Elegans</div></div>
+
+
+<script type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/copyNavigation.js.download"></script>
+</div>
+        <div class="elm-nav mt-translate-module" hidden="true">
+            <div class="elm-nav-container mt-translate-container"></div>
+        </div>
+        <div class="elm-header-logo-container">
+            <a href="https://bio.libretexts.org/" title="Biology LibreTexts"><img src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/1474922585-logo.png" alt="Biology LibreTexts"></a>
+        </div>
+        
+        <nav class="elm-header-user-nav elm-nav">
+            <div class="elm-nav-container">
+                <ol>
+                    <li class="elm-global-search" data-ga-action="Header search"><a class="mt-icon-site-search mt-toggle-form" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans#" title="Search site">Search site</a>
+<div class="mt-quick-search-container mt-toggle-form-container">
+    <form action="https://bio.libretexts.org/Special:Search">
+        <input name="qid" id="mt-qid-skin" type="hidden" value="">
+        <input name="fpid" id="mt-search-filter-id" type="hidden" value="230">
+        <input name="fpth" id="mt-search-filter-path" type="hidden">
+        <input name="path" id="mt-search-path" type="hidden" value="">
+
+        <label class="mt-label" for="mt-site-search-input">
+            Search
+        </label>
+        <input class="mt-text mt-search search-field" name="q" id="mt-site-search-input" placeholder="How can we help you?" type="search">
+        <button class="mt-button ui-button-icon mt-icon-site-search-button search-button" type="submit">
+            Search
+        </button>
+    </form>
+</div>
+<div class="elm-search-back"><a class="mt-icon-browser-back" data-ga-label="Browse back" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans#" id="mt-browser-back" title="Go back to previous article">Go back to previous article</a></div>
+</li>
+                    <li class="elm-user-menu"><ol class="mt-user-menu">
+
+    <li class="">
+        <a class="mt-dropdown-link mt-icon-tree" href="https://bio.libretexts.org/Under_Construction/Development_Details/OER_Remixer" title="Remix a new LibreText" id="RemixerIcon" target="_blank">Remixer</a>
+
+        <ul class="mt-user-menu-container mt-dropdown">
+
+            <li class="mt-login-sign-in">
+                <a class="mt-icon-quick-sign-in" href="https://bio.libretexts.org/Special:UserLogin?returntotitle=Bookshelves%2FIntroductory_and_General_Biology%2FBook%3A_Biology_%28Kimball%29%2F19%3A_The_Diversity_of_Life%2F19.01%3A_Eukaryotic_Life%2F19.1.12%3A_Caenorhabditis_Elegans" title="Sign in">
+                    Sign in
+                </a>
+            </li>
+
+            <li class="mt-login-forgot-password">
+                <a class="mt-icon-login-forgot-password" href="https://bio.libretexts.org/Special:UserPassword" title="Retrieve lost password">
+                    Forgot password
+                </a>
+            </li>
+        </ul>
+    </li><li class="">
+        <a class="mt-dropdown-link mt-icon-download" href="https://bio.libretexts.org/Courses/Remixer_University/Download_Center" title="Go to the Download Center" id="DownloadIcon" target="_blank">Downloads</a>
+
+        <ul class="mt-user-menu-container mt-dropdown">
+
+            <li class="mt-login-sign-in">
+                <a class="mt-icon-quick-sign-in" href="https://bio.libretexts.org/Special:UserLogin?returntotitle=Bookshelves%2FIntroductory_and_General_Biology%2FBook%3A_Biology_%28Kimball%29%2F19%3A_The_Diversity_of_Life%2F19.01%3A_Eukaryotic_Life%2F19.1.12%3A_Caenorhabditis_Elegans" title="Sign in">
+                    Sign in
+                </a>
+            </li>
+
+            <li class="mt-login-forgot-password">
+                <a class="mt-icon-login-forgot-password" href="https://bio.libretexts.org/Special:UserPassword" title="Retrieve lost password">
+                    Forgot password
+                </a>
+            </li>
+        </ul>
+    </li><li><a class="icon-SSO" title="Single Sign-On" onclick="loginCAS(event)"></a></li><li class="mt-user-quick-login">
+        <div class="mt-quick-login-container mt-toggle-form-container">
+            <form action="https://bio.libretexts.org/Special:UserLogin?returntotitle=Bookshelves%2FIntroductory_and_General_Biology%2FBook%3A_Biology_%28Kimball%29%2F19%3A_The_Diversity_of_Life%2F19.01%3A_Eukaryotic_Life%2F19.1.12%3A_Caenorhabditis_Elegans" class="mt-form" method="POST" id="quick-login">
+                <div class="mt-field">
+                    <input autocomplete="off" class="reset mt-text" id="username" name="username" placeholder="Username" type="text">
+                    <label class="title login-form-label mt-label" for="username">Username</label>
+                </div>
+                <div class="mt-field">
+                    <input autocomplete="off" class="mt-text" id="password" name="password" placeholder="Password" type="password">
+                    <label class="title login-form-label mt-label" for="password">Password</label>
+                </div>
+                <div class="mt-field mt-submit">
+                    <button class="ui-button ui-button-primary" type="submit">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </li>
+
+    <li class="mt-user-menu-user">
+        <a class="mt-icon-quick-sign-in mt-dropdown-link mt-toggle-right" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans#" title="Sign in">Sign in</a>
+
+        <ul class="mt-user-menu-container mt-dropdown">
+
+            <li class="mt-login-sign-in">
+                <a class="mt-icon-quick-sign-in" href="https://bio.libretexts.org/Special:UserLogin?returntotitle=Bookshelves%2FIntroductory_and_General_Biology%2FBook%3A_Biology_%28Kimball%29%2F19%3A_The_Diversity_of_Life%2F19.01%3A_Eukaryotic_Life%2F19.1.12%3A_Caenorhabditis_Elegans" title="Sign in">
+                    Sign in
+                </a>
+            </li>
+
+            <li class="mt-login-forgot-password">
+                <a class="mt-icon-login-forgot-password" href="https://bio.libretexts.org/Special:UserPassword" title="Retrieve lost password">
+                    Forgot password
+                </a>
+            </li>
+        </ul>
+    </li>
+</ol>
+</li>
+                </ol>
+            </div>
+        </nav>
+        <nav class="elm-header-global-nav elm-nav mt-breadcrumbs-mobile-view-closed elm-fixed-header" data-ga-action="Elm Navigation" style="top: 0px;">
+            <div class="elm-nav-container">
+                <button class="elm-hierarchy-trigger mt-hierarchy-trigger ui-button-icon mt-icon-hierarchy-trigger-closed toc-button" title="Expand/Contract Table of Contents" data-ga-label="Hierarchy Toggle - Tree View" id="TOCbutton">Contents</button>
+                <ol class="mt-breadcrumbs" data-ga-action="Breadcrumbs">
+                        <li>
+                            <a href="https://bio.libretexts.org/" data-ga-label="Breadcrumb portfolio">
+                                <span class="mt-icon-article-portfolio mt-icon-article-home"></span>
+                                    Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://bio.libretexts.org/Bookshelves" data-ga-label="Breadcrumb category">
+                                <span class="mt-icon-article-category"></span>
+                                    Bookshelves
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology" data-ga-label="Breadcrumb category">
+                                <span class="mt-icon-article-category"></span>
+                                    Introductory and General Biology
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)" data-ga-label="Breadcrumb category">
+                                <span class="mt-icon-article-category"></span>
+                                    Book: Biology (Kimball)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life" data-ga-label="Breadcrumb guide">
+                                <span class="mt-icon-article-guide"></span>
+                                    Unit 19: The Diversity of Life
+                            </a>
+                        </li>
+                </ol>
+                <button class="mt-icon-hierarchy-mobile-view-trigger ui-button-icon mt-icon-hierarchy-mobile-trigger-closed" title="Expand/collapse global location" data-ga-label="Hierarchy Toggle - Breadcrumb Expand/Collapse">
+                    Expand/collapse global location
+                </button>
+            </div>
+        </nav>
+        <nav class="elm-nav elm-header-hierarchy">
+            <div class="elm-nav-container">
+                <div class="elm-hierarchy mt-hierarchy toc-hierarchy"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)"><b>Book: Biology (Kimball)</b></a><ul class="ui-fancytree fancytree-container fancytree-plain" tabindex="0" role="tree" aria-multiselectable="true"><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/00%3A_Front_Matter">Front Matter</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/01%3A_The_Chemical_Basis_of_Life">Unit 1: The Chemical Basis of Life</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/02%3A_The_Molecules_of_Life">Unit 2: The Molecules of Life</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/03%3A_The_Cellular_Basis_of_Life">Unit 3: The Cellular Basis of Life</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/04%3A_Cell_Metabolism">Unit 4: Cell Metabolism</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/05%3A_DNA">Unit 5: DNA</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/06%3A_Gene_Expression">Unit 6: Gene Expression</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/07%3A_Cell_Division">Unit 7: Cell Division</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/08%3A_The_Genetic_Consequences_of_Meiosis">Unit 8: The Genetic Consequences of Meiosis</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/09%3A_Regulation_of_Gene_Expression">Unit 9: Regulation of Gene Expression</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/10%3A_Mutation">Unit 10: Mutation</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/11%3A_Genomics">Unit 11: Genomics</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/12%3A_Cancer">Unit 12: Cancer</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/13%3A_Aging">Unit 13: Aging</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/14%3A_Embryonic_Development_and_its_Regulation">Unit 14: Embryonic Development and its Regulation</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/15%3A_The_Anatomy_and_Physiology_of_Animals">Unit 15: The Anatomy and Physiology of Animals</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/16%3A_The_Anatomy_and_Physiology_of_Plants">Unit 16: The Anatomy and Physiology of Plants</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/17%3A_Ecology">Unit 17: Ecology</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/18%3A_Evolution">Unit 18: Evolution</a></span></span></li><li role="treeitem" aria-expanded="true" aria-selected="false"><span class="fancytree-node fancytree-expanded fancytree-has-children fancytree-exp-e fancytree-ico-e"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life">Unit 19: The Diversity of Life</a></span></span><ul role="group"><li role="treeitem" aria-expanded="true" aria-selected="false"><span class="fancytree-node fancytree-expanded fancytree-has-children fancytree-exp-e fancytree-ico-e"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life">19.1: Eukaryotic Life</a></span></span><ul role="group"><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.01%3A_Taxonomy">19.1.1: Taxonomy</a></span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.02%3A_Protists">19.1.2: Protists</a></span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.03%3A_Ciliates">19.1.3: Ciliates</a></span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.04%3A_Volvox">19.1.4: Volvox</a></span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.05%3A_Diversity_and_Evolutionary_Relationships_of_the_Plants">19.1.5: Diversity and Evolutionary Relationships of the Plants</a></span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.06%3A_Arabidopsis_Thaliana_-_A_Model_Organism">19.1.6: Arabidopsis Thaliana - A Model Organism</a></span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.07%3A_Fungi">19.1.7: Fungi</a></span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.08%3A_Yeast">19.1.8: Yeast</a></span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.09%3A_Barcoding">19.1.9: Barcoding</a></span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.10%3A_Invertebrates">19.1.10: Invertebrates</a></span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.11%3A_Drosophila_Melanogaster">19.1.11: Drosophila Melanogaster</a></span></span></li><li role="treeitem" aria-selected="true"><span class="fancytree-node fancytree-selected fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title">19.1.12: Caenorhabditis Elegans</span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.13%3A_Vertebrates">19.1.13: Vertebrates</a></span></span></li><li role="treeitem" aria-selected="false"><span class="fancytree-node fancytree-exp-n fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.14%3A_Zebrafish">19.1.14: Zebrafish</a></span></span></li><li role="treeitem" aria-selected="false" class="fancytree-lastsib"><span class="fancytree-node fancytree-lastsib fancytree-exp-nl fancytree-ico-c"><span class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.15%3A_Monotremes">19.1.15: Monotremes</a></span></span></li></ul></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.02%3A_Microbes">19.2: Microbes</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false" class="fancytree-lastsib"><span class="fancytree-node fancytree-has-children fancytree-lastsib fancytree-lazy fancytree-exp-cdl fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.03%3A_Viruses">19.3: Viruses</a></span></span></li></ul></li><li role="treeitem" aria-expanded="false" aria-selected="false"><span class="fancytree-node fancytree-has-children fancytree-lazy fancytree-exp-cd fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/20%3A_General_Science">Unit 20: General Science</a></span></span></li><li role="treeitem" aria-expanded="false" aria-selected="false" class="fancytree-lastsib"><span class="fancytree-node fancytree-has-children fancytree-lastsib fancytree-lazy fancytree-exp-cdl fancytree-ico-c"><span role="button" class="fancytree-expander"></span><span role="presentation" class="fancytree-icon"></span><span class="fancytree-title"><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/zz%3A_Back_Matter">Back Matter</a></span></span></li></ul></div>
+            </div>
+        </nav>    </header>
+    <article class="elm-content-container" id="elm-main-content" tabindex="-1">
+        <header>
+            <div id="flash-messages"><div class="dekiFlash"></div></div>
+            
+                
+<h1 id="title" data-title-editor-available="false">
+        19.1.12: Caenorhabditis Elegans
+</h1>
+
+                
+
+                
+                    <ol class="elm-meta-data elm-meta-top" data-ga-action="Page actions">
+                        <li class="pageInfo"><span> <a style="width: max-content; width: -moz-max-content; overflow: initial; font-size:30px" href="https://creativecommons.org/licenses/by/4.0/"><i class="cc cc-BY"></i></a></span></li><li class="elm-last-modified"><dl class="mt-last-updated-container">
+    <dt class="mt-last-updated-label">Last updated</dt>
+    <dd>
+        <span class="mt-last-updated" data-timestamp="2020-12-31T22:02:04Z">Dec 31, 2020</span>
+    </dd>
+</dl>
+</li>
+                        <li class="elm-pdf-export"><a data-ga-label="PDF" href="https://bio.libretexts.org/@api/deki/pages/5960/pdf/19.1.12%253A%2bCaenorhabditis%2bElegans.pdf" rel="nofollow" target="_blank" title="Export page as a PDF">
+    <span class="mt-icon-article-pdf"></span>Save as PDF
+</a></li>
+                        <li class="elm-article-pagination"><ul class="mt-article-pagination" data-ga-action="Article pagination bottom">
+    <li class="mt-pagination-previous">
+
+            <a class="mt-icon-previous-article" data-ga-label="Previous page" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.11%3A_Drosophila_Melanogaster" title="19.1.11: Drosophila Melanogaster"><span>19.1.11: Drosophila Melanogaster</span></a>
+    </li>
+    <li class="mt-pagination-next">
+
+            <a class="mt-icon-next-article" data-ga-label="Next page" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.13%3A_Vertebrates" title="19.1.13: Vertebrates"><span>19.1.13: Vertebrates</span></a>
+    </li>
+</ul></li><li class="elm-social-share"><div class="ssk-group optimize"><div id="batchPrint"><div id="PrintDropdown" class="LTdropdown" style="float:right; background-color: #c53030"><a id="printme" class="dropbtn material-icons notSS" href="https://batch.libretexts.org/print/url=https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans.pdf" target="_blank" title="Get a PDF of this page" type="application/pdf">picture_as_pdf</a><div class="LTdropdown-content">
+					<a href="https://batch.libretexts.org/print/Finished/bio-3734/Full.pdf" target="_blank" title="Get a PDF of this Book" type="application/pdf" rel="nofollow">Full Book</a>
+					<a href="https://batch.libretexts.org/print/url=https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans.pdf" target="_blank" title="Get a PDF of this page" type="application/pdf">Page</a>
+					
+					
+					
+
+				</div></div><div class="LTdropdown" style="background-color: #d4d4d4; color:black" onclick="LibreTexts.active.sidebarToggleDrawer(&#39;readability&#39;)()"><div id="doBeeLine" class="dropbtn mt-icon-binoculars" title="Customization Menu"><span style="margin-left: 5px">Readability</span></div></div><div class="LTdropdown" style="background-color: #d4d4d4; color:black"><div class="dropbtn mt-icon-quotes-left" title="Citation Menu"><span style="margin-left: 5px">Cite this page</span></div><div class="LTdropdown-content" style="right:0">
+<a onclick="event.preventDefault(); buildcite()" target="_blank" class="mt-icon-quote">&nbsp;Get Page Citation</a><a onclick="event.preventDefault(); attribution()" target="_blank" class="mt-icon-quote">&nbsp;Get Page Attribution</a><a onclick="event.preventDefault(); LibreTexts.active.libreLens()" target="_blank" class="mt-icon-eye-blocked librelens-toggle">&nbsp;Toggle AutoAttribution</a>
+</div></div></div><a href="https://donorbox.org/libretexts" class="custom-dbox-popup notSS" id="donate"><span>Donate</span><script type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/install-popup-button.js.download"></script></a></div></li>
+                    </ol>
+                
+            
+        </header>
+                <header class="mt-content-header">
+
+<script type="text/javascript">/*<![CDATA[*/
+window.hypothesisConfig = function () {
+  return {
+    "showHighlights": false
+  };
+};
+//localStorage.setItem('darkMode', 'false');
+window.beelineEnabled = true;
+
+document.getElementsByTagName('head')[0].prepend(document.getElementById('mt-screen-css'),document.getElementById('mt-print-css'));
+//$('head').prepend($('#mt-print-css'));
+//$('head').prepend($('#mt-screen-css'));/*]]>*/</script>
+
+
+
+<li id="pageNumberHolder" class="pageInfo" style="display: none;"><dl class="mt-page-restriction-container"><dt class="mt-page-restriction-label">Page ID</dt><dd>5960</dd></dl></li><script defer="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/core@2"></script><script defer="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/tippy.js@6"></script><script defer="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/jsrsasign-all-min.min.js.download" integrity="sha512-idoo8Z+CmSse+nKqmN47DKVshl7zT5scjpgdmS7D15jIfcLUl9mNVLlsNZyYCiSvLE5qjHmTnv4vAoxEPqVveg==" crossorigin="anonymous"></script><script defer="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/js.cookie.min.js.download"></script><script defer="true" type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/beeline.min.js.download"></script><script defer="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/qrcode.js.download"></script><script type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/jquery.fancytree-all-deps.min.js.download"></script><script defer="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/printYoutube.js.download"></script><link href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/printYoutube.css" rel="stylesheet" type="text/css">
+
+
+
+<script async="true" type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/libreNavButtons.min.js.download"></script><link rel="stylesheet" type="text/css" href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/libreNavButtons.min.css"><script async="true" type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/batchPrint.js.download"></script><script defer="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/cas-bridge.js.download"></script><script defer="true" type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/libretextsGlossarizer.js.download"></script><link rel="stylesheet" type="text/css" href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/libretextsGlossarizer.css"><script>/*<![CDATA[*/window.addEventListener('load', ()=>LibreTexts.TOC(undefined, undefined, true));/*]]>*/</script><script type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/licenses.js.download"></script><link rel="stylesheet" type="text/css" href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/licenses.css"><div id="95.40813442596155"><div><div id="sidebarDiv"></div></div></div><script defer="true" type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/bundle.js.download"></script><link rel="stylesheet" type="text/css" href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/sidebar(1).css"><script defer="true" type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/LibreLens.js.download"></script><script defer="true" type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/citationjs.js.download"></script><script defer="true" type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/citation.js.download"></script><script defer="true" type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/attribution.js.download"></script><link rel="stylesheet" type="text/css" href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/citation.css">
+
+
+
+<script async="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/embed.js.download"></script><script type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/Three49custom.js.download"></script><script type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/GLmol.js.download"></script><script type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/JSmol.full.nojq.js.download"></script><link href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/css(1)" rel="stylesheet"><link href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/icon" rel="stylesheet"><link href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/css(2)" rel="stylesheet"><link href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/cc-icons.min.css" rel="stylesheet">
+
+<script type="text/javascript">/*<![CDATA[*/
+//CORS override
+LibreTexts.getKeys().then(()=>{
+    if(!$.ajaxOld){
+        $.ajaxOld = $.ajax;
+        $.ajax = (url, options)=> {
+   
+            if(url.url && url.url.includes('.libretexts.org/@api/deki/files')) {
+                let [subdomain, path] = LibreTexts.parseURL();
+                let token = LibreTexts.getKeys.keys[subdomain];
+                url.headers = Object.assign(url.headers || {}, {'x-deki-token':token});
+            }
+            else if (typeof url === 'string' && url.includes('.libretexts.org/@api/deki/files')){
+            let [subdomain, path] = LibreTexts.parseURL();
+            let token = LibreTexts.getKeys.keys[subdomain];
+               options.headers = Object.assign(options.headers || {}, {'x-deki-token':token});
+            }
+            return $.ajaxOld(url, options);
+    }
+    }
+});/*]]>*/</script>
+
+
+
+<p></p><p>
+</p>
+
+
+
+<div class="mt-author-container"><ul><li class="mt-author-image mt-author-image-crop"><img title="John W. Kimball" class="internal" alt="kimball.jpg" loading="lazy" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/kimball.jpg"></li><li class="mt-author-information"><span class="mt-author-written">Contributed by </span><a rel="external" target="_blank" href="http://www.biology-pages.info/">John W. Kimball</a></li><li class="mt-author-companyname"><span class="mt-author-nametitle"><span>Professor (retired)</span><span> at </span></span><a rel="external" target="_blank" href="http://www.biology-pages.info/">Tufts University &amp; Harvard</a></li></ul></div>
+
+<script type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/84b10e0f37.js.download"></script>
+
+
+<p></p>
+<link href="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/all.css" rel="stylesheet">
+<p>
+</p>
+</header>
+                <aside class="mt-content-side"></aside>
+            <aside id="mt-toc-container" data-title="Table of contents" data-collapsed="true" class="mt-toggle-container"><button class="mt-toggle mt-summary-toggle ui-button-icon mt-toggle-expand" type="button">Table of contents</button>
+                <nav class="mt-toc-content mt-collapsible-section" style="border: none; margin: 0px; max-height: 0px; overflow: hidden; padding: 0px; transition: max-height 0ms cubic-bezier(0, 1, 0, 1) 0s;">
+                    <ol><li><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans#C._elegans_Fertilization" rel="internal">C. elegans Fertilization</a></li><li><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans#Contributors_and_Attributions" rel="internal">Contributors and Attributions</a></li></ol>
+                </nav>
+            </aside>
+            <section class="mt-content-container">
+                <p class="lt-bio-5960" style="background-color: unset;"><em>Caenorhabditis elegans</em> is a microscopic (~1 mm) nematode (roundworm) that normally lives in soil. It has become one of the "model" organisms in biology. It is a true animal with at least rudiments of the physiological systems - feeding, nervous, muscle, reproductive - found in "higher" animals like mice and humans. However, it is so small that large numbers can be raised in petri dishes (where it is fed <em>E. coli -</em> another model organism). It reproduces rapidly.</p>
+
+<figure><img alt="IntroFIG7.jpg" class="internal" loading="lazy" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/IntroFIG7.jpg"><figcaption>Figure 1: A lateral (left side) anatomical diagram of an adult-stage nematode hermaphrodite Caenorhabditis elegans (C. elegans) with emphasis on the digestive and reproductive systems.  (CC BY-SA 3.0; K. D. Schroeder).</figcaption></figure>
+
+<p class="lt-bio-5960" style="background-color: unset;">It is transparent so that every cell in the living animal can be seen under the microscope from the fertilized egg to the 556 cells of the newly-hatched worm and, later, the 959 somatic cells, and a variable number of germ cells, of the adult worm. It can be easily transformed with transgenes - DNA injected into the animal. It can also be treated with antisense RNA. Before it dies (after 2–3 weeks), it shows signs of aging and thus may provide general clues as to the aging process.</p>
+
+<p class="lt-bio-5960" style="background-color: unset;">Its cells contain 5 pairs of autosomes and 2 X chromosomes. These animals are hermaphrodites, producing both sperm and eggs. Most of the time they fertilize themselves, so that any recessive alleles quickly become homozygous and affect the phenotype. On rare occasions, nondisjunction occurs during meiosis with the loss of one X chromosome. Animals with a single X are males and are able to fertilize the eggs of the hermaphrodites (with more success than they have themselves).</p>
+
+<p class="lt-bio-5960" style="background-color: unset;"><em>C. elegans</em> was the first multicellular eukaryote to have its entire genome sequenced. It contains some 19–20,000 protein-encoding genes incorporated in 100,258,171 base pairs of DNA. In contrast to other eukaryotes, some 13–15% of its genes are grouped in <strong>operons</strong> containing 2–8 genes each.</p>
+
+<div mt-section-origin="Bookshelves/Introductory_and_General_Biology/Book:_Biology_(Kimball)/19:_The_Diversity_of_Life/19.01:_Eukaryotic_Life/19.1.12:_Caenorhabditis_Elegans" class="mt-section" id="section_1"><span id="C._elegans_Fertilization"></span><h2 class="lt-bio-5960 editable" style="background-color: unset;">C. elegans Fertilization</h2>
+
+<p class="lt-bio-5960" style="background-color: unset;">Like all animals, <em>C. elegans</em> starts life as a fertilized egg (zygote) which then undergoes the mitotic divisions needed to produce the adult. Because the worm is transparent and the pattern of differentiation is so rigid it has been possible to trace the lineage of every single somatic cell in the animal. Just after hatching, the it contains 556 cells and is approximately 0.3 mm long. After reaching maturity, it will contain 959 somatic cells and a variable number of germ cells in its gonad.</p>
+
+<p class="lt-bio-5960" style="background-color: unset;">The diagrams below show the pathway by which each of the 556 cells in the larva of <em>C. elegans</em> has developed from the zygote. The relative length of the vertical lines indicates the length of the interval before the next mitosis. Some pathways end in the programmed death of the cell (apoptosis) even before the larva is complete.</p>
+
+<figure><img alt="alt" style="width: 545px; height: 684px;" width="545px" height="684px" class="internal" loading="lazy" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/elegans_a.gif"> <img alt="alt" style="width: 545px; height: 675px;" width="545px" height="675px" class="internal" loading="lazy" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/elegans_b.gif"><figcaption>Figure 19.1.12.2 Pathway of 556 cells in larva of C.elegans. (Adapted, with permission, from J. Sulston, et al., in Monograph 17. Copyright © Cold Spring Harbor Laboratory, NY.)</figcaption></figure>
+
+<p class="lt-bio-5960" style="background-color: unset;">Several remarkable features have been found from these studies. The pattern of development is invariable from worm to worm. Every one of the 556 cells that make up the newly-hatched larva develops from a rigid pattern of mitotic division leading back to the zygote. 131 cells in the developing embryo die by apoptosis. This cell death is not random; which cells will die and at what stage is completely predictable. Any failures in this programmed cell death can lead to serious abnormalities.</p>
+
+<p class="lt-bio-5960" style="background-color: unset;">Each organ - skin, nerve, muscle, etc. - is made of cells derived from several different lineages. One might have expected that the earliest cell divisions would produce daughter cells destined to go on to form a single structure in the embryo. But that is not generally the case. Instead, most of the earliest cells will produce descendants that team up with other groups of cells to form the various organs of the animal.</p>
+
+<p class="lt-bio-5960" style="background-color: unset;">There is less flexibility of cell fate than occurs in mammals (or even amphibians). With a microscopic laser beam, a single cell can be killed in the developing embryo. Often the result is that all the cells that would have descended from that cell fail to form. Neighboring cells may not compensate for the loss as they do so freely in mammals. So it appears that the developmental controls of <em>C. elegans</em> rely more on <strong>cell-intrinsic signals</strong> rather than inductive signals. But this distinction is relative, not absolute. Cells originally destined to a different fate will in some cases switch their path of differentiation to replace the cells killed by the laser. In these cases, the switch is clearly mediated by <strong>inductive signals</strong> liberated by nearby cells.</p>
+
+</div><div mt-section-origin="Bookshelves/Introductory_and_General_Biology/Book:_Biology_(Kimball)/19:_The_Diversity_of_Life/19.01:_Eukaryotic_Life/19.1.12:_Caenorhabditis_Elegans" class="mt-section" id="section_2"><span id="Contributors_and_Attributions"></span><h2 class="lt-bio-5960 editable" style="background-color: unset;">Contributors and Attributions</h2>
+
+<ul>
+    <li class="lt-bio-5960" style="background-color: unset;"><p style="text-align: justify;"><a title="http://www.biology-pages.info/" href="http://www.biology-pages.info/" target="_blank" rel="external noopener nofollow" class="external">John W. Kimball</a>. This content is distributed under a Creative Commons Attribution 3.0 Unported (CC BY 3.0) license and made possible by funding from <a title="http://www.saylor.org" href="http://www.saylor.org/" target="_blank" rel="external noopener nofollow" class="external">The Saylor Foundation.</a></p>
+</li>
+</ul>
+</div>
+
+                    <footer class="mt-content-footer">
+<script type="text/javascript">/*<![CDATA[*/
+$(function() {
+    if(!window['autoDefinitionList']){
+        window['autoDefinitionList'] = true;
+       
+        $('dl').find('dt').on('click', function() {
+            $(this).next().toggle('350');   
+         });
+    }
+});/*]]>*/</script>
+
+
+
+
+<script type="text/x-mathjax-config;executed=true">/*<![CDATA[*/
+var front = "auto";
+if(front=="auto"){
+    front = "19.1.12: Caenorhabditis Elegans";
+     if(front.includes(":")){
+         front = front.split(":")[0];
+         if(front.includes(".")){
+             front = front.split(".");
+             front = front.map((int)=>int.includes("0")?parseInt(int,10):int).join(".");
+         }
+         front+=".";
+     }
+     else {
+     front = "";
+     }
+}
+front = front.replace(/_/g," ");
+MathJaxConfig = {
+  TeX: {
+     equationNumbers: {
+        autoNumber: "all",
+        formatNumber: function (n) {
+            if(false){
+                return front + (Number(n)+false);
+            }
+            else{return front + n;
+            }
+        }
+     },
+     macros: {
+        PageIndex: ["{"+front+" #1}",1],
+        test: ["{"+front+" #1}",1]
+     },
+     Macros: {
+        PageIndex: ["{"+front+" #1}",1],
+        test: ["{"+front+" #1}",1]
+     },
+     SVG: {
+        linebreaks: { automatic: true }
+     }
+  }
+};
+MathJax.Hub.Config(MathJaxConfig);
+MathJax.Hub.Register.StartupHook("End", ()=>{if(activateBeeLine)activateBeeLine()});
+/*]]>*/</script>
+
+
+<script defer="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/beacon.min.js.download" data-cf-beacon="{&quot;token&quot;: &quot;483ec2414e274209a7e93c253192df0b&quot;}"></script><script src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/h5p-resizer.js.download"></script><script src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/iframeResizer.contentWindow.min.js.download" integrity="sha512-FOf4suFgz7OrWmBiyyWW48u/+6GaaAFSDHagh2EBu/GH/1+OQSYc0NFGeGeZK0gZ3vuU1ovmzVzD6bxmT4vayg==" crossorigin="anonymous"></script><script src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/iframeResizer.min.js.download" integrity="sha512-HY1lApSG7xxx8mYzs/lxRs+c5AaDThRaa3pvQB6puiswvf2lWqMJVf+8qSGiL4ZXfHQoPIqbd1TlpqfycPo3cQ==" crossorigin="anonymous"></script><script>/*<![CDATA[*/window.addEventListener('DOMContentLoaded', function () { $('iframe').on('load', function () { $(this).iFrameResize({ warningTimeout: 0, scrolling: 'omit' }); }) })/*]]>*/</script>
+<div id="librelens-attribution-list"></div></footer>
+            </section>
+
+        
+            <footer class="elm-content-footer">
+                <ol class="elm-meta-data elm-meta-article-navigation">
+                    <li class="elm-back-to-top"><a class="mt-icon-back-to-top" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.12%3A_Caenorhabditis_Elegans#title" id="mt-back-to-top" title="Jump back to top of this article">Back to top</a></li>
+                    <li class="elm-article-pagination"><ul class="mt-article-pagination" data-ga-action="Article pagination bottom">
+    <li class="mt-pagination-previous">
+
+            <a class="mt-icon-previous-article" data-ga-label="Previous page" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.11%3A_Drosophila_Melanogaster" title="19.1.11: Drosophila Melanogaster"><span>19.1.11: Drosophila Melanogaster</span></a>
+    </li>
+    <li class="mt-pagination-next">
+
+            <a class="mt-icon-next-article" data-ga-label="Next page" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.13%3A_Vertebrates" title="19.1.13: Vertebrates"><span>19.1.13: Vertebrates</span></a>
+    </li>
+</ul></li>
+                </ol>
+                    <div class="elm-article-feedback"><div class="mt-feedback-rating-container" data-ga-action="Page rating" data-page-revision="22" data-use-local-storage="true"><ul class="mt-feedback-rating-controls"><li class="mt-feedback-rating-message mt-feedback-rating-item">Was this article helpful?</li><li class="mt-rating-yes mt-feedback-rating-item"><button class="mt-rating-button-yes mt-feedback-rating-button ui-button-icon mt-icon-rating-yes" data-ga-label="Rate">Yes</button></li><li class="mt-rating-no mt-feedback-rating-item"><button class="mt-rating-button-no mt-feedback-rating-button ui-button-icon mt-icon-rating-no" data-ga-label="Rate">No</button></li><li class="mt-last-rating-date mt-feedback-rating-item"></li></ul><div id="mt-feedback-flash-message"></div></div><script type="application/json" id="mt-localizations-feedback-rating">/*<![CDATA[*/{"Page.FeedbackRating.label.last-rated":"-- You last rated this article on {0}","Page.FeedbackRating.message.contact.no":"No","Page.FeedbackRating.message.contact.yes":"Yes","Page.FeedbackRating.message.submit.error":"An error occurred while attempting to send your feedback.  Please try again at a later time.","Page.FeedbackRating.message.submit.success":"Your feedback has been successfully submitted.  You can submit more feedback at any time."}/*]]>*/</script></div>
+                <div class="elm-related-articles-container"><h1 class="mt-related-articles-header">Recommended articles</h1>
+<ol class="mt-related-listings-container" data-ga-action="related">
+<li class="mt-related-listing mt-related-listing-detailed"><a class="mt-related-listing-link" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.01%3A_Taxonomy" title="19.1.1: Taxonomy" data-ga-label="related-link-detailed-1"><span class="mt-related-listing-link-icon mt-icon-article-topic"></span><span class="mt-related-listing-link-text">19.1.1: Taxonomy</span></a><span class="mt-related-listing-link-overview">At least 1.7 million species of living organisms have been discovered, and the list grows longer every year (especially of insects in the tropical rai...</span></li><li class="mt-related-listing mt-related-listing-detailed"><a class="mt-related-listing-link" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.02%3A_Protists" title="19.1.2: Protists" data-ga-label="related-link-detailed-2"><span class="mt-related-listing-link-icon mt-icon-article-topic"></span><span class="mt-related-listing-link-text">19.1.2: Protists</span></a><span class="mt-related-listing-link-overview">Protists are Eukaryotes that are neither Animals, Fungi, nor Plants.</span></li><li class="mt-related-listing mt-related-listing-detailed"><a class="mt-related-listing-link" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.03%3A_Ciliates" title="19.1.3: Ciliates" data-ga-label="related-link-detailed-3"><span class="mt-related-listing-link-icon mt-icon-article-topic"></span><span class="mt-related-listing-link-text">19.1.3: Ciliates</span></a><span class="mt-related-listing-link-overview">Although single-celled, there is nothing primitive or simple about these protists. Not only are they large for single cells (some can be seen by the u...</span></li><li class="mt-related-listing mt-related-listing-detailed"><a class="mt-related-listing-link" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.04%3A_Volvox" title="19.1.4: Volvox" data-ga-label="related-link-detailed-4"><span class="mt-related-listing-link-icon mt-icon-article-topic"></span><span class="mt-related-listing-link-text">19.1.4: Volvox</span></a></li><li class="mt-related-listing mt-related-listing-detailed"><a class="mt-related-listing-link" href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.05%3A_Diversity_and_Evolutionary_Relationships_of_the_Plants" title="19.1.5: Diversity and Evolutionary Relationships of the Plants" data-ga-label="related-link-detailed-5"><span class="mt-related-listing-link-icon mt-icon-article-topic"></span><span class="mt-related-listing-link-text">19.1.5: Diversity and Evolutionary Relationships of the Plants</span></a></li></ol>
+<script type="application/json" id="mt-localizations-related-pages">
+{"Skin.Columbia.label.no-recommended-articles":"There are no recommended articles."}</script></div>
+                <ol class="elm-meta-data elm-meta-bottom">
+                    <li class="elm-classifications">        <dl class="mt-classification mt-classification-article-section or page" data-ga-action="Tag navigation">
+            <dt class="mt-classification-label">Article type</dt>
+            <dd class="mt-classification-value"><a href="https://bio.libretexts.org/Special:Search?tags=article%3Atopic" data-ga-label="Classification">Section or Page</a></dd>
+        </dl>
+        <dl class="mt-classification mt-classification-authorname-john w. kimball" data-ga-action="Tag navigation">
+            <dt class="mt-classification-label">Author</dt>
+            <dd class="mt-classification-value"><a href="https://bio.libretexts.org/Special:Search?tags=authorname%3Akimballj" data-ga-label="Classification">John W. Kimball</a></dd>
+        </dl>
+        <dl class="mt-classification mt-classification-license-cc by" data-ga-action="Tag navigation">
+            <dt class="mt-classification-label">License</dt>
+            <dd class="mt-classification-value"><a href="https://bio.libretexts.org/Special:Search?tags=license%3Accby" data-ga-label="Classification">CC BY</a></dd>
+        </dl>
+        <dl class="mt-classification mt-classification-showtoc-no" data-ga-action="Tag navigation">
+            <dt class="mt-classification-label">Show TOC</dt>
+            <dd class="mt-classification-value"><a href="https://bio.libretexts.org/Special:Search?tags=showtoc%3Ano" data-ga-label="Classification">no</a></dd>
+        </dl>
+</li>
+                    <li class="elm-tags"><dl class="mt-tags">
+    <dt class="mt-tag-label">Tags</dt>
+    <dd class="mt-tag-value">
+        <ol class="mt-tags-list" data-ga-action="Tag navigation">
+                <li class="mt-tag-link mt-tag-c.-elegans" rel="nofollow"><a href="https://bio.libretexts.org/Special:Search?tags=C.+Elegans" data-ga-label="Free tag"> C. Elegans</a></li>
+        </ol>
+    </dd>
+</dl></li>
+                </ol>
+            </footer>
+        
+    </article>
+    <footer class="elm-footer">
+        <nav class="elm-footer-siteinfo-nav elm-nav">
+            <div class="elm-nav-container">
+                <ol>
+                    <li class="elm-footer-copyright">© Copyright 2021 Biology LibreTexts</li>
+                    <li class="elm-footer-powered-by"><a href="https://mindtouch.com/demo" class="mt-poweredby product " title="MindTouch" target="_blank">
+   Powered by CXone Expert
+   <span class="mt-registered">®</span>
+</a></li>
+                </ol>
+            </div>
+        </nav>
+        <div class="elm-footer-custom"><div class="mt-container-highlight">
+<nav class="elm-nav my-custom-class">
+<div class="elm-nav-container" id="bottomFooter">
+<p>The LibreTexts libraries are&nbsp;<a href="http://www.mindtouch.com/" rel="external nofollow" target="_blank" title="MindTouch v.16.7">Powered by MindTouch<sup>®</sup>&nbsp;</a>and are supported by the Department of Education Open Textbook Pilot Project, the UC Davis Office of the Provost, the UC Davis Library, the California State University Affordable Learning Solutions Program, and Merlot. We also acknowledge previous National Science Foundation support under grant numbers 1246120, 1525057, and 1413739. Unless otherwise noted, LibreTexts content is licensed by&nbsp;<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" rel="license">CC BY-NC-SA 3.0</a>. <a title="https://libretexts.org/legal/index.html" href="https://libretexts.org/legal/index.html" target="_blank" rel="external noopener nofollow" class="F1 link-https">Legal</a>. Have questions or comments? For more <a title="info@libretexts.org" href="mailto:info@libretexts.org" target="_blank" rel="external noopener nofollow" class="link-mailto">information contact us at&nbsp;info@libretexts.org</a>&nbsp;or check out our <a title="https://status.libretexts.org" href="https://status.libretexts.org/" target="_blank" rel="external noopener nofollow" class="link-https">status page at https://status.libretexts.org</a>.</p>
+
+<div class="partner-area" style="padding: 10px">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="partners-logo d-flex align-items-center justify-content-around flex-wrap"><a class="link-https" href="https://als.csuprojects.org/" rel="external nofollow" target="_blank" title="https://als.csuprojects.org/"><img alt="CSU ALS Logo" class="default" loading="lazy" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/CSU_ALS.png"> </a> <a class="link-https" href="https://www.ed.gov/news/press-releases/us-department-education-awards-49-million-grant-university-california-davis-develop-free-open-textbooks-program" rel="external nofollow" target="_blank" title="https://www.ed.gov/news/press-releases/us-department-education-awards-49-million-grant-university-california-davis-develop-free-open-textbooks-program"> <img alt="DOE Logo.png" class="default" loading="lazy" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/DOE.png"></a> <a class="link-https" href="https://www.ucdavis.edu/" rel="external nofollow" target="_blank" title="https://www.ucdavis.edu/"> <img alt="UC Davis Logo" class="default" loading="lazy" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/UCD.png"> </a> <a class="link-https" href="https://www.merlot.org/merlot/index.htm" rel="external nofollow" target="_blank" title="https://www.merlot.org/merlot/index.htm"> <img alt="Merlot Logo" class="default" loading="lazy" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/Merlot.png"> </a> <a class="link-https" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1525057" rel="external nofollow" target="_blank" title="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1525057"> <img alt="NSF Logo.png" class="default" loading="lazy" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/NSF.png"></a> <a class="link-https" href="https://www.library.ucdavis.edu/" rel="external nofollow" target="_blank" title="https://www.library.ucdavis.edu/"><img alt="UC Davis Library Logo" class="default" loading="lazy" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/UCD_Library.png"></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+
+
+
+<script defer="true" type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/registerPlugin.min.js.download"></script><script defer="true" type="text/javascript" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/queryPlugin.min.js.download"></script><script async="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/headerfooter.js.download"></script>
+
+
+
+
+</div>
+    </footer>
+</main>
+		<div id="warningModal">
+			<div id="warningModalContent">
+			</div>
+		</div>
+    
+<div id="mt-modal-container"></div>
+    <script type="text/javascript" async="async" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/f1.js.download"></script>
+
+<script type="text/x-mathjax-config;executed=true">/*<![CDATA[*/
+  MathJax.Ajax.config.path["mhchem"] =
+  "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.2";
+  MathJax.Hub.Config({ jax: ["input/TeX","input/MathML","output/SVG"],
+  extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js"],
+  TeX: {
+    extensions: ["autobold.js","mhchem.js","color.js","cancel.js", "AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+  },
+    "HTML-CSS": { linebreaks: { automatic: true , width: "90%"}, scale: 85, mtextFontInherit: false},
+menuSettings: { zscale: "150%", zoom: "Double-Click" },
+         SVG: { linebreaks: { automatic: true } }});
+/*]]>*/</script>
+
+<script type="text/javascript" async="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/MathJax.js.download"></script><script type="text/javascript" data-mindtouch-module="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/serviceworker-unregister.js.download"></script><script type="text/javascript" data-mindtouch-module="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/pageLoaded.js.download"></script>
+
+
+
+
+
+
+
+<script type="text/javascript" data-mindtouch-module="true" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/f1.widget.js.download"></script><hypothesis-adder data-js-focus-visible="" style="position: absolute; top: 0px; left: 0px;"></hypothesis-adder><hypothesis-sidebar data-js-focus-visible=""></hypothesis-sidebar><hypothesis-notebook data-js-focus-visible=""></hypothesis-notebook><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.11%3A_Drosophila_Melanogaster" id="backButton" class="libreNavBtn" aria-label="19.1.11: Drosophila Melanogaster"><svg id="backButtonIcon" class="svg-inline--fa fa-arrow-left fa-w-14 libreNavIcon" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg><!-- <i id="backButtonIcon" class="libreNavIcon fa fa-arrow-left"></i> Font Awesome fontawesome.com --></a><div id="backTitle" class="libreNavTitle"><span id="backTitleText" class="libreNavText">19.1.11: Drosophila Melanogaster</span></div><a href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_Biology_(Kimball)/19%3A_The_Diversity_of_Life/19.01%3A_Eukaryotic_Life/19.1.13%3A_Vertebrates" id="nextButton" class="libreNavBtn" aria-label="19.1.13: Vertebrates"><svg id="nextButtonIcon" class="svg-inline--fa fa-arrow-right fa-w-14 libreNavIcon" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg><!-- <i id="nextButtonIcon" class="libreNavIcon fa fa-arrow-right"></i> Font Awesome fontawesome.com --></a><div id="nextTitle" class="libreNavTitle" style="display: none;"><span id="nextTitleText" class="libreNavText">19.1.13: Vertebrates</span></div><div id="sbHeader" class="sbHeader"><button class="MuiButtonBase-root MuiButton-root MuiButton-text top-tabs" tabindex="1" type="button" title="Open contents panel"><span class="MuiButton-label"><span>contents</span></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text top-tabs" tabindex="1" type="button" title="Open readability panel"><span class="MuiButton-label"><span>readability</span></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text top-tabs" tabindex="1" type="button" title="Open resources panel"><span class="MuiButton-label"><span>resources</span></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text top-tabs" tabindex="1" type="button" title="Open libraries panel"><span class="MuiButton-label"><span>libraries</span></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text top-tabs" tabindex="1" type="button" title="Open tools panel"><span class="MuiButton-label"><span>tools</span></span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiButton-root MuiButton-text top-tabs" tabindex="1" type="button" title="Open community panel"><span class="MuiButton-label"><span>community</span></span><span class="MuiTouchRipple-root"></span></button></div><button class="MuiButtonBase-root MuiButton-root MuiButton-text" tabindex="1" type="button" id="custom_open" title="Open Sidebar panel"><span class="MuiButton-label">☰</span><span class="MuiTouchRipple-root"></span></button></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><iframe id="__acrobatDialog__" src="./19.1.12_ Caenorhabditis Elegans - Biology LibreTexts_files/frame.html" style="border: 0px; z-index: 2147483647; position: fixed; top: -5px; right: 80px; width: 259px; height: 450px; display: block; margin: auto;"></iframe></html>

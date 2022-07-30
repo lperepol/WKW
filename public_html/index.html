@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>The Kootenay Worm</title>
+        <title>The West Kootenay Nematodes</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -18,15 +18,18 @@
                 padding-bottom: 20px;
             }
         </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>        
+        
+        <script src="/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
         <!-- Superfish stuff-->
         <link rel="stylesheet" href="/vendor/superfish/dist/css/superfish.css" media="screen">
-        <script src="/vendor/superfish/dist/js/jquery.js"></script> 
-        <script src="/vendor/superfish/dist/js/hoverIntent.js"></script>
-        <script src="/vendor/superfish/dist/js/superfish.js"></script>
+       <script src="/vendor/superfish/dist/js/hoverIntent.js"></script>
+       <script src="/vendor/superfish/dist/js/superfish.js"></script>
+        <script src="/js/main.js"></script>
+       <!--
         <script>
 
             (function ($) { //create closure so we can safely use $ as alias for jQuery
@@ -86,6 +89,7 @@
             }
 
         </script>
+       -->
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -100,7 +104,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">The Kootenay Worm</a>
+                    <a class="navbar-brand" href="#">The West Kootenay Nematodes</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <form class="navbar-form navbar-right" role="form">
@@ -115,7 +119,7 @@
                 </div><!--/.navbar-collapse -->
             </div>
         </nav>
-        <div w3-include-html="/menu.html"></div>
+        <div w3-include-html="menu.html"></div>
         <script>
             includeHTML();
         </script>
@@ -124,7 +128,7 @@
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron"  style="background-image: url('/files/images/HomeBackgroundHeader_002.jpg')">
             <div class="container">
-                <h1>Hello, Anonymous Nematodes of The West Kootenay!</h1>
+                <h1>Nematode Fauna of The West Kootenay</h1>
                 <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
             </div>
         </div>
@@ -134,7 +138,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2>About</h2>
-                    <p>The primary intention of this web application is to facilitate identifying unidentified nematodes through micrographs. The user can select nematode characteristics (bodies, heads, tails, esophagi, amphids, vulvas, reproductive tracts,  etc.) in micrographs of identified nematodes and compare those features to a nematode specimen under investigation. Then, the user decides the identity of the nematode based on similarities. </p>
+                    <p>
+                        The primary intention of this web application is to micrograph nematodes in the West Kootenay area and to facilitate identifying unidentified nematodes through micrographs. The user can select nematode characteristics (bodies, heads, tails, esophagi, amphids, vulvas, reproductive tracts,  etc.) in micrographs of identified nematodes and compare those features to a nematode specimen under investigation. Then, the user decides the identity of the nematode based on similarities.
+                    </p>
                     <p>
                         The nematodes on the UNL pages of web application reference identified nematodes found on the <a href="https://nematode.unl.edu/index.html">University of Nebraska Nematology's Lab </a>website to facilitate visual identification of nematodes to one's ability and skill at nematode taxonomy. Nematodes are a cryptic species. Scientists know the most about a specific species, Caenorhabditis elegans, and, at the same time, the least about the majority of other species. Therefore, one needs to recognize, identify and measure complex multiple morphological characters to determine family, genus or species. In addition, the observer examines numerous similar nematodes. Some nematodes mounted for viewing render well, and some do not. Therefore, one keeps preparing slides, looking at, measuring, consulting experts and thumbing through papers of previously identified nematodes to find one that matches and reveals the identity of the nematode under investigation.   
 
@@ -153,8 +159,6 @@
 
 
             </footer>
-        </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="/vendor/superfish/dist/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
