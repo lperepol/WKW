@@ -1,0 +1,110 @@
+
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>jQuery UI Draggable - Default functionality</title>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+
+
+        $(function () {
+            $("#resizable").draggable({containment: "#container"}).resizable({
+                containment: "#container"
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+        input, label {
+            display:block;
+
+
+            #Jcontainer {
+                width: 300px;
+                height: 300px;
+            }
+            #Jcontainer h3 {
+                text-align: center;
+                margin: 0;
+                margin-bottom: 10px;
+            }
+            #Jresizable {
+                background-position: top left;
+                width: 150px;
+                height: 150px;
+            }
+            #Jresizable, #Jcontainer {
+                padding: 0.5em;
+            }
+
+
+            .draggable {
+                width: 750px;
+                height: 750px;
+                padding: 0.5em;
+                float: left;
+                position: absolute;
+                background: #6C6;
+                border:2px solid #fff;
+            }
+
+            #containment-wrapper {
+                height:500px;
+                width:700px;
+                background: #000;
+                margin-top:250px;
+                margin-left:500px;
+                border:2px solid #ccc;
+                position:relative;
+                overflow:hidden;
+            }
+        </style>
+        <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+
+        <h3>Comparing</h3>
+        <!--
+        <div id="CompareDiv"></div>
+        <div class="container">
+    
+            <div class="col-md-4"style="overflow:scroll"   height: 580px; width: 580px;>
+                <div id="draggable" class="ui-widget-content" >
+                    <img src="https://nematode.unl.edu/axmica8.jpg" alt="Fjords" > 
+                    <div class="caption"> <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p> 
+                    </div> 
+                </div>
+            </div>
+    
+        </div>
+        -->
+
+        <div id="Jcontainer" class="ui-widget-content" >
+            <h3 class="ui-widget-header">Containment</h3>
+            <div id="Jresizable" class="ui-state-active" style="overflow:scroll">
+                    <h3 class="ui-widget-header">Draggable & Resizable</h3>
+                    <img class="ui-widget-header" src="https://nematode.unl.edu/axmica8.jpg"  alt="Fjords" > 
+                </div>
+                <h3 class="ui-widget-header">Containment</h3>
+                <div id="Jresizable" class="ui-state-active" style="overflow:scroll">
+                    <h3 class="ui-widget-header">Draggable & Resizable</h3>
+                    <img class="ui-widget-header" src="https://nematode.unl.edu/axmica8.jpg"  alt="Fjords" > 
+                </div>
+            </div>
+
+        </body>
+    </html>
