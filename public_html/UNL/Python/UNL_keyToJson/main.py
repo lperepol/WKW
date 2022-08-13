@@ -6,7 +6,7 @@ from sortedcontainers import SortedList, SortedSet, SortedDict
 
 def read_metadata():
     fn = "../Metadata/ManualEdits/KeepMetadata_002.csv"
-    df = pd.read_csv(fn,  encoding= 'unicode_escape')
+    df = pd.read_csv(fn )
     df = df.fillna('')
     return df
 
@@ -34,14 +34,26 @@ def get_Keys(adic, df):
             adic[Param] = list()
     return adic
 
-def get_images(adic, df):
+def get_images(adic, df,df_meta):
     for index, row in df.iterrows():
         Param = str(row['Param']).strip()
         Image = str(row['Image' ]).strip()
-        if Param in adic :
-            if len(Image) > 3:
-                if Image not in adic[Param]:
-                    adic[Param].append(Image)
+        Key = str(row['Key' ]).strip()
+        if Key == '1':
+            for df_meta_index, df_meta_row in df_meta.iterrows():
+                KeyArea = str(df_meta_row['KeyArea']).strip()
+                Image1 = str(df_meta_row['ImageName']).strip()
+                if Image == Image1:
+                    if KeyArea == 'Anterior' :
+                        if Param in adic:
+                            if len(Image) > 3:
+                                if Image not in adic[Param]:
+                                    adic[Param].append(Image)
+        else :
+            if Param in adic :
+                if len(Image) > 3:
+                    if Image not in adic[Param]:
+                        adic[Param].append(Image)
     return adic
 
 def writeDict2Json(adict):
@@ -53,11 +65,11 @@ def writeDict2Json(adict):
 
 def main():
     #df = fixup(df)
-    #df = read_metadata()
+    df_meta = read_metadata()
     df = read_keys()
     nematode_dict = SortedDict()
     nematode_dict = get_Keys(nematode_dict, df)
-    nematode_dict = get_images(nematode_dict, df)
+    nematode_dict = get_images(nematode_dict, df,df_meta)
     jo = writeDict2Json(nematode_dict)
 
 if __name__ == '__main__':

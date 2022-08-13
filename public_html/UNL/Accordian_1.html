@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Accordion</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <style>
+
+            article {
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+            .col-6.col-md-1.text-center {
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="row g-0">    
+            <div class="col-6 col-md-1 text-center">
+                <div id="outer" class="container">
+                    <div class="border border-dark" id="inner">
+                        <h1>Key</h1>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-8">
+                </div>
+            </div>
+
+
+
+            <article  id="accordion001">
+                <div class="row g-0">    
+                    <div class="col-6 col-md-1 text-center">
+                        <div id="outer" class="container">
+                            <div class="border border-dark" id="inner">
+                                <h1>001</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-8">
+                        <div class="accordion border border-dark" id="accordionid001" >
+                            <div class="accordion-item">
+                                <h1 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" onclick="displayImages('accordioncollapseOne001', this)" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne001" aria-expanded="false" aria-controls="collapseOne001">Cephalic setae indistinct or absent 
+                                    </button>
+                                </h1>
+                                <div id="collapseOne001" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionid001">
+                                    <div class="accordion-body" id="accordioncollapseOne001">
+                                        <a href="#accordionid001">Previous 001</a>
+                                        &lt;------&gt;<a href="#accordionid002">Next 002 </a>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo001" aria-expanded="false" aria-controls="collapseTwo001">Cephalic setae absent but setae-like head appendages present accordioncollapseTwo001
+                                    </button>
+                                </h4>
+                                <div id="collapseTwo001" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionid001">
+                                    <div class="accordion-body" id="accordioncollapseTwo001">
+                                        <a href="#accordionid001">Previous 0001</a>
+                                        &lt;------&gt;<a href="#accordionid064">Next 064 </a>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree001" aria-expanded="false" aria-controls="collapseThree001">Cephalic setae present accordioncollapseThree001
+                                    </button>
+                                </h4>
+                                <div id="collapseThree001" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionid001">
+                                    <div class="accordion-body" id="accordioncollapseThree001">
+                                        <a href="#accordionid001">Previous 001</a>
+                                        &lt;------&gt;<a href="#accordionid001064">Next 069 </a>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- 002 -->
+            <article id="accordion002">
+                <div class="row g-0">    
+                    <div class="col-6 col-md-1 text-center">
+                        <div id="outer" class="container">
+                            <div class="border border-dark" id="inner">
+                                <h1>002</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-8">
+                        <div class="accordion border border-dark" id="accordionid001" >
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne002" aria-expanded="false" aria-controls="collapseOne002">Stylet present accordioncollapseOne002
+                                    </button>
+                                </h4>
+                                <div id="collapseOne002" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionid002">
+                                    <div class="accordion-body" id="accordioncollapseOne002">
+                                        <a href="#accordionid001">Previous 001</a>
+                                        &lt;------&gt;<a href="#accordionid003">Next 003 </a>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo002" aria-expanded="false" aria-controls="collapseTwo002">Stylet absent accordioncollapseTwo002
+                                    </button>
+                                </h4>
+                                <div id="collapseTwo002" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionid002">
+                                    <div class="accordion-body" id="accordioncollapseTwo002">
+                                        <a href="#accordionid001">Previous 001</a>
+                                        &lt;------&gt;<a href="#accordionid036">Next 036 </a>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+            <!-- 003 -->
+
+
+
+
+
+    </body>
+</html>                           
