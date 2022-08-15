@@ -69,7 +69,7 @@ function displayImages() {
         var image = '<div class="col-md-6"> <a href="[ReplaceImage]" target="_blank"> <img  src="[ReplaceImage]" alt="" style="width: 500px" /></a></div>';
         var image = '<div class="col-md-4"> <div class="thumbnail"> <a href="[ReplaceImage]" target="_blank"> <img src="[ReplaceImage]" alt="Fjords" style="width:100%"> <div class="caption"> <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p> </div> </a></div></div>'
         var image = '<div class="col-md-4"> <div class="thumbnail"> <a href="[ReplaceImage]" target="_blank"> <img src="[ReplaceImage]" alt="Fjords" width="500" height="600"> <div class="caption"> <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p> </div> </a></div></div>'
-        
+                var image = '<img  src="[ReplaceImage]" alt="blank">';
         image = image.replace('[ReplaceImage]', displayimage);
         image = image.replace('[ReplaceImage]', displayimage);
         $('#displayDiv').append(image);

@@ -55,6 +55,7 @@ function displayImages() {
         var image = '<a class="example-image-link" href="[ReplaceImage]" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="[ReplaceThumbnail]" alt="" style="width: 150 px" /></a>';
 
         var image = '<div class="col-md-6"> <a href="[ReplaceImage]" target="_blank"> <img  src="[ReplaceImage]" alt="" style="width: 500px" /></a></div>';
+                var image = '<img  src="[ReplaceImage]" alt="blank">';
         image = image.replace('[ReplaceImage]', displayimage);
         image = image.replace('[ReplaceImage]', displayimage);
         $('#displayDiv').append(image);

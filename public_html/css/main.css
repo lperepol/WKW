@@ -11,27 +11,53 @@ body {
 
 
 
-.sf-menu a, .sf-menu a:visited  {
-    /* text color */
-    color:          #13a;
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
-.sf-menu li {
-    /* box color for top-level menu items */
-    background:     #BDD2FF;
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
 }
-.sf-menu li li {
-    /* box color for second-level menu items */
-    background:     #AABDE6;
+
+.bg_image {
+    background-image: url('/files/images/UNL_KonzaPraire.jpg');
+    height: 250px;
 }
-.sf-menu li li li {
-    /* box color for third-level menu items */
-    background:     #9AAEDB;
+
+
+.header-content-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
 }
-.sf-menu li:hover, .sf-menu li.sfHover,
-.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
-    /* box color for menu items when the mouse hovers over them */
-    background:     #CFDEFF;
-    outline:        0;
+
+
+.header-title {
+    position: absolute;
+    top: 80px;
+    font-size: 40px;
+    font-weight: bolder;
+    left: 300px;
+}
+
+.top-buffer {
+    margin-top:50px;
+}
+
+img, svg {
+    vertical-align: middle;
+    border: 2px solid #555;
+    margin: 5px;
+    width: 638px;
+    height: auto;
 }
 
 
