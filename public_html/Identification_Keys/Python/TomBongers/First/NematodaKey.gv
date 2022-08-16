@@ -1,0 +1,162 @@
+// FOO
+digraph GraphTitle {
+	graph [rankdir=LR]
+	labelloc=t
+	label="Keys from
+Dorylaimda
+ Free-living, Predaceous and
+ Plant-parasitic Nematodes
+
+ M. Shamim Jairajpuri
+ and Wasim Ahmad (1992)."
+	"COMMON GENERA" -> Tl [label="Terrestrial nematodes with
+stylet and median
+bulb
+"]
+	"COMMON GENERA" -> T2 [label="Terrestrial nematodes with
+spear, median bulb
+absent
+"]
+	"COMMON GENERA" -> T3 [label="Terrestrial nematodes without
+stylet or spear
+"]
+	"COMMON GENERA" -> Zl [label="Freshwater nematodes with
+stylet and median
+bulb
+"]
+	"COMMON GENERA" -> Z2 [label="Freshwater nematodes with
+spear, median bulb
+absent
+"]
+	"COMMON GENERA" -> Z3 [label="Freshwater nematodes without
+stylet or spear
+"]
+	Tl
+ -> "Oesophagal glands overlapping
+" [label=""]
+	"Oesophagal glands overlapping
+" -> "Two gonads
+" [label=""]
+	"Two gonads
+" -> "Hoplolaimidae; head frame
+strongly developed, body
+Spiral-shaped
+" [label=""]
+	"Two gonads
+" -> "Helicotylenchus; tail often
+with little tip,
+ventrally overlapping
+" [label=""]
+	"Two gonads
+" -> "Rotylenchus; tail without
+tip, dorsal overlap
+" [label=""]
+	"One gonad1
+" [label="One gonad
+"]
+	"Oesophagal glands overlapping
+" -> "One gonad1
+" [label=""]
+	"One gonad1
+" -> "Pratylenchidae; short stylet
+strongly developed, tail
+blunt
+" [label=""]
+	"Pratylenchidae; short stylet
+strongly developed, tail
+blunt
+" -> "Pratylenchus; lip region
+flattened
+" [label=""]
+	"One gonad1
+" -> "Anguinidae; stylet weak,
+tail conical
+" [label=""]
+	"Anguinidae; stylet weak,
+tail conical
+" -> "Pseudhalenchus; median bulb
+weakly developed
+" [label=""]
+	"One gonad1
+" -> "Aphelenchoididae; median bulb
+light-refracting, stylet weak
+" [label=""]
+	"Aphelenchoididae; median bulb
+light-refracting, stylet weak
+" -> "Aphelenchoides; tail conical,
+often with mucro
+" [label=""]
+	"Aphelenchoididae; median bulb
+light-refracting, stylet weak
+" -> "Aphelenchus; tail bluntly
+rounded
+" [label=""]
+	Tl
+ -> "Oesophagal glands not
+overlapping
+" [label=""]
+	"Two gonads1
+" [label="Two gonads
+"]
+	"Oesophagal glands not
+overlapping
+" -> "Two gonads1
+" [label=""]
+	"Two gonads1
+" -> "Dolichodoridae; tail bluntly
+rounded
+" [label=""]
+	"Dolichodoridae; tail bluntly
+rounded
+" -> "Dolichorynchus; with longitudinal
+grooves
+" [label=""]
+	"Dolichodoridae; tail bluntly
+rounded
+" -> "Merlinius lateral field
+with six lines
+" [label=""]
+	"Dolichodoridae; tail bluntly
+rounded
+" -> "Tylenchorynchus and Bitylenchus;
+four lines
+" [label=""]
+	"Oesophagal glands not
+overlapping
+" -> "One gonad
+" [label=""]
+	"One gonad
+" -> "tail long, acute
+" [label=""]
+	"tail long, acute
+" -> XX
+ [label=""]
+	xxx
+ -> XX
+ [label=""]
+	xxx
+ -> XX
+ [label=""]
+	xxx
+ -> XX
+ [label=""]
+	"One gonad
+" -> "body with conspicuously
+broad annules, little,
+plump nematodes
+" [label=""]
+	"One gonad2
+" [label="Two gonads
+"]
+	"Two gonads2
+" [label="Two gonads
+"]
+	"One gonad2
+" -> "double, annulated cuticle
+" [label=""]
+	"One gonad
+" -> "little C-shaped nematodes,
+procorpus gently widens
+into median bulb
+" [label=""]
+}
