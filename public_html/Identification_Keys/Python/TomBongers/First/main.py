@@ -65,10 +65,11 @@ def draw():
 
 
     g.edge(label2('Tl'), label2('Oesophagal glands overlapping'), label=label2(''))
-    g.edge(label2('Oesophagal glands overlapping'), label2('Two gonads'), label=label2(''))
-    g.edge(label2('Two gonads'), label2('Hoplolaimidae; head frame strongly developed, body Spiral-shaped'), label=label2(''))
-    g.edge(label2('Two gonads'), label2('Helicotylenchus; tail often with little tip, ventrally overlapping'), label=label2(''))
-    g.edge(label2('Two gonads'), label2('Rotylenchus; tail without tip, dorsal overlap'), label=label2(''))
+    g.edge(label2('Oesophagal glands overlapping'), label2('Two gonads5'), label=label2(''))
+    g.node(label2('Two gonads5'), label=label2('Two gonads'))
+    g.edge(label2('Two gonads5'), label2('Hoplolaimidae; head frame strongly developed, body Spiral-shaped'), label=label2(''))
+    g.edge(label2('Two gonads5'), label2('Helicotylenchus; tail often with little tip, ventrally overlapping'), label=label2(''))
+    g.edge(label2('Two gonads5'), label2('Rotylenchus; tail without tip, dorsal overlap'), label=label2(''))
 
     g.node(label2('One gonad1'), label=label2('One gonad'))
     g.edge(label2('Oesophagal glands overlapping'), label2('One gonad1'), label=label2(''))
@@ -89,22 +90,38 @@ def draw():
     g.edge(label2('Dolichodoridae; tail bluntly rounded'), label2('Dolichorynchus; with longitudinal grooves'), label=label2(''))
     g.edge(label2('Dolichodoridae; tail bluntly rounded'), label2('Merlinius lateral field with six lines'), label=label2(''))
     g.edge(label2('Dolichodoridae; tail bluntly rounded'), label2('Tylenchorynchus and Bitylenchus; four lines'), label=label2(''))
-    g.edge(label2('Oesophagal glands not overlapping'), label2('One gonad'), label=label2(''))
-    g.edge(label2('One gonad'), label2('tail long, acute'), label=label2(''))
-    g.edge(label2('tail long, acute'), label2('XX'), label=label2(''))
-    g.edge(label2('xxx'), label2('XX'), label=label2(''))
-    g.edge(label2('xxx'), label2('XX'), label=label2(''))
-    g.edge(label2('xxx'), label2('XX'), label=label2(''))
+
     g.node(label2('One gonad3'), label=label2('One gonad'))
+    g.edge(label2('One gonad3'), label2('tail long, acute'), label=label2(''))
+    g.edge(label2('tail long, acute'), label2('Tylodoridae; stylet as long as half the distance from'), label=label2(''))
+    g.edge(label2('Tylodoridae; stylet as long as half the distance from'), label2('Cephalenchus'), label=label2(''))
+
+    g.edge(label2('One gonad3'), label2('tail long, acute'), label=label2(''))
+
+
+    g.edge(label2('tail long, acute'), label2('Tylenchidae; stylet short, tail elongated conical'), label=label2(''))
+    g.edge(label2('Tylenchidae; stylet short, tail elongated conical'), label2('Coslenchus; with longitudinal grooves'), label=label2(''))
+    g.edge(label2('Tylenchidae; stylet short, tail elongated conical'), label2('Malenchus; cuticle strongly annulated, folded'), label=label2(''))
+    g.edge(label2('Tylenchidae; stylet short, tail elongated conical'), label2('Aglenchus; with vulva_flaps'), label=label2(''))
+    g.edge(label2('Tylenchidae; stylet short, tail elongated conical'), label2('Filenchus; the large group for the remaining species'), label=label2(''))
+
+
+
     g.edge(label2('One gonad3'), label2('body with conspicuously broad annules, little, plump nematodes'), label=label2(''))
+    g.edge(label2('body with conspicuously broad annules, little, plump nematodes'), label2('Criconematidae; several genera'), label=label2(''))
+
     g.edge(label2('One gonad3'), label2('double, annulated cuticle'), label=label2(''))
+    g.edge(label2('double, annulated cuticle'), label2('Hernicycliophoridae'), label=label2(''))
+    g.edge(label2('Hernicycliophoridae'), label2('Hemicycliophora; body behind vulva narrowing'), label=label2(''))
+    g.edge(label2('Hernicycliophoridae'), label2('Loofia; body behind vulva not narrowing'), label=label2(''))
+
     g.edge(label2('One gonad3'), label2('little C-shaped nematodes, procorpus gently widens into median bulb'), label=label2(''))
 
-    g.node(label2('One gonad2'), label=label2('Two gonads'))
-    g.node(label2('Two gonads2'), label=label2('Two gonads'))
-    g.edge(label2('One gonad2'), label2('double, annulated cuticle'), label=label2(''))
 
-    g.edge(label2('One gonad'), label2('little C-shaped nematodes, procorpus gently widens into median bulb'), label=label2(''))
+    g.edge(label2('One gonad3'), label2('little C-shaped nematodes, procorpus gently widens into median bulb'), label=label2(''))
+    g.edge(label2('little C-shaped nematodes, procorpus gently widens into median bulb'), label2('Paratylenchidae'), label=label2(''))
+    g.edge(label2('Paratylenchidae'), label2('Paratylenchus; stylet long'), label=label2(''))
+
 
 
     g.render('NematodaKey.gv', format='svg', view=True)

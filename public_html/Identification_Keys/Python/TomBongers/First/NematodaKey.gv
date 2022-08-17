@@ -35,19 +35,22 @@ stylet or spear
  -> "Oesophagal glands overlapping
 " [label=""]
 	"Oesophagal glands overlapping
-" -> "Two gonads
+" -> "Two gonads5
 " [label=""]
-	"Two gonads
+	"Two gonads5
+" [label="Two gonads
+"]
+	"Two gonads5
 " -> "Hoplolaimidae; head frame
 strongly developed, body
 Spiral-shaped
 " [label=""]
-	"Two gonads
+	"Two gonads5
 " -> "Helicotylenchus; tail often
 with little tip,
 ventrally overlapping
 " [label=""]
-	"Two gonads
+	"Two gonads5
 " -> "Rotylenchus; tail without
 tip, dorsal overlap
 " [label=""]
@@ -121,42 +124,89 @@ rounded
 " -> "Tylenchorynchus and Bitylenchus;
 four lines
 " [label=""]
-	"Oesophagal glands not
-overlapping
-" -> "One gonad
-" [label=""]
-	"One gonad
+	"One gonad3
+" [label="One gonad
+"]
+	"One gonad3
 " -> "tail long, acute
 " [label=""]
 	"tail long, acute
-" -> XX
+" -> "Tylodoridae; stylet as
+long as half
+the distance from
+" [label=""]
+	"Tylodoridae; stylet as
+long as half
+the distance from
+" -> Cephalenchus
  [label=""]
-	xxx
- -> XX
- [label=""]
-	xxx
- -> XX
- [label=""]
-	xxx
- -> XX
- [label=""]
-	"One gonad
+	"One gonad3
+" -> "tail long, acute
+" [label=""]
+	"tail long, acute
+" -> "Tylenchidae; stylet short,
+tail elongated conical
+" [label=""]
+	"Tylenchidae; stylet short,
+tail elongated conical
+" -> "Coslenchus; with longitudinal
+grooves
+" [label=""]
+	"Tylenchidae; stylet short,
+tail elongated conical
+" -> "Malenchus; cuticle strongly
+annulated, folded
+" [label=""]
+	"Tylenchidae; stylet short,
+tail elongated conical
+" -> "Aglenchus; with vulva_flaps
+" [label=""]
+	"Tylenchidae; stylet short,
+tail elongated conical
+" -> "Filenchus; the large
+group for the
+remaining species
+" [label=""]
+	"One gonad3
 " -> "body with conspicuously
 broad annules, little,
 plump nematodes
 " [label=""]
-	"One gonad2
-" [label="Two gonads
-"]
-	"Two gonads2
-" [label="Two gonads
-"]
-	"One gonad2
+	"body with conspicuously
+broad annules, little,
+plump nematodes
+" -> "Criconematidae; several genera
+" [label=""]
+	"One gonad3
 " -> "double, annulated cuticle
 " [label=""]
-	"One gonad
+	"double, annulated cuticle
+" -> Hernicycliophoridae
+ [label=""]
+	Hernicycliophoridae
+ -> "Hemicycliophora; body behind
+vulva narrowing
+" [label=""]
+	Hernicycliophoridae
+ -> "Loofia; body behind
+vulva not narrowing
+" [label=""]
+	"One gonad3
 " -> "little C-shaped nematodes,
 procorpus gently widens
 into median bulb
+" [label=""]
+	"One gonad3
+" -> "little C-shaped nematodes,
+procorpus gently widens
+into median bulb
+" [label=""]
+	"little C-shaped nematodes,
+procorpus gently widens
+into median bulb
+" -> Paratylenchidae
+ [label=""]
+	Paratylenchidae
+ -> "Paratylenchus; stylet long
 " [label=""]
 }
