@@ -52,6 +52,7 @@ body {
     margin-top:50px;
 }
 
+/* Accordian */
 img, svg {
     vertical-align: middle;
     border: 2px solid #555;
@@ -59,7 +60,13 @@ img, svg {
     width: 505px;
     height: auto;
 }
-
+.straight {
+    vertical-align: middle;
+    border: 2px solid #555;
+    margin: 5px;
+    width: 600px;
+    height: auto;
+}
 
 
 
